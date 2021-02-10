@@ -53,7 +53,7 @@ module.exports = {
   dotenv: resolveApp('.env'),
   appPath: resolveApp('.'),
   //appBuild: resolveApp('build'), 수정 전
-  appBuild: resolveApp('../flask-server/static/react'), // 수정 후
+  appBuild: resolveApp('../flask/static/react'), // 수정 후
   appPublic: resolveApp('public'),
   appHtml: resolveApp('public/index.html'),
   appIndexJs: resolveModule(resolveApp, 'src/index'),
