@@ -1,5 +1,22 @@
-#header-title {
-    margin-left: 30px;
-    margin-top: 0px;
+.header {
+    display: inline-block;
+    width: 40%;
+}
+
+.header.menu {
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+
+.header.title {
+}
+
+.a-menu {
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+.p-title {
     font-size: 25px;
+    margin: 0px 0px 0px 30px;
 }
