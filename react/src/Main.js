@@ -3,7 +3,6 @@ import './Main.css';
 
 import Footer from './Footer';
 import HeaderBar from './HeaderBar';
-import PostBox from './PostBox';
 
 import './sass/materialize.scss';
 
@@ -16,13 +15,7 @@ function Main() {
         </div>
       </nav>
 
-      <div className="Main">
-        <PostBox />
-      </div>
-
-      <div className="Footer">
-        <PostBox />
-      </div>
+      <Footer />
     </div>
   );
 }
