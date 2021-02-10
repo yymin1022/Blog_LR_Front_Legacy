@@ -1,10 +1,10 @@
 import React from 'react';
 import './Main.css';
 
-import './materialize.css';
-
 import HeaderBar from './HeaderBar';
 import PostBox from './PostBox';
+
+import './sass/materialize.scss';
 
 function Main() {
   return (
