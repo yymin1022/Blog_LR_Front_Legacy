@@ -5,7 +5,7 @@ class HeaderBar extends Component {
     render() {
         return (
             <div>
-                <a>GOING TO BE HEADER</a>
+                <a className="header-title">GOING TO BE HEADER</a>
             </div>
         );
     }
