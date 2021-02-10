@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './HeaderBar.css'
 
 class HeaderBar extends Component {
 
     render() {
         return (
             <div>
-                <p className="header-title">GOING TO BE HEADER</p>
+                <p id="header-title">GOING TO BE HEADER</p>
             </div>
         );
     }
