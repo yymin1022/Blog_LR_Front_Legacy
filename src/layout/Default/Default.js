@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import styled, { createGlobalStyle } from 'styled-components';
 
+import Footer from './Footer';
 import Header from './Header';
 import Section from './Section';
 
@@ -38,6 +39,7 @@ const Default = props => {
       <Section>
         { children }
       </Section>
+      <Footer />
     </Container>
   );
 }
