@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import styled, { createGlobalStyle } from 'styled-components';
 
 import Header from './Header';
+import Section from './Section';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -34,6 +35,9 @@ const Default = props => {
     <Container className={ className }>
       <GlobalStyle />
       <Header />
+      <Section>
+        { children }
+      </Section>
     </Container>
   );
 }
