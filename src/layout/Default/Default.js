@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import styled, { createGlobalStyle } from 'styled-components';
 
+import Header from './Header';
+
 const GlobalStyle = createGlobalStyle`
   html, body {
     height: 100%
@@ -31,6 +33,7 @@ const Default = props => {
   return (
     <Container className={ className }>
       <GlobalStyle />
+      <Header />
     </Container>
   );
 }
