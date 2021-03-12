@@ -4,8 +4,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Container = styled.div`
+  left: 0px;
+
   height: 56px;
-  width: 100%;
+  width: 0px;
 
   background-color: coral;
 `;
