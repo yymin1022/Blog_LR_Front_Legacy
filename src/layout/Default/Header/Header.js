@@ -49,7 +49,7 @@ const Header = props => {
             <Typography variant="h6" className={useStyles().title}>
               LR's Blog
             </Typography>
-            <Button color="inherit">about</Button>
+            <Button  color="inherit">about</Button>
           </Toolbar>
         </AppBar>
       </div>
