@@ -54,7 +54,6 @@ const Default = props => {
       width: 'auto',
     },
   });
-  
 
   const [state, setState] = React.useState({
     top: false,
@@ -105,7 +104,6 @@ const Default = props => {
   return (
     <Container className={ className }>
       <GlobalStyle />
-      <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
       <Header />
       <SwipeableDrawer
             anchor={anchor}
@@ -129,3 +127,7 @@ Default.propTypes = {
 }
 
 export default Default;
+
+export const toggleDrawer = () => {
+  toggleDrawer(anchor, true);
+}
