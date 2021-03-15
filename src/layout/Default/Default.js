@@ -42,21 +42,6 @@ const Container = styled.div`
 
 const anchor = 'left';
 
-const [state, setState] = React.useState({
-  top: false,
-  left: false,
-  bottom: false,
-  right: false,
-});
-
-const toggleDrawer = (anchor, open) => (event) => {
-  if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-    return;
-  }
-
-  setState({ ...state, [anchor]: open });
-};
-
 const Default = props => {
   const {
     className,
@@ -71,6 +56,21 @@ const Default = props => {
       width: 'auto',
     },
   });
+
+  const [state, setState] = React.useState({
+    top: false,
+    left: false,
+    bottom: false,
+    right: false,
+  });
+
+  const toggleDrawer = (anchor, open) => (event) => {
+    if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+      return;
+    }
+  
+    setState({ ...state, [anchor]: open });
+  };
   
   const list = (anchor) => (
     <div
@@ -129,5 +129,5 @@ Default.propTypes = {
 export default Default;
 
 export const openDrawer = () => {
-  toggleDrawer(anchor, true);
+  this.props.toggleDrawer(anchor, true);
 }
