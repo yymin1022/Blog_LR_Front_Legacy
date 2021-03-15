@@ -53,7 +53,7 @@ const Default = props => {
       return;
     }
   
-    setState({ ...state, [anchor]: open });
+    isOpened = open;
   };
   
   const list = (anchor) => (
