@@ -102,7 +102,7 @@ const Default = props => {
   );
   
   return (
-    <Container className={ className }>
+    <Container className={className}>
       <GlobalStyle />
       <Header />
       <SwipeableDrawer
