@@ -33,15 +33,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const useStyles = makeStyles({
-  list: {
-    width: 250,
-  },
-  fullList: {
-    width: 'auto',
-  },
-});
-
 const Container = styled.div`
   padding-top: 56px;
   height: 100%;
@@ -55,6 +46,16 @@ const Default = props => {
     children,
   } = props;
 
+  const drawerStyle = makeStyles({
+    list: {
+      width: 250,
+    },
+    fullList: {
+      width: 'auto',
+    },
+  });
+  
+
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -63,7 +64,6 @@ const Default = props => {
   });
 
   const anchor = 'left';
-  const isOpened = false;
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -75,8 +75,8 @@ const Default = props => {
   
   const list = (anchor) => (
     <div
-      className={clsx(useStyles().list, {
-        [useStyles().fullList]: anchor === 'top' || anchor === 'bottom',
+      className={clsx(drawerStyle().list, {
+        [drawerStyle().fullList]: anchor === 'top' || anchor === 'bottom',
       })}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
