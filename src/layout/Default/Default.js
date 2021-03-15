@@ -128,6 +128,6 @@ Default.propTypes = {
 
 export default Default;
 
-export const toggleDrawer = () => {
+export const openDrawer = () => {
   toggleDrawer(anchor, true);
 }
