@@ -45,6 +45,13 @@ const Default = props => {
     children,
   } = props;
 
+  const [state, setState] = React.useState({
+    top: false,
+    left: false,
+    bottom: false,
+    right: false,
+  });
+
   const anchor = 'left';
   const isOpened = false;
 
@@ -53,7 +60,7 @@ const Default = props => {
       return;
     }
   
-    isOpened = open;
+    setState({ ...state, [anchor]: open });
   };
   
   const list = (anchor) => (
