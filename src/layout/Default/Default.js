@@ -40,6 +40,8 @@ const Container = styled.div`
   padding-left: 240px;
 `;
 
+const anchor = 'left';
+
 const Default = props => {
   const {
     className,
@@ -61,8 +63,6 @@ const Default = props => {
     bottom: false,
     right: false,
   });
-
-  const anchor = 'left';
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
