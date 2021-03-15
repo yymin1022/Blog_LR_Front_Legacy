@@ -42,6 +42,10 @@ const Container = styled.div`
 
 const anchor = 'left';
 
+const toggleDrawer = () => {
+  this.props.toggleDrawer(anchor, true);
+}
+
 const Default = props => {
   const {
     className,
@@ -129,5 +133,5 @@ Default.propTypes = {
 export default Default;
 
 export const openDrawer = () => {
-  Default.props.toggleDrawer(anchor, true);
+  toggleDrawer();
 }
