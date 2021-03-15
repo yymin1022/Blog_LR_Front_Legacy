@@ -32,6 +32,15 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const useStyles = makeStyles({
+  list: {
+    width: 250,
+  },
+  fullList: {
+    width: 'auto',
+  },
+});
+
 const Container = styled.div`
   padding-top: 56px;
   height: 100%;
@@ -65,8 +74,8 @@ const Default = props => {
   
   const list = (anchor) => (
     <div
-      className={clsx(classes.list, {
-        [classes.fullList]: anchor === 'top' || anchor === 'bottom',
+      className={clsx(useStyles().list, {
+        [useStyles().fullList]: anchor === 'top' || anchor === 'bottom',
       })}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
