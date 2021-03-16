@@ -11,8 +11,6 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import {openDrawer} from '../Default'
-
 const Container = styled.div`
   position: fixed;
   top: 0;
@@ -45,13 +43,13 @@ const Header = props => {
       <div className={useStyles().root}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton onClick={openDrawer(), console.log("Pressed 1")} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
+            <IconButton onClick={} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={useStyles().title}>
               LR's Blog
             </Typography>
-            <Button onClick={openDrawer(), console.log("Pressed 1")} color="inherit">about</Button>
+            <Button onClick={} color="inherit">about</Button>
           </Toolbar>
         </AppBar>
       </div>
