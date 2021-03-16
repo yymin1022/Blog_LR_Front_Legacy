@@ -18,7 +18,7 @@ const Posts = props => {
   );
 }
 
-Home.propTypes = {
+Posts.propTypes = {
   className: PropTypes.string,
 }
 
