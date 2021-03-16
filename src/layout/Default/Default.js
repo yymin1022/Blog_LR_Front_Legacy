@@ -82,20 +82,25 @@ const Default = props => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Search'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon><SearchIcon/></ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+      <ListItemLink>
+        <ListItemIcon><SearchIcon/></ListItemIcon>
+          <ListItemText primary="Search" />
+        </ListItemLink>
       </List>
       <Divider/>
       <List>
-        {['All Posts', 'Development', 'Operating System', 'Synology/XPEnology'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+        <ListItemLink href="/posts">
+          <ListItemText primary="All Posts" />
+        </ListItemLink>
+        <ListItemLink href="/posts-dev">
+          <ListItemText primary="Development" />
+        </ListItemLink>
+        <ListItemLink href="/posts-os">
+          <ListItemText primary="Operating System" />
+        </ListItemLink>
+        <ListItemLink href="/posts-synology">
+          <ListItemText primary="Synology/XPEnology" />
+        </ListItemLink>
       </List>
     </div>
   );
