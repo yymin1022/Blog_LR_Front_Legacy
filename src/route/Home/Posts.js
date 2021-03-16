@@ -6,14 +6,14 @@ import styled from 'styled-components';
 const Container = styled.div`
 `;
 
-const Home = props => {
+const Posts = props => {
   const {
     className,
   } = props;
 
   return (
     <Container className={className}>
-      <div>HOME</div>
+      <div>Posts</div>
     </Container>
   );
 }
@@ -22,4 +22,4 @@ Home.propTypes = {
   className: PropTypes.string,
 }
 
-export default Home;
+export default Posts;

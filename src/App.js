@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Redirect} from 'react-router-dom';
 
 import RouteLayout from './layout/RouteLayout';
 import DefaultLayout from './layout/Default';
 
 import Home from './route/Home';
+import Posts from './route/Posts';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <RouteLayout
           path = '/posts'
           layout = {DefaultLayout}
-          component = {Post}
+          component = {Posts}
         />
       </Switch>
     </Router>
