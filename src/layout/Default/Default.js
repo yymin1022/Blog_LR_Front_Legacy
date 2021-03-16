@@ -41,15 +41,6 @@ const Container = styled.div`
 `;
 
 const anchor = 'left';
-const isOpened = false;
-
-const toggleDrawer = (anchor, open) => (event) => {
-  if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-    return;
-  }
-
-  isOpened = open;
-};
 
 const Default = props => {
   const {
@@ -73,7 +64,11 @@ const Default = props => {
     right: false,
   });
 
-  
+  const toggleDrawer = (anchor, open) => (event) => {
+    if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+      return;
+    }
+  };
   
   const list = (anchor) => (
     <div
@@ -108,6 +103,7 @@ const Default = props => {
     <Container className={className}>
       <GlobalStyle />
       <Header />
+      <Button onClick = {toggleDrawer()}>Drawer</Button>
       <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
@@ -132,5 +128,5 @@ Default.propTypes = {
 export default Default;
 
 export const openDrawer = () => {
-  toggleDrawer();
+  // toggleDrawer();
 }
