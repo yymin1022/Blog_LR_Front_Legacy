@@ -135,6 +135,6 @@ Default.propTypes = {
 export default Default;
 
 export const openDrawer = () => {
-  this.toggleDrawer(anchor, true);
+  toggleDrawer(anchor, true);
   console.log("Pressed 2");
 }
