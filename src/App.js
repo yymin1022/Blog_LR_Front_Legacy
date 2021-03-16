@@ -17,8 +17,13 @@ function App() {
         />
         <RouteLayout
           path = '/home'
-          layout = { DefaultLayout }
-          component = { Home }
+          layout = {DefaultLayout}
+          component = {Home}
+        />
+        <RouteLayout
+          path = '/posts'
+          layout = {DefaultLayout}
+          component = {Post}
         />
       </Switch>
     </Router>
