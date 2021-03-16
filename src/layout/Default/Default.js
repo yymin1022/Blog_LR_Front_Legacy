@@ -104,6 +104,10 @@ const Default = props => {
       </List>
     </div>
   );
+
+  function ListItemLink(props) {
+    return <ListItem button component="a" {...props} />;
+  }
   
   return (
     <Container className={className}>
