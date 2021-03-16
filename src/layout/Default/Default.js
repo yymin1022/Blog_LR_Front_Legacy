@@ -1,35 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styled, { createGlobalStyle } from 'styled-components';
-import { makeStyles } from '@material-ui/core/styles';
-
 import Footer from './Footer';
 import Header from './Header';
 import Section from './Section';
 
 import clsx from 'clsx';
 
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
-import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
+import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+
 import SearchIcon from '@material-ui/icons/Search';
+
+import styled, {createGlobalStyle} from 'styled-components';
+import {makeStyles} from '@material-ui/core/styles';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
     height: 100%
-  }
+ }
 	body {
 		padding: 0;
     margin: 0;
-  }
+ }
   #root {
     height: 100%;
-  }
+ }
 `;
 
 const Container = styled.div`
@@ -43,39 +43,39 @@ const Default = props => {
   const {
     className,
     children,
-  } = props;
+ } = props;
 
   const drawerStyle = makeStyles({
     list: {
       width: 250,
-    },
+   },
     fullList: {
       width: 'auto',
-    },
-  });
+   },
+ });
 
   const [state, setState] = React.useState({
     top: false,
     left: false,
     bottom: false,
     right: false,
-  });
+ });
 
   const anchor = 'left';
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
-    }
+   }
 
-    setState({ ...state, [anchor]: open });
-  };
+    setState({...state, [anchor]: open});
+ };
   
   const list = (anchor) => (
     <div
       className={clsx(drawerStyle().list, {
         [drawerStyle().fullList]: anchor === 'top' || anchor === 'bottom',
-      })}
+     })}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
