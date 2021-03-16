@@ -49,6 +49,8 @@ const toggleDrawer = (anchor, open) => (event) => {
   }
 
   isOpened = open;
+
+  console.log("Pressed 3");
 };
 
 const Default = props => {
@@ -134,4 +136,5 @@ export default Default;
 
 export const openDrawer = () => {
   toggleDrawer(anchor, true);
+  console.log("Pressed 2");
 }
