@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styled, { createGlobalStyle } from 'styled-components';
 import { makeStyles } from '@material-ui/core/styles';
@@ -82,7 +83,7 @@ const Default = props => {
       <List>
         {['Search'].map((text, index) => (
           <ListItem button key={text}>
-            <ListItemIcon><SearchIcon /></ListItemIcon>
+            <ListItemIcon><SearchIcon/></ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
         ))}
