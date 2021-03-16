@@ -105,7 +105,7 @@ const Default = props => {
     <Container className={className}>
       <GlobalStyle />
       <Header />
-      <Button onClick = {toggleDrawer()}>Drawer</Button>
+      <Button onClick = {toggleDrawer(anchor, true)}>Drawer</Button>
       <SwipeableDrawer
           anchor={anchor}
           open={state[anchor]}
