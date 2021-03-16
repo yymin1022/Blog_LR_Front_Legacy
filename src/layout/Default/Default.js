@@ -20,6 +20,10 @@ import SearchIcon from '@material-ui/icons/Search';
 import styled, {createGlobalStyle} from 'styled-components';
 import {makeStyles} from '@material-ui/core/styles';
 
+function ListItemLink(props) {
+  return <ListItem button component="a" {...props} />;
+}
+
 const GlobalStyle = createGlobalStyle`
   html, body {
     height: 100%
@@ -104,10 +108,6 @@ const Default = props => {
       </List>
     </div>
   );
-
-  function ListItemLink(props) {
-    return <ListItem button component="a" {...props} />;
-  }
   
   return (
     <Container className={className}>
