@@ -111,17 +111,17 @@ const Default = props => {
       <GlobalStyle />
       <Header />
       {/* <Button onClick = {toggleDrawer()}>Drawer</Button> */}
-      <SwipeableDrawer
-            anchor={anchor}
-            open={isOpened}
-            onClose={toggleDrawer(anchor, false)}
-            onOpen={toggleDrawer(anchor, true)}
-          >
-            {list(anchor)}
-          </SwipeableDrawer>
       <Section>
         { children }
       </Section>
+      <SwipeableDrawer
+          anchor={anchor}
+          open={isOpened}
+          onClose={toggleDrawer(anchor, false)}
+          onOpen={toggleDrawer(anchor, true)}
+        >
+          {list(anchor)}
+      </SwipeableDrawer>
       <Footer />
     </Container>
   );
