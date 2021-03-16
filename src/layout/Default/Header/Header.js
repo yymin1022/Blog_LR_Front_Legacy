@@ -45,7 +45,7 @@ const Header = props => {
       <div className={useStyles().root}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
+            <IconButton onClick={openDrawer()} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={useStyles().title}>
