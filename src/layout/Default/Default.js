@@ -40,19 +40,6 @@ const Container = styled.div`
   padding-left: 240px;
 `;
 
-const anchor = 'left';
-const isOpened = false;
-
-const toggleDrawer = (anchor, open) => (event) => {
-  if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-    return;
-  }
-
-  isOpened = open;
-
-  console.log("Pressed 3");
-};
-
 const Default = props => {
   const {
     className,
@@ -75,7 +62,15 @@ const Default = props => {
     right: false,
   });
 
-  
+  const anchor = 'left';
+
+  const toggleDrawer = (anchor, open) => (event) => {
+    if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+      return;
+    }
+
+    setState({ ...state, [anchor]: open });
+  };
   
   const list = (anchor) => (
     <div
@@ -110,18 +105,18 @@ const Default = props => {
     <Container className={className}>
       <GlobalStyle />
       <Header />
-      {/* <Button onClick = {toggleDrawer()}>Drawer</Button> */}
-      <Section>
-        { children }
-      </Section>
+      <Button onClick = {toggleDrawer()}>Drawer</Button>
       <SwipeableDrawer
           anchor={anchor}
-          open={isOpened}
+          open={state[anchor]}
           onClose={toggleDrawer(anchor, false)}
           onOpen={toggleDrawer(anchor, true)}
         >
           {list(anchor)}
       </SwipeableDrawer>
+      <Section>
+        { children }
+      </Section>
       <Footer />
     </Container>
   );
@@ -133,8 +128,3 @@ Default.propTypes = {
 }
 
 export default Default;
-
-export const openDrawer = () => {
-  toggleDrawer(anchor, true);
-  console.log("Pressed 2");
-}
