@@ -43,10 +43,6 @@ const Container = styled.div`
 const anchor = 'left';
 const isOpened = false;
 
-const toggleDrawer = () => {
-  this.props.toggleDrawer(anchor, true);
-};
-
 const toggleDrawer = (anchor, open) => (event) => {
   if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
     return;
