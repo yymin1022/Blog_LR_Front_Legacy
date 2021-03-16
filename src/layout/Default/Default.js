@@ -111,7 +111,7 @@ const Default = props => {
       {/* <Button onClick = {toggleDrawer()}>Drawer</Button> */}
       <SwipeableDrawer
             anchor={anchor}
-            open={state[anchor]}
+            open={isOpened}
             onClose={toggleDrawer(anchor, false)}
             onOpen={toggleDrawer(anchor, true)}
           >
