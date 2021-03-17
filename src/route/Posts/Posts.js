@@ -6,15 +6,16 @@ import styled from 'styled-components';
 const Container = styled.div`
 `;
 
+const {category} = this.props.location;
+
 const Posts = props => {
   const {
     className,
-    category,
   } = props;
 
   return (
     <Container className={className}>
-      <div>Posts(Category is {props.category})</div>
+      <div>Posts(Category is {category})</div>
     </Container>
   );
 }

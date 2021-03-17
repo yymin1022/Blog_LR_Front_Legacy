@@ -7,6 +7,7 @@ import Section from './Section';
 
 import clsx from 'clsx';
 
+import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -95,13 +96,13 @@ const Default = props => {
         <ListItemLink href="/posts">
           <ListItemText primary="All Posts" />
         </ListItemLink>
-        <ListItemLink href="/posts" category="development">
+        <ListItemLink href="/posts?Category=dev">
           <ListItemText primary="Development" />
         </ListItemLink>
-        <ListItemLink href="/posts" category="os">
+        <ListItemLink href="/posts?Category=os">
           <ListItemText primary="Operating System" />
         </ListItemLink>
-        <ListItemLink href="/posts" category="syno">
+        <ListItemLink href="/posts?Category=synology">
           <ListItemText primary="Synology/XPEnology" />
         </ListItemLink>
       </List>
