@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import ReactMd from 'react-md-file';
+
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -13,7 +15,11 @@ const About = props => {
 
   return (
     <Container className={className}>
-      <div>About</div>
+      <div>
+        <ReactMd markdown="# hello world" />
+        <ReactMd fileName="/home/server/web/posts/about.md" />
+        <ReactMd fileName="/home/server/web/posts/about.md" nested />
+      </div>
     </Container>
   );
 }
