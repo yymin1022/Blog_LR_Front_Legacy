@@ -51,7 +51,7 @@ const Header = props => {
             <Typography variant="h6" className={useStyles().title}>
               LR's Blog
             </Typography>
-            <Button onClick={btnAction} color="inherit">about</Button>
+            <Button color="inherit">about</Button>
           </Toolbar>
         </AppBar>
       </div>
