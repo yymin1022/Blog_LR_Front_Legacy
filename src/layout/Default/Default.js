@@ -86,12 +86,12 @@ const Default = props => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-      <ListItemLink>
-        <ListItemIcon><SearchIcon/></ListItemIcon>
+        <ListItemLink>
+          <ListItemIcon><SearchIcon /></ListItemIcon>
           <ListItemText primary="Search" />
         </ListItemLink>
       </List>
-      <Divider/>
+      <Divider />
       <List>
         <ListItemLink href="/posts">
           <ListItemText primary="All Posts" />

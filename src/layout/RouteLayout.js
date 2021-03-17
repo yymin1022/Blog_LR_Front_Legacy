@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Route } from 'react-router-dom';
+import {Route} from 'react-router-dom';
 
 const RouteWithLayout = props =>{
   const {
@@ -15,7 +15,7 @@ const RouteWithLayout = props =>{
       {...rest}
       render={ matchProps => (
         <Layout>
-          <Component { ...matchProps } />
+          <Component {...matchProps} />
         </Layout>
       )}
     />

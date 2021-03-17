@@ -15,23 +15,19 @@ function App() {
         <Redirect
           exact
           from = '/'
-          to = '/home'
-        />
+          to = '/home' />
         <RouteLayout
           path = '/about'
           layout = {DefaultLayout}
-          component = {About}
-        />
+          component = {About} />
         <RouteLayout
           path = '/home'
           layout = {DefaultLayout}
-          component = {Home}
-        />
+          component = {Home} />
         <RouteLayout
           path = '/posts'
           layout = {DefaultLayout}
-          component = {Posts}
-        />
+          component = {Posts} />
       </Switch>
     </Router>
   );
