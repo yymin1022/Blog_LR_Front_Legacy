@@ -49,7 +49,7 @@ const Header = props => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={useStyles().title}>
-              LR's Blog
+              1인개발자 LR의 IT블로그
             </Typography>
             <Button href="/home" color="inherit">Home</Button>
             <Button href="/about" color="inherit">About</Button>
