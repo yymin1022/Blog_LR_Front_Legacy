@@ -37,6 +37,15 @@ const GlobalStyle = createGlobalStyle`
  }
 `;
 
+const drawerStyle = makeStyles({
+  list: {
+    width: 250,
+ },
+  fullList: {
+    width: 'auto',
+ },
+});
+
 const Container = styled.div`
   padding-top: 56px;
   height: 100%;
@@ -49,15 +58,6 @@ const Default = props => {
     className,
     children,
  } = props;
-
-  const drawerStyle = makeStyles({
-    list: {
-      width: 250,
-   },
-    fullList: {
-      width: 'auto',
-   },
- });
 
   const [state, setState] = React.useState({
     top: false,
