@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
 const Header = props => {
   const {
     className,
+    btnAction,
  } = props;
   
   return (
@@ -44,13 +45,13 @@ const Header = props => {
       <div className={useStyles().root}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
+            <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={useStyles().title}>
               LR's Blog
             </Typography>
-            <Button color="inherit">about</Button>
+            <Button onClick={btnAction} color="inherit">about</Button>
           </Toolbar>
         </AppBar>
       </div>

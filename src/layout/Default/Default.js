@@ -112,8 +112,8 @@ const Default = props => {
   return (
     <Container className={className}>
       <GlobalStyle />
-      <Header />
-      <Button onClick = {toggleDrawer(anchor, true)}>Open Drawer</Button>
+      <Header btnAction={toggleDrawer(anchor, true)}/>
+      <Button onClick={toggleDrawer(anchor, true)}>Open Drawer</Button>
       <SwipeableDrawer
           anchor={anchor}
           open={state[anchor]}
