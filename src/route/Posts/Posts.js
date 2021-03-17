@@ -14,7 +14,7 @@ const Posts = props => {
 
   return (
     <Container className={className}>
-      <div>Posts(Category is {category})</div>
+      <div>Posts(Category is {props.category})</div>
     </Container>
   );
 }
