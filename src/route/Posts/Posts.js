@@ -9,11 +9,12 @@ const Container = styled.div`
 const Posts = props => {
   const {
     className,
+    category,
   } = props;
 
   return (
     <Container className={className}>
-      <div>Posts</div>
+      <div>Posts(Category is {category})</div>
     </Container>
   );
 }
