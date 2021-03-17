@@ -1,4 +1,5 @@
-<h3>Who am I?</h3>
+### Who am I?
+
 <ul>
   <li>중앙대학교 소프트웨어학부</li>
   <li>대학생 1인 개발자</li>
@@ -8,7 +9,8 @@
 
 <hr/>
 
-<h3>Developed Applications</h3>
+### Developed Applications
+
 <ul>
   <li>Always On Display / <a href="https://app.defcon.or.kr/download-always-on-display" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/AlwaysOnDisplay" target="_sub">소스코드보기</a></li>
   <li>Taxi Meter / <a href="https://app.defcon.or.kr/download-taxi-meter" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/Taxi-Meter" target="_sub">소스코드보기</a></li>
@@ -16,7 +18,8 @@
 
 <hr/>
 
-<h3>Other Projects</h3>
+### Other Projects
+
 <ul>
   <li>Android - Screen Saver / <a href="https://github.com/yymin1022/ScreenSaver" target="_sub">소스코드</a></li>
   <li>Android - Soul Rest / <a href="https://github.com/yymin1022/SeoulHealing" target="_sub">소스코드</a></li>
@@ -31,7 +34,8 @@
 
 <hr/>
 
-<h3>Awards</h3>
+### Awards
+
 <ul>
   <li>2017 STEAM R&E 한국과학창의재단 이사장상 : 보행자의 안전성을 고려하며 IT기술을 활용한 신호등 개선방안 / <a href="https://steam.kofac.re.kr/?p=11978" target="_sub">상세보기</a></li>
   <li>2017 서울시 앱공모전 예선 당선 : 너 왜 거기있어 - 분실물 조회 서비스</li>
@@ -40,7 +44,8 @@
 
 <hr/>
 
-<h3>What can I do?</h3>
+### What can I do?
+
 <ul>
   <li>Android : Application / Kernel & OS Build / Smali Edit Porting</li>
   <li>Flutter : Studying</li>
@@ -52,7 +57,8 @@
 
 <hr/>
 
-<h3>Which device am I using?</h3>
+### Which device am I using?
+
 <ul>
   <li>PC : Ubuntu 20.04 LTS on LG Gram15 2019 with i5 8265u / DDR4 16GB / 512GB NVMe + 256GB SATA</li>
   <li>NAS : XPEnology 6.2.3 on ODroid H2 with Celeron J4105 / DDR4 16GB / 128GB NVMe + 2TB HDD + 16GB eMMC</li>
@@ -65,7 +71,8 @@
 
 <hr/>
 
-<h3>Contact Me Online</h3>
+### Contact Me Online
+
 
 <a href="https://github.com/yymin1022" target="_sub">Github</a>
 <br/>
