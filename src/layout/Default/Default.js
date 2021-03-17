@@ -14,6 +14,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 
+import DrawerBG from './image/img_drawer_top.png';
 import SearchIcon from '@material-ui/icons/Search';
 
 import styled, {createGlobalStyle} from 'styled-components';
@@ -84,6 +85,12 @@ const Default = props => {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
+      <div>
+        <img
+          src={DrawerBG}
+          width='100%'
+          alt='testA' />
+      </div>
       <List>
         <ListItemLink>
           <ListItemIcon><SearchIcon /></ListItemIcon>
