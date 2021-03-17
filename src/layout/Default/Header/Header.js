@@ -48,10 +48,11 @@ const Header = props => {
             <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography onClick="/home" variant="h6" className={useStyles().title}>
+            <Typography variant="h6" className={useStyles().title}>
               LR's Blog
             </Typography>
-            <Button color="inherit">about</Button>
+            <Button href="/home" color="inherit">Home</Button>
+            <Button href="/about" color="inherit">About</Button>
           </Toolbar>
         </AppBar>
       </div>
