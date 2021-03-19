@@ -1,13 +1,3 @@
----
-layout: page
-title: About LR
-permalink: /about
-comments: false
----
-
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
-
 <h3>Who am I?</h3>
 <ul>
   <li>중앙대학교 소프트웨어학부</li>

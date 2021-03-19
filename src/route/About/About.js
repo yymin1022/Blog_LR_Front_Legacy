@@ -16,9 +16,10 @@ const About = props => {
   return (
     <Container className={className}>
       <div>
-        <ReactMd markdown="# hello world" />
+        <ReactMd markdown="# Hello World" />
         <ReactMd fileName="/home/server/web/posts/about.md" />
-        <ReactMd fileName="/home/server/web/posts/about.md" nested />
+        <ReactMd fileName="/home/se
+        rver/web/posts/about.md" nested />
       </div>
     </Container>
   );
