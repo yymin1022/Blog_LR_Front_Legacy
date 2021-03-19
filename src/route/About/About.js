@@ -1,32 +1,51 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import ReactMd from 'react-md-file';
+import AppMarkdown from '/home/server/web/posts/about.md';
+import ReactMarkdown from 'react-markdown';
 
 import styled from 'styled-components';
 
-const Container = styled.div`
-`;
+class About extends Component {
 
-const About = props => {
-  const {
-    className,
-  } = props;
+  constructor() {
+    super();
+    this.state = { markdown: '' };
+  }
 
-  return (
-    <Container className={className}>
-      <div>
-        <ReactMd markdown="# Hello World" />
-        <ReactMd fileName="/home/server/web/posts/about.md" />
-        <ReactMd fileName="/home/se
-        rver/web/posts/about.md" nested />
-      </div>
-    </Container>
-  );
+  componentWillMount() {
+    // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
+    fetch(AppMarkdown).then(res => res.text()).then(text => this.setState({ markdown: text }));
+  }
+
+  render() {
+    const { markdown } = this.state;
+    return <ReactMarkdown source={markdown} />;
+  }
 }
 
-About.propTypes = {
-  className: PropTypes.string,
-}
+// const Container = styled.div`
+// `;
+
+// const About = props => {
+//   const {
+//     className,
+//   } = props;
+
+//   return (
+//     <Container className={className}>
+//       <div>
+//         <ReactMd markdown="# Hello World" />
+//         <ReactMd fileName="/home/server/web/posts/about.md" />
+//         <ReactMd fileName="/home/se
+//         rver/web/posts/about.md" nested />
+//       </div>
+//     </Container>
+//   );
+// }
+
+// About.propTypes = {
+//   className: PropTypes.string,
+// }
 
 export default About;
