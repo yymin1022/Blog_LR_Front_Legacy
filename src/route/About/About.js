@@ -20,7 +20,12 @@ class About extends Component {
 
   render() {
     const { markdown } = this.state;
-    return <ReactMarkdown source={markdown} />;
+    return(
+    <div>
+      <ReactMarkdown source={markdown} />
+    </div>
+
+    )
   }
 }
 
