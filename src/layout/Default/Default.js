@@ -47,10 +47,8 @@ const drawerStyle = makeStyles({
 });
 
 const Container = styled.div`
-  padding-top: 56px;
+  padding-top: 100px;
   height: 100%;
-
-  padding-left: 240px;
 `;
 
 const Default = props => {
