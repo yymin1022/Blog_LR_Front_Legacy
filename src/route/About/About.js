@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 
-import Footer from './Footer';
-
 import MDFile from '/home/server/web/src/posts/about.md';
 import ReactMarkdown from 'react-markdown';
 
@@ -78,10 +76,7 @@ class About extends Component {
           inlineCode: InlineCodeBlock,
           tableCell: TableCellBlock
         }} />
-
-        <Footer />
     </div>
-
     )
   }
 }
