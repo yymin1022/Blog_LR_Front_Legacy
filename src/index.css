@@ -2,12 +2,12 @@
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: normal;
-    src: url("./fonts/NotoSans-Regular.ttf") format('truetype')
+    src: url("/home/server/web/fonts/NotoSans-Regular.ttf") format('truetype')
   }
 
 @font-face {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: bold;
-    src: url("./fonts/NotoSans-Bold.ttf") format('truetype')
+    src: url("/home/server/web/fonts/NotoSans-Bold.ttf") format('truetype')
   }
