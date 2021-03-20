@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
-import AppMarkdown from '/home/server/web/src/posts/about.md';
+import Footer from './Footer';
+
+import MDFile from '/home/server/web/src/posts/about.md';
 import ReactMarkdown from 'react-markdown';
 
 class About extends Component {
@@ -10,7 +12,7 @@ class About extends Component {
   }
 
   componentWillMount() {
-    fetch(AppMarkdown).then(res => res.text()).then(text => this.setState({ markdown: text }));
+    fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
 
   render() {
@@ -76,6 +78,8 @@ class About extends Component {
           inlineCode: InlineCodeBlock,
           tableCell: TableCellBlock
         }} />
+
+        <Footer />
     </div>
 
     )
