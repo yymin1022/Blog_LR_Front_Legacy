@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import MDFile from '/home/server/web/src/posts/about.md';
 import ReactMarkdown from 'react-markdown';
 
-import './index.css';
+import './About.css';
 
 class About extends Component {
   constructor() {
