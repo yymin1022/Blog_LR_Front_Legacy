@@ -6,10 +6,8 @@ import styled from 'styled-components';
 const Container = styled.div`
   left: 0px;
 
-  height: 56px;
+  height: 100px;
   width: 0px;
-
-  background-color: coral;
 `;
 
 const Footer = props => {
