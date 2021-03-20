@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import MDFile from '/home/server/web/src/posts/about.md';
 import ReactMarkdown from 'react-markdown';
 
+import './index.css';
+
 class About extends Component {
   constructor() {
     super();
@@ -64,9 +66,16 @@ class About extends Component {
     }
 
     const { markdown } = this.state;
+
+    const theme = createMuiTheme({
+      typography: {
+        fontFamily: 'Noto Sans',
+      },
+    });
+
     return(
-    <div>
-      <ReactMarkdown
+      <MuiThemeProvider theme={theme}>
+        <ReactMarkdown
         source={markdown}
         escapeHtml={false}
         skipHtml={false}
@@ -76,7 +85,7 @@ class About extends Component {
           inlineCode: InlineCodeBlock,
           tableCell: TableCellBlock
         }} />
-    </div>
+    </MuiThemeProvider>
     )
   }
 }
