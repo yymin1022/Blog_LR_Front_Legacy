@@ -80,6 +80,7 @@ class About extends Component {
         <ReactMarkdown
           source={markdown}
           theme={theme}
+          allowDangerousHtml={true}
           escapeHtml={false}
           skipHtml={false}
           renderers={{
