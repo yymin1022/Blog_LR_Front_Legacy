@@ -76,18 +76,19 @@ class About extends Component {
     });
 
     return(
-      <MuiThemeProvider theme={theme}>
+      <MuiThemeProvider>
         <ReactMarkdown
-        source={markdown}
-        escapeHtml={false}
-        skipHtml={false}
-        renderers={{
-          blockquote: BlockQuoteBlock,
-          code: CodeBlock,
-          inlineCode: InlineCodeBlock,
-          tableCell: TableCellBlock
-        }} />
-    </MuiThemeProvider>
+          source={markdown}
+          theme={theme}
+          escapeHtml={false}
+          skipHtml={false}
+          renderers={{
+            blockquote: BlockQuoteBlock,
+            code: CodeBlock,
+            inlineCode: InlineCodeBlock,
+            tableCell: TableCellBlock
+          }} />
+      </MuiThemeProvider>
     )
   }
 }
