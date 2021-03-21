@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
-import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
-
+import 'github-markdown-css'
 import MDFile from '/home/server/web/src/posts/about.md';
 import ReactMarkdown from 'react-markdown';
 
@@ -69,14 +68,8 @@ class About extends Component {
 
     const { markdown } = this.state;
 
-    const theme = createMuiTheme({
-      typography: {
-        fontFamily: 'Noto Sans',
-      },
-    });
-
     return(
-      <MuiThemeProvider>
+      <div className='markdown-body'>
         <ReactMarkdown
           source={markdown}
           theme={theme}
@@ -89,7 +82,7 @@ class About extends Component {
             inlineCode: InlineCodeBlock,
             tableCell: TableCellBlock
           }} />
-      </MuiThemeProvider>
+      </div>
     )
   }
 }
