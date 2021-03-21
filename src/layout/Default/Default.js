@@ -131,7 +131,7 @@ const Default = props => {
       <Section>
         {children}
       </Section>
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   );
 }
