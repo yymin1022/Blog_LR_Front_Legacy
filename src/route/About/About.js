@@ -71,7 +71,6 @@ class About extends Component {
       <div className='markdown-body'>
         <ReactMarkdown
           source={markdown}
-          theme={theme}
           allowDangerousHtml={true}
           escapeHtml={false}
           skipHtml={false}
