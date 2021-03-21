@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import 'github-markdown-css'
 import MDFile from '/home/server/web/src/posts/about.md';
 import ReactMarkdown from 'react-markdown';
 
