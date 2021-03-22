@@ -21,7 +21,8 @@
     "react-router-app": "^0.1.6",
     "react-scripts": "4.0.2",
     "styled-components": "^5.2.1",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "build": "webpack",
@@ -53,7 +54,8 @@
     "**/node_modules/**": true,
     "**/**": true
   },
-
-  "homepage": "https://blog-lr.defcon.or.kr/Blog_LR"
-
+  "homepage": "https://blog-lr.defcon.or.kr/Blog_LR",
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
 }
