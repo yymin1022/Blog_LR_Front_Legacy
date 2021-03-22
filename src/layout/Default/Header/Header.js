@@ -10,7 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import styled from 'styled-components';
-import {makeStyles} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 const Container = styled.div`
   position: fixed;
@@ -19,27 +19,27 @@ const Container = styled.div`
   height: 56px;
   width: 100%;
 
-  background-color: skyblue;
+  background-color: #2476FF;
 `;
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
- },
+  },
   menuButton: {
     marginRight: theme.spacing(2),
- },
+  },
   title: {
     flexGrow: 1,
- },
+  },
 }));
 
 const Header = props => {
   const {
     className,
     btnAction,
- } = props;
-  
+  } = props;
+
   return (
     <Container className={className}>
       <div className={useStyles().root}>
