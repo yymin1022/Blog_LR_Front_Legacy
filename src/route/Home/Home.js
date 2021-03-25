@@ -13,7 +13,12 @@ const Home = props => {
 
   return (
     <Container className={className}>
-      <div>HOME</div>
+      for(var i = 0; i < 1; i++){
+        var fs = require('fs');
+        fs.readdir('/posts', (err, file_list) => {
+          alert(file_list);
+        }
+      }
     </Container>
   );
 }
