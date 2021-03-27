@@ -10,9 +10,9 @@ class Home extends Component {
 
   render() {
     function getPosts(props){
-      const postData = postDB.map((item, index) => {
+      const postData = postDB.map(item => {
         return(
-          <li key={index}>
+          <li>
             {item.title}({item.date}) : {item.file}
           </li>
         );
@@ -21,7 +21,15 @@ class Home extends Component {
 
     return(
       <div>
-        {getPosts()}
+        {
+          postData = postDB.map(item => {
+            return(
+              <li>
+                {item.title}({item.date}) : {item.file}
+              </li>
+            );
+          })
+        }
       </div>
     )
   }
