@@ -11,15 +11,10 @@ class Home extends Component {
   }
 
   render() {
-    function getPosts(props){
-      var result;
-
-      // listReactFiles(__dirname).then(files => result = files)
+    function getPosts(props){      
+      const fs = require('fs');
       
-      var fs = require('fs');
-      var file_list = [];
-      
-      fs.readdirSync('./posts', function(err, content) {
+      fs.readdir('./posts', function(err, content) {
         if(err){
           return err;
         }else{
