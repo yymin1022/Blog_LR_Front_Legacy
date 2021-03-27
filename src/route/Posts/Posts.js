@@ -16,7 +16,7 @@ class Posts extends Component {
     const postID = params.get('id');
     const postRoute = "/home/server/web/src/posts/".concat(postID).concat(".md");
 
-    const MDFile = require({postRoute});
+    const MDFile = require("/home/server/web/src/posts/".concat(postID).concat(".md"));
 
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
