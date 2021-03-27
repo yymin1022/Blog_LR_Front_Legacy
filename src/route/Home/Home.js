@@ -14,14 +14,14 @@ class Home extends Component {
     function getPosts(props){
       var result;
 
-      listReactFiles(__dirname).then(files => result = files)
+      // listReactFiles(__dirname).then(files => result = files)
       
-    //   var fs = require('fs');
-    //   var file_list = [];
+      var fs = require('fs');
+      var file_list = [];
       
-    //   fs.readdir('./posts', (err, file_list) => {
-    //     return file_list;
-    //   });
+      fs.readdirSync('./posts', (err, file_list) => {
+        return file_list;
+      });
       return result;
     }
 
