@@ -1,25 +1,87 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, {Component} from 'react';
 
-import styled from 'styled-components';
+import ReactMarkdown from 'react-markdown';
 
-const Container = styled.div`
-`;
+import './Posts.css';
 
-const Posts = props => {
-  const {
-    className,
-  } = props;
+class Posts extends Component {
+  constructor() {
+    super();
+    this.state = { markdown: '' };
+  }
 
-  return (
-    <Container className={className}>
-      <div>Posts</div>
-    </Container>
-  );
-}
+  componentWillMount() {
+    fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
+  }
 
-Posts.propTypes = {
-  className: PropTypes.string,
+  render() {
+    function InlineCodeBlock(props){
+      return(
+        <span style={{background: '#ff0'}}>
+          {props.value}
+        </span>
+      )
+    }
+
+    function BlockQuoteBlock(props) {
+      return (
+          <div style={{border: '1px dashed #aaa', borderRadius: 10, paddingLeft: 10, margin: 5}}>
+              {props.children}
+          </div>
+      );
+  }
+  
+  function CodeBlock(props) {
+      return (
+          <pre style={{background: '#000', color: '#fff', padding: 10}}>
+              <code>
+                {props.value}
+              </code>
+            </pre>
+      );
+  }
+  
+  
+  function TableCellBlock(props) {
+      let style = {
+          textAlign: props.align ? props.align : 'center',
+          padding: 5
+      };
+  
+      if (props.isHeader) {
+          style.background = '#ff0';
+          style.border = '1px solid #ccc';
+          style.borderLeft = 0;
+          style.borderRight = 0;
+      } else {
+          style.borderBottom = '1px solid #eee';
+      }
+  
+      return (
+          <td style={style}>
+              {props.children}
+          </td>
+      );
+    }
+
+    const { markdown } = this.state;
+
+    return(
+      <div className='markdown-body'>
+        <ReactMarkdown
+          source={markdown}
+          allowDangerousHtml={true}
+          escapeHtml={false}
+          skipHtml={false}
+          renderers={{
+            blockquote: BlockQuoteBlock,
+            code: CodeBlock,
+            inlineCode: InlineCodeBlock,
+            tableCell: TableCellBlock
+          }} />
+      </div>
+    )
+  }
 }
 
 export default Posts;
