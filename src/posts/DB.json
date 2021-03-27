@@ -1,12 +1,14 @@
 {
     "posts": [
         {
-            "title": "Test Post 1",
-            "date": "20210326"
+            "date": "20210326",
+            "file": "210326-test-1.md",
+            "title": "Test Post 1"
         },
         {
-            "title": "Test Post 2",
-            "date": "20210327"
+            "date": "20210327",
+            "file": "210327-test-2.md",
+            "title": "Test Post 2"
         }
     ]
 }
