@@ -11,6 +11,8 @@ class Home extends Component {
   render() {
     function getPosts(props){
       var fs = require('fs');
+      var file_list = [];
+
       fs.readdir('/posts', (err, file_list) => {
         alert(file_list);
       });
