@@ -11,6 +11,10 @@ class Posts extends Component {
   }
 
   componentWillMount() {
+    const searchParam = this.props.location.search;
+    const params = new URLSearchParams(searchParam);
+    const postID = params.get('id');
+    const MDFile = "/home/server/web/src/posts/" + {postID} + ".md";
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
 
