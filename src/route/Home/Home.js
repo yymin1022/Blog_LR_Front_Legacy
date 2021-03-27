@@ -6,16 +6,17 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {};
-  }
+  }  
 
   render() {
     return(
       <div>
         {
           postDB.map(item => {
+
             return(
-              <div> 
-                <a href="posts">
+              <div>
+                <a href={this.props.openPost({item})}>
                   {item.title}({item.date}) : {item.file}
                 </a>
                 <br/>

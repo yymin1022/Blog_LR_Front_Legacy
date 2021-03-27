@@ -59,14 +59,18 @@ const Default = props => {
   const {
     className,
     children,
- } = props;
+} = props;
 
   const [state, setState] = React.useState({
     top: false,
     left: false,
     bottom: false,
     right: false,
- });
+  });
+
+  const openPost = (postID) => {
+    open("/posts?id=" + postID.file);
+  }
 
   const anchor = 'left';
 
@@ -76,7 +80,7 @@ const Default = props => {
    }
 
     setState({...state, [anchor]: open});
- };
+  };
   
   const list = (anchor) => (
     <div
@@ -101,16 +105,16 @@ const Default = props => {
       </List>
       <Divider />
       <List>
-        <ListItemLink href="/posts">
+        <ListItemLink href="/home">
           <ListItemText primary="All Posts" />
         </ListItemLink>
-        <ListItemLink href="/posts?Category=dev">
+        <ListItemLink href="/home?category=dev">
           <ListItemText primary="Development" />
         </ListItemLink>
-        <ListItemLink href="/posts?Category=os">
+        <ListItemLink href="/home?category=os">
           <ListItemText primary="Operating System" />
         </ListItemLink>
-        <ListItemLink href="/posts?Category=synology">
+        <ListItemLink href="/home?category=synology">
           <ListItemText primary="Synology/XPEnology" />
         </ListItemLink>
       </List>
@@ -128,7 +132,7 @@ const Default = props => {
           onOpen={toggleDrawer(anchor, true)}>
         {list(anchor)}
       </SwipeableDrawer>
-      <Section>
+      <Section openPost={openPost(postID)}>
         {children}
       </Section>
       {/* <Footer /> */}
