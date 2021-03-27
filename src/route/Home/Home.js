@@ -13,11 +13,9 @@ class Home extends Component {
       var fs = require('fs');
       var file_list = [];
 
-      fs.readdir('/posts', (err, file_list) => {
-        alert(file_list);
+      fs.readdir('./posts', (err, file_list) => {
+        return file_list;
       });
-
-      return file_list;
     }
 
     return(
