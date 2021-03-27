@@ -14,9 +14,9 @@ class Home extends Component {
         {
           postDB.map(item => {
             return(
-              <li href="posts">
+              <a href="posts">
                 {item.title}({item.date}) : {item.file}
-              </li>
+              </a>
             );
           })
         }
