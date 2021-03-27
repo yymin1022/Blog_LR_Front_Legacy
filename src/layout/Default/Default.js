@@ -68,10 +68,6 @@ const Default = props => {
     right: false,
   });
 
-  const openPost = (postID) => {
-    open("/posts?id=" + postID.file);
-  }
-
   const anchor = 'left';
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -132,7 +128,7 @@ const Default = props => {
           onOpen={toggleDrawer(anchor, true)}>
         {list(anchor)}
       </SwipeableDrawer>
-      <Section openPost={openPost(postID)}>
+      <Section>
         {children}
       </Section>
       {/* <Footer /> */}

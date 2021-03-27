@@ -13,10 +13,9 @@ class Home extends Component {
       <div>
         {
           postDB.map(item => {
-
             return(
               <div>
-                <a href={this.props.openPost({item})}>
+                <a href="/posts">
                   {item.title}({item.date}) : {item.file}
                 </a>
                 <br/>
