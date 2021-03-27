@@ -19,10 +19,13 @@ class Home extends Component {
       var fs = require('fs');
       var file_list = [];
       
-      fs.readdirSync('./posts', (err, file_list) => {
-        return file_list;
+      fs.readdirSync('./posts', function(err, content) {
+        if(err){
+          return err;
+        }else{
+          return content;
+        }
       });
-      return result;
     }
 
     return(
