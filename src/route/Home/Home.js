@@ -22,7 +22,7 @@ class Home extends Component {
     return(
       <div>
         {
-          postData = postDB.map(item => {
+          postDB.map(item => {
             return(
               <li>
                 {item.title}({item.date}) : {item.file}
