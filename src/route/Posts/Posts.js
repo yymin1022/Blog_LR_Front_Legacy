@@ -18,7 +18,7 @@ class Posts extends Component {
     
     alert(postRoute);
 
-    MDFile = require(postRoute);
+    const MDFile = require(postRoute);
 
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
