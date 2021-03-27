@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 
-import listReactFiles from 'list-react-files'
-
-import styled from 'styled-components';
+import postDB from '/home/server/web/src/posts/DB.json';
 
 class Home extends Component {
   constructor() {
@@ -11,16 +9,8 @@ class Home extends Component {
   }
 
   render() {
-    function getPosts(props){      
-      const fs = require('fs');
-      
-      fs.readdir('./posts', function(err, content) {
-        if(err){
-          return err;
-        }else{
-          return content;
-        }
-      });
+    function getPosts(props){
+
     }
 
     return(

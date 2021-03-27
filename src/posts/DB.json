@@ -1,0 +1,12 @@
+{
+    "posts": [
+        {
+            "title": "Test Post 1",
+            "date": "20210326"
+        },
+        {
+            "title": "Test Post 2",
+            "date": "20210327"
+        }
+    ]
+}
