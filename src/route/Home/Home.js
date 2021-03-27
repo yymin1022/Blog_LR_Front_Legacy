@@ -14,6 +14,8 @@ class Home extends Component {
       fs.readdir('/posts', (err, file_list) => {
         alert(file_list);
       });
+
+      return file_list;
     }
 
     return(
