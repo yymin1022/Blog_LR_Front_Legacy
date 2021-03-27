@@ -12,7 +12,7 @@ class Home extends Component {
     function getPosts(props){
       const postData = postDB.map(item => {
         return(
-          <li>
+          <li href="/posts">
             {item.title}({item.date}) : {item.file}
           </li>
         );
