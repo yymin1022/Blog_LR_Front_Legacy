@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import listReactFiles from 'list-react-files'
+
 import styled from 'styled-components';
 
 class Home extends Component {
@@ -10,17 +12,22 @@ class Home extends Component {
 
   render() {
     function getPosts(props){
-      var fs = require('fs');
-      var file_list = [];
+      var result;
 
-      fs.readdir('./posts', (err, file_list) => {
-        return file_list;
-      });
+      listReactFiles(__dirname).then(files => result = files)
+      
+    //   var fs = require('fs');
+    //   var file_list = [];
+      
+    //   fs.readdir('./posts', (err, file_list) => {
+    //     return file_list;
+    //   });
+      return result;
     }
 
     return(
       <div>
-        {getPosts()};
+        {getPosts()}
       </div>
     )
   }
