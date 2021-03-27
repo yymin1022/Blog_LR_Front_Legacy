@@ -14,7 +14,7 @@ class Posts extends Component {
     const searchParam = this.props.location.search;
     const params = new URLSearchParams(searchParam);
     const postID = params.get('id');
-    const postRoute = "/home/server/web/src/posts/".concat(postID);
+    const postRoute = "/home/server/web/src/posts/".concat(postID).concat(".md");
     const MDFile = require(postRoute);
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
