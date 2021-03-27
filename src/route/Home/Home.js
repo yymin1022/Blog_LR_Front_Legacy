@@ -20,7 +20,7 @@ class Home extends Component {
 
     return(
       <div>
-        {getPosts};
+        {getPosts()};
       </div>
     )
   }
