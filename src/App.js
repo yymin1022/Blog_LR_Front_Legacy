@@ -6,7 +6,7 @@ import DefaultLayout from './layout/Default';
 
 import About from './route/About';
 import Home from './route/Home';
-import Posts from './route/Posts';
+import PostView from './route/PostView';
 
 function App() {
   return (
@@ -25,9 +25,9 @@ function App() {
           layout = {DefaultLayout}
           component = {Home} />
         <RouteLayout
-          path = '/posts'
+          path = '/postview'
           layout = {DefaultLayout}
-          component = {Posts} />
+          component = {PostView} />
       </Switch>
     </Router>
   );
