@@ -4,8 +4,6 @@ import ReactMarkdown from 'react-markdown';
 
 import './PostView.css';
 
-import MDFile from '/home/server/web/src/posts/210326-test-1.md';
-
 class PostView extends Component {
   constructor() {
     super();
@@ -15,7 +13,7 @@ class PostView extends Component {
   componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
     const postID = params.get('id');
-    // const MDFile = require("/home/server/web/src/posts/" + postID + ".md");
+    let MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
     // import('/home/server/web/src/posts/' + postID + '.md').then(({MDFile})=>{
     //   fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
