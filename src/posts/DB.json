@@ -16,14 +16,14 @@
     {
         "date": "20210326",
         "file": "210326-test-1.md",
-        "pinned": true,
+        "pinned": false,
         "title": "Test Post 1",
         "url": "/postview?id=210326-test-1"
     },
     {
         "date": "20210327",
         "file": "210327-test-1.md",
-        "pinned": true,
+        "pinned": false,
         "title": "Test Post 2",
         "url": "/postview?id=210327-test-2"
     }
