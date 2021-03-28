@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {If, Else, Default} from 'react-if';
+import {If, Else, Then} from 'react-if';
 
 import postDB from '/home/server/web/src/posts/DB.json';
 
