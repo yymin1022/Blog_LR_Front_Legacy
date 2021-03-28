@@ -70,7 +70,7 @@ class PostView extends Component {
       );
     }
 
-    const { markdown } = this.state;
+    const {markdown} = this.state;
 
     alert({markdown});
 
