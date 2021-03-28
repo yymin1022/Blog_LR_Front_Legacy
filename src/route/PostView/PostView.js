@@ -15,7 +15,11 @@ class PostView extends Component {
     const postID = params.get('id');
     const MDFile = require("/home/server/web/src/posts/" + postID + ".md");
 
+    alert(postID);
+
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
+
+    alert({markdown});
   }
 
   render() {
