@@ -18,8 +18,6 @@ class PostView extends Component {
     alert(postID);
 
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
-
-    alert({markdown});
   }
 
   render() {
@@ -73,6 +71,8 @@ class PostView extends Component {
     }
 
     const { markdown } = this.state;
+
+    alert({markdown});
 
     return(
       <div className='markdown-body'>
