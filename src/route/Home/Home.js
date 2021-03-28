@@ -28,23 +28,4 @@ class Home extends Component {
   }
 }
 
-// const Container = styled.div`
-// `;
-
-// const Home = props => {
-//   const {
-//     className,
-//   } = props;
-
-//   return (
-//     <Container className={className}>
-      
-//     </Container>
-//   );
-// }
-
-// Home.propTypes = {
-//   className: PropTypes.string,
-// }
-
 export default Home;
