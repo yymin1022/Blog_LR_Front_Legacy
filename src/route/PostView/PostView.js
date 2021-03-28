@@ -12,11 +12,9 @@ class PostView extends Component {
 
   componentWillMount() {
     const searchParam = this.props.location.search;
-    const params = new URLSearchParams(searchParam);
+    const params = new URLSearchParams(this.props.location.search);
     const postID = params.get('id');
-    const postRoute = "/home/server/web/src/posts/".concat(postID).concat(".md");
-
-    const MDFile = require("/home/server/web/src/posts/".concat(postID).concat(".md"));
+    const MDFile = require("/home/server/web/src/posts/" + postID + ".md");
 
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
