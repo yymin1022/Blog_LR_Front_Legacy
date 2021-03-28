@@ -15,9 +15,15 @@ class Home extends Component {
           postDB.map(item => {
             return(
               <div>
-                <a href={item.url}>
-                  {item.title}({item.date}) : {item.file}
-                </a>
+                if({item.pinned}){
+                  <a href={item.url}>
+                    !!Pinned Post!!{item.title}({item.date}) : {item.file}
+                  </a>
+                }else{
+                  <a href={item.url}>
+                    {item.title}({item.date}) : {item.file}
+                  </a>
+                }
                 <br/>
               </div>
             );
