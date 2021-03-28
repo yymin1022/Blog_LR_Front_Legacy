@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 
 import ReactMarkdown from 'react-markdown';
 
-import './Posts.css';
+import './PostView.css';
 
-class Posts extends Component {
+class PostView extends Component {
   constructor() {
     super();
     this.state = { markdown: '' };
@@ -91,4 +91,4 @@ class Posts extends Component {
   }
 }
 
-export default Posts;
+export default PostView;
