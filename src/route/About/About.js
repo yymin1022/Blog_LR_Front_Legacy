@@ -18,7 +18,7 @@ class About extends Component {
   render() {
     function InlineCodeBlock(props){
       return(
-        <span style={{background: '#ff0'}}>
+        <span style={{background: '#ffff00'}}>
           {props.value}
         </span>
       )
@@ -26,7 +26,7 @@ class About extends Component {
 
     function BlockQuoteBlock(props) {
       return (
-          <div style={{border: '1px dashed #aaa', borderRadius: 10, paddingLeft: 10, margin: 5}}>
+          <div style={{border: '1px dashed #aaaaaa', borderRadius: 10, paddingLeft: 10, margin: 5}}>
               {props.children}
           </div>
       );
@@ -34,7 +34,7 @@ class About extends Component {
   
   function CodeBlock(props) {
       return (
-          <pre style={{background: '#000', color: '#fff', padding: 10}}>
+          <pre style={{background: '#000000', color: '#ffffff', padding: 10}}>
               <code>
                 {props.value}
               </code>
@@ -50,12 +50,12 @@ class About extends Component {
       };
   
       if (props.isHeader) {
-          style.background = '#ff0';
-          style.border = '1px solid #ccc';
+          style.background = '#ffff00';
+          style.border = '1px solid #cccccc';
           style.borderLeft = 0;
           style.borderRight = 0;
       } else {
-          style.borderBottom = '1px solid #eee';
+          style.borderBottom = '1px solid #eeeeee';
       }
   
       return (

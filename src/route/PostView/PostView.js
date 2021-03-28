@@ -54,7 +54,7 @@ class PostView extends Component {
   
       if (props.isHeader) {
           style.background = '#ffff00';
-          style.border = '1px solid #ccc';
+          style.border = '1px solid #cccccc';
           style.borderLeft = 0;
           style.borderRight = 0;
       } else {
