@@ -11,7 +11,6 @@ class PostView extends Component {
   }
 
   componentWillMount() {
-    const searchParam = this.props.location.search;
     const params = new URLSearchParams(this.props.location.search);
     const postID = params.get('id');
     const MDFile = require("/home/server/web/src/posts/" + postID + ".md");
