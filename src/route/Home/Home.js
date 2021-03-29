@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {If, Else, Then} from 'react-if';
 
+import PostItem from '/home/server/web/src/layout/PostItem';
+import PostItemPinned from '/home/server/web/src/layout/PostItemPinned';
+
 import postDB from '/home/server/web/src/posts/DB.json';
 
 class Home extends Component {
@@ -18,15 +21,19 @@ class Home extends Component {
               <div>
                 <If condition={item.pinned}>
                   <Then>
-                    <a href={item.url}>
-                      !!Pinned Post!!{item.title}({item.date}) : {item.file}
-                  </a>
+                    <PostItemPinned
+                      date = {item.date}
+                      file = {item.file}
+                      title = {item.title}
+                      url = {item.url} />
                   </Then>
                 <Else>
                   <Then>
-                    <a href={item.url}>
-                      {item.title}({item.date}) : {item.file}
-                    </a>
+                    <PostItem
+                      date = {item.date}
+                      file = {item.file}
+                      title = {item.title}
+                      url = {item.url} />
                   </Then>  
                 </Else>
                 </If>
