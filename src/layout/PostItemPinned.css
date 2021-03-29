@@ -1,0 +1,19 @@
+#postItem{
+    height: 600px;
+    width: 400px;
+}
+
+#postInfo{
+    height: 200px;
+    width: 400px;
+}
+
+#postThumbnail{
+    height: 400px;
+    width: 400px;
+}
+
+#postThumbnail img{
+    height: 100%;
+    width: 100%;
+}

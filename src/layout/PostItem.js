@@ -10,7 +10,7 @@ class PostItem extends Component {
 
   render() {
     return(
-      <div>
+      <div id="postItem">
         <div id="postThumbnail">
           <img src={this.props.thumbnail} />
         </div>
