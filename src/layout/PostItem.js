@@ -11,15 +11,14 @@ class PostItem extends Component {
   render() {
     return(
       <div>
-        <div>
-
+        <div id="postThumbnail">
+          <img src={this.props.thumbnail} />
         </div>
-        <div>
-          
-        </div>
-        <a href={this.props.url}>
+        <div id="postInfo">
+          <a href={this.props.url}>
           {this.props.title}({this.props.date}) : {this.props.file}
         </a>
+        </div>
       </div>
     )
   }
