@@ -1,10 +1,11 @@
 #postItem{
+    display: flex;
     height: 200px;
     width: 75%;
 }
 
 #postInfo{
-    float: right;
+    
 }
 
 #postThumbnail{

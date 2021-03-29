@@ -16,8 +16,8 @@ class PostItem extends Component {
         </div>
         <div id="postInfo">
           <a href={this.props.url}>
-          {this.props.title}({this.props.date}) : {this.props.file}
-        </a>
+            {this.props.title}({this.props.date}) : {this.props.file}
+          </a>
         </div>
       </div>
     )
