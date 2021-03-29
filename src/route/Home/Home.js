@@ -24,6 +24,7 @@ class Home extends Component {
                     <PostItemPinned
                       date = {item.date}
                       file = {item.file}
+                      thumbnail = {item.thumbnail}
                       title = {item.title}
                       url = {item.url} />
                   </Then>
@@ -32,6 +33,7 @@ class Home extends Component {
                     <PostItem
                       date = {item.date}
                       file = {item.file}
+                      thumbnail = {item.thumbnail}
                       title = {item.title}
                       url = {item.url} />
                   </Then>  

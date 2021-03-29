@@ -9,6 +9,12 @@ class PostItem extends Component {
   render() {
     return(
       <div>
+        <div>
+
+        </div>
+        <div>
+          
+        </div>
         <a href={this.props.url}>
           {this.props.title}({this.props.date}) : {this.props.file}
         </a>
