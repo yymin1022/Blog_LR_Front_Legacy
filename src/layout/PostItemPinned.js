@@ -9,8 +9,8 @@ class PostItemPinned extends Component {
   render() {
     return(
       <div>
-        <a href={props.url}>
-          !!Pinned Post!!{props.title}({props.date}) : {props.file}
+        <a href={this.props.url}>
+          !!Pinned Post!!{this.props.title}({this.props.date}) : {this.props.file}
         </a>
       </div>
     )
