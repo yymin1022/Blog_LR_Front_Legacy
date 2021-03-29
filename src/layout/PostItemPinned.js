@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import './PostItemPinned.css';
+
 class PostItemPinned extends Component {
   constructor() {
     super();
