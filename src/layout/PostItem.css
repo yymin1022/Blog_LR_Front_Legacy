@@ -1,6 +1,6 @@
 #postItem{
-    height: 600px;
-    width: 400px;
+    height: 200px;
+    width: 600px;
 }
 
 #postInfo{
@@ -9,8 +9,8 @@
 }
 
 #postThumbnail{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 
 #postThumbnail img{
