@@ -1,12 +1,10 @@
 #postItem{
     height: 200px;
-    width: 600px;
+    width: 75%;
 }
 
 #postInfo{
     float: right;
-    height: 200px;
-    width: 400px;
 }
 
 #postThumbnail{
