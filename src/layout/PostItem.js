@@ -12,11 +12,11 @@ class PostItem extends Component {
     return(
       <div id="postItem">
         <div id="postThumbnail">
-          <img src={this.props.file} />
+          <img src={this.props.thumbnail} />
         </div>
         <div id="postInfo">
           <a href={this.props.url}>
-            {this.props.title}({this.props.date}) : {this.props.file}
+            {this.props.title}({this.props.date})
           </a>
         </div>
       </div>
