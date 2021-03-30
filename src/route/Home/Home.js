@@ -36,7 +36,7 @@ class Home extends Component {
             })
           }
         </div>
-        <hr/>
+        <hr style={{width: "75%"}}/>
         <div>
           {
             postDB.map(item => {
