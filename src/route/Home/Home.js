@@ -19,7 +19,8 @@ class Home extends Component {
           {
             postDB.map(item => {
               return(
-                <div style={{marginbottom: "-20"}}>
+                <div>
+                  <br/>
                   <If condition={item.pinned}>
                     <Then>
                       <PostItemPinned
@@ -30,7 +31,6 @@ class Home extends Component {
                         url = {item.url} />
                     </Then>
                   </If>
-                  <br/>
                 </div>
               );
             })
