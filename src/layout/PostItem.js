@@ -12,7 +12,7 @@ class PostItem extends Component {
     return(
       <div id="postItem">
         <div id="postThumbnail">
-          <img src={this.props.thumbnail} />
+          <img source={require("/home/server/web/src/posts/" + this.props.thumbnail + ".png")} />
         </div>
         <div id="postInfo">
           <a href={this.props.url}>

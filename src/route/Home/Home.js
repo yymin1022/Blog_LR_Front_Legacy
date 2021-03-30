@@ -17,15 +17,13 @@ class Home extends Component {
       <div>
         {
           postDB.map(item => {
-            const thumbnailPath = "/home/server/web/src/posts" + item.thumbnail + ".png";
-
             return(
               <div>
                 <If condition={item.pinned}>
                   <Then>
                     <PostItemPinned
                       date = {item.date}
-                      thumbnail = {thumbnailPath}
+                      thumbnail = {item.thumbnail}
                       title = {item.title}
                       url = {item.url} />
                   </Then>
