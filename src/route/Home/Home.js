@@ -14,7 +14,7 @@ class Home extends Component {
 
   render() {
     return(
-      <div>
+      <div align="center">
         {
           postDB.map(item => {
             return(

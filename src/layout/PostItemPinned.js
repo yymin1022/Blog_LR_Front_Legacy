@@ -15,9 +15,16 @@ class PostItemPinned extends Component {
           <img src={require("/home/server/web/src/posts/" + this.props.thumbnail + ".png").default} />
         </div>
         <div id="postInfo">
-          <a href={this.props.url}>
-            !!Pinned Post!! {this.props.title}({this.props.date})
-          </a>
+          <div id="postInfoTitle">
+            <a href={this.props.url}>
+              !!Pinned!! {this.props.title}
+            </a>
+          </div>
+          <div id="postInfoDate">
+            <a>
+              {this.props.date}
+            </a>
+          </div>
         </div>
       </div>
     )

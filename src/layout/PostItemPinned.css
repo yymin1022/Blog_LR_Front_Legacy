@@ -1,16 +1,34 @@
 #postItem{
+    border: 1px solid #AAAAAA;
+    display: flex;
     height: 200px;
     width: 75%;
 }
 
 #postInfo{
-    float: right;
+    margin: 20px;
+}
+
+#postInfoDate{
+    margin-top: 20px;
+}
+
+#postInfoDate a{
+    font-size: 15px;
+}
+
+#postInfoTitle{
+    
+}
+
+#postInfoTitle a{
+    font-size: 25px;
 }
 
 #postThumbnail{
     height: 200px;
     width: 200px;
-}
+}   
 
 #postThumbnail img{
     height: 100%;
