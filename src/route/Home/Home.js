@@ -36,7 +36,7 @@ class Home extends Component {
             })
           }
         </div>
-        
+        <hr/>
         <div>
           {
             postDB.map(item => {
