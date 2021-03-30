@@ -17,7 +17,7 @@ class Home extends Component {
       <div align="center">
         <div>
           <div align="left">
-            <a style={{marginLeft: "20%", textSize: "20px"}}>
+            <a style={{marginLeft: "10%", textSize: "20px"}}>
               # Pinned
             </a>
           </div>
