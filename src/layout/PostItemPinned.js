@@ -10,7 +10,7 @@ class PostItemPinned extends Component {
 
   render() {
     return(
-      <div id="postItem">
+      <div id="postItem" align="left">
         <div id="postThumbnail">
           <img src={require("/home/server/web/src/posts/" + this.props.thumbnail + ".png").default} />
         </div>
