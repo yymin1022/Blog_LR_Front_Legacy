@@ -19,7 +19,7 @@ class Home extends Component {
           {
             postDB.map(item => {
               return(
-                <div style={{marginbottom: "-10px"}}>
+                <div style={{marginbottom: "-20"}}>
                   <If condition={item.pinned}>
                     <Then>
                       <PostItemPinned
