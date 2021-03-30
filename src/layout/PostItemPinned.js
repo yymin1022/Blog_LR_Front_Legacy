@@ -20,6 +20,11 @@ class PostItemPinned extends Component {
               !!Pinned!! {this.props.title}
             </a>
           </div>
+          <div id="postInfoTag">
+            <a>
+            "#" + {this.props.tag}
+            </a>
+          </div>
           <div id="postInfoDate">
             <a>
               {this.props.date}

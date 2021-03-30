@@ -23,6 +23,7 @@ class Home extends Component {
                   <Then>
                     <PostItemPinned
                       date = {item.date}
+                      tag = {item.tag}
                       thumbnail = {item.thumbnail}
                       title = {item.title}
                       url = {item.url} />

@@ -10,10 +10,18 @@
 }
 
 #postInfoDate{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #postInfoDate a{
+    font-size: 15px;
+}
+
+#postInfoTag{
+    margin-top: 20px;
+}
+
+#postInfoTag a{
     font-size: 15px;
 }
 
