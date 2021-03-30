@@ -15,34 +15,48 @@ class Home extends Component {
   render() {
     return(
       <div align="center">
-        {
-          postDB.map(item => {
-            return(
-              <div>
-                <If condition={item.pinned}>
+        <div>
+          {
+            postDB.map(item => {
+              return(
+                <div>
+                  <If condition={item.pinned}>
+                    <Then>
+                      <PostItemPinned
+                        date = {item.date}
+                        tag = {item.tag}
+                        thumbnail = {item.thumbnail}
+                        title = {item.title}
+                        url = {item.url} />
+                    </Then>
+                  </If>
+                  <br/>
+                </div>
+              );
+            })
+          }
+        </div>
+        
+        <div>
+          {
+            postDB.map(item => {
+              return(
+                <div>
+                  <If condition={!item.pinned}>
                   <Then>
-                    <PostItemPinned
-                      date = {item.date}
-                      tag = {item.tag}
-                      thumbnail = {item.thumbnail}
-                      title = {item.title}
-                      url = {item.url} />
-                  </Then>
-                <Else>
-                  <Then>
-                    <PostItem
-                      date = {item.date}
-                      thumbnail = {item.thumbnail}
-                      title = {item.title}
-                      url = {item.url} />
-                  </Then>  
-                </Else>
-                </If>
-                <br/>
-              </div>
-            );
-          })
-        }
+                      <PostItem
+                        date = {item.date}
+                        thumbnail = {item.thumbnail}
+                        title = {item.title}
+                        url = {item.url} />
+                    </Then>
+                  </If>
+                  <br/>
+                </div>
+              );
+            })
+          }
+        </div>
       </div>
     )
   }
