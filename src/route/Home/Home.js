@@ -16,13 +16,11 @@ class Home extends Component {
     return(
       <div align="center">
         <div>
-          <div align="left">
+          <div style={{width: "85%"}}>
             <a style={{textSize: "25px"}}>
               # Pinned
             </a>
-          </div>
 
-          <div style={{width: "85%"}}>
             {
               postDB.map(item => {
                 return(
