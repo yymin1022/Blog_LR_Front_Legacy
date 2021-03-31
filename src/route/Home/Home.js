@@ -21,6 +21,8 @@ class Home extends Component {
   render() {
     const categoryID = this.categoryID;
 
+    alert(categoryID != null);
+
     return(
       <div align="center">
         <div>
