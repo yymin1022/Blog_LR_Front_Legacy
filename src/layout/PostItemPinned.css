@@ -1,48 +1,48 @@
-#postItem{
+#postPinnedItem{
     border: 1px solid #AAAAAA;
     height: 450px;
     width: 300px;
 }
 
-#postInfo{
+#postPinnedInfo{
     margin: 20px;
 }
 
-#postInfoDate{
+#postPinnedInfoDate{
     margin-top: 5px;
 }
 
-#postInfoDate p{
+#postPinnedInfoDate p{
     color: #808080;
     font-size: 15px;
 }
 
-#postInfoTag{
+#postPinnedInfoTag{
     margin-top: 20px;
 }
 
-#postInfoTag p{
+#postPinnedInfoTag p{
     font-size: 15px;
 }
 
-#postInfoTitle{
+#postPinnedInfoTitle{
     
 }
 
-#postPinned{
+#postPinnedPinned{
     display: flex;
 }
 
-#postInfoTitle p{
+#postPinnedInfoTitle p{
     font-size: 25px;
 }
 
-#postThumbnail{
+#postPinnedThumbnail{
     height: 200px;
     width: 200px;
 }   
 
-#postThumbnail img{
+#postPinnedThumbnail img{
     height: 100%;
     width: 100%;
 }
