@@ -16,7 +16,7 @@ class Home extends Component {
     return(
       <div align="center">
         <div>
-          <div style={{width: "85%"}}>
+          <div style={{width: "85%"}} align="left">
             <a style={{textSize: "25px"}}>
               # Pinned
             </a>
