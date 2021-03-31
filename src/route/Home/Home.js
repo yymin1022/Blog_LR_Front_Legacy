@@ -68,6 +68,7 @@ class Home extends Component {
         </Then>
       </If>
         <div style={{width: "100%"}}>
+          <br/>
           {
             postDB.map(item => {
               return(
@@ -96,7 +97,6 @@ class Home extends Component {
                           </If>
                         </Else>
                       </If>
-                      <br/><br/>
                     </Then>
                   </If>
                 </div>
