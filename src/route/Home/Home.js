@@ -17,7 +17,7 @@ class Home extends Component {
     const postID = params.get('category');
     this.setState({category: postID});
 
-    console.log(this.state.category);
+    alert(this.state.category);
   }
 
   render() {
