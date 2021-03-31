@@ -17,14 +17,13 @@ class Home extends Component {
       <div align="center">
         <div>
           <div style={{width: "85%"}} align="left">
-            <a style={{textSize: "25px"}}>
-              # Pinned
-            </a>
-
             {
               postDB.map(item => {
                 return(
                   <div>
+                    <a style={{textSize: "25px"}}>
+                      # Pinned
+                    </a>
                     <br/>
                     <If condition={item.pinned}>
                       <Then>
