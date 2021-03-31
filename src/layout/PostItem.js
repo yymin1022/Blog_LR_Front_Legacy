@@ -8,7 +8,7 @@ class PostItem extends Component {
     this.state = {};
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.date = this.props.date;
     this.tag = "";
     this.thumbnail = this.props.thumbnail;

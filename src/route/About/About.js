@@ -11,7 +11,7 @@ class About extends Component {
     this.state = { markdown: '' };
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
 

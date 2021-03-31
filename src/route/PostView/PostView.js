@@ -10,7 +10,7 @@ class PostView extends Component {
     this.state = { markdown: '' };
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
     const postID = params.get('id');
     const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;

@@ -13,7 +13,7 @@ class Home extends Component {
     this.categoryID = "";
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
     this.categoryID = params.get('category');
   }

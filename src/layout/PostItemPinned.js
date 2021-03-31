@@ -8,7 +8,7 @@ class PostItemPinned extends Component {
     this.state = {};
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.date1 = this.props.date1;
     this.tag1 = "";
     this.thumbnail1 = this.props.thumbnail1;
