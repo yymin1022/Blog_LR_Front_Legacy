@@ -10,7 +10,7 @@ class PostItemPinned extends Component {
 
   render() {
     return(
-      <div id="postPinned">
+      <div id="postPinned" align="center">
         <a href={this.props.url1}>
           <div id="postPinnedItem" align="left">
             <div id="postPinnedThumbnail">
