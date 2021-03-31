@@ -20,13 +20,12 @@ class Home extends Component {
 
   render() {
     const categoryID = this.categoryID;
-    const pinnedEnabled = (categoryID != null);
 
     return(
       <div align="center">
-        <div>
-          <If condition={pinnedEnabled}>
-            <Then>
+        <If condition={categoryID == null}>
+          <Then>
+            <div>
               <div style={{width: "85%"}} align="left">
                 {
                   postDB.map(item => {
@@ -64,11 +63,12 @@ class Home extends Component {
                   })
                 }
               </div>
-            </Then>
-          </If>
+            </div>
+          <hr style={{width: "85%"}}/>
+        </Then>
+      </If>
           
-        </div>
-        <hr style={{width: "85%"}}/>
+        
         <div style={{width: "100%"}}>
           {
             postDB.map(item => {
