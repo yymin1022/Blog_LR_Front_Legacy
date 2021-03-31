@@ -25,10 +25,6 @@
     font-size: 15px;
 }
 
-#postPinnedInfoTitle{
-    
-}
-
 #postPinned{
     display: flex;
     flex-direction: row;
