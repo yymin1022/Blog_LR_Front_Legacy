@@ -26,7 +26,7 @@ class Home extends Component {
                         <a style={{textSize: "25px"}}>
                           # Pinned
                         </a>
-                        <br/>
+                        <br/><br/>
                         <PostItemPinned
                           date1 = {item.date1}
                           tag1 = {item.tag1}
@@ -45,6 +45,7 @@ class Home extends Component {
                           thumbnail3 = {item.thumbnail3}
                           title3 = {item.title3}
                           url3 = {item.url3} />
+                          <br/><br/>
                       </Then>
                     </If>
                   </div>
