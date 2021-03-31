@@ -7,7 +7,7 @@ class PostItem extends Component {
     super();
     this.state = {};
 
-    this.date = this.props.url;
+    this.date = this.props.date;
     this.tag = "";
     this.thumbnail = this.props.thumbnail;
     this.title = this.props.title;
