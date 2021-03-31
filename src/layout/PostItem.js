@@ -4,9 +4,11 @@ import './PostItem.css';
 
 class PostItem extends Component {
   constructor() {
-    super(this.props);
+    super();
     this.state = {};
+  }
 
+  componentWillMount() {
     this.date = this.props.date;
     this.tag = "";
     this.thumbnail = this.props.thumbnail;
