@@ -11,6 +11,7 @@ class PostItem extends Component {
     this.tag = "";
     this.thumbnail = this.props.thumbnail;
     this.title = this.props.title;
+    this.url = this.props.url;
 
     switch(this.props.tag){
       case "dev":
