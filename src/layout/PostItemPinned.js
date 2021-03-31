@@ -35,7 +35,7 @@ class PostItemPinned extends Component {
             </div>
           </div>
         </a>
-
+        <br/>
         <a href={this.props.url2}>
           <div id="postItem" align="left">
             <div id="postThumbnail">
@@ -60,7 +60,7 @@ class PostItemPinned extends Component {
             </div>
           </div>
         </a>
-
+        <br/>
         <a href={this.props.url3}>
           <div id="postItem" align="left">
             <div id="postThumbnail">
