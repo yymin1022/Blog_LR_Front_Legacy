@@ -10,7 +10,7 @@ class PostItemPinned extends Component {
 
   render() {
     return(
-      <div style={{display: flex}}>
+      <div id="postPinned">
         <a href={this.props.url1}>
           <div id="postItem" align="left">
             <div id="postThumbnail">

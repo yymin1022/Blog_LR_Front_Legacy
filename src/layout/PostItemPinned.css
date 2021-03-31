@@ -29,6 +29,10 @@
     
 }
 
+#postPinned{
+    display: flex;
+}
+
 #postInfoTitle p{
     font-size: 25px;
 }
