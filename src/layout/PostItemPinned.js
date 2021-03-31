@@ -12,7 +12,7 @@ class PostItemPinned extends Component {
     return(
       <div>
         <a href={this.props.url1}>
-          <div id="postItem">
+          <div id="postItem" align="left">
             <div id="postThumbnail">
               <img src={require("/home/server/web/src/posts/" + this.props.thumbnail1 + ".png").default} />
             </div>
