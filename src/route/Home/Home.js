@@ -65,15 +65,14 @@ class Home extends Component {
               </div>
             </div>
           <hr style={{width: "85%"}}/>
-          <br/>
         </Then>
       </If>
         <div style={{width: "100%"}}>
-          <br/>
           {
             postDB.map(item => {
               return(
                 <div>
+                  <br/>
                   <If condition={!item.pinned}>
                     <Then>
                       <If condition={categoryID == null}>
