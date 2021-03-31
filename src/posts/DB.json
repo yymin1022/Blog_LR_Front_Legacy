@@ -39,11 +39,11 @@
         "url": "/postview?id=210327-test-2"
     },
     {
-        "date3": "Mar 27, 2021",
-        "pinned3": false,
-        "tag3": "synology",
-        "thumbnail3": "210327-test-3",
-        "title3": "Test Pinned 3",
-        "url3": "/postview?id=210327-test-3"
+        "date": "Mar 27, 2021",
+        "pinned": false,
+        "tag": "synology",
+        "thumbnail": "210327-test-3",
+        "title": "Test Post 3",
+        "url": "/postview?id=210327-test-3"
     }
 ]
