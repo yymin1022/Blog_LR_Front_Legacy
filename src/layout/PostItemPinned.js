@@ -10,28 +10,30 @@ class PostItemPinned extends Component {
 
   render() {
     return(
-      <div id="postItem" align="left">
-        <div id="postThumbnail">
-          <img src={require("/home/server/web/src/posts/" + this.props.thumbnail + ".png").default} />
-        </div>
-        <div id="postInfo">
-          <div id="postInfoTitle">
-            <a href={this.props.url}>
+      <a href={this.props.url}>
+        <div id="postItem" align="left">
+          <div id="postThumbnail">
+            <img src={require("/home/server/web/src/posts/" + this.props.thumbnail + ".png").default} />
+          </div>
+          <div id="postInfo">
+            <div id="postInfoTitle">
+              <a>
               !!Pinned!! {this.props.title}
-            </a>
-          </div>
-          <div id="postInfoTag">
-            <a>
-            #{this.props.tag}
-            </a>
-          </div>
-          <div id="postInfoDate">
-            <a>
-              {this.props.date}
-            </a>
+              </a>
+            </div>
+            <div id="postInfoTag">
+              <a>
+                #{this.props.tag}
+              </a>
+            </div>
+            <div id="postInfoDate">
+              <a>
+                {this.props.date}
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     )
   }
 }
