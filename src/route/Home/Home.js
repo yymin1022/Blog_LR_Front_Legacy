@@ -99,6 +99,7 @@ class Home extends Component {
                           </If>
                         </Else>
                       </If>
+                      <br/>
                     </Then>
                   </If>
                 </div>
