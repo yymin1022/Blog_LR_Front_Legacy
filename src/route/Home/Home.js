@@ -9,16 +9,14 @@ import postDB from '/home/server/web/src/posts/DB.json';
 class Home extends Component {
   constructor() {
     super();
-    this.state = {category: ''};
+    this.state = {};
   }
 
   componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
-    const postID = params.get('category');
-    this.setState({category: postID});
-
-    const {category} = this.state;
-    alert(category);
+    const categoryID = params.get('category');
+    
+    alert(categoryID);
   }
 
   render() {
