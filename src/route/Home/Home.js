@@ -15,12 +15,12 @@ class Home extends Component {
 
   componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
-    this.categoryID = params.get('category');D);
+    this.categoryID = params.get('category');
   }
 
   render() {
     alert(this.categoryID);
-    
+
     return(
       <div align="center">
         <div>
