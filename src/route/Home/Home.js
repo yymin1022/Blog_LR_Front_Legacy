@@ -72,7 +72,7 @@ class Home extends Component {
                         url = {item.url} />
                     </Then>
                   </If>
-                  <br/><br/>
+                  <br/>
                 </div>
               );
             })
