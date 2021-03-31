@@ -67,21 +67,35 @@ class Home extends Component {
           <hr style={{width: "85%"}}/>
         </Then>
       </If>
-          
-        
         <div style={{width: "100%"}}>
           {
             postDB.map(item => {
               return(
                 <div>
                   <If condition={!item.pinned}>
-                  <Then>
-                      <PostItem
-                        date = {item.date}
-                        tag = {item.tag}
-                        thumbnail = {item.thumbnail}
-                        title = {item.title}
-                        url = {item.url} />
+                    <Then>
+                      <If condition={categoryID == null}>
+                        <Then>
+                          <PostItem
+                            date = {item.date}
+                            tag = {item.tag}
+                            thumbnail = {item.thumbnail}
+                            title = {item.title}
+                            url = {item.url} />
+                        </Then>
+                        <Else>
+                          <If condition={categoryID == item.tag}>
+                            <Then>
+                              <PostItem
+                                date = {item.date}
+                                tag = {item.tag}
+                                thumbnail = {item.thumbnail}
+                                title = {item.title}
+                                url = {item.url} />
+                            </Then>
+                          </If>
+                        </Else>
+                      </If>
                     </Then>
                   </If>
                   <br/><br/>
