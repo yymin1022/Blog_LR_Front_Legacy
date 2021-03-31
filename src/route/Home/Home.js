@@ -10,16 +10,17 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {};
+    this.categoryID = "";
   }
 
   componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
-    const categoryID = params.get('category');
-    
-    alert(categoryID);
+    this.categoryID = params.get('category');D);
   }
 
   render() {
+    alert(this.categoryID);
+    
     return(
       <div align="center">
         <div>
