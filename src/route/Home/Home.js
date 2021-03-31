@@ -106,6 +106,7 @@ class Home extends Component {
             })
           }
         </div>
+        <br/><br/><br/>
       </div>
     )
   }
