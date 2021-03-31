@@ -72,11 +72,11 @@ class Home extends Component {
             postDB.map(item => {
               return(
                 <div>
-                  <br/>
                   <If condition={!item.pinned}>
                     <Then>
                       <If condition={categoryID == null}>
                         <Then>
+                          <br/>
                           <PostItem
                             date = {item.date}
                             tag = {item.tag}
@@ -87,6 +87,7 @@ class Home extends Component {
                         <Else>
                           <If condition={categoryID == item.tag}>
                             <Then>
+                              <br/>
                               <PostItem
                                 date = {item.date}
                                 tag = {item.tag}
