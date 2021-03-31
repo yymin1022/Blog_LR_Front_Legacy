@@ -65,6 +65,7 @@ class Home extends Component {
               </div>
             </div>
           <hr style={{width: "85%"}}/>
+          <br/>
         </Then>
       </If>
         <div style={{width: "100%"}}>
