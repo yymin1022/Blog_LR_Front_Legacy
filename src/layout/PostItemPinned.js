@@ -73,12 +73,12 @@ class PostItemPinned extends Component {
             <div id="postPinnedInfo">
               <div id="postPinnedInfoTitle">
                 <p>
-                !!Pinned!! {this.title1}
+                {this.title1}
                 </p>
               </div>
               <div id="postPinnedInfoTag">
                 <p>
-                  #{this.tag1}
+                  {this.tag1}
                 </p>
               </div>
               <div id="postPinnedInfoDate">
@@ -98,12 +98,12 @@ class PostItemPinned extends Component {
             <div id="postPinnedInfo">
               <div id="postPinnedInfoTitle">
                 <p>
-                !!Pinned!! {this.title2}
+                {this.title2}
                 </p>
               </div>
               <div id="postPinnedInfoTag">
                 <p>
-                  #{this.tag2}
+                  {this.tag2}
                 </p>
               </div>
               <div id="postPinnedInfoDate">
@@ -123,12 +123,12 @@ class PostItemPinned extends Component {
             <div id="postPinnedInfo">
               <div id="postPinnedInfoTitle">
                 <p>
-                !!Pinned!! {this.title3}
+                {this.title3}
                 </p>
               </div>
               <div id="postPinnedInfoTag">
                 <p>
-                  #{this.tag3}
+                  {this.tag3}
                 </p>
               </div>
               <div id="postPinnedInfoDate">
