@@ -4,7 +4,7 @@ import './PostItem.css';
 
 class PostItem extends Component {
   constructor() {
-    super();
+    super(props);
     this.state = {};
 
     this.date = this.props.date;
