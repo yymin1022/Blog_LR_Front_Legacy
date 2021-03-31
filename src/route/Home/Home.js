@@ -95,10 +95,10 @@ class Home extends Component {
                             </Then>
                           </If>
                         </Else>
+                        <br/><br/>
                       </If>
                     </Then>
                   </If>
-                  <br/><br/>
                 </div>
               );
             })
