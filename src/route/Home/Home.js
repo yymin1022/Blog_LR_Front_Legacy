@@ -56,7 +56,6 @@ class Home extends Component {
           
         </div>
         <hr style={{width: "85%"}}/>
-        <br/>
         <div style={{width: "100%"}}>
           {
             postDB.map(item => {
@@ -72,7 +71,7 @@ class Home extends Component {
                         url = {item.url} />
                     </Then>
                   </If>
-                  <br/>
+                  <br/><br/>
                 </div>
               );
             })
