@@ -19,48 +19,52 @@ class Home extends Component {
   }
 
   render() {
-    alert(this.categoryID);
+    const categoryID = this.categoryID;
 
     return(
       <div align="center">
         <div>
-          <div style={{width: "85%"}} align="left">
-            {
-              postDB.map(item => {
-                return(
-                  <div>
-                    <If condition={item.pinned}>
-                      <Then>
-                        <a style={{textSize: "25px"}}>
-                          # Pinned
-                        </a>
-                        <br/><br/>
-                        <PostItemPinned
-                          date1 = {item.date1}
-                          tag1 = {item.tag1}
-                          thumbnail1 = {item.thumbnail1}
-                          title1 = {item.title1}
-                          url1 = {item.url1}
-                          
-                          date2 = {item.date2}
-                          tag2 = {item.tag2}
-                          thumbnail2 = {item.thumbnail2}
-                          title2 = {item.title2}
-                          url2 = {item.url2}
-                          
-                          date3 = {item.date3}
-                          tag3 = {item.tag3}
-                          thumbnail3 = {item.thumbnail3}
-                          title3 = {item.title3}
-                          url3 = {item.url3} />
-                          <br/><br/>
-                      </Then>
-                    </If>
-                  </div>
-                );
-              })
-            }
-          </div>
+          <If condition={categoryID != "null"}>
+            <Then>
+              <div style={{width: "85%"}} align="left">
+                {
+                  postDB.map(item => {
+                    return(
+                      <div>
+                        <If condition={item.pinned}>
+                          <Then>
+                            <a style={{textSize: "25px"}}>
+                              # Pinned
+                            </a>
+                            <br/><br/>
+                            <PostItemPinned
+                              date1 = {item.date1}
+                              tag1 = {item.tag1}
+                              thumbnail1 = {item.thumbnail1}
+                              title1 = {item.title1}
+                              url1 = {item.url1}
+                              
+                              date2 = {item.date2}
+                              tag2 = {item.tag2}
+                              thumbnail2 = {item.thumbnail2}
+                              title2 = {item.title2}
+                              url2 = {item.url2}
+                              
+                              date3 = {item.date3}
+                              tag3 = {item.tag3}
+                              thumbnail3 = {item.thumbnail3}
+                              title3 = {item.title3}
+                              url3 = {item.url3} />
+                              <br/><br/>
+                          </Then>
+                        </If>
+                      </div>
+                    );
+                  })
+                }
+              </div>
+            </Then>
+          </If>
           
         </div>
         <hr style={{width: "85%"}}/>
