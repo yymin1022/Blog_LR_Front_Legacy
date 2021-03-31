@@ -22,6 +22,7 @@
 }
 
 #postPinnedInfoTag p{
+    color: #606060;
     font-size: 15px;
 }
 
@@ -37,6 +38,7 @@
 }
 
 #postPinnedInfoTitle p{
+    color: #2476FF;
     font-size: 25px;
 }
 
