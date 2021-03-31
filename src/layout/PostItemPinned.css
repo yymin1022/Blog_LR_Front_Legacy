@@ -32,7 +32,12 @@
 #postPinned{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+#postPinned a{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #postPinnedInfoTitle p{
