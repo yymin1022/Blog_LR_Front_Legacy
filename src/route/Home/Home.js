@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {If, Then} from 'react-if';
+import {If, Else, Then} from 'react-if';
 
 import PostItem from '/home/server/web/src/layout/PostItem';
 import PostItemPinned from '/home/server/web/src/layout/PostItemPinned';
