@@ -24,7 +24,7 @@ class Home extends Component {
     return(
       <div align="center">
         <div>
-          <If condition={categoryID != "null"}>
+          <If condition={categoryID != null}>
             <Then>
               <div style={{width: "85%"}} align="left">
                 {
