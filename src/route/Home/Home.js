@@ -20,13 +20,12 @@ class Home extends Component {
 
   render() {
     const categoryID = this.categoryID;
-
-    alert(categoryID != null);
+    const pinnedEnabled = (categoryID != null);
 
     return(
       <div align="center">
         <div>
-          <If condition={categoryID != null}>
+          <If condition={pinnedEnabled}>
             <Then>
               <div style={{width: "85%"}} align="left">
                 {
