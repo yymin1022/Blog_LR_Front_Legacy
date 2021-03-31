@@ -21,12 +21,12 @@ class Home extends Component {
               postDB.map(item => {
                 return(
                   <div>
-                    <a style={{textSize: "25px"}}>
-                      # Pinned
-                    </a>
-                    <br/>
                     <If condition={item.pinned}>
                       <Then>
+                        <a style={{textSize: "25px"}}>
+                          # Pinned
+                        </a>
+                        <br/>
                         <PostItemPinned
                           date1 = {item.date1}
                           tag1 = {item.tag1}
