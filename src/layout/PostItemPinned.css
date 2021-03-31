@@ -13,7 +13,7 @@
     margin-top: 5px;
 }
 
-#postInfoDate a{
+#postInfoDate p{
     color: #808080;
     font-size: 15px;
 }
@@ -22,7 +22,7 @@
     margin-top: 20px;
 }
 
-#postInfoTag a{
+#postInfoTag p{
     font-size: 15px;
 }
 
@@ -30,7 +30,7 @@
     
 }
 
-#postInfoTitle a{
+#postInfoTitle p{
     font-size: 25px;
 }
 
