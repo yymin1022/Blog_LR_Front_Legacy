@@ -10,9 +10,9 @@
 
 <h3>Awards</h3>
 <ul>
-  <li>2017 STEAM R&E 한국과학창의재단 이사장상 : 보행자의 안전성을 고려하며 IT기술을 활용한 신호등 개선방안 / <a href="https://steam.kofac.re.kr/?p=11978" target="_sub">상세보기</a></li>
-  <li>2017 서울시 앱공모전 예선 당선 : 너 왜 거기있어 - 분실물 조회 서비스</li>
-  <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다 / <a href="https://www.seoulappcontest.org/web/info/winnerView.do?idx=110&year=2019&type=win" target="_sub">상세보기</a></li>
+  <li>2017 STEAM R&E 한국과학창의재단 이사장상 : 보행자의 안전성을 고려하며 IT기술을 활용한 신호등 개선방안 / <a href="https://steam.kofac.re.kr/?p=11978" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/Pedetector" target="_sub">소스코드</a></li>
+  <li>2017 서울시 앱공모전 예선 당선 : 너 왜 거기있어 - 분실물 조회 서비스 / <a href="https://github.com/yymin1022/WhyAreYouHere" target="_sub">소스코드</a></li>
+  <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다 / <a href="https://www.seoulappcontest.org/web/info/winnerView.do?idx=110&year=2019&type=win" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/SeoulHealing" target="_sub">소스코드</a></li>
 </ul>
 
 <hr/>
@@ -43,8 +43,13 @@
 <ul>
   <li>Android - Screen Saver / <a href="https://github.com/yymin1022/ScreenSaver" target="_sub">소스코드</a></li>
   <li>Android - Soul Rest / <a href="https://github.com/yymin1022/SeoulHealing" target="_sub">소스코드</a></li>
-  <li>Android Porting - IM-100 Keyboard / <a href="https://github.com/yymin1022/IM-100_Keyboard" target="_sub">소스코드</a></li>
-  <li>Android Porting - IM-100 MusicPlayer / <a href="https://github.com/yymin1022/IM-100_Music" target="_sub">소스코드</a></li>
+  <li>Android - Why Are You Here / <a href="https://github.com/yymin1022/WhyAreYouHere" target="_sub">소스코드</a></li>
+  <li>Android Porting - LG G5 Launcher / <a href="https://github.com/yymin1022/G5_Launcher" target="_sub">소스코드</a></li>
+  <li>Android Porting - LG G5 Live Wallpaper / <a href="https://github.com/yymin1022/G5_LiveWallpapers" target="_sub">소스코드</a></li>
+  <li>Android Porting - Pantech IM-100 Keyboard / <a href="https://github.com/yymin1022/IM-100_Keyboard" target="_sub">소스코드</a></li>
+  <li>Android Porting - Pantech IM-100 MusicPlayer / <a href="https://github.com/yymin1022/IM-100_Music" target="_sub">소스코드</a></li>
+  <li>Arduino && Android - Pedetector / <a href="https://github.com/yymin1022/Pedetector" target="_sub">소스코드</a></li>
+  <li>Arduino && Android - RemoteFinder / <a href="https://github.com/yymin1022/RemoteFinder" target="_sub">소스코드</a></li>
   <li>Java - STONE Manager for Windows / <a href="https://github.com/yymin1022/StoneManager_JAVA" target="_sub">소스코드</a></li>
   <li>Python - Synology DownloadStation Client / <a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">소스코드</a></li>
   <li>Python - Telegram Chat Bot for CAU Meal Noti / <a href="https://github.com/yymin1022/CAU_Meal_Bot_Telegram" target="_sub">소스코드</a></li>
