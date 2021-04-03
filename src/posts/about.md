@@ -72,12 +72,15 @@
 
 <h3>Contact Me Online</h3>
 
-<a href="https://github.com/yymin1022" target="_sub">Github</a>
+<ul>
+  <li><a href="https://github.com/yymin1022" target="_sub">Github</a></li>
+  <li><a href="https://play.google.com/store/apps/developer?id=Dev.+LR" target="_sub">Google Play</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=100007285635473" target="_sub">Facebook</a></li>
+  <li><a href="https://instagram.com/useful_min" target="_sub">Instagram</a></li>
+  <li><a href="https://twitter.com/yymin1022" target="_sub">Twitter</a></li>
+</ul>
+
 <br/>
-<a href="https://play.google.com/store/apps/developer?id=Dev.+LR" target="_sub">Google Play</a>
 <br/>
-<a href="https://www.facebook.com/profile.php?id=100007285635473" target="_sub">Facebook</a>
 <br/>
-<a href="https://instagram.com/useful_min" target="_sub">Instagram</a>
 <br/>
-<a href="https://twitter.com/yymin1022" target="_sub">Twitter</a>
