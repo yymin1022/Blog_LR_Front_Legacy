@@ -19,7 +19,7 @@ const Container = styled.div`
   height: 56px;
   width: 100%;
 
-  background-color: #2476FF;
+  background-color: #164EAB;
 `;
 
 const useStyles = makeStyles((theme) => ({
