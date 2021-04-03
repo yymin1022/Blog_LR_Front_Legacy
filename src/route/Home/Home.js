@@ -36,7 +36,7 @@ class Home extends Component {
                         <If condition={item.pinned}>
                           <Then>
                             <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
-                            <a style={{color: "#606060", textSize: "25px"}}>
+                            <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
                               Pinned
                             </a>
                             <br/><br/>
