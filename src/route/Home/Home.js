@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {If, Else, Then} from 'react-if';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
 import PostItem from '/home/server/web/src/layout/PostItem';
 import PostItemPinned from '/home/server/web/src/layout/PostItemPinned';
@@ -33,8 +35,9 @@ class Home extends Component {
                       <div>
                         <If condition={item.pinned}>
                           <Then>
+                            <FontAwesomeIcon icon={faThumbtack} size="2x"/>
                             <a style={{textSize: "25px"}}>
-                              # Pinned
+                              Pinned
                             </a>
                             <br/><br/>
                             <PostItemPinned
