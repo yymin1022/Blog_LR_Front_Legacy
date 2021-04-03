@@ -1,9 +1,9 @@
 <h3>Who am I?</h3>
 
 <ul>
-  <li>중앙대학교 소프트웨어학부</li>
+  <li>중앙대학교 소프트웨어학부 19학번</li>
   <li>대학생 1인 개발자</li>
-  <li>대한민국 공군 ROKAF 체계운영병</li>
+  <li>대한민국 공군 ROKAF 병 819기 체계운영병</li>
   <li><a href="https://defcon.or.kr" target="_sub">Def:Con</a> - 대학생 프로그래밍 팀</li>
 </ul>
 
@@ -51,6 +51,7 @@
   <li>Java : Console / Swing GUI</li>
   <li>Linux : Apache2 Hosting / Kernel Build / OS Management / Server Management</li>
   <li>Python : Console / QT GUI / Telegram Bot</li>
+  <li>React.js : Studying</li>
   <li>Web : HTML (But it is not Programming) / JS / php / Python Flask</li>
 </ul>
 
@@ -61,8 +62,8 @@
 <ul>
   <li>PC : Ubuntu 20.04 LTS on LG Gram15 2019 with i5 8265u / DDR4 16GB / 512GB NVMe + 256GB SATA</li>
   <li>NAS : XPEnology 6.2.3 on ODroid H2 with Celeron J4105 / DDR4 16GB / 128GB NVMe + 2TB HDD + 16GB eMMC</li>
-  <li>Phone : Main with Google Pixel 2XL with Android 11<br/>
-  Sub with Apple iPhone X with iOS 14</li>
+  <li>Phone : Main with Apple iPhone X with iOS 14<br/>
+  Sub with Google Pixel 2XL with Android 11</li>
   <li>Tablet : Apple iPad Pro 11" 2nd with iPadOS 14<br/>
   Cube iWork10 Ultimate with Windows10 + Android 6.0 Dual Boot</li>
   <li>Watch : LG Watch W7 with WearOS 2.0</li>
