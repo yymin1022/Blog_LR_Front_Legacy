@@ -32,7 +32,7 @@ class PostItemPinned extends Component {
         this.tag1 = "#Development #Programming"
         break;
       case "os":
-        this.tag1 = "#OS #Android #Linux #MacOS #Unix #Windows"
+        this.tag1 = "#OS #Linux #Unix #Windows"
         break;
       case "synology":
         this.tag1 = "#Synology #XPEnology"
@@ -43,7 +43,7 @@ class PostItemPinned extends Component {
         this.tag2 = "#Development #Programming"
         break;
       case "os":
-        this.tag2 = "#OS #Android #Linux #MacOS #Unix #Windows"
+        this.tag2 = "#OS #Linux #Unix #Windows"
         break;
       case "synology":
         this.tag2 = "#Synology #XPEnology"
@@ -54,7 +54,7 @@ class PostItemPinned extends Component {
         this.tag3 = "#Development #Programming"
         break;
       case "os":
-        this.tag3 = "#OS #Android #Linux #MacOS #Unix #Windows"
+        this.tag3 = "#OS #Linux #Unix #Windows"
         break;
       case "synology":
         this.tag3 = "#Synology #XPEnology"

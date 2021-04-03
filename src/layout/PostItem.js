@@ -20,7 +20,7 @@ class PostItem extends Component {
         this.tag = "#Development #Programming"
         break;
       case "os":
-        this.tag = "#OS #Android #Linux #MacOS #Unix #Windows"
+        this.tag = "#OS #Linux #Unix #Windows"
         break;
       case "synology":
         this.tag = "#Synology #XPEnology"
