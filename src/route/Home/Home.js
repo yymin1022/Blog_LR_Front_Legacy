@@ -28,11 +28,14 @@ class Home extends Component {
         <If condition={categoryID == null}>
           <Then>
             <div>
-              <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
-              <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
-                Pinned
-              </a>
-              <br/><br/>
+              <div>
+                <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
+                <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
+                  Pinned
+                </a>
+                <br/>
+              </div>
+              
               <div style={{width: "100%", display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
                 {
                   postDB.map(item => {
