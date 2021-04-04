@@ -38,7 +38,7 @@ class Home extends Component {
                 <br/>
               </div>
               
-              <div style={{width: "100%", display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+              <div className="postPinnedContainer">
                 {
                   postDB.map(item => {
                     return(
@@ -84,7 +84,7 @@ class Home extends Component {
             <br/>
           </Then>
         </If>
-        <div style={{width: "80%", display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+        <div className="postContainer">
           {
             postDB.map(item => {
               return(
