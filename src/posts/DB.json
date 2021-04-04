@@ -5,7 +5,7 @@
         "tag": "dev",
         "thumbnail": "210326-test-pinned-1",
         "title": "Test Pinned 1",
-        "url": "/postview?id=210326-test-pinned-1",
+        "url": "/postview?id=210326-test-pinned-1"
     },
     {
         "date": "Mar 26, 2021",
@@ -13,7 +13,7 @@
         "tag": "os",
         "thumbnail": "210326-test-pinned-2",
         "title": "Test Pinned 2",
-        "url": "/postview?id=210326-test-pinned-2",
+        "url": "/postview?id=210326-test-pinned-2"
     },
     {
         "date": "Mar 27, 2021",
