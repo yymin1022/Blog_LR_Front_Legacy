@@ -28,7 +28,7 @@ class Home extends Component {
         <If condition={categoryID == null}>
           <Then>
             <div>
-              <div>
+              <div align="left">
                 <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                 <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
                   Pinned
