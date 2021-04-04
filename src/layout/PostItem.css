@@ -55,3 +55,65 @@
 a{
     text-decoration: none;
 }
+
+/* Mobile UI */
+@media screen and (max-width: 768px){
+    #postItem{
+        border: 1px solid #AAAAAA;
+        display: flex;
+        height: 150px;
+        width: 350px;
+    }
+    
+    #postInfo{
+        margin: 10px;
+    }
+
+    #postInfoDate{
+        margin-top: -10px;
+    }
+    
+    #postInfoDate p{
+        color: #808080;
+        font-size: 15px;
+    }
+    
+    #postInfoTag{
+        margin-top: 20px;
+    }
+    
+    #postInfoTag p{
+        color: #606060;
+        font-size: 17px;
+    }
+    
+    #post{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #post a{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #postInfoTitle p{
+        color: #164EAB;
+        font-size: 25px;
+    }
+    
+    #postThumbnail{
+        height: 150px;
+        width: 150px;
+    }   
+    
+    #postThumbnail img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+}
