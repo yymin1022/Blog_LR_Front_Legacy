@@ -1,8 +1,7 @@
 #postItem{
     border: 1px solid #AAAAAA;
-    display: flex;
-    height: 200px;
-    width: 75%;
+    height: 450px;
+    width: 300px;
 }
 
 #postInfo{
@@ -27,14 +26,25 @@
     font-size: 17px;
 }
 
+#post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#post a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 #postInfoTitle p{
     color: #164EAB;
     font-size: 25px;
 }
 
 #postThumbnail{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }   
 
 #postThumbnail img{

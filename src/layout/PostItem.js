@@ -31,22 +31,22 @@ class PostItem extends Component {
   render() {
     return(
       <a href={this.url}>
-        <div id="postPinnedItem" align="left">
-          <div id="postPinnedThumbnail">
+        <div id="postItem" align="left">
+          <div id="postThumbnail">
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
           </div>
-          <div id="postPinnedInfo">
+          <div id="postInfo">
             <div id="postPinnedInfoTitle">
               <p>
               {this.title}
               </p>
             </div>
-            <div id="postPinnedInfoTag">
+            <div id="postInfoTag">
               <p>
                 {this.tag}
               </p>
             </div>
-            <div id="postPinnedInfoDate">
+            <div id="postInfoDate">
               <p>
                 {this.date}
               </p>
