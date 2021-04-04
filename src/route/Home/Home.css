@@ -17,3 +17,26 @@
 .seperator{
     width: 75%;
 }
+
+/* Mobile UI */
+@media screen and (max-width: 768px){
+    .postContainer{
+        width: 80%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .postPinnedContainer{
+        width: 100%;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .seperator{
+        width: 90%;
+    }
+}
