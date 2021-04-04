@@ -37,26 +37,27 @@ class Home extends Component {
                           <Then>
                             <If condition={categoryID == null}>
                               <Then>
-                                <PostItemPinned
-                                  style={{margin: "20px"}}
-
-                                  date = {item.date}
-                                  tag = {item.tag}
-                                  thumbnail = {item.thumbnail}
-                                  title = {item.title}
-                                  url = {item.url} />
+                                <div style={{margin: "20px"}}>
+                                  <PostItemPinned
+                                    date = {item.date}
+                                    tag = {item.tag}
+                                    thumbnail = {item.thumbnail}
+                                    title = {item.title}
+                                    url = {item.url} />
+                                </div>
                               </Then>
                               <Else>
                                 <If condition={categoryID == item.tag}>
                                   <Then>
-                                    <PostItemPinned
-                                      style={{margin: "20px"}}
-
-                                      date = {item.date}
-                                      tag = {item.tag}
-                                      thumbnail = {item.thumbnail}
-                                      title = {item.title}
-                                      url = {item.url} />
+                                    <div style={{margin: "20px"}}>
+                                      <PostItemPinned
+                                        date = {item.date}
+                                        tag = {item.tag}
+                                        thumbnail = {item.thumbnail}
+                                        title = {item.title}
+                                        url = {item.url} />
+                                    </div>
+                                    
                                   </Then>
                                 </If>
                               </Else>
@@ -77,34 +78,34 @@ class Home extends Component {
           {
             postDB.map(item => {
               return(
-                <div style={{margin: "20px"}}>
+                <div>
                   <If condition={!item.pinned}>
                     <Then>
                       <If condition={categoryID == null}>
                         <Then>
                           <br/>
-                          <PostItem
-                            style={{margin: "20px"}}
-                            
-                            date = {item.date}
-                            tag = {item.tag}
-                            thumbnail = {item.thumbnail}
-                            title = {item.title}
-                            url = {item.url} />
+                          <div style={{margin: "20px"}}>
+                            <PostItem
+                              date = {item.date}
+                              tag = {item.tag}
+                              thumbnail = {item.thumbnail}
+                              title = {item.title}
+                              url = {item.url} />
+                          </div>
                           <br/>
                         </Then>
                         <Else>
                           <If condition={categoryID == item.tag}>
                             <Then>
                               <br/>
-                              <PostItem
-                                style={{margin: "20px"}}
-                                
-                                date = {item.date}
-                                tag = {item.tag}
-                                thumbnail = {item.thumbnail}
-                                title = {item.title}
-                                url = {item.url} />
+                              <div style={{margin: "20px"}}>
+                                <PostItem
+                                  date = {item.date}
+                                  tag = {item.tag}
+                                  thumbnail = {item.thumbnail}
+                                  title = {item.title}
+                                  url = {item.url} />
+                              </div>
                               <br/>
                             </Then>
                           </If>
