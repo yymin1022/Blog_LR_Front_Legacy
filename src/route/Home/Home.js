@@ -71,11 +71,11 @@ class Home extends Component {
           <br/>
         </Then>
       </If>
-        <div style={{width: "100%", margin: "20px", display: "flex", flexWrap: "wrap"}}>
+        <div style={{width: "100%", display: "flex", flexWrap: "wrap"}}>
           {
             postDB.map(item => {
               return(
-                <div>
+                <div style={{margin: "20px"}}>
                   <If condition={!item.pinned}>
                     <Then>
                       <If condition={categoryID == null}>
