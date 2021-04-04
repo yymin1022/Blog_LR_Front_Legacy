@@ -71,7 +71,7 @@ class Home extends Component {
           <br/>
         </Then>
       </If>
-        <div style={{width: "100%", display: "flex", flexWrap: "wrap"}}>
+        <div style={{width: "100%", display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
           {
             postDB.map(item => {
               return(
