@@ -1,8 +1,7 @@
 [
     {
-        "pinned": true,
-
         "date": "Mar 26, 2021",
+        "pinned": true,
         "tag": "dev",
         "thumbnail": "210326-test-pinned-1",
         "title": "Test Pinned 1",
