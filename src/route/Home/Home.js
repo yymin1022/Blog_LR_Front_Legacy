@@ -37,7 +37,6 @@ class Home extends Component {
                           <Then>
                             <If condition={categoryID == null}>
                               <Then>
-                                <br/>
                                 <PostItemPinned
                                   date = {item.date}
                                   tag = {item.tag}
@@ -48,7 +47,6 @@ class Home extends Component {
                               <Else>
                                 <If condition={categoryID == item.tag}>
                                   <Then>
-                                    <br/>
                                     <PostItemPinned
                                       date = {item.date}
                                       tag = {item.tag}
