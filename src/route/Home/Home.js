@@ -8,6 +8,8 @@ import PostItemPinned from '/home/server/web/src/layout/PostItemPinned';
 
 import postDB from '/home/server/web/src/posts/DB.json';
 
+import "./Home.css";
+
 class Home extends Component {
   constructor() {
     super();
@@ -28,7 +30,7 @@ class Home extends Component {
         <If condition={categoryID == null}>
           <Then>
             <div>
-              <div align="left" style={{width: "75%"}}>
+              <div align="left" className="seperator">
                 <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                 <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
                   Pinned
@@ -78,7 +80,7 @@ class Home extends Component {
               </div>
             </div>
             <br/>
-            <hr style={{width: "75%"}}/>
+            <hr className="seperator"/>
             <br/>
           </Then>
         </If>
