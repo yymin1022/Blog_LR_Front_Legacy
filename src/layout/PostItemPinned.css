@@ -1,7 +1,8 @@
 #postPinnedItem{
     border: 1px solid #AAAAAA;
-    height: 450px;
-    width: 300px;
+    display: flex;
+    height: 200px;
+    width: 450px;
 }
 
 #postPinnedInfo{
