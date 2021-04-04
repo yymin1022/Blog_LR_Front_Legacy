@@ -44,7 +44,6 @@ class Home extends Component {
                                   thumbnail = {item.thumbnail}
                                   title = {item.title}
                                   url = {item.url} />
-                                <br/>
                               </Then>
                               <Else>
                                 <If condition={categoryID == item.tag}>
@@ -56,7 +55,6 @@ class Home extends Component {
                                       thumbnail = {item.thumbnail}
                                       title = {item.title}
                                       url = {item.url} />
-                                    <br/>
                                   </Then>
                                 </If>
                               </Else>
