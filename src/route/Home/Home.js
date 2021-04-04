@@ -28,7 +28,7 @@ class Home extends Component {
         <If condition={categoryID == null}>
           <Then>
             <div>
-              <div style={{width: "85%", display: "flex"}} align="left">
+              <div style={{width: "85%"}} align="left">
                 {
                   postDB.map(item => {
                     return(
@@ -71,7 +71,7 @@ class Home extends Component {
           <br/>
         </Then>
       </If>
-        <div style={{width: "100%"}}>
+        <div style={{width: "100%", display: "flex"}}>
           {
             postDB.map(item => {
               return(
