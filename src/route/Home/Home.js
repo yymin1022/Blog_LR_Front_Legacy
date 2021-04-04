@@ -28,7 +28,7 @@ class Home extends Component {
         <If condition={categoryID == null}>
           <Then>
             <div>
-              <div style={{width: "85%", display: flex}} align="left">
+              <div style={{width: "85%", display: "flex"}} align="left">
                 {
                   postDB.map(item => {
                     return(
