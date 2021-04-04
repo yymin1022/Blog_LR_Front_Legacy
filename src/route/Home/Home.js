@@ -28,7 +28,7 @@ class Home extends Component {
         <If condition={categoryID == null}>
           <Then>
             <div>
-              <div align="left" style={{width: "85%"}}>
+              <div align="left" style={{width: "75%"}}>
                 <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                 <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
                   Pinned
@@ -78,7 +78,7 @@ class Home extends Component {
               </div>
             </div>
             <br/>
-            <hr style={{width: "85%"}}/>
+            <hr style={{width: "75%"}}/>
             <br/>
           </Then>
         </If>
