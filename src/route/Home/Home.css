@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+.postItem{
+    margin: 20px;
+}
+
 .postPinnedContainer{
     width: 100%;
 
@@ -26,6 +30,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .postItem{
+        margin: 10px;
     }
     
     .postPinnedContainer{

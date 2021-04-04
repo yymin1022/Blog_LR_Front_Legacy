@@ -47,7 +47,7 @@ class Home extends Component {
                           <Then>
                             <If condition={categoryID == null}>
                               <Then>
-                                <div style={{margin: "20px"}}>
+                                <div className="postItem">
                                   <PostItemPinned
                                     date = {item.date}
                                     tag = {item.tag}
@@ -59,7 +59,7 @@ class Home extends Component {
                               <Else>
                                 <If condition={categoryID == item.tag}>
                                   <Then>
-                                    <div style={{margin: "20px"}}>
+                                    <div className="postItem">
                                       <PostItemPinned
                                         date = {item.date}
                                         tag = {item.tag}
@@ -93,7 +93,7 @@ class Home extends Component {
                     <Then>
                       <If condition={categoryID == null}>
                         <Then>
-                          <div style={{margin: "20px"}}>
+                          <div className="postItem">
                             <PostItem
                               date = {item.date}
                               tag = {item.tag}
@@ -105,7 +105,7 @@ class Home extends Component {
                         <Else>
                           <If condition={categoryID == item.tag}>
                             <Then>
-                              <div style={{margin: "20px"}}>
+                              <div className="postItem">
                                 <PostItem
                                   date = {item.date}
                                   tag = {item.tag}
