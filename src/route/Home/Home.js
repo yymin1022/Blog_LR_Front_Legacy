@@ -57,7 +57,6 @@ class Home extends Component {
                                         title = {item.title}
                                         url = {item.url} />
                                     </div>
-                                    
                                   </Then>
                                 </If>
                               </Else>
@@ -70,6 +69,7 @@ class Home extends Component {
                 }
               </div>
             </div>
+            <br/>
             <hr style={{width: "85%"}}/>
             <br/>
           </Then>
@@ -83,7 +83,6 @@ class Home extends Component {
                     <Then>
                       <If condition={categoryID == null}>
                         <Then>
-                          <br/>
                           <div style={{margin: "20px"}}>
                             <PostItem
                               date = {item.date}
@@ -92,12 +91,10 @@ class Home extends Component {
                               title = {item.title}
                               url = {item.url} />
                           </div>
-                          <br/>
                         </Then>
                         <Else>
                           <If condition={categoryID == item.tag}>
                             <Then>
-                              <br/>
                               <div style={{margin: "20px"}}>
                                 <PostItem
                                   date = {item.date}
@@ -106,7 +103,6 @@ class Home extends Component {
                                   title = {item.title}
                                   url = {item.url} />
                               </div>
-                              <br/>
                             </Then>
                           </If>
                         </Else>
