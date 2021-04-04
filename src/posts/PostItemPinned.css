@@ -1,0 +1,58 @@
+#postPinnedItem{
+    border: 1px solid #AAAAAA;
+    display: flex;
+    height: 200px;
+    width: 550px;
+}
+
+#postPinnedInfo{
+    margin: 20px;
+}
+
+#postPinnedInfoDate{
+    margin-top: -10px;
+}
+
+#postPinnedInfoDate p{
+    color: #808080;
+    font-size: 15px;
+}
+
+#postPinnedInfoTag{
+    margin-top: 20px;
+}
+
+#postPinnedInfoTag p{
+    color: #606060;
+    font-size: 17px;
+}
+
+#postPinned{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#postPinned a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#postPinnedInfoTitle p{
+    color: #164EAB;
+    font-size: 25px;
+}
+
+#postPinnedThumbnail{
+    height: 200px;
+    width: 200px;
+}   
+
+#postPinnedThumbnail img{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
