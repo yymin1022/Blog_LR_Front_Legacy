@@ -69,6 +69,11 @@ a{
     #postPinnedInfo{
         margin: 10px;
     }
+
+    #postPinnedInfoTitle p{
+        color: #164EAB;
+        font-size: 20px;
+    }
     
     #postPinnedThumbnail{
         height: 150px;
