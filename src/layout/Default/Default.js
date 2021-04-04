@@ -55,6 +55,7 @@ const Container = styled.div`
 
   /* Mobile UI */
   @media screen and (max-width: 768px){
+    padding-top: 70px;
     padding-left: 10px;
     padding-right: 10px;
   }
