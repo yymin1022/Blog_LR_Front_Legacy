@@ -31,22 +31,22 @@ class PostItem extends Component {
   render() {
     return(
       <a href={this.url}>
-        <div id="postItem" align="left">
-          <div id="postThumbnail">
+        <div id="postPinnedItem" align="left">
+          <div id="postPinnedThumbnail">
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
           </div>
-          <div id="postInfo">
-            <div id="postInfoTitle">
+          <div id="postPinnedInfo">
+            <div id="postPinnedInfoTitle">
               <p>
-                {this.title}
+              {this.title}
               </p>
             </div>
-            <div id="postInfoTag">
+            <div id="postPinnedInfoTag">
               <p>
                 {this.tag}
               </p>
             </div>
-            <div id="postInfoDate">
+            <div id="postPinnedInfoDate">
               <p>
                 {this.date}
               </p>
@@ -54,6 +54,31 @@ class PostItem extends Component {
           </div>
         </div>
       </a>
+
+      // <a href={this.url}>
+      //   <div id="postItem" align="left">
+      //     <div id="postThumbnail">
+      //       <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
+      //     </div>
+      //     <div id="postInfo">
+      //       <div id="postInfoTitle">
+      //         <p>
+      //           {this.title}
+      //         </p>
+      //       </div>
+      //       <div id="postInfoTag">
+      //         <p>
+      //           {this.tag}
+      //         </p>
+      //       </div>
+      //       <div id="postInfoDate">
+      //         <p>
+      //           {this.date}
+      //         </p>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </a>
     )
   }
 }
