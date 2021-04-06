@@ -23,8 +23,16 @@
 }
 
 @media screen and (max-width: 1315px){
+    .postContainer{
+        width: 700px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .postPinnedContainer{
-        width: 100%;
+        width: 700px;
     
         display: flex;
         flex-wrap: wrap;
