@@ -38,6 +38,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .seperator{
+        width: 700px;
+    }
 }
 
 /* Mobile UI */
