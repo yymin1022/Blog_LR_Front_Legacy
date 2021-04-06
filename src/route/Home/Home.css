@@ -11,7 +11,7 @@
 }
 
 .postPinnedContainer{
-    width: 1530px;
+    width: 1180px;
 
     display: flex;
     flex-wrap: wrap;
@@ -20,16 +20,6 @@
 
 .seperator{
     width: 75%;
-}
-
-@media screen and (max-width: 1640px){
-    .postPinnedContainer{
-        width: 1180px;
-    
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 
 @media screen and (max-width: 1245px){
