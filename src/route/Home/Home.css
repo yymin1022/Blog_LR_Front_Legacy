@@ -19,7 +19,7 @@
 }
 
 .seperator{
-    width: 1000px;
+    width: 1200px;
 }
 
 @media screen and (max-width: 1640px){
@@ -29,6 +29,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .seperator{
+        width: 1200px;
     }
 }
 
