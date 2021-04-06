@@ -22,20 +22,6 @@
     width: 1200px;
 }
 
-@media screen and (max-width: 1640px){
-    .postPinnedContainer{
-        width: 1180px;
-    
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .seperator{
-        width: 1200px;
-    }
-}
-
 @media screen and (max-width: 1245px){
     .postPinnedContainer{
         width: 100%;
