@@ -94,20 +94,20 @@ a{
         margin-left: 10px;
     }
 
-    #postInfoDate{
+    #postPinnedInfoDate{
         margin-top: -10px;
     }
     
-    #postInfoDate p{
+    #postPinnedInfoDate p{
         color: #808080;
         font-size: 13px;
     }
     
-    #postInfoTag{
+    #postPinnedInfoTag{
         margin-top: 20px;
     }
     
-    #postInfoTag p{
+    #postPinnedInfoTag p{
         color: #606060;
         font-size: 15px;
     }
