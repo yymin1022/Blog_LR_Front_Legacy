@@ -5,6 +5,9 @@
 }
 
 #postInfo{
+    height: 250px;
+    width: 300px;
+
     margin: 20px;
 }
 
@@ -66,6 +69,9 @@ a{
     }
     
     #postInfo{
+        height: 150px;
+        width: 200px;
+
         margin: 10px;
     }
 

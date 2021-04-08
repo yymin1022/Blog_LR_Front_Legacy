@@ -6,6 +6,9 @@
 }
 
 #postPinnedInfo{
+    height: 200px;
+    width: 350px;
+
     margin: 20px;
 }
 
@@ -67,6 +70,9 @@ a{
     }
     
     #postPinnedInfo{
+        height: 150px;
+        width: 200px;
+
         margin: 10px;
     }
 
