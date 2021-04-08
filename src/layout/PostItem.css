@@ -1,7 +1,8 @@
 #postItem{
-    border: 1px solid #AAAAAA;
     height: 450px;
     width: 300px;
+
+    border: 1px solid #AAAAAA;
 }
 
 #postInfo{
@@ -58,10 +59,11 @@ a{
 /* Mobile UI */
 @media screen and (max-width: 800px){
     #postItem{
-        border: 1px solid #AAAAAA;
-        display: flex;
         height: 150px;
         width: 350px;
+
+        border: 1px solid #AAAAAA;
+        display: flex;
     }
     
     #postInfo{
@@ -91,6 +93,8 @@ a{
 
     #postInfoTitle{
         width: 190px;
+
+        margin-top: -10px;
     }
     
     #postInfoTitle p{
