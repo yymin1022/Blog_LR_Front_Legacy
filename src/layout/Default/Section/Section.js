@@ -20,7 +20,7 @@ const Section = props => {
   return (
     <Container className={ className }>
       <Wrapper>
-        { children }
+        {children}
       </Wrapper>
     </Container>
   );
