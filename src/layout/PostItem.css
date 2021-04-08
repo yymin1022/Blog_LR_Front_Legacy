@@ -1,11 +1,11 @@
 #postItem{
     border: 1px solid #AAAAAA;
-    height: 550px;
+    height: 450px;
     width: 300px;
 }
 
 #postInfo{
-    height: 250px;
+    height: 150px;
     width: 300px;
 
     margin: 20px;
@@ -68,7 +68,7 @@ a{
         height: 150px;
         width: 200px;
 
-        margin: 10px;
+        margin-left: 10px;
     }
 
     #postInfoDate{
@@ -90,7 +90,7 @@ a{
     }
 
     #postInfoTitle{
-        margin-top: -5px;
+        width: 190px;
     }
     
     #postInfoTitle p{
