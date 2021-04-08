@@ -65,13 +65,13 @@ a{
     
     #postPinnedInfo{
         height: 200px;
-        width: 230px;
+        width: 400px;
     
         margin: 20px;
     }
 
     #postPinnedInfoTitle{
-        width: 430px;
+        width: 200px;
     
         margin-top: -5px;
     }
