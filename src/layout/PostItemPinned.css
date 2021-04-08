@@ -2,12 +2,12 @@
     border: 1px solid #AAAAAA;
     display: flex;
     height: 200px;
-    width: 550px;
+    width: 480px;
 }
 
 #postPinnedInfo{
     height: 200px;
-    width: 350px;
+    width: 280px;
 
     margin: 20px;
 }
