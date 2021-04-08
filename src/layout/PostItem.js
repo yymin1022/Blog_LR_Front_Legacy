@@ -36,7 +36,7 @@ class PostItem extends Component {
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
           </div>
           <div id="postInfo">
-            <div id="postPinnedInfoTitle">
+            <div id="postInfoTitle">
               <p>
               {this.title}
               </p>
