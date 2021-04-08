@@ -33,7 +33,7 @@ class PostItem extends Component {
       <a href={this.url}>
         <div id="postItem" align="left">
           <div id="postThumbnail">
-            <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
+            <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".jpg").default} />
           </div>
           <div id="postInfo">
             <div id="postPinnedInfoTitle">
