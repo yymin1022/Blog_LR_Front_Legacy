@@ -36,7 +36,7 @@
         "pinned": false,
         "tag": "os",
         "thumbnail": "200206 Ubuntu Software Server Change",
-        "title": "[Linux] Ubuntu 소프트웨어 서버 변경하기",
+        "title": "Ubuntu 소프트웨어 서버 변경하기",
         "url": "/postview?id=200206-ubuntu-software-server-change"
     },
     {
@@ -44,7 +44,7 @@
         "pinned": false,
         "tag": "os",
         "thumbnail": "200207 Ubuntu zsh Installation",
-        "title": "[Linux] Ubuntu 기본 쉘 zsh로 변경하고 커스텀하기",
+        "title": "Ubuntu 기본 쉘 zsh로 변경하고 커스텀하기",
         "url": "/postview?id=200207-ubuntu-zsh-installation"
     },
     {
@@ -52,7 +52,7 @@
         "pinned": false,
         "tag": "os",
         "thumbnail": "200309 15ZD990 Catalina Hackintosh",
-        "title": "[Hackintosh] LG그램15 2019 macOS 10.15 Catalina 커스텀맥",
+        "title": "LG그램15 2019 macOS 10.15 Catalina 커스텀맥",
         "url": "/postview?id=200309-15zd990-catalina-hackintosh"
     },
     {
@@ -60,7 +60,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "200311 ODroid H2 XPEnology Guide",
-        "title": "[XPEnology] 오드로이드 H2 XPEnology 설치 가이드",
+        "title": "오드로이드 H2 XPEnology 설치 가이드",
         "url": "/postview?id=200311-odroid-h2-xpenology-guide"
     },
     {
@@ -76,7 +76,7 @@
         "pinned": false,
         "tag": "dev",
         "thumbnail": "200804 STONE Manager",
-        "title": "[Windows] Pantech STONE Manager",
+        "title": "Pantech STONE Manager",
         "url": "/postview?id=200804-stone-manager"
     },
     {
@@ -84,7 +84,7 @@
         "pinned": false,
         "tag": "os",
         "thumbnail": "200814 Synology Docker Ubuntu Service Startup",
-        "title": "[Synology/Linux] Docker Ubuntu 서비스 자동시작",
+        "title": "Docker Ubuntu 서비스 자동시작",
         "url": "/postview?id=200814-synology-docker-ubuntu-service-startup"
     },
     {
@@ -92,7 +92,7 @@
         "pinned": false,
         "tag": "dev",
         "thumbnail": "200824 Synology DownloadStation Client",
-        "title": "[Windows/Linux] Synology Download Station 클라이언트 V1.0",
+        "title": "Synology Download Station 클라이언트 V1.0",
         "url": "/postview?id=200824-synology-downloadstation-client"
     },
     {
@@ -100,7 +100,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "200829 ODroid H2 XPEnology Guide New",
-        "title": "[XPEnology] 오드로이드 H2 XPEnology 6.2.3 최신버전 설치 가이드",
+        "title": "오드로이드 H2 XPEnology 6.2.3 최신버전 설치 가이드",
         "url": "/postview?id=200829-odroid-h2-xpenology-guide-new"
     },
     {
@@ -108,7 +108,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "200830 XPEnology NVMe SSD Cache Enable",
-        "title": "[XPEnology] NVMe SSD 캐시 활성화",
+        "title": "XPEnology NVMe SSD 캐시 활성화",
         "url": "/postview?id=200830-xpenology-nvme-ssd-cache-enable"
     },
     {
@@ -116,7 +116,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "200830 XPEnology synoboot mount",
-        "title": "[XPEnology] XPEnology 내부에서 synoboot 마운트하기",
+        "title": "XPEnology 내부에서 synoboot 마운트하기",
         "url": "/postview?id=200830-xpenology-synoboot-mount"
     },
     {
@@ -124,7 +124,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "200830 XPEnology Virtual DSM Serial Number Patch",
-        "title": "[XPEnology] 가상DSM 시리얼로 정품 Synology 기능 사용하기",
+        "title": "XPEnology 가상DSM 시리얼로 정품 Synology 기능 사용하기",
         "url": "/postview?id=200830-xpenology-virtual-dsm-serial-number-patch"
     },
     {
@@ -132,7 +132,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "200901 Synology Jellyfin Install",
-        "title": "[Synology] Jellyfin 설치로 미디어스트리밍 서비스 구축하기",
+        "title": "Synology Jellyfin 설치로 미디어스트리밍 서비스 구축하기",
         "url": "/postview?id=200901-synology-jellyfin-install"
     },
     {
@@ -140,7 +140,7 @@
         "pinned": false,
         "tag": "dev",
         "thumbnail": "200902 Synology DownloadStation Client New",
-        "title": "[Windows/Linux] Synology Download Station 클라이언트 V1.1",
+        "title": "Synology Download Station 클라이언트 V1.1",
         "url": "/postview?id=200902-synology-downloadstation-client-new"
     },
     {
@@ -148,7 +148,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "201224 XPEnology CPU Info Change",
-        "title": "[XPEnology] 정보센터의 CPU정보를 실제 CPU 정보로 변경하기",
+        "title": "XPEnology 정보센터의 CPU정보를 실제 CPU 정보로 변경하기",
         "url": "/postview?id=201224-xpenology-cpu-info-change"
     },
     {
@@ -156,7 +156,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "210101 Synology Reverse Proxy HSTS Fix",
-        "title": "[Synology] 역방향 프록시 HSTS 문제 해결하기",
+        "title": "Synology 역방향 프록시 HSTS 문제 해결하기",
         "url": "/postview?id=210101-synology-reverse-proxy-hsts-fix"
     },
     {
@@ -172,7 +172,7 @@
         "pinned": false,
         "tag": "synology",
         "thumbnail": "210202 Synology Docker VSCode Install",
-        "title": "[Synology] Docker에 VSCode 설치해서 원격으로 코딩하기",
+        "title": "Docker에 VSCode 설치해서 원격으로 코딩하기",
         "url": "/postview?id=210202-synology-docker-vscode-install"
     }
 ]
