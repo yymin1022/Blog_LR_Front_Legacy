@@ -42,7 +42,10 @@
 
 #postInfoTitle p{
     color: #164EAB;
-    font-size: 25px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #postThumbnail{
@@ -81,7 +84,7 @@ a{
     
     #postInfoDate p{
         color: #808080;
-        font-size: 15px;
+        font-size: 13px;
     }
     
     #postInfoTag{
@@ -90,7 +93,7 @@ a{
     
     #postInfoTag p{
         color: #606060;
-        font-size: 17px;
+        font-size: 15px;
     }
     
     #post{
@@ -106,7 +109,10 @@ a{
     
     #postInfoTitle p{
         color: #164EAB;
-        font-size: 20px;
+        font-size: 17px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     
     #postThumbnail{
