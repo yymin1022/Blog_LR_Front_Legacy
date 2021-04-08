@@ -30,6 +30,12 @@
     font-size: 17px;
 }
 
+#postPinnedInfoTitle{
+    width: 430px;
+
+    margin-top: -10px;
+}
+
 #postPinnedInfoTitle p{
     color: #164EAB;
     font-size: 25px;
