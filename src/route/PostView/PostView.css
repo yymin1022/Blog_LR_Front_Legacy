@@ -3,11 +3,8 @@
 }
 
 .markdown-body .codeBlock{
-  width: 70%;
-
   background: #000000;
   color: #ffffff;
-  margin-left: 15%;
   padding: 10px;
 }
 
