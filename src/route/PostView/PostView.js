@@ -39,7 +39,7 @@ class PostView extends Component {
 
   function InlineCodeBlock(props){
     return(
-      <span className="inloneCodeBlock">
+      <span className="inlineCodeBlock">
         {props.value}
       </span>
     )
