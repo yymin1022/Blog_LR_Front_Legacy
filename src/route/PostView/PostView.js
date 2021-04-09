@@ -12,9 +12,7 @@ class PostView extends Component {
   }
 
   UNSAFE_componentWillMount() {
-    const params = new URLSearchParams(this.props.location.search);
-    const postID = params.get("id");
-    const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
+    const MDFile = require("/home/server/web/src/posts/" + this.props.match.params.id + ".md").default;
 
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
