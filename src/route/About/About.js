@@ -58,7 +58,7 @@ class About extends Component {
     const {markdown} = this.state;
 
     return(
-      <div align="left">
+      <div align="center">
         <div className="AboutContent">
           <div className="markdown-body">
             <ReactMarkdown
