@@ -74,10 +74,10 @@ class PostView extends Component {
         <ReactMarkdown
           source={markdown}
 
-          align="center"
           allowDangerousHtml={true}
           escapeHtml={false}
           skipHtml={false}
+          style={{textAlign: center}}
           renderers={{
             blockquote: BlockQuoteBlock,
             code: CodeBlock,
