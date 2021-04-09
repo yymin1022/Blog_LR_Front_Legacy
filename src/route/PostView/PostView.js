@@ -61,9 +61,9 @@ class PostView extends Component {
     const {markdown} = this.state;
 
     return(
-      <div>
-        <div className="PostViewContent" align="center">
-          <div className="markdown-body" align="center">
+      <div align="center">
+        <div className="PostViewContent">
+          <div className="markdown-body">
             <ReactMarkdown
               source={markdown}
 
