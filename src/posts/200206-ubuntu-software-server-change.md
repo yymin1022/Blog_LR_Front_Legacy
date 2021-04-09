@@ -37,7 +37,7 @@ ubuntu@desktop:~$ sudo vi /etc/apt/sources.list
 ```
 
 <center>
-<img src={require("/home/server/web/src/posts/200206 Ubuntu Software Server Change/1_before.png").default} style="width: 75%;">
+<img src="/home/server/web/src/posts/200206 Ubuntu Software Server Change/1_before.png"} style="width: 75%;">
 </center>
 
 ```/etc/apt``` 디렉터리에 위치한 ```sources.list``` 파일이 열렸습니다.<br>
