@@ -27,11 +27,11 @@ Synology NAS에서는 기본적으로 NVMe SSD를 이용한<br>
 <a href="https://xpenology.com/forum/topic/13342-nvme-cache-support/" target="_sub">XPEnology Forum 게시글</a>
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/1_forum_sh.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/1_forum_sh.png" style="width: 75%;">
 </center>
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/2_forum_lib.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/2_forum_lib.png" style="width: 75%;">
 </center>
 
 해당 게시글에서 받아야 하는 파일은<br>
@@ -42,7 +42,7 @@ Synology NAS에서는 기본적으로 NVMe SSD를 이용한<br>
 저는 볼륨1에 위치한 Download라는 공유폴더에 업로드 해주었습니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/3_file_locate.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/3_file_locate.png" style="width: 75%;">
 </center>
 
 이후, 제어판에서 ssh 기능을 활성화해준 뒤<br>
@@ -58,7 +58,7 @@ ssh에 정상적으로 접속되었다면,<br>
 파일이 저장된 올바른 위치로 ```cd``` 해줍니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/4_ssh_login.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/4_ssh_login.png" style="width: 75%;">
 </center>
 
 해당 디렉터리로 이동해 ```ls -al```을 실행했을 때<br>
@@ -68,7 +68,7 @@ sh 스크립트 파일과 라이브러리 파일이 정상적으로 보인다면
 이제, ```sudo``` 권한으로 sh파일을 실행해줍니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/5_ssh_sh.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/5_ssh_sh.png" style="width: 75%;">
 </center>
 
 비밀번호를 올바르게 입력하고나면,<br>
@@ -82,13 +82,13 @@ admin@Synology:/volume1/Download $ cp libsynonvme.so.1 /usr/lib64/libsynonvme.so
 ```
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/6_ssh_lib.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/6_ssh_lib.png" style="width: 75%;">
 </center>
 
 복사를 완료했다면, ```XPEnology``` 를 재부팅 해줍니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/7_ssd_setup_1.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/7_ssd_setup_1.png" style="width: 75%;">
 </center>
 
 정상적으로 적용되었다면, 저장소 관리자의 SSD 캐시 메뉴에서 생성 버튼이 활성화됩니다.​
@@ -96,7 +96,7 @@ admin@Synology:/volume1/Download $ cp libsynonvme.so.1 /usr/lib64/libsynonvme.so
 생성 버튼을 클릭하고, 지시에 따라 작업을 진행해줍니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/8_ssd_setup_2.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/8_ssd_setup_2.png" style="width: 75%;">
 </center>
 
 SSD가 여러개라면, 읽기와 쓰기에 각각 할당해줄 수 있지만,<br>
@@ -104,7 +104,7 @@ SSD가 여러개라면, 읽기와 쓰기에 각각 할당해줄 수 있지만,<b
 읽기 전용으로만 생성해보겠습니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/9_ssd_setup_3.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/9_ssd_setup_3.png" style="width: 75%;">
 </center>
 
 캐시로 활용할 SSD와 어떤 볼륨에 활용할지 지정해줍니다.<br>
@@ -113,7 +113,7 @@ SSD가 여러개라면, 읽기와 쓰기에 각각 할당해줄 수 있지만,<b
 볼륨 2에 SSD 캐시를 마운트해보겠습니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/10_ssd_setup_4.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/10_ssd_setup_4.png" style="width: 75%;">
 </center>
 
 캐시로 사용할 파티션 크기를 지정하고,<br>
@@ -121,11 +121,11 @@ SSD가 포맷된다는 경고문을 확인하고 나면<br>
 캐시로 SSD를 할당하는 작업이 수행됩니다.
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/11_ssd_setup_complete.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/11_ssd_setup_complete.png" style="width: 75%;">
 </center>
 
 <center>
-<img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/12_ssd_cache.png" style="width: 75%;">
+<img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/12_ssd_cache.png" style="width: 75%;">
 </center>
 
 과정이 정상적으로 수행되었다면,<br>
