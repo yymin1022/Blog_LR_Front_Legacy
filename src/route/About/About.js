@@ -60,7 +60,7 @@ class About extends Component {
     return(
       <div align="center">
         <div className="AboutContent">
-          <div className="markdown-body">
+          <div className="markdown-body-about">
             <ReactMarkdown
               source={markdown}
 
