@@ -52,8 +52,12 @@ const Header = props => {
             <Typography variant="h6" className={useStyles().title}>
               LR의 IT블로그
             </Typography>
-            <Button href="/home" color="inherit">Home</Button>
-            <Button href="/about" color="inherit">About</Button>
+            <Link to={"/home"}>
+              <Button color="inherit">Home</Button>
+            </Link>
+            <Link to={"/about"}>
+              <Button color="inherit">About</Button>
+            </Link>
           </Toolbar>
         </AppBar>
       </div>
