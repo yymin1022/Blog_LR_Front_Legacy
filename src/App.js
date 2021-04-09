@@ -25,7 +25,7 @@ function App() {
           layout = {DefaultLayout}
           component = {Home} />
         <RouteLayout
-          path = '/postview'
+          path = '/postview/:id'
           layout = {DefaultLayout}
           component = {PostView} />
       </Switch>

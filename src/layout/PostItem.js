@@ -30,7 +30,7 @@ class PostItem extends Component {
 
   render() {
     return(
-      <a href={this.url}>
+      <Link to={"/postview/" + this.url}>
         <div id="postItem" align="left">
           <div id="postThumbnail">
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
@@ -53,7 +53,7 @@ class PostItem extends Component {
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     )
   }
 }
