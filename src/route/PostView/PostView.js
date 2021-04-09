@@ -19,14 +19,6 @@ class PostView extends Component {
   }
 
   render() {
-    function InlineCodeBlock(props){
-      return(
-        <span className="inloneCodeBlock">
-          {props.value}
-        </span>
-      )
-    }
-
     function BlockQuoteBlock(props) {
       return (
           <div className="quoteBlock" style={{}}>
@@ -44,7 +36,14 @@ class PostView extends Component {
             </pre>
       );
   }
-  
+
+  function InlineCodeBlock(props){
+    return(
+      <span className="inloneCodeBlock">
+        {props.value}
+      </span>
+    )
+  }
   
   function TableCellBlock(props) {
       let style = {
