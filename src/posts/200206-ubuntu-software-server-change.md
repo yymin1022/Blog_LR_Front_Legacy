@@ -36,10 +36,8 @@ gedit, nano 등 더 익숙하신 에디터를 이용해 작업하셔도 무방�
 ubuntu@desktop:~$ sudo vi /etc/apt/sources.list
 ```
 
-![](/home/server/web/src/posts/200206 Ubuntu Software Server Change/1_before.png =100x200)
-
 <center>
-<img src="/home/server/web/src/posts/200206 Ubuntu Software Server Change/1_before.png"} style="width: 75%;">
+<img src="/PostImages/200206 Ubuntu Software Server Change/1_before.png"} style="width: 75%;">
 </center>
 
 ```/etc/apt``` 디렉터리에 위치한 ```sources.list``` 파일이 열렸습니다.<br>
