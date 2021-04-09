@@ -1,5 +1,7 @@
 .AboutContent{
   width: 800px;
+
+  text-align: left;
 }
 
 .markdown-body{
