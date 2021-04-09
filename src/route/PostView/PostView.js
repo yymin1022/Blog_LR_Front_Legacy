@@ -77,7 +77,6 @@ class PostView extends Component {
           allowDangerousHtml={true}
           escapeHtml={false}
           skipHtml={false}
-          style={{textAlign: "center"}}
           renderers={{
             blockquote: BlockQuoteBlock,
             code: CodeBlock,

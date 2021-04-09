@@ -1,3 +1,7 @@
+.markdown-body{
+  text-align: center;
+}
+
 .markdown-body .codeBlock{
   background: #000000;
   color: #ffffff;
