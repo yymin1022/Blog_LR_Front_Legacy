@@ -54,10 +54,10 @@ const Header = props => {
               LR의 IT블로그
             </Typography>
             <Link to={"/home"}>
-              <Button color="inherit">Home</Button>
+              <Button color="#FFFFFF">Home</Button>
             </Link>
             <Link to={"/about"}>
-              <Button color="inherit">About</Button>
+              <Button color="#FFFFFF">About</Button>
             </Link>
           </Toolbar>
         </AppBar>
