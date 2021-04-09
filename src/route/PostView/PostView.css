@@ -4,6 +4,15 @@
   text-align: center;
 }
 
+/* Mobile UI */
+@media screen and (max-width: 920px){
+  .markdown-body{
+    width: 100%;
+  
+    text-align: center;
+  }
+}
+
 .markdown-body .codeBlock{
   background: #000000;
   color: #ffffff;
