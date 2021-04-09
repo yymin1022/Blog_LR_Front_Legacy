@@ -1,18 +1,18 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from "react-markdown";
 
-import './PostView.css';
+import "./PostView.css";
 
 class PostView extends Component {
   constructor() {
     super();
-    this.state = { markdown: '' };
+    this.state = { markdown: "" };
   }
 
   UNSAFE_componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
-    const postID = params.get('id');
+    const postID = params.get("id");
     const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
     fetch(MDFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
@@ -47,17 +47,17 @@ class PostView extends Component {
   
   function TableCellBlock(props) {
       let style = {
-          textAlign: props.align ? props.align : 'center',
+          textAlign: props.align ? props.align : "center",
           padding: 5
       };
   
       if (props.isHeader) {
-          style.background = '#ffff00';
-          style.border = '1px solid #cccccc';
+          style.background = "#ffff00";
+          style.border = "1px solid #cccccc";
           style.borderLeft = 0;
           style.borderRight = 0;
       } else {
-          style.borderBottom = '1px solid #eeeeee';
+          style.borderBottom = "1px solid #eeeeee";
       }
   
       return (
@@ -70,14 +70,14 @@ class PostView extends Component {
     const {markdown} = this.state;
 
     return(
-      <div className='markdown-body'>
+      <div className="markdown-body">
         <ReactMarkdown
           source={markdown}
 
           allowDangerousHtml={true}
           escapeHtml={false}
           skipHtml={false}
-          style={{textAlign: center}}
+          style={{textAlign: "center"}}
           renderers={{
             blockquote: BlockQuoteBlock,
             code: CodeBlock,
