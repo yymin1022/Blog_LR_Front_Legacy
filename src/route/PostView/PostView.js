@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 import ReactMarkdown from "react-markdown";
 
-import "./CodeBlock";
+import CodeBlock from "./CodeBlock";
 import "./PostView.css";
 
 class PostView extends Component {
