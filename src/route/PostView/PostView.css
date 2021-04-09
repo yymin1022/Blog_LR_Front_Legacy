@@ -1,15 +1,17 @@
-.markdown-body{
+.PostViewContent{
   width: 800px;
+}
+
+.markdown-body{
+  width: 100%;
 
   text-align: center;
 }
 
 /* Mobile UI */
 @media screen and (max-width: 920px){
-  .markdown-body{
+  .PostViewContent{
     width: 100%;
-  
-    text-align: center;
   }
 }
 
