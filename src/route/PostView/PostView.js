@@ -27,16 +27,6 @@ class PostView extends Component {
           </div>
       );
   }
-  
-  // function CodeBlock(props) {
-  //     return (
-  //         <pre className="codeBlock">
-  //             <code>
-  //               {props.value}
-  //             </code>
-  //           </pre>
-  //     );
-  // }
 
   function InlineCodeBlock(props){
     return(
