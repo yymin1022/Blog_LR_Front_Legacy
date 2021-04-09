@@ -1,11 +1,8 @@
 .markdown-body{
-  align-items: center;
   text-align: center;
 }
 
 .markdown-body .codeBlock{
-  width: 70%;
-
   background: #000000;
   color: #ffffff;
   padding: 10px;
