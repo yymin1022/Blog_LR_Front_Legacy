@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 import './PostItemPinned.css';
 
@@ -30,7 +31,7 @@ class PostItemPinned extends Component {
 
   render() {
     return(
-      <a href={this.url}>
+      <Link to={"/postview/" + this.url}>
         <div id="postPinnedItem" align="left">
           <div id="postPinnedThumbnail">
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
@@ -53,7 +54,7 @@ class PostItemPinned extends Component {
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     )
   }
 }
