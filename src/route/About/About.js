@@ -57,7 +57,7 @@ class About extends Component {
     const {markdown} = this.state;
 
     return(
-      <div align="center">
+      <div align="left">
         <div className="PostViewContent">
           <div className="markdown-body">
             <ReactMarkdown
