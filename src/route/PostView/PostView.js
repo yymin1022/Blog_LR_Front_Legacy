@@ -61,23 +61,24 @@ class PostView extends Component {
     const {markdown} = this.state;
 
     return(
-      <div className="PostViewContent" align="center">
-        <div className="markdown-body" align="center">
-          <ReactMarkdown
-            source={markdown}
+      <div>
+        <div className="PostViewContent" align="center">
+          <div className="markdown-body" align="center">
+            <ReactMarkdown
+              source={markdown}
 
-            allowDangerousHtml={true}
-            escapeHtml={false}
-            skipHtml={false}
-            renderers={{
-              blockquote: BlockQuoteBlock,
-              code: CodeBlock,
-              inlineCode: InlineCodeBlock,
-              tableCell: TableCellBlock
-            }} />
+              allowDangerousHtml={true}
+              escapeHtml={false}
+              skipHtml={false}
+              renderers={{
+                blockquote: BlockQuoteBlock,
+                code: CodeBlock,
+                inlineCode: InlineCodeBlock,
+                tableCell: TableCellBlock
+              }} />
+          </div>
         </div>
       </div>
-      
     )
   }
 }
