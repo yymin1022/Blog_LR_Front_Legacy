@@ -16,46 +16,35 @@ class About extends Component {
   }
 
   render() {
-    function InlineCodeBlock(props){
-      return(
-        <span style={{background: '#ffff00'}}>
-          {props.value}
-        </span>
-      )
-    }
-
     function BlockQuoteBlock(props) {
       return (
-          <div style={{border: '1px dashed #aaaaaa', borderRadius: 10, paddingLeft: 10, margin: 5}}>
+          <div className="quoteBlock" style={{}}>
               {props.children}
           </div>
       );
   }
-  
-  function CodeBlock(props) {
-      return (
-          <pre style={{background: '#000000', color: '#ffffff', padding: 10}}>
-              <code>
-                {props.value}
-              </code>
-            </pre>
-      );
+
+  function InlineCodeBlock(props){
+    return(
+      <span className="inlineCodeBlock">
+        {props.value}
+      </span>
+    )
   }
-  
   
   function TableCellBlock(props) {
       let style = {
-          textAlign: props.align ? props.align : 'center',
+          textAlign: props.align ? props.align : "center",
           padding: 5
       };
   
       if (props.isHeader) {
-          style.background = '#ffff00';
-          style.border = '1px solid #cccccc';
+          style.background = "#ffff00";
+          style.border = "1px solid #cccccc";
           style.borderLeft = 0;
           style.borderRight = 0;
       } else {
-          style.borderBottom = '1px solid #eeeeee';
+          style.borderBottom = "1px solid #eeeeee";
       }
   
       return (
@@ -65,21 +54,26 @@ class About extends Component {
       );
     }
 
-    const { markdown } = this.state;
+    const {markdown} = this.state;
 
     return(
-      <div className='markdown-body'>
-        <ReactMarkdown
-          source={markdown}
-          allowDangerousHtml={true}
-          escapeHtml={false}
-          skipHtml={false}
-          renderers={{
-            blockquote: BlockQuoteBlock,
-            code: CodeBlock,
-            inlineCode: InlineCodeBlock,
-            tableCell: TableCellBlock
-          }} />
+      <div align="center">
+        <div className="PostViewContent">
+          <div className="markdown-body">
+            <ReactMarkdown
+              source={markdown}
+
+              allowDangerousHtml={true}
+              escapeHtml={false}
+              skipHtml={false}
+              renderers={{
+                blockquote: BlockQuoteBlock,
+                code: CodeBlock,
+                inlineCode: InlineCodeBlock,
+                tableCell: TableCellBlock
+              }} />
+          </div>
+        </div>
       </div>
     )
   }
