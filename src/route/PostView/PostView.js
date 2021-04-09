@@ -73,6 +73,8 @@ class PostView extends Component {
       <div className='markdown-body'>
         <ReactMarkdown
           source={markdown}
+
+          align="center"
           allowDangerousHtml={true}
           escapeHtml={false}
           skipHtml={false}
