@@ -35,6 +35,7 @@ gedit, nano 등 더 익숙하신 에디터를 이용해 작업하셔도 무방�
 ```bash
 ubuntu@desktop:~$ sudo vi /etc/apt/sources.list
 ```
+
 ![](/home/server/web/src/posts/200206 Ubuntu Software Server Change/1_before.png =100x200)
 
 <center>
