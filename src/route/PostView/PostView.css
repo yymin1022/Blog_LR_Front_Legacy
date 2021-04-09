@@ -5,11 +5,11 @@
 }
 
 .inlineCodeBlock{
-  background: '#ffff00';
+  background: #ffff00;
 }
 
 .quoteBlock{
-  border: '1px dashed #aaaaaa';
+  border: 1px dashed #aaaaaa;
   border-radius: 10px;
   padding-left: 10px;
   margin: 5px;
