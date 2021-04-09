@@ -13,6 +13,24 @@
   }
 }
 
+.markdown-body .codeBlock{
+  background: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.markdown-body .inlineCodeBlock{
+  background-color: #EEEEEE;
+  color: #164EAB;
+}
+
+.markdown-body .quoteBlock{
+  border: 1px dashed #aaaaaa;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
 @font-face {
     font-family: 'Noto Sans';
     font-style: normal;
