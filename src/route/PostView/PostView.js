@@ -2,6 +2,7 @@ import React, {Component} from "react";
 
 import ReactMarkdown from "react-markdown";
 
+import "./CodeBlock";
 import "./PostView.css";
 
 class PostView extends Component {
@@ -27,15 +28,15 @@ class PostView extends Component {
       );
   }
   
-  function CodeBlock(props) {
-      return (
-          <pre className="codeBlock">
-              <code>
-                {props.value}
-              </code>
-            </pre>
-      );
-  }
+  // function CodeBlock(props) {
+  //     return (
+  //         <pre className="codeBlock">
+  //             <code>
+  //               {props.value}
+  //             </code>
+  //           </pre>
+  //     );
+  // }
 
   function InlineCodeBlock(props){
     return(
