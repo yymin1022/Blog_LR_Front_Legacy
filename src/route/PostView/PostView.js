@@ -26,6 +26,20 @@ class PostView extends Component {
       );
   }
 
+  function ImageContent(props){
+    return({
+      alt,
+      src,
+      title,
+    })=>(
+      <img 
+          alt={alt} 
+          src={src} 
+          title={title} 
+          style={{maxWidth: 475}}  />
+      )
+  }
+
   function InlineCodeBlock(props){
     return(
       <span className="inlineCodeBlock">
@@ -71,6 +85,7 @@ class PostView extends Component {
               renderers={{
                 blockquote: BlockQuoteBlock,
                 code: CodeBlock,
+                image: ImageContent,
                 inlineCode: InlineCodeBlock,
                 tableCell: TableCellBlock
               }} />
