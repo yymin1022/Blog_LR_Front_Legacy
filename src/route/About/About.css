@@ -1,3 +1,18 @@
+.AboutContent{
+  width: 800px;
+}
+
+.markdown-body{
+  width: 100%;
+}
+
+/* Mobile UI */
+@media screen and (max-width: 920px){
+  .AboutContent{
+    width: 100%;
+  }
+}
+
 @font-face {
     font-family: 'Noto Sans';
     font-style: normal;

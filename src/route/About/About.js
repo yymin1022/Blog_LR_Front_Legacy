@@ -58,7 +58,7 @@ class About extends Component {
 
     return(
       <div align="left">
-        <div className="PostViewContent">
+        <div className="AboutContent">
           <div className="markdown-body">
             <ReactMarkdown
               source={markdown}
