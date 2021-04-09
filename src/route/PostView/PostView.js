@@ -21,7 +21,7 @@ class PostView extends Component {
   render() {
     function InlineCodeBlock(props){
       return(
-        <span style={{background: '#ffff00'}}>
+        <span className="inloneCodeBlock">
           {props.value}
         </span>
       )
@@ -29,7 +29,7 @@ class PostView extends Component {
 
     function BlockQuoteBlock(props) {
       return (
-          <div style={{border: '1px dashed #aaaaaa', borderRadius: 10, paddingLeft: 10, margin: 5}}>
+          <div className="quoteBlock" style={{}}>
               {props.children}
           </div>
       );
@@ -37,7 +37,7 @@ class PostView extends Component {
   
   function CodeBlock(props) {
       return (
-          <pre style={{background: '#000000', color: '#ffffff', padding: 10}}>
+          <pre className="codeBlock">
               <code>
                 {props.value}
               </code>
