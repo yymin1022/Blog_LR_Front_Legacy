@@ -42,30 +42,30 @@ class Home extends Component {
                 {
                   postDB.map(item => {
                     return(
-                      <div key={item.url}>
+                      <div key={item.postURL}>
                         <If condition={item.pinned}>
                           <Then>
                             <If condition={categoryID == null}>
                               <Then>
                                 <div className="postItem">
                                   <PostItemPinned
-                                    date = {item.date}
-                                    tag = {item.tag}
-                                    thumbnail = {item.thumbnail}
-                                    title = {item.title}
-                                    url = {item.url} />
+                                    postDate = {item.postDate}
+                                    postTag = {item.postTag}
+                                    postThumbnail = {item.postThumbnail}
+                                    postTitle = {item.postTitle}
+                                    postURL = {item.postURL} />
                                 </div>
                               </Then>
                               <Else>
-                                <If condition={categoryID == item.tag}>
+                                <If condition={categoryID == item.postTag}>
                                   <Then>
                                     <div className="postItem">
                                       <PostItemPinned
-                                        date = {item.date}
-                                        tag = {item.tag}
-                                        thumbnail = {item.thumbnail}
-                                        title = {item.title}
-                                        url = {item.url} />
+                                        postDate = {item.postDate}
+                                        postTag = {item.postTag}
+                                        postThumbnail = {item.postThumbnail}
+                                        postTitle = {item.postTitle}
+                                        postURL = {item.postURL} />
                                     </div>
                                   </Then>
                                 </If>
@@ -88,30 +88,30 @@ class Home extends Component {
           {
             postDB.map(item => {
               return(
-                <div key={item.url}>
+                <div key={item.postURL}>
                   <If condition={!item.pinned}>
                     <Then>
                       <If condition={categoryID == null}>
                         <Then>
                           <div className="postItem">
                             <PostItem
-                              date = {item.date}
-                              tag = {item.tag}
-                              thumbnail = {item.thumbnail}
-                              title = {item.title}
-                              url = {item.url} />
+                              postDate = {item.postDate}
+                              postTag = {item.postTag}
+                              postThumbnail = {item.postThumbnail}
+                              postTitle = {item.postTitle}
+                              postURL = {item.postURL} />
                           </div>
                         </Then>
                         <Else>
-                          <If condition={categoryID == item.tag}>
+                          <If condition={categoryID == item.postTag}>
                             <Then>
                               <div className="postItem">
                                 <PostItem
-                                  date = {item.date}
-                                  tag = {item.tag}
-                                  thumbnail = {item.thumbnail}
-                                  title = {item.title}
-                                  url = {item.url} />
+                                  postDate = {item.postDate}
+                                  postTag = {item.postTag}
+                                  postThumbnail = {item.postThumbnail}
+                                  postTitle = {item.postTitle}
+                                  postURL = {item.postURL} />
                               </div>
                             </Then>
                           </If>

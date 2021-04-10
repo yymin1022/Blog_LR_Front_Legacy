@@ -17,7 +17,7 @@ class PostView extends Component{
     const postID = this.props.match.params.postID;
     const postTag = this.props.location.state.postTag;
     const postTitle = this.props.location.state.postTitle;
-    const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.id;
+    const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.postID;
     const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
     this.setState({postDate: postDate});
