@@ -92,7 +92,7 @@ class PostView extends Component{
           </div>
         </div>
 
-        <div className="CommentContent">
+        <div className="PostCommentContent">
           <DiscussionEmbed
             shortname={disqusShortname}
             config={disqusConfig}
