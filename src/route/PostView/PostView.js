@@ -106,6 +106,10 @@ class PostView extends Component{
           />
         </div>
 
+        <div className="PostTag">
+          <p>{this.postTag}</p>
+        </div>
+        
         <div className="PostFooter"></div>
       </div>
     )
