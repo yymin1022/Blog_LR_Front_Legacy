@@ -9,6 +9,18 @@
   width: 100%;
 }
 
+.PostTag{
+  width: 800px;
+}
+
+.PostTagContent{
+  color: #AAAAAA;
+}
+
+.PostTagTitle{
+  color: #555555;
+}
+
 .PostViewContent{
   width: 800px;
 }
