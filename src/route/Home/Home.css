@@ -17,6 +17,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+    
+.postPinnedTitle{
+    width: 990px;
+}
 
 .seperator{
     width: 990px;
@@ -37,6 +41,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    
+    .postPinnedTitle{
+        width: 640px;
     }
 
     .seperator{
