@@ -1,3 +1,9 @@
+.PostAuthorDate{
+  align-items: flex;
+  display: flex;
+  justify-content: center;
+}
+
 .PostCommentContent{
   width: 800px;
 
