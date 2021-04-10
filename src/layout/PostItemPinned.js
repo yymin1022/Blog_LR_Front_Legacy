@@ -10,21 +10,21 @@ class PostItemPinned extends Component {
   }
 
   UNSAFE_componentWillMount() {
-    this.date = this.props.date;
-    this.tag = "";
-    this.thumbnail = this.props.thumbnail;
-    this.title = this.props.title;
-    this.url = this.props.url;
+    this.postDate = this.props.postDate;
+    this.postTag = "";
+    this.postThumbnail = this.props.postThumbnail;
+    this.postTitle = this.props.postTitle;
+    this.postURL = this.props.postURL;
 
-    switch(this.props.tag){
+    switch(this.props.postTag){
       case "dev":
-        this.tag = "#Development #Programming"
+        this.postTag = "#Development #Programming"
         break;
       case "os":
-        this.tag = "#OS #Linux #Unix #Windows"
+        this.postTag = "#OS #Linux #Unix #Windows"
         break;
       case "synology":
-        this.tag = "#NAS #Synology #XPEnology"
+        this.postTag = "#NAS #Synology #XPEnology"
         break;
     }
   }
@@ -33,31 +33,31 @@ class PostItemPinned extends Component {
     return(
       <Link
         to={{
-          pathname: "/postview/" + this.url,
+          pathname: "/postview/" + this.postURL,
           state: {
-            postDate: this.date,
-            postTag: this.tag,
-            postTitle: this.title,
+            postDate: this.postDate,
+            postTag: this.postTag,
+            postTitle: this.postTitle,
           }
         }}>
         <div id="postPinnedItem" align="left">
           <div id="postPinnedThumbnail">
-            <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
+            <img src={require("/home/server/web/src/posts/" + this.postThumbnail + ".png").default} />
           </div>
           <div id="postPinnedInfo">
             <div id="postPinnedInfoTitle">
               <p>
-              {this.title}
+              {this.postTitle}
               </p>
             </div>
             <div id="postPinnedInfoTag">
               <p>
-                {this.tag}
+                {this.postTag}
               </p>
             </div>
             <div id="postPinnedInfoDate">
               <p>
-                {this.date}
+                {this.postDate}
               </p>
             </div>
           </div>

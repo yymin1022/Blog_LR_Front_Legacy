@@ -11,7 +11,7 @@ class PostItem extends Component {
 
   UNSAFE_componentWillMount() {
     this.postDate = this.props.postDate;
-    this.postTag = this.props.postTag;
+    this.postTag = "";
     this.postThumbnail = this.props.postThumbnail;
     this.postTitle = this.props.postTitle;
     this.postURL = this.props.postURL;
