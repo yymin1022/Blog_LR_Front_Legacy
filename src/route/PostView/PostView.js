@@ -71,7 +71,7 @@ class PostView extends Component{
       identifier: {id},
       title: {title}
     };
-    const disqusShortname = 'blog-new-defcon-or-kr';
+    const disqusShortname = "blog-new-defcon-or-kr";
 
     return(
       <div align="center">
