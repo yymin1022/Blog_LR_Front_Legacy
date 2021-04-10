@@ -92,7 +92,7 @@ class PostView extends Component{
           <h4>written by LR | {postDate}</h4>
         </div>
 
-        <hr className="seperator"/>
+        <hr className="PostSeperator"/>
 
         <div className="PostViewContent">
           <div className="markdown-body">

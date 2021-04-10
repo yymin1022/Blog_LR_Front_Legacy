@@ -18,6 +18,13 @@
   margin: 20px;
 }
 
+.PostSeperator{
+    width: 800px;
+
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
 .PostTag{
   margin-top: 50px;
 }
@@ -28,13 +35,6 @@
 
 .PostViewContent{
   width: 800px;
-}
-
-.seperator{
-    width: 800px;
-
-    margin-bottom: 30px;
-    margin-top:30px;
 }
 
 .markdown-body{
@@ -58,7 +58,7 @@
     width: 100%;
   }
 
-  .seperator{
+  .PostSeperator{
     width: 100%;
   }
 }
