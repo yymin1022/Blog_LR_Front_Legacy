@@ -9,15 +9,11 @@
   width: 100%;
 }
 
-.PostTag{
-  width: 800px;
-}
-
-.PostTagContent{
+#PostTagContent{
   color: #AAAAAA;
 }
 
-.PostTagTitle{
+#PostTagTitle{
   color: #555555;
 }
 
