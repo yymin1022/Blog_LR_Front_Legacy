@@ -1,13 +1,3 @@
----
-layout: post
-title:  "[Windows] Pantech STONE Manager"
-author: LR
-categories: [ DEVELOPMENT, DIY, JAVA, PANTECH, STONE, WINDOWS ]
-image: "/images/Thumbnails/200804 STONE Manager.png"
-featured: true
-hidden: true
-description: \#Development \#DIY \#Java \#Pantech \#STONE \#Windows
----
 안녕하세요,<br>
 대학생 1인개발자로 활동중인 LR입니다!
 

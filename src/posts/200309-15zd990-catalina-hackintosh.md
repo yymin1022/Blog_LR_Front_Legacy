@@ -1,13 +1,3 @@
----
-layout: post
-title:  "[Hackintosh] LG그램15 2019 macOS 10.15 Catalina 커스텀맥"
-author: LR
-categories: [ Apple, DIY, Gram, LG, macOS, OS ]
-image: "/images/Thumbnails/200309 15ZD990 Catalina Hackintosh.png"
-featured: true
-hidden: true
-description: \#Apple \#Catalina \#DIY \#Gram \#Hackintosh \#LG \#macOS \#OS \#UNIX \#15ZD990
----
 안녕하세요,<br>
 대학생 1인 앱개발자로 활동중인 LR입니다!
 

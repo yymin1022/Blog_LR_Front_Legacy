@@ -1,13 +1,3 @@
----
-layout: post
-title:  "[Windows/Linux] Synology Download Station 클라이언트 V1.0"
-author: LR
-categories: [ DEVELOPMENT, DIY, LINUX, PYQT5, PYTHON, SYNOLOGY, WINDOWS, XPENOLOGY ]
-image: "/images/Thumbnails/200824 Synology DownloadStation Client.png"
-featured: false
-hidden: false
-description: \#Development \#DIY \#Linux \#PyQt5 \#Python \#Synology \#Windows \#XPEnology
----
 __!! 2020년 9월 2일에 V1.1이 배포되었습니다.__
 
 __본 게시글은 사용법 확인을 위해서만 읽어주시고,__

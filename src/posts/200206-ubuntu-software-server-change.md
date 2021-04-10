@@ -1,14 +1,3 @@
----
-layout: post
-title:  "[Linux] Ubuntu 소프트웨어 서버 변경하기"
-author: LR
-categories: [ Linux, Ubuntu, Server ]
-image: "/images/Thumbnails/200206 Ubuntu Software Server Change.png"
-featured: false
-hidden: false
-description: \#Linux \#OS \#Ubuntu
----
-
 안녕하세요,<br>
 대학생 1인 앱개발자 LR입니다!
 

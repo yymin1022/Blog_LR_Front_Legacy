@@ -1,14 +1,3 @@
----
-layout: post
-title:  "[Linux] Ubuntu 기본 쉘 zsh로 변경하고 커스텀하기"
-author: LR
-categories: [ Linux, Ubuntu, Server ]
-image: "/images/Thumbnails/200207 Ubuntu zsh Installation.png"
-featured: false
-hidden: false
-description: \#Linux \#OS \#Ubuntu
----
-
 안녕하세요,<br>
 대학생 1인 앱개발자 LR입니다!
 

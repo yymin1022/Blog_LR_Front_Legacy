@@ -1,13 +1,3 @@
----
-layout: post
-title:  "[XPEnology] NVMe SSD 캐시 활성화"
-author: LR
-categories: [ DIY, DSM, HARDKERNEL, LINUX, NAS, ODROID, OS, SERVER, SYNOLOGY, XPENOLOGY ]
-image: "/images/Thumbnails/200830 XPEnology NVMe SSD Cache Enable.png"
-featured: false
-hidden: false
-description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
----
 안녕하세요,<br>
 대학생 1인 개발자로 활동중인 LR입니다!
 

@@ -1,13 +1,3 @@
----
-layout: post
-title:  "드래곤볼 에디션 : 아이폰X 직접조립 후기"
-author: LR
-categories: [ Apple, DIY, iPhone ]
-image: "/images/Thumbnails/200404 iPhone X Assemble Project.png"
-featured: true
-hidden: true
-description: \#Aliexpress \#Apple \#Assemble \#DIY \#iOS \#iPhone \#Mechanic
----
 안녕하세요,<br>
 대학생 1인 앱개발자로 활동중인 LR입니다!
 

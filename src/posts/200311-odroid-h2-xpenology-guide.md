@@ -1,13 +1,3 @@
----
-layout: post
-title:  "[XPEnology] 오드로이드 H2 XPEnology 설치 가이드"
-author: LR
-categories: [ DIY, DSM, HARDKERNEL, LINUX, NAS, ODROID, OS, SERVER, SYNOLOGY, XPENOLOGY ]
-image: "/images/Thumbnails/200311 ODroid H2 XPEnology Guide.jpg"
-featured: false
-hidden: false
-description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
----
 안녕하세요,<br>
 대학생 1인 앱개발자로 홛동중인<br>
 LR입니다!
