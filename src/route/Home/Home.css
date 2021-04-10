@@ -66,9 +66,16 @@
         justify-content: center;
     }
     
+    .postPinnedTitle{
+        width: 350px;
+
+        margin-top: -5px;
+    }
+
     .seperator{
         width: 350px;
 
+        margin-bottom: -5px;
         margin-top: -5px;
     }
 }
