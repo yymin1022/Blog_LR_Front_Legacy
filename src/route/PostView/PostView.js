@@ -67,9 +67,9 @@ class PostView extends Component{
     const url = this.state;
 
     const disqusConfig = {
-      url: url,
-      identifier: id,
-      title: title
+      url: this.state.url,
+      identifier: this.state.id,
+      title: this.state.title
     };
     const disqusShortname = "blog-new-defcon-or-kr";
 
