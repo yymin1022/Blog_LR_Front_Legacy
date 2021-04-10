@@ -49,6 +49,11 @@
     width: 100%;
   }
 
+  .PostTitle{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   .PostViewContent{
     width: 100%;
   }
