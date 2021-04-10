@@ -66,6 +66,10 @@ class PostView extends Component{
     const {title} = this.state;
     const {url} = this.state;
 
+    console.log(id)
+    console.log(title)
+    console.log(url)
+
     return(
       <div align="center">
         <div className="PostViewContent">
