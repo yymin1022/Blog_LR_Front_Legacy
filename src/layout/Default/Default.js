@@ -1,23 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import Header from './Header';
-import Section from './Section';
+import Header from "./Header";
+import Section from "./Section";
 
-import clsx from 'clsx';
+import clsx from "clsx";
 
-import Divider from '@material-ui/core/Divider';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
+import Divider from "@material-ui/core/Divider";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 
-import DrawerBG from '/home/server/web/src/image/img_drawer_top.png';
-import SearchIcon from '@material-ui/icons/Search';
+import DrawerBG from "/home/server/web/src/image/img_drawer_top.png";
+import SearchIcon from "@material-ui/icons/Search";
 
-import styled, {createGlobalStyle} from 'styled-components';
-import {makeStyles} from '@material-ui/core/styles';
+import styled, {createGlobalStyle} from "styled-components";
+import {makeStyles} from "@material-ui/core/styles";
 
 function ListItemLink(props) {
   return <ListItem button component="a" {...props} />;
@@ -41,7 +41,7 @@ const drawerStyle = makeStyles({
     width: 250,
  },
   fullList: {
-    width: 'auto',
+    width: "auto",
  },
 });
 
@@ -74,10 +74,10 @@ const Default = props => {
     right: false,
   });
 
-  const anchor = 'left';
+  const anchor = "left";
 
   const toggleDrawer = (anchor, open) => (event) => {
-    if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+    if (event && event.type === "keydown" && (event.key === "Tab" || event.key === "Shift")) {
       return;
    }
 
@@ -87,7 +87,7 @@ const Default = props => {
   const list = (anchor) => (
     <div
       className={clsx(drawerStyle().list, {
-        [drawerStyle().fullList]: anchor === 'top' || anchor === 'bottom',
+        [drawerStyle().fullList]: anchor === "top" || anchor === "bottom",
      })}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
@@ -96,8 +96,8 @@ const Default = props => {
       <div>
         <img
           src={DrawerBG}
-          width='100%'
-          alt='testA' />
+          width="100%"
+          alt="testA" />
       </div>
       <List>
         <ListItemLink>

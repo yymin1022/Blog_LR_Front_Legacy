@@ -1,12 +1,12 @@
-import React from 'react';
-import {BrowserRouter as Router, Switch, Redirect} from 'react-router-dom';
+import React from "react";
+import {BrowserRouter as Router, Switch, Redirect} from "react-router-dom";
 
-import RouteLayout from './layout/RouteLayout';
-import DefaultLayout from './layout/Default';
+import RouteLayout from "./layout/RouteLayout";
+import DefaultLayout from "./layout/Default";
 
-import About from './route/About';
-import Home from './route/Home';
-import PostView from './route/PostView';
+import About from "./route/About";
+import Home from "./route/Home";
+import PostView from "./route/PostView";
 
 function App() {
   return (
@@ -14,18 +14,18 @@ function App() {
       <Switch>
         <Redirect
           exact
-          from = '/'
-          to = '/home' />
+          from = "/"
+          to = "/home" />
         <RouteLayout
-          path = '/about'
+          path = "/about"
           layout = {DefaultLayout}
           component = {About} />
         <RouteLayout
-          path = '/home'
+          path = "/home"
           layout = {DefaultLayout}
           component = {Home} />
         <RouteLayout
-          path = '/postview/:postID'
+          path = "/postview/:postID"
           layout = {DefaultLayout}
           component = {PostView} />
       </Switch>

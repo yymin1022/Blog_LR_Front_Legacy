@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 
-import MDFile from '/home/server/web/src/posts/about.md';
-import ReactMarkdown from 'react-markdown';
+import MDFile from "/home/server/web/src/posts/about.md";
+import ReactMarkdown from "react-markdown";
 
 import CodeBlock from "./CodeBlock";
-import './About.css';
+import "./About.css";
 
 class About extends Component {
   constructor() {
     super();
-    this.state = { markdown: '' };
+    this.state = { markdown: "" };
   }
 
   UNSAFE_componentWillMount() {

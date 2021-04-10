@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import React, {Component} from "react";
+import {Link} from "react-router-dom";
 
-import './PostItemPinned.css';
+import "./PostItemPinned.css";
 
 class PostItemPinned extends Component {
   constructor() {

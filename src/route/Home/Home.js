@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import {If, Else, Then} from 'react-if';
+import React, {Component} from "react";
+import {If, Else, Then} from "react-if";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
-import PostItem from '/home/server/web/src/layout/PostItem';
-import PostItemPinned from '/home/server/web/src/layout/PostItemPinned';
+import PostItem from "/home/server/web/src/layout/PostItem";
+import PostItemPinned from "/home/server/web/src/layout/PostItemPinned";
 
-import postDB from '/home/server/web/src/posts/DB.json';
+import postDB from "/home/server/web/src/posts/DB.json";
 
 import "./Home.css";
 
@@ -19,7 +19,7 @@ class Home extends Component {
 
   UNSAFE_componentWillMount() {
     const params = new URLSearchParams(this.props.location.search);
-    this.categoryID = params.get('category');
+    this.categoryID = params.get("category");
   }
 
   render() {

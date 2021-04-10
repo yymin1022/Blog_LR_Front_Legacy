@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import React, {Component} from "react";
+import {Link} from "react-router-dom";
 
-import './PostItem.css';
+import "./PostItem.css";
 
 class PostItem extends Component {
   constructor() {
