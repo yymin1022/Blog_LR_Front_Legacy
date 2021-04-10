@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.PostAuthorDate {
+  margin: 5px;
+}
+
 .PostCommentContent{
   width: 800px;
 

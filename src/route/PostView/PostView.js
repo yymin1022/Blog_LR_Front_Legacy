@@ -91,7 +91,7 @@ class PostView extends Component{
 
           <div className="PostAuthorDate">
             <p>written by LR</p>
-            <p> | </p>
+            <p>|</p>
             <p>{postDate}</p>
           </div>
         </div>
