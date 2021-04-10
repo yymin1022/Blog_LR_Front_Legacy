@@ -88,6 +88,8 @@ class PostView extends Component{
       <div align="center">
         <div className="PostTitle">
           <h2>{postTitle}</h2>
+
+          <h4>written by LR | {postDate}</h4>
         </div>
 
         <div className="PostViewContent">
