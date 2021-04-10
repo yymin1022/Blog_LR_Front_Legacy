@@ -69,7 +69,9 @@ class PostView extends Component{
 
     const {markdown}= this.state;
 
+    const postDate = this.state.postDate;
     const postID = this.state.postID;
+    const postTag = this.state.postTag;
     const postTitle = this.state.postTitle;
     const postURL = this.state;
 
@@ -107,9 +109,9 @@ class PostView extends Component{
         </div>
 
         <div className="PostTag">
-          <p>{this.postTag}</p>
+          <p>{postTag}</p>
         </div>
-        
+
         <div className="PostFooter"></div>
       </div>
     )
