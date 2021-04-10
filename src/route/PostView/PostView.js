@@ -61,10 +61,10 @@ class PostView extends Component{
       );
     }
 
-    const {id} = this.state.id;
-    const {markdown}= this.state.markdown;
-    const {title} = this.state.title;
-    const {url} = this.state.url;
+    const {id} = this.state;
+    const {markdown}= this.state;
+    const {title} = this.state;
+    const {url} = this.state;
 
     return(
       <div align="center">
@@ -85,7 +85,7 @@ class PostView extends Component{
           </div>
         </div>
 
-        <div className="">
+        <div className="CommentContent">
           <DiscussionEmbed
             shortname='blog-new-defcon-or-kr'
             config={
