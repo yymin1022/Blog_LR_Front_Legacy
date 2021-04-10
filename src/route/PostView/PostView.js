@@ -118,10 +118,10 @@ class PostView extends Component{
 
         <div className="PostFooter">
           <Link to={"/home"}>
-            <h4 className="PostFooterNav">Home</h4>
+            <h3 className="PostFooterNav">Home</h3>
           </Link>
           <Link to={"/about"}>
-            <h4 className="PostFooterNav">About</h4>
+            <h3 className="PostFooterNav">About</h3>
           </Link>
         </div>
       </div>
