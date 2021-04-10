@@ -86,6 +86,10 @@ class PostView extends Component{
 
     return(
       <div align="center">
+        <div className="PostTitle">
+          <h2>{postTitle}</h2>
+        </div>
+
         <div className="PostViewContent">
           <div className="markdown-body">
             <ReactMarkdown
