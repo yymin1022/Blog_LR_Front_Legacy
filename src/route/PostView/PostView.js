@@ -118,10 +118,10 @@ class PostView extends Component{
 
         <div className="PostFooter">
           <Link to={"/home"}>
-            <Button style={{color: "#164EAB", textSize: "15px"}}>Home</Button>
+            <Button style={{color: "#164EAB", size: "15px"}}>Home</Button>
           </Link>
           <Link to={"/about"}>
-            <Button style={{color: "#164EAB", textSize: "15px"}}>About</Button>
+            <Button style={{color: "#164EAB", size: "15px"}}>About</Button>
           </Link>
         </div>
       </div>
