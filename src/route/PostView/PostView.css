@@ -48,6 +48,11 @@
   .PostCommentContent{
     width: 100%;
   }
+  
+  .PostFooter{
+    height: 50px;
+    width: 100%;
+  }
 
   .PostTitle{
     margin-left: 30px;
