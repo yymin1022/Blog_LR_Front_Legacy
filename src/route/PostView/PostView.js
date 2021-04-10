@@ -85,17 +85,17 @@ class PostView extends Component{
         </div>
 
         <div className="">
-        <DiscussionEmbed
-          shortname='blog-new-defcon-or-kr'
-          config={
-            {
-                url: {url},
-                identifier: {id},
-                title: {title},
-                language: 'ko_KR' //e.g. for Traditional Chinese (Taiwan)	
+          <DiscussionEmbed
+            shortname='blog-new-defcon-or-kr'
+            config={
+              {
+                  url: {url},
+                  identifier: {id},
+                  title: {title},
+                  language: 'ko_KR' //e.g. for Traditional Chinese (Taiwan)	
+              }
             }
-          }
-        />
+          />
         </div>
       </div>
     )
