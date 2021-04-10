@@ -31,7 +31,15 @@ class PostItem extends Component {
 
   render() {
     return(
-      <Link to={"/postview/" + this.url}>
+      <Link
+        to={{
+          pathname: "/postview/" + this.url,
+          state: {
+            postDate: this.date,
+            postTag: this.tag,
+            postTitle: this.title,
+          }
+        }}>
         <div id="postItem" align="left">
           <div id="postThumbnail">
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />

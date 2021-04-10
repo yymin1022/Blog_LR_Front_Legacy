@@ -62,6 +62,7 @@ class PostView extends Component{
     }
 
     const {markdown}= this.state;
+    
     const id = this.state.id;
     const title = this.state;
     const url = this.state;

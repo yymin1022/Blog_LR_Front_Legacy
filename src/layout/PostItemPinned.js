@@ -31,7 +31,15 @@ class PostItemPinned extends Component {
 
   render() {
     return(
-      <Link to={"/postview/" + this.url}>
+      <Link
+        to={{
+          pathname: "/postview/" + this.url,
+          state: {
+            postDate: this.date,
+            postTag: this.tag,
+            postTitle: this.title,
+          }
+        }}>
         <div id="postPinnedItem" align="left">
           <div id="postPinnedThumbnail">
             <img src={require("/home/server/web/src/posts/" + this.thumbnail + ".png").default} />
