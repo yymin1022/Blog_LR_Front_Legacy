@@ -61,10 +61,10 @@ class PostView extends Component{
       );
     }
 
-    const {id} = this.state;
+    const {id} = String(this.state.id);
     const {markdown}= this.state;
-    const {title} = this.state;
-    const {url} = this.state;
+    const {title} = String(this.state);
+    const {url} = String(this.state);
 
     const disqusConfig = {
       url: {url},
