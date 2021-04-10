@@ -101,9 +101,13 @@ class PostView extends Component{
           </div>
         </div>
 
+        <hr className="seperator"/>
+
         <div className="PostTag">
           <p>{postTag}</p>
         </div>
+
+        <hr className="seperator"/>
 
         <div className="PostCommentContent">
           <DiscussionEmbed
