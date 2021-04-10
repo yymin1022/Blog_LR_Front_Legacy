@@ -9,16 +9,22 @@ import "./PostView.css";
 class PostView extends Component{
   constructor(){
     super();
-    this.state ={id: "", markdown: "", title: "", url: ""};
+    this.state ={postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
   }
 
   UNSAFE_componentWillMount(){
-    const postID = this.props.match.params.id;
+    const postDate = this.props.location.state.postDate;
+    const postID = this.props.match.params.postID;
+    const postTag = this.props.location.state.postTag;
+    const postTitle = this.props.location.state.postTitle;
     const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.id;
     const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
-    this.setState({id: postID});
-    this.setState({url: postURL});
+    this.setState({postDate: postDate});
+    this.setState({postID: postID});
+    this.setState({postTag: postTag});
+    this.setState({postTitle: postTitle});
+    this.setState({postURL: postURL});
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
   }
 
@@ -62,15 +68,15 @@ class PostView extends Component{
     }
 
     const {markdown}= this.state;
-    
-    const id = this.state.id;
-    const title = this.state;
-    const url = this.state;
+
+    const postID = this.state.postID;
+    const postTitle = this.state.postTitle;
+    const postURL = this.state;
 
     const disqusConfig = {
-      url: this.state.url,
-      identifier: this.state.id,
-      title: this.state.title
+      url: this.state.postURL,
+      identifier: this.state.postID,
+      title: this.state.postTitle
     };
     const disqusShortname = "blog-new-defcon-or-kr";
 
