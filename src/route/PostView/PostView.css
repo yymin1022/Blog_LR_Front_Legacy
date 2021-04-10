@@ -32,6 +32,9 @@
 
 .seperator{
     width: 800px;
+
+    margin-bottom: 30px;
+    margin-top:30px;
 }
 
 .markdown-body{
