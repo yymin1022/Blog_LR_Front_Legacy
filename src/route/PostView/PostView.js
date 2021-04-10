@@ -66,9 +66,12 @@ class PostView extends Component{
     const {title} = this.state;
     const {url} = this.state;
 
-    console.log(id)
-    console.log(title)
-    console.log(url)
+    const disqusConfig = {
+      url: {url},
+      identifier: {id},
+      title: {title}
+    };
+    const disqusShortname = 'blog-new-defcon-or-kr';
 
     return(
       <div align="center">
@@ -91,15 +94,8 @@ class PostView extends Component{
 
         <div className="CommentContent">
           <DiscussionEmbed
-            shortname='blog-new-defcon-or-kr'
-            config={
-              {
-                  url: {url},
-                  identifier: {id},
-                  title: {title},
-                  language: 'en_US'
-              }
-            }
+            shortname={disqusShortname}
+            config={disqusConfig}
           />
         </div>
       </div>
