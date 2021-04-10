@@ -102,7 +102,6 @@ class PostView extends Component{
         </div>
 
         <div className="PostTag">
-          <p id="PostTagTitle">TAG</p>
           <p id="PostTagContent">{postTag}</p>
         </div>
 
