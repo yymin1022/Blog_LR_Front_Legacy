@@ -121,7 +121,7 @@ class PostView extends Component{
             <Button style={{color: "#164EAB", size: "15px"}}>Home</Button>
           </Link>
           <Link to={"/about"}>
-            <Button style={{color: "#164EAB", size: "15px"}}>About</Button>
+            <Button size="medium" style={{color: "#164EAB"}}>About</Button>
           </Link>
         </div>
       </div>
