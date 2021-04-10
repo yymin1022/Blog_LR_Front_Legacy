@@ -97,7 +97,7 @@ class PostView extends Component{
                   url: {url},
                   identifier: {id},
                   title: {title},
-                  language: 'en_US' //e.g. for Traditional Chinese (Taiwan)	
+                  language: 'en_US'
               }
             }
           />
