@@ -1,5 +1,7 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 
+import Button from "@material-ui/core/Button";
 import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown";
 
