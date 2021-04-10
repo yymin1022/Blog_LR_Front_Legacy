@@ -67,9 +67,9 @@
     }
     
     .seperator{
-        margin-top: -5px;
-        margin-bottom: -5px;
-
         width: 350px;
+
+        margin-bottom: -5px;
+        margin-top: -5px;
     }
 }
