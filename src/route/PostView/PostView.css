@@ -1,7 +1,7 @@
 .PostCommentContent{
   width: 800px;
 
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .PostFooter{
@@ -29,12 +29,6 @@
 .PostViewContent{
   width: 800px;
 }
-
-.seperator{
-  width: 800px;
-
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
 
 .markdown-body{

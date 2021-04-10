@@ -107,8 +107,6 @@ class PostView extends Component{
           <p>{postTag}</p>
         </div>
 
-        <hr className="seperator"/>
-
         <div className="PostCommentContent">
           <DiscussionEmbed
             shortname={disqusShortname}
