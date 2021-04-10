@@ -105,6 +105,8 @@ class PostView extends Component{
             config={disqusConfig}
           />
         </div>
+
+        <div className="PostFooter"></div>
       </div>
     )
   }
