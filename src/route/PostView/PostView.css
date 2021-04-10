@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.PostTag{
+  margin-top: 20px;
+}
+
 #PostTagContent{
   color: #999999;
 }
