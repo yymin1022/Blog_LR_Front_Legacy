@@ -8,12 +8,16 @@ import "./PostView.css";
 class PostView extends Component{
   constructor(){
     super();
-    this.state ={markdown: ""};
+    this.state ={id: "", markdown: "", title: "", url: ""};
   }
 
   UNSAFE_componentWillMount(){
-    const MDFile = require("/home/server/web/src/posts/" + this.props.match.params.id + ".md").default;
+    const postID = this.props.match.params.id;
+    const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.id;
+    const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
+    this.setState({id: postID});
+    this.setState({url: postURL});
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
   }
 
@@ -56,7 +60,10 @@ class PostView extends Component{
       );
     }
 
+    const {id} = this.state;
     const {markdown}= this.state;
+    const {title} = this.state;
+    const {url} = this.state;
 
     return(
       <div align="center">
@@ -75,6 +82,20 @@ class PostView extends Component{
                 tableCell: TableCellBlock
               }}/>
           </div>
+        </div>
+
+        <div className="">
+        <DiscussionEmbed
+          shortname='blog-new-defcon-or-kr'
+          config={
+            {
+                url: {url},
+                identifier: {id},
+                title: {title},
+                language: 'ko_KR' //e.g. for Traditional Chinese (Taiwan)	
+            }
+          }
+        />
         </div>
       </div>
     )
