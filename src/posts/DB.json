@@ -18,18 +18,18 @@
     {
         "pinned": true,
         "postDate": "Mar 26, 2021",
-        "postTag": "dev",
-        "postThumbnail": "210326-test-pinned-1",
-        "postTitle": "Test Pinned 1",
-        "postURL": "210326-test-pinned-1"
-    },
-    {
-        "pinned": true,
-        "postDate": "Mar 26, 2021",
         "postTag": "os",
         "postThumbnail": "210326-test-pinned-2",
         "postTitle": "Test Pinned 2",
         "postURL": "210326-test-pinned-2"
+    },
+    {
+        "pinned": true,
+        "postDate": "Mar 26, 2021",
+        "postTag": "dev",
+        "postThumbnail": "210326-test-pinned-1",
+        "postTitle": "Test Pinned 1",
+        "postURL": "210326-test-pinned-1"
     },
 
     {
