@@ -101,15 +101,15 @@ class PostView extends Component{
           </div>
         </div>
 
+        <div className="PostTag">
+          <p>{postTag}</p>
+        </div>
+
         <div className="PostCommentContent">
           <DiscussionEmbed
             shortname={disqusShortname}
             config={disqusConfig}
           />
-        </div>
-
-        <div className="PostTag">
-          <p>{postTag}</p>
         </div>
 
         <div className="PostFooter"></div>
