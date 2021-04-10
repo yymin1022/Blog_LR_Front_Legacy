@@ -61,10 +61,10 @@ class PostView extends Component{
       );
     }
 
-    const {id} = this.state;
-    const {markdown}= this.state;
-    const {title} = this.state;
-    const {url} = this.state;
+    const {id} = this.state.id;
+    const {markdown}= this.state.markdown;
+    const {title} = this.state.title;
+    const {url} = this.state.url;
 
     return(
       <div align="center">
