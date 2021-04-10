@@ -78,9 +78,9 @@ class PostView extends Component{
     const postURL = this.state;
 
     const disqusConfig = {
-      url: this.state.postURL,
-      identifier: this.state.postID,
-      title: this.state.postTitle
+      url: postURL,
+      identifier: postID,
+      title: postTitle
     };
     const disqusShortname = "blog-new-defcon-or-kr";
 
@@ -89,7 +89,11 @@ class PostView extends Component{
         <div className="PostTitle">
           <h2>{postTitle}</h2>
 
-          <h4>written by LR | {postDate}</h4>
+          <div className="PostAuthorDate">
+            <p>written by LR</p>
+            <p>|</p>
+            <p>{postDate}</p>
+          </div>
         </div>
 
         <hr className="PostSeperator"/>
