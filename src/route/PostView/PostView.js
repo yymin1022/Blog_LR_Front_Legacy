@@ -1,5 +1,6 @@
-import React,{Component}from "react";
+import React, {Component} from "react";
 
+import DiscussionEmbed from 'disqus-react';
 import ReactMarkdown from "react-markdown";
 
 import CodeBlock from "./CodeBlock";
