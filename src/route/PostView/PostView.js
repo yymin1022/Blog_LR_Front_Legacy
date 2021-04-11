@@ -78,7 +78,7 @@ class PostView extends Component{
     const postID = this.state.postID;
     const postTag = this.state.postTag;
     const postTitle = this.state.postTitle;
-    const postURL = this.state;
+    const postURL = this.state.postURL;
 
     const disqusConfig = {
       url: postURL,
