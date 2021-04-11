@@ -28,6 +28,8 @@ class PostView extends Component{
     this.setState({postTitle: postTitle});
     this.setState({postURL: postURL});
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
+
+    window.scrollTo(0, 0);
   }
 
   render(){
