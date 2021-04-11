@@ -30,7 +30,7 @@ class PostView extends Component{
   }
 
   componentDidUpdate(){
-    document.getElementById("PostTitle").scrollTop = 0;
+    window.scrollTop = 0;
   }
 
   render(){
