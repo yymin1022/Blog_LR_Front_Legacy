@@ -29,6 +29,10 @@ class PostView extends Component{
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
   }
 
+  componentDidUpdate(){
+    document.getElementById("PostTitle").scrollTop = 0;
+  }
+
   render(){
     function BlockQuoteBlock(props){
       return (
