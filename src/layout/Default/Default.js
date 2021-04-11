@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from "react-router-dom";
 
 import Header from "./Header";
 import Section from "./Section";
@@ -107,18 +108,26 @@ const Default = props => {
       </List>
       <Divider />
       <List>
-        <ListItemLink href="/home">
-          <ListItemText primary="All Posts" />
-        </ListItemLink>
-        <ListItemLink href="/home?category=dev">
-          <ListItemText primary="Development" />
-        </ListItemLink>
-        <ListItemLink href="/home?category=os">
-          <ListItemText primary="Operating System" />
-        </ListItemLink>
-        <ListItemLink href="/home?category=synology">
-          <ListItemText primary="Synology/XPEnology" />
-        </ListItemLink>
+        <Link to="/home">
+          <ListItemLink>
+            <ListItemText primary="All Posts" />
+          </ListItemLink>
+        </Link>
+        <Link to="/home?category=dev">
+          <ListItemLink>
+            <ListItemText primary="Development" />
+          </ListItemLink>
+        </Link>
+        <Link to="/home?category=os">
+          <ListItemLink>
+            <ListItemText primary="Operating System" />
+          </ListItemLink>
+        </Link>
+        <Link to="/home?category=synology">
+          <ListItemLink>
+            <ListItemText primary="Synology/XPEnology" />
+          </ListItemLink>
+        </Link>
       </List>
     </div>
   );
