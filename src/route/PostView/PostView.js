@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
-import Button from "@material-ui/core/Button";
 import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown";
 
@@ -12,10 +11,6 @@ class PostView extends Component{
   constructor(){
     super();
     this.state ={postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
-  }
-
-  getSnapshotBeforeUpdate(){
-    window.scrollTo(0, 0);
   }
 
   UNSAFE_componentWillMount(){
@@ -34,6 +29,8 @@ class PostView extends Component{
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
   }
 
+  
+
   render(){
     function BlockQuoteBlock(props){
       return (
@@ -41,17 +38,17 @@ class PostView extends Component{
              {props.children}
           </div>
       );
-  }
+    }
 
-  function InlineCodeBlock(props){
-    return(
-      <span className="inlineCodeBlock">
-       {props.value}
-      </span>
-    )
-  }
-  
-  function TableCellBlock(props){
+    function InlineCodeBlock(props){
+      return(
+        <span className="inlineCodeBlock">
+        {props.value}
+        </span>
+      )
+    }
+    
+    function TableCellBlock(props){
       let style ={
           textAlign: props.align ? props.align : "center",
           padding: 5
