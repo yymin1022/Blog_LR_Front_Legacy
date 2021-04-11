@@ -14,6 +14,10 @@ class PostView extends Component{
     this.state ={postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
   }
 
+  getSnapshotBeforeUpdate(){
+    window.scrollTo(0, 0);
+  }
+
   UNSAFE_componentWillMount(){
     const postDate = this.props.location.state.postDate;
     const postID = this.props.match.params.postID;
@@ -28,8 +32,6 @@ class PostView extends Component{
     this.setState({postTitle: postTitle});
     this.setState({postURL: postURL});
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
-
-    window.scrollTo(0, 0);
   }
 
   render(){
