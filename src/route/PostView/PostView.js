@@ -29,7 +29,9 @@ class PostView extends Component{
     fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
   }
 
-  
+  componentDidMount(){
+    window.scrollTo(0, 0);
+  }
 
   render(){
     function BlockQuoteBlock(props){
