@@ -7,28 +7,31 @@ import DefaultLayout from "./layout/Default";
 import About from "./route/About";
 import Home from "./route/Home";
 import PostView from "./route/PostView";
+import ScrollTop from "./ScrollTop";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Redirect
-          exact
-          from = "/"
-          to = "/home" />
-        <RouteLayout
-          path = "/about"
-          layout = {DefaultLayout}
-          component = {About} />
-        <RouteLayout
-          path = "/home"
-          layout = {DefaultLayout}
-          component = {Home} />
-        <RouteLayout
-          path = "/postview/:postID"
-          layout = {DefaultLayout}
-          component = {PostView} />
-      </Switch>
+      <ScrollTop>
+        <Switch>
+          <Redirect
+            exact
+            from = "/"
+            to = "/home" />
+          <RouteLayout
+            path = "/about"
+            layout = {DefaultLayout}
+            component = {About} />
+          <RouteLayout
+            path = "/home"
+            layout = {DefaultLayout}
+            component = {Home} />
+          <RouteLayout
+            path = "/postview/:postID"
+            layout = {DefaultLayout}
+            component = {PostView} />
+        </Switch>
+      </ScrollTop>
     </Router>
   );
 }
