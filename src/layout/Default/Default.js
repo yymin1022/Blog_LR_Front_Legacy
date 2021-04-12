@@ -107,16 +107,16 @@ const Default = props => {
       </List>
       <Divider />
       <List>
-        <ListItemLink href="/home">
+        <ListItemLink to="/home">
           <ListItemText primary="All Posts" />
         </ListItemLink>
-        <ListItemLink href="/home?category=dev">
+        <ListItemLink to="/home?category=dev">
           <ListItemText primary="Development" />
         </ListItemLink>
-        <ListItemLink href="/home?category=os">
+        <ListItemLink to="/home?category=os">
           <ListItemText primary="Operating System" />
         </ListItemLink>
-        <ListItemLink href="/home?category=synology">
+        <ListItemLink to="/home?category=synology">
           <ListItemText primary="Synology/XPEnology" />
         </ListItemLink>
       </List>
