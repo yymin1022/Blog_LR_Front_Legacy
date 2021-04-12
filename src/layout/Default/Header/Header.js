@@ -53,11 +53,7 @@ const Header = props => {
             <Typography variant="h6" className={useStyles().title}>
               LR의 IT블로그
             </Typography>
-            <Link to={{
-              pathname: "/home",
-              state: {
-                categoryID: "all"
-              }}}>
+            <Link to={"/home/posts"}>
               <Button style={{color: "#FFFFFF"}}>Home</Button>
             </Link>
             <Link to={"/about"}>
