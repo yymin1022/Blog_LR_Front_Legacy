@@ -18,6 +18,9 @@ class Home extends Component {
   }
 
   UNSAFE_componentWillMount() {
+    const params = new URLSearchParams(this.props.location.search);
+    // this.categoryID = params.get("category");
+
     this.categoryID = this.props.match.params.categoryID;
   }
 
@@ -26,7 +29,7 @@ class Home extends Component {
 
     return(
       <div align="center">
-        <If condition={categoryID == ""}>
+        <If condition={categoryID == null}>
           <Then>
             <div>
               <div align="left" className="postPinnedTitle">
@@ -44,7 +47,7 @@ class Home extends Component {
                       <div key={item.postURL}>
                         <If condition={item.pinned}>
                           <Then>
-                            <If condition={categoryID == ""}>
+                            <If condition={categoryID == null}>
                               <Then>
                                 <div className="postItem">
                                   <PostItemPinned
@@ -90,7 +93,7 @@ class Home extends Component {
                 <div key={item.postURL}>
                   <If condition={!item.pinned}>
                     <Then>
-                      <If condition={categoryID == ""}>
+                      <If condition={categoryID == null}>
                         <Then>
                           <div className="postItem">
                             <PostItem
