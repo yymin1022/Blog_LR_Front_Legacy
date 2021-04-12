@@ -14,13 +14,11 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {};
-    this.categoryID = "home";
+    this.categoryID = "";
   }
 
   UNSAFE_componentWillMount() {
     this.categoryID = this.props.match.params.categoryID;
-
-    console.log(this.props.match.params.categoryID);
   }
 
   render() {
@@ -28,7 +26,7 @@ class Home extends Component {
 
     return(
       <div align="center">
-        <If condition={categoryID == ""}>
+        <If condition={categoryID == "all"}>
           <Then>
             <div>
               <div align="left" className="postPinnedTitle">
@@ -46,7 +44,7 @@ class Home extends Component {
                       <div key={item.postURL}>
                         <If condition={item.pinned}>
                           <Then>
-                            <If condition={categoryID == ""}>
+                            <If condition={categoryID == "all"}>
                               <Then>
                                 <div className="postItem">
                                   <PostItemPinned
@@ -92,7 +90,7 @@ class Home extends Component {
                 <div key={item.postURL}>
                   <If condition={!item.pinned}>
                     <Then>
-                      <If condition={categoryID == ""}>
+                      <If condition={categoryID == "all"}>
                         <Then>
                           <div className="postItem">
                             <PostItem

@@ -107,7 +107,7 @@ const Default = props => {
       </List>
       <Divider />
       <List>
-        <ListItemLink href="/home/">
+        <ListItemLink href="/home/all">
           <ListItemText primary="All Posts" />
         </ListItemLink>
         <ListItemLink href="/home/dev">
