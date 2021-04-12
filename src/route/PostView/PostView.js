@@ -133,7 +133,7 @@ class PostView extends Component{
           <Link to={{
             pathname: "/home",
             state: {
-              categoryID: "all"
+              categoryID: ""
             }}}>
             <h3 className="PostFooterNav">Home</h3>
           </Link>
