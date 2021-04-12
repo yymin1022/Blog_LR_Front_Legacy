@@ -56,7 +56,7 @@ const Header = props => {
             <Link to={{
               pathname: "/home",
               state: {
-                categoryID: ""
+                categoryID: "all"
               }}}>
               <Button style={{color: "#FFFFFF"}}>Home</Button>
             </Link>
