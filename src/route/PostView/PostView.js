@@ -130,7 +130,7 @@ class PostView extends Component{
         </div>
 
         <div className="PostFooter">
-          <Link to={"/posts"}>
+          <Link to={"/home"}>
             <h3 className="PostFooterNav">Home</h3>
           </Link>
           <Link to={"/about"}>
