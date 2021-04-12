@@ -26,7 +26,7 @@ class Home extends Component {
 
     return(
       <div align="center">
-        <If condition={categoryID == "all"}>
+        <If condition={categoryID == "posts"}>
           <Then>
             <div>
               <div align="left" className="postPinnedTitle">
@@ -44,7 +44,7 @@ class Home extends Component {
                       <div key={item.postURL}>
                         <If condition={item.pinned}>
                           <Then>
-                            <If condition={categoryID == "all"}>
+                            <If condition={categoryID == "posts"}>
                               <Then>
                                 <div className="postItem">
                                   <PostItemPinned
@@ -90,7 +90,7 @@ class Home extends Component {
                 <div key={item.postURL}>
                   <If condition={!item.pinned}>
                     <Then>
-                      <If condition={categoryID == "all"}>
+                      <If condition={categoryID == "posts"}>
                         <Then>
                           <div className="postItem">
                             <PostItem
