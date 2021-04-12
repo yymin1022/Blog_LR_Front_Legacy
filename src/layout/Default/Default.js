@@ -100,25 +100,25 @@ const Default = props => {
           alt="testA" />
       </div>
       <List>
-        <ListItemLink>
+        <ListItem button component="a">
           <ListItemIcon><SearchIcon /></ListItemIcon>
           <ListItemText primary="Search" />
-        </ListItemLink>
+        </ListItem>
       </List>
       <Divider />
       <List>
-        <ListItemLink to="/home">
+        <ListItem button component="a" to="/home">
           <ListItemText primary="All Posts" />
-        </ListItemLink>
-        <ListItemLink to="/home?category=dev">
+        </ListItem>
+        <ListItem button component="a" to="/home?category=dev">
           <ListItemText primary="Development" />
-        </ListItemLink>
-        <ListItemLink to="/home?category=os">
+        </ListItem>
+        <ListItem button component="a" to="/home?category=os">
           <ListItemText primary="Operating System" />
-        </ListItemLink>
-        <ListItemLink to="/home?category=synology">
+        </ListItem>
+        <ListItem button component="a" to="/home?category=synology">
           <ListItemText primary="Synology/XPEnology" />
-        </ListItemLink>
+        </ListItem>
       </List>
     </div>
   );
