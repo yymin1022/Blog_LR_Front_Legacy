@@ -14,7 +14,7 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {};
-    this.categoryID = "";
+    this.categoryID = "all";
   }
 
   UNSAFE_componentWillMount() {
