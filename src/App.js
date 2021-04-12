@@ -23,7 +23,7 @@ function App() {
             layout = {DefaultLayout}
             component = {About} />
           <RouteLayout
-            path = "/home/:categoryID"
+            path = "/home"
             layout = {DefaultLayout}
             component = {Home} />
           <RouteLayout
