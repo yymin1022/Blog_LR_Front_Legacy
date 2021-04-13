@@ -17,13 +17,13 @@ function App() {
           <Redirect
             exact
             from = "/"
-            to = "/home" />
+            to = "/home/all" />
           <RouteLayout
             path = "/about"
             layout = {DefaultLayout}
             component = {About} />
           <RouteLayout
-            path = "/home"
+            path = "/home/:categoryID"
             layout = {DefaultLayout}
             component = {Home} />
           <RouteLayout
