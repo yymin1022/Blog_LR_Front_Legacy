@@ -1,5 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Switch, Redirect} from "react-router-dom";
+import {Route} from 'react-router-dom';
 
 import RouteLayout from "./layout/RouteLayout";
 import DefaultLayout from "./layout/Default";
