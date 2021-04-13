@@ -110,7 +110,7 @@ const Default = props => {
         <ListItemLink href="/home">
           <ListItemText primary="All Posts" />
         </ListItemLink>
-        <ListItemLink href="/home/dev">
+        <ListItemLink href="/home/development">
           <ListItemText primary="Development" />
         </ListItemLink>
         <ListItemLink href="/home/os">

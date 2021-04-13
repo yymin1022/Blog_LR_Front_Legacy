@@ -17,7 +17,7 @@ function App() {
           <Redirect
             exact
             from = "/"
-            to = "/home/all" />
+            to = "/home" />
           <RouteLayout
             path = "/about"
             layout = {DefaultLayout}
