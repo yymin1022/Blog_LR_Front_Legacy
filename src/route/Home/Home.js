@@ -22,7 +22,7 @@ class Home extends Component {
       this.categoryID = this.props.match.params.categoryID;
     }
     
-    alert(this.props);
+    console.log(this.props);
   }
 
   render() {
