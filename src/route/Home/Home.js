@@ -18,9 +18,11 @@ class Home extends Component {
   }
 
   UNSAFE_componentWillMount() {
-    this.categoryID = this.props.match.params.categoryID;
+    if(!this.props){
+      this.categoryID = this.props.match.params.categoryID;
+    }
     
-    alert(this.categoryID);
+    alert(this.props);
   }
 
   render() {
