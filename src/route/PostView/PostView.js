@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import {useHistory} from "react-router";
 
 import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown";
@@ -15,10 +14,6 @@ class PostView extends Component{
   }
 
   UNSAFE_componentWillMount(){
-    if(this.props.location.state.postDate == undefined){
-      useHistory().push("./404-not-found");
-    }
-
     const postDate = this.props.location.state.postDate;
     const postID = this.props.match.params.postID;
     const postTag = this.props.location.state.postTag;
