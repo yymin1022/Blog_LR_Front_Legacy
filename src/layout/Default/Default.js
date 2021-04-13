@@ -117,6 +117,7 @@ const Default = props => {
         </Link>
         <Link to="/home?category=synology">
           <p>Synology/XPEnology</p>
+        </Link>
       </List>
     </div>
   );
