@@ -6,6 +6,7 @@ import DefaultLayout from "./layout/Default";
 
 import About from "./route/About";
 import Home from "./route/Home";
+import NotFoundPage from "./route/NotFoundPage";
 import PostView from "./route/PostView";
 import ScrollTop from "./ScrollTop";
 
@@ -30,6 +31,9 @@ function App() {
             path = "/postview/:postID"
             layout = {DefaultLayout}
             component = {PostView} />
+          <Route
+            path = "*"
+            component = {NotFoundPage} />
         </Switch>
       </ScrollTop>
     </Router>
