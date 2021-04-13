@@ -19,14 +19,17 @@ function App() {
             from = "/"
             to = "/home" />
           <RouteLayout
+            exact
             path = "/about"
             layout = {DefaultLayout}
             component = {About} />
           <RouteLayout
+            exact
             path = "/home"
             layout = {DefaultLayout}
             component = {Home} />
           <RouteLayout
+            exact
             path = "/postview/:postID"
             layout = {DefaultLayout}
             component = {PostView} />

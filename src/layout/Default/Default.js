@@ -99,24 +99,24 @@ const Default = props => {
 
 
       <List>
-        <Link to="/home">
+        <ListItem button component="a">
           <ListItemIcon><SearchIcon /></ListItemIcon>
           <p>Search</p>
-        </Link>
+        </ListItem>
       </List>
       <Divider />
       <List>
         <Link to="/home">
-          <ListItemText primary="All Posts" />
+          <p>All Posts</p>
         </Link>
         <Link to="/home?category=dev">
-          <ListItemText primary="Development" />
+          <p>Development</p>
         </Link>
         <Link to="/home?category=os">
-          <ListItemText primary="Operating System" />
+          <p>Operating System</p>
         </Link>
         <Link to="/home?category=synology">
-          <ListItemText primary="Synology/XPEnology" />
+          <p>Synology/XPEnology</p>
         </Link>
       </List>
     </div>
