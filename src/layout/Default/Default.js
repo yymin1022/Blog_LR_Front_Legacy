@@ -19,10 +19,6 @@ import SearchIcon from "@material-ui/icons/Search";
 import styled, {createGlobalStyle} from "styled-components";
 import {makeStyles} from "@material-ui/core/styles";
 
-function ListItemLink(props) {
-  return <ListItem button component="a" {...props} />;
-}
-
 const GlobalStyle = createGlobalStyle`
   html, body {
     height: 100%
@@ -99,26 +95,28 @@ const Default = props => {
           width="100%"
           alt="testA" />
       </div>
+
+
       <List>
-        <ListItemLink>
+        <ListItem button component="a">
           <ListItemIcon><SearchIcon /></ListItemIcon>
           <ListItemText primary="Search" />
-        </ListItemLink>
+        </ListItem>
       </List>
       <Divider />
       <List>
-        <ListItemLink href="/home">
+        <ListItem button component="a" href="/home">
           <ListItemText primary="All Posts" />
-        </ListItemLink>
-        <ListItemLink href="/home?category=dev">
+        </ListItem>
+        <ListItem button component="a" href="/home?category=dev">
           <ListItemText primary="Development" />
-        </ListItemLink>
-        <ListItemLink href="/home?category=os">
+        </ListItem>
+        <ListItem button component="a" href="/home?category=os">
           <ListItemText primary="Operating System" />
-        </ListItemLink>
-        <ListItemLink href="/home?category=synology">
+        </ListItem>
+        <ListItem button component="a" href="/home?category=synology">
           <ListItemText primary="Synology/XPEnology" />
-        </ListItemLink>
+        </ListItem>
       </List>
     </div>
   );
