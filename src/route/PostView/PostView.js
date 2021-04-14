@@ -14,7 +14,7 @@ class PostView extends Component{
   }
 
   UNSAFE_componentWillMount(){
-    console.log(this.props.location.state.postDate);
+    console.log(this.props.location.state);
 
     const postDate = this.props.location.state.postDate;
     const postID = this.props.match.params.postID;
