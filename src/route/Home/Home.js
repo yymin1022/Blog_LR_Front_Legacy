@@ -23,8 +23,6 @@ class Home extends Component {
     console.log("3. " + this.props.match.params);
 
     if(this.props.match){
-      console.log("4. " + this.props.match.params.categoryID + ".");
-
       this.categoryID = this.props.match.params.categoryID;
     }else{
       console.log("0. No Category")
