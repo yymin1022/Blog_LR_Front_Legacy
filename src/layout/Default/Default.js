@@ -105,13 +105,13 @@ const Default = props => {
           alt="testA" />
       </div>
       
-      <List>
+      {/* <List>
         <ListItem button component="a">
           <ListItemIcon><SearchIcon /></ListItemIcon>
           <p style={{color: "#333333"}}>Search</p>
         </ListItem>
       </List>
-      <Divider />
+      <Divider /> */}
       <List>
         <Link to={{
           pathname: "/",
