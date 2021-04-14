@@ -52,7 +52,7 @@ class Home extends Component {
                           <Then>
                             <If condition={categoryID == "all"}>
                               <Then>
-                                <div className="postItemPinned">
+                                <div className="postItemPinned" key={item.postURL}>
                                   <PostItemPinned
                                     postDate = {item.postDate}
                                     postTag = {item.postTag}
@@ -64,7 +64,7 @@ class Home extends Component {
                               <Else>
                                 <If condition={categoryID == item.postTag}>
                                   <Then>
-                                    <div className="postItemPinned">
+                                    <div className="postItemPinned" key={item.postURL}>
                                       <PostItemPinned
                                         postDate = {item.postDate}
                                         postTag = {item.postTag}
@@ -96,7 +96,7 @@ class Home extends Component {
                 <div key={item.postURL}>
                   <If condition={categoryID == "all"}>
                     <Then>
-                      <div className="postItem">
+                      <div className="postItem" key={item.postURL}>
                         <PostItem
                           postDate = {item.postDate}
                           postTag = {item.postTag}
@@ -108,7 +108,7 @@ class Home extends Component {
                     <Else>
                       <If condition={categoryID == item.postTag}>
                         <Then>
-                          <div className="postItem">
+                          <div className="postItem" key={item.postURL}>
                             <PostItem
                               postDate = {item.postDate}
                               postTag = {item.postTag}
