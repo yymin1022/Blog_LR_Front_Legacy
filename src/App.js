@@ -21,14 +21,17 @@ function App() {
             from = "/"
             to = {"/home/ "} /> */}
           <RouteLayout
+            exact
             path = "/about"
             layout = {DefaultLayout}
             component = {withRouter(About)} />
           <RouteLayout
+            exact
             path = "/"
             layout = {DefaultLayout}
             component = {withRouter(Home)} />
           <RouteLayout
+            exact
             path = "/postview/:postID"
             layout = {DefaultLayout}
             component = {withRouter(PostView)} />
