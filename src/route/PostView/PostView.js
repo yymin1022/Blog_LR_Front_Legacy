@@ -18,14 +18,14 @@ class PostView extends Component{
     console.log(this.props.match.params.postID);
 
     postDB.map(item => {
-      console.log(item.postID);
+      console.log(item.postURL);
 
-      if(item.postID == this.props.match.params.postID){
+      if(item.postURL == this.props.match.params.postID){
         const postDate = item.postDate;
-        const postID = item.postID;
+        const postID = item.postURL;
         const postTag = item.postTag;
         const postTitle = item.postTitle;
-        const postURL = "https://blog-new.defcon.or.kr/postview/" + item.postID;
+        const postURL = "https://blog-new.defcon.or.kr/postview/" + item.postURL;
         const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
         this.setState({isNotFound: null});
