@@ -94,7 +94,7 @@ class Home extends Component {
             postDB.map(item => {
               return(
                 <div key={item.postURL}>
-                  <If condition={item.pinned != true}>
+                  <If condition={item.pinned != "true"}>
                     <Then>
                       <If condition={categoryID == "all"}>
                         <Then>
