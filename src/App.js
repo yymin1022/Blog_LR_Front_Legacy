@@ -33,7 +33,6 @@ function App() {
             layout = {DefaultLayout}
             component = {PostView} />
           <Route
-            path = "*"
             component = {NotFoundPage} />
         </Switch>
       </ScrollTop>
