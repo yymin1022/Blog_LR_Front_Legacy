@@ -24,7 +24,7 @@ class Home extends Component {
   }
 
   componentDidUpdate() {
-    this.setState({ state: this.state });
+    window.location.reload();
   }
 
   render() {
