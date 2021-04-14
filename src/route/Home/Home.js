@@ -22,7 +22,7 @@ class Home extends Component {
       console.log("1. " + this.props);
       console.log("2. " + this.props.match);
       console.log("3. " + this.props.match.params);
-      console.log("4. " + this.props.match.params.categoryID);
+      console.log("4. " + this.props.match.params.categoryID + ".");
 
       this.categoryID = this.props.match.params.categoryID;
     }else{
