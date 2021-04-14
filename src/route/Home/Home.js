@@ -22,7 +22,10 @@ class Home extends Component {
     console.log("2. " + this.props.match);
     console.log("3. " + this.props.match.params);
     console.log("4. " + this.props.match.params.categoryID);
-    this.categoryID = this.props.match.params.categoryID;
+
+    if(this.props.match.params){
+      this.categoryID = this.props.match.params.categoryID;
+    }
   }
 
   render() {
@@ -30,7 +33,7 @@ class Home extends Component {
 
     return(
       <div align="center">
-        <If condition={categoryID == null}>
+        <If condition={categoryID == ""}>
           <Then>
             <div>
               <div align="left" className="postPinnedTitle">
@@ -48,7 +51,7 @@ class Home extends Component {
                       <div key={item.postURL + "-pinned"}>
                         <If condition={item.pinned}>
                           <Then>
-                            <If condition={categoryID == null}>
+                            <If condition={categoryID == ""}>
                               <Then>
                                 <div className="postItem">
                                   <PostItemPinned
@@ -94,7 +97,7 @@ class Home extends Component {
                 <div key={item.postURL}>
                   <If condition={!item.pinned}>
                     <Then>
-                      <If condition={categoryID == null}>
+                      <If condition={categoryID == ""}>
                         <Then>
                           <div className="postItem">
                             <PostItem
