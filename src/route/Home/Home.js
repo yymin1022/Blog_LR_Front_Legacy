@@ -14,11 +14,13 @@ class Home extends Component {
   constructor(props) {
     super();
     this.state = {};
-    this.categoryID = "";
+    this.categoryID = "all";
   }
 
   UNSAFE_componentWillMount() {
-    this.categoryID = this.props.location.state.categoryID;
+    if(this.props.location){
+      this.categoryID = this.props.location.state.categoryID;
+    }
   }
 
   componentDidUpdate(prevProps) {
