@@ -5,34 +5,34 @@ import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown";
 
 import CodeBlock from "./CodeBlock";
+import postDB from "/home/server/web/src/posts/DB.json";
 import "./PostView.css";
 
 class PostView extends Component{
   constructor(){
     super();
-    this.state ={isNotFound: null, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
+    this.state ={isNotFound: true, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
   }
 
   UNSAFE_componentWillMount(){
-    if(this.props.location.state){
-      const postDate = this.props.location.state.postDate;
-      const postID = this.props.match.params.postID;
-      const postTag = this.props.location.state.postTag;
-      const postTitle = this.props.location.state.postTitle;
-      const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.postID;
-      const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
+    postDB.map(item => {
+      if(item.postID == this.props.match.params.postID){
+        const postDate = item.postDate;
+        const postID = item.postID;
+        const postTag = item.postTag;
+        const postTitle = item.postTitle;
+        const postURL = "https://blog-new.defcon.or.kr/postview/" + item.postID;
+        const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
 
-      this.setState({postDate: postDate});
-      this.setState({postID: postID});
-      this.setState({postTag: postTag});
-      this.setState({postTitle: postTitle});
-      this.setState({postURL: postURL});
-      fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
-    }else{
-      this.setState({isNotFound: true});
-    }
-
-    
+        this.setState({isNotFound: null});
+        this.setState({postDate: postDate});
+        this.setState({postID: postID});
+        this.setState({postTag: postTag});
+        this.setState({postTitle: postTitle});
+        this.setState({postURL: postURL});
+        fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
+      }
+    })
   }
 
   componentDidUpdate(){
