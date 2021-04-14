@@ -18,17 +18,18 @@ class Home extends Component {
   }
 
   UNSAFE_componentWillMount() {
-    if(this.props){
-      console.log("1. " + this.props);
-      console.log("2. " + this.props.match);
-      console.log("3. " + this.props.match.params);
+    console.log("1. " + this.props);
+    console.log("2. " + this.props.match);
+    console.log("3. " + this.props.match.params);
+
+    if(this.props.match){
       console.log("4. " + this.props.match.params.categoryID + ".");
 
       this.categoryID = this.props.match.params.categoryID;
     }else{
       console.log("0. No Category")
 
-      this.categoryID = "";
+      this.categoryID = " ";
     }
   }
 
