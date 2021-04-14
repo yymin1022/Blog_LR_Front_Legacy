@@ -119,7 +119,7 @@ const Default = props => {
             categoryID: "all"
           }}}>
           <NavContainer>
-            <p style="color: #777777">All Posts</p>
+            <p style={{color: "#777777"}}>All Posts</p>
           </NavContainer>
         </Link>
         <Link to={{
@@ -128,7 +128,7 @@ const Default = props => {
             categoryID: "dev"
           }}}>
           <NavContainer>
-            <p style="color: #777777">Development</p>
+            <p style={{color: "#777777"}}>Development</p>
           </NavContainer>
         </Link>
         <Link to={{
@@ -137,7 +137,7 @@ const Default = props => {
             categoryID: "os"
           }}}>
           <NavContainer>
-            <p style="color: #777777">Operating System</p>
+            <p style={{color: "#777777"}}>Operating System</p>
           </NavContainer>
         </Link>
         <Link to={{
@@ -146,7 +146,7 @@ const Default = props => {
             categoryID: "synology"
           }}}>
           <NavContainer>
-            <p style="color: #777777">Synology/XPEnology</p>
+            <p style={{color: "#777777"}}>Synology/XPEnology</p>
           </NavContainer>
         </Link>
       </List>
