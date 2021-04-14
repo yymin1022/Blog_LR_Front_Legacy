@@ -108,7 +108,7 @@ const Default = props => {
       <List>
         <ListItem button component="a">
           <ListItemIcon><SearchIcon /></ListItemIcon>
-          <p>Search</p>
+          <p style={{color: "#333333"}}>Search</p>
         </ListItem>
       </List>
       <Divider />
