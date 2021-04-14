@@ -15,7 +15,11 @@ class PostView extends Component{
   }
 
   UNSAFE_componentWillMount(){
+    console.log(this.props.match.params.postID);
+
     postDB.map(item => {
+      console.log(item.postID);
+
       if(item.postID == this.props.match.params.postID){
         const postDate = item.postDate;
         const postID = item.postID;
