@@ -31,7 +31,7 @@ class Home extends Component {
     const categoryID = this.categoryID;
 
     return(
-      <div align="center" timestamp={new Date().getTime().toString()}>
+      <div align="center">
         <If condition={categoryID == "all"}>
           <Then>
             <>

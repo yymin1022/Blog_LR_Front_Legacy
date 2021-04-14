@@ -14,7 +14,7 @@ const RouteWithLayout = props =>{
     <Route
       {...rest}
       render={ matchProps => (
-        <Layout>
+        <Layout timestamp={new Date().getTime().toString()}>
           <Component {...matchProps} />
         </Layout>
       )}
