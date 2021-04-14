@@ -23,10 +23,8 @@ class Home extends Component {
     }
   }
 
-  componentDidUpdate(prevProps) {
-    if("all" !== this.props.location.state.categoryID){
-      window.location.reload();
-    }
+  componentDidUpdate() {
+    window.location.reload();
   }
 
   render() {
