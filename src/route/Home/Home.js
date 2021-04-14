@@ -23,7 +23,7 @@ class Home extends Component {
     }else{
       console.log("Null Category")
     }
-    
+
     this.categoryID = this.props.match.params.categoryID;
   }
 
@@ -34,7 +34,7 @@ class Home extends Component {
       <div align="center">
         <If condition={categoryID == " "}>
           <Then>
-            <div>
+            <>
               <div align="left" className="postPinnedTitle">
                 <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                 <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
@@ -83,7 +83,7 @@ class Home extends Component {
                   })
                 }
               </div>
-            </div>
+            </>
             <br/>
             <hr className="seperator"/>
             <br/>
