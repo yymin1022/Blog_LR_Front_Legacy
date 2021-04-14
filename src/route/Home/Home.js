@@ -47,7 +47,7 @@ class Home extends Component {
                 {
                   postDB.map(item => {
                     return(
-                      <div key={new Date().getTime().toString()}>
+                      <div key={item.postThumbnail}>
                         <If condition={item.pinned}>
                           <Then>
                             <If condition={categoryID == "all"}>
@@ -95,6 +95,7 @@ class Home extends Component {
               return(
                 <div key={item.postURL}>
                   <If condition={!item.pinned}>
+                    {console.log(item.pinned + " / " + item.postTitle)}
                     <Then>
                       <If condition={categoryID == "all"}>
                         <Then>
