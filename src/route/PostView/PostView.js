@@ -33,6 +33,8 @@ class PostView extends Component{
         fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
       }
     })
+
+    console.log(this.state.isNotFound);
   }
 
   componentDidUpdate(){
