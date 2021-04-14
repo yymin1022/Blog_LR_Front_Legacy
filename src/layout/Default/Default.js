@@ -58,6 +58,11 @@ const Container = styled.div`
   }
 `;
 
+const NavContainer = styled.div`
+  align-items: center;
+  display: flex;
+`;
+
 const Default = props => {
   const {
     className,
@@ -96,8 +101,7 @@ const Default = props => {
           width="100%"
           alt="testA" />
       </div>
-
-
+      
       <List>
         <ListItem button component="a">
           <ListItemIcon><SearchIcon /></ListItemIcon>
@@ -111,36 +115,36 @@ const Default = props => {
           state:{
             categoryID: "all"
           }}}>
-          <div style="itemAlign: center;">
+          <NavContainer>
             <p>All Posts</p>
-          </div>
+          </NavContainer>
         </Link>
         <Link to={{
           pathname: "/",
           state:{
             categoryID: "dev"
           }}}>
-          <div style="itemAlign: center;">
+          <NavContainer>
             <p>Development</p>
-          </div>
+          </NavContainer>
         </Link>
         <Link to={{
           pathname: "/",
           state:{
             categoryID: "os"
           }}}>
-          <div style="itemAlign: center;">
+          <NavContainer>
             <p>Operating System</p>
-          </div>
+          </NavContainer>
         </Link>
         <Link to={{
           pathname: "/",
           state:{
             categoryID: "synology"
           }}}>
-          <div style="itemAlign: center;">
+          <NavContainer>
             <p>Synology/XPEnology</p>
-          </div>
+          </NavContainer>
         </Link>
       </List>
     </div>
