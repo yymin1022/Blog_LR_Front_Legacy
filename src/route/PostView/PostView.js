@@ -10,7 +10,7 @@ import "./PostView.css";
 class PostView extends Component{
   constructor(){
     super();
-    this.state ={isNotFound: null, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
+    this.state ={isNotFound: false, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
   }
 
   UNSAFE_componentWillMount(){
@@ -29,7 +29,7 @@ class PostView extends Component{
       this.setState({postURL: postURL});
       fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
     }else{
-      this.setState({isNotFound: "/NotFound"});
+      this.setState({isNotFound: true});
     }
 
     
@@ -41,7 +41,7 @@ class PostView extends Component{
 
   render(){
     if (this.state.isNotFound) {
-      return <Redirect to={this.state.isNotFound} />
+      return <Redirect to="/PostNotFound" />
     }
 
     function BlockQuoteBlock(props){
