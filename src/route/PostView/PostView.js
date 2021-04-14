@@ -15,11 +15,7 @@ class PostView extends Component{
   }
 
   UNSAFE_componentWillMount(){
-    console.log(this.props.match.params.postID);
-
     postDB.map(item => {
-      console.log(item.postURL);
-
       if(item.postURL == this.props.match.params.postID){
         const postDate = item.postDate;
         const postID = item.postURL;
@@ -37,8 +33,6 @@ class PostView extends Component{
         fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
       }
     })
-
-    console.log(this.state.isNotFound);
   }
 
   componentDidUpdate(){
