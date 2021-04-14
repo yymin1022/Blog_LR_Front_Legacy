@@ -109,13 +109,13 @@ const Default = props => {
         <Link to="/home">
           <p>All Posts</p>
         </Link>
-        <Link to="/home?category=dev">
+        <Link to="/home/dev">
           <p>Development</p>
         </Link>
-        <Link to="/home?category=os">
+        <Link to="/home/os">
           <p>Operating System</p>
         </Link>
-        <Link to="/home?category=synology">
+        <Link to="/home/synology">
           <p>Synology/XPEnology</p>
         </Link>
       </List>

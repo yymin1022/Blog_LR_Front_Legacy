@@ -25,7 +25,7 @@ function App() {
             layout = {DefaultLayout}
             component = {withRouter(About)} />
           <RouteLayout
-            path = "/home"
+            path = "/home/:categoryID"
             layout = {DefaultLayout}
             component = {withRouter(Home)} />
           <RouteLayout
