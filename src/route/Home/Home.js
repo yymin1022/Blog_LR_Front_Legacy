@@ -47,12 +47,12 @@ class Home extends Component {
                 {
                   postDB.map(item => {
                     return(
-                      <div>
+                      <div key={item.postThumbnail}>
                         <If condition={item.pinned}>
                           <Then>
                             <If condition={categoryID == "all"}>
                               <Then>
-                                <div className="postItem">
+                                <div className="postItemPinned">
                                   <PostItemPinned
                                     postDate = {item.postDate}
                                     postTag = {item.postTag}
@@ -64,7 +64,7 @@ class Home extends Component {
                               <Else>
                                 <If condition={categoryID == item.postTag}>
                                   <Then>
-                                    <div className="postItem">
+                                    <div className="postItemPinned">
                                       <PostItemPinned
                                         postDate = {item.postDate}
                                         postTag = {item.postTag}
