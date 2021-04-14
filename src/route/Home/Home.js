@@ -20,7 +20,12 @@ class Home extends Component {
   UNSAFE_componentWillMount() {
     this.categoryID = this.props.match.params.categoryID;
 
-    console.log(this.categoryID);
+    
+    if(this.categoryID){
+      console.log(this.categoryID);
+    }else{
+      console.log("Null Category")
+    }
   }
 
   render() {
