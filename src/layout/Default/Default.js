@@ -111,28 +111,36 @@ const Default = props => {
           state:{
             categoryID: "all"
           }}}>
-          <p>All Posts</p>
+          <div style="itemAlign: center;">
+            <p>All Posts</p>
+          </div>
         </Link>
         <Link to={{
           pathname: "/",
           state:{
             categoryID: "dev"
           }}}>
-          <p>Development</p>
+          <div style="itemAlign: center;">
+            <p>Development</p>
+          </div>
         </Link>
         <Link to={{
           pathname: "/",
           state:{
             categoryID: "os"
           }}}>
-          <p>Operating System</p>
+          <div style="itemAlign: center;">
+            <p>Operating System</p>
+          </div>
         </Link>
         <Link to={{
           pathname: "/",
           state:{
             categoryID: "synology"
           }}}>
-          <p>Synology/XPEnology</p>
+          <div style="itemAlign: center;">
+            <p>Synology/XPEnology</p>
+          </div>
         </Link>
       </List>
     </div>

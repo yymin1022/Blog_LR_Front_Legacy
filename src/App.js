@@ -16,20 +16,16 @@ function App() {
     <Router>
       <ScrollTop>
         <Switch>
-          {/* <Redirect
-            exact
-            from = "/"
-            to = {"/home/ "} /> */}
-          <RouteLayout
-            exact
-            path = "/about"
-            layout = {DefaultLayout}
-            component = {withRouter(About)} />
           <RouteLayout
             exact
             path = "/"
             layout = {DefaultLayout}
             component = {withRouter(Home)} />
+          <RouteLayout
+            exact
+            path = "/about"
+            layout = {DefaultLayout}
+            component = {withRouter(About)} />
           <RouteLayout
             exact
             path = "/postview/:postID"
