@@ -16,16 +16,16 @@ function App() {
     <Router>
       <ScrollTop>
         <Switch>
-          <Redirect
+          {/* <Redirect
             exact
             from = "/"
-            to = {"/home/ "} />
+            to = {"/home/ "} /> */}
           <RouteLayout
             path = "/about"
             layout = {DefaultLayout}
             component = {withRouter(About)} />
           <RouteLayout
-            path = "/home/:categoryID"
+            path = "/:categoryID"
             layout = {DefaultLayout}
             component = {withRouter(Home)} />
           <RouteLayout
