@@ -18,7 +18,7 @@ class Home extends Component {
   }
 
   UNSAFE_componentWillMount() {
-    if(this.props){
+    if(props){
       console.log("1. " + this.props);
       console.log("2. " + this.props.match);
       console.log("3. " + this.props.match.params);
