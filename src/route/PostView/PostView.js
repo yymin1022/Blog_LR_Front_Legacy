@@ -10,7 +10,7 @@ import "./PostView.css";
 class PostView extends Component{
   constructor(){
     super();
-    this.state ={isNotFound: false, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
+    this.state ={isNotFound: null, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
   }
 
   UNSAFE_componentWillMount(){
