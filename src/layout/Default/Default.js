@@ -106,16 +106,32 @@ const Default = props => {
       </List>
       <Divider />
       <List>
-        <Link to="/">
+        <Link to={{
+          pathname: "/",
+          state:{
+            categoryID: "all"
+          }}}>
           <p>All Posts</p>
         </Link>
-        <Link to="/dev">
+        <Link to={{
+          pathname: "/",
+          state:{
+            categoryID: "dev"
+          }}}>
           <p>Development</p>
         </Link>
-        <Link to="/os">
+        <Link to={{
+          pathname: "/",
+          state:{
+            categoryID: "os"
+          }}}>
           <p>Operating System</p>
         </Link>
-        <Link to="/synology">
+        <Link to={{
+          pathname: "/",
+          state:{
+            categoryID: "synology"
+          }}}>
           <p>Synology/XPEnology</p>
         </Link>
       </List>
