@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
+import {Link, Redirect} from "react-router-dom";
 
 import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown";
@@ -10,27 +10,29 @@ import "./PostView.css";
 class PostView extends Component{
   constructor(){
     super();
-    this.state ={postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
+    this.state ={isNotFound: null, postDate: "", postID: "", markdown: "", postTag: "", postTitle: "", postURL: ""};
   }
 
   UNSAFE_componentWillMount(){
-    if(!this.props.location.state){
-      console.log("NOT FOUND");
+    if(this.props.location.state){
+      const postDate = this.props.location.state.postDate;
+      const postID = this.props.match.params.postID;
+      const postTag = this.props.location.state.postTag;
+      const postTitle = this.props.location.state.postTitle;
+      const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.postID;
+      const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
+
+      this.setState({postDate: postDate});
+      this.setState({postID: postID});
+      this.setState({postTag: postTag});
+      this.setState({postTitle: postTitle});
+      this.setState({postURL: postURL});
+      fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
+    }else{
+      this.setState({isNotFound: "/NotFound"});
     }
 
-    const postDate = this.props.location.state.postDate;
-    const postID = this.props.match.params.postID;
-    const postTag = this.props.location.state.postTag;
-    const postTitle = this.props.location.state.postTitle;
-    const postURL = "https://blog-new.defcon.or.kr/postview/" + this.props.match.params.postID;
-    const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
-
-    this.setState({postDate: postDate});
-    this.setState({postID: postID});
-    this.setState({postTag: postTag});
-    this.setState({postTitle: postTitle});
-    this.setState({postURL: postURL});
-    fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
+    
   }
 
   componentDidUpdate(){
@@ -38,6 +40,10 @@ class PostView extends Component{
   }
 
   render(){
+    if (this.state.isNotFound) {
+      return <Redirect to={this.state.isNotFound} />
+    }
+
     function BlockQuoteBlock(props){
       return (
           <div className="quoteBlock" style={{}}>
