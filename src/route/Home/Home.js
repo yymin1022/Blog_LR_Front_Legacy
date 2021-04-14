@@ -24,14 +24,14 @@ class Home extends Component {
   }
 
   componentDidUpdate() {
-    window.location.reload();
+    // window.location.reload();
   }
 
   render() {
     const categoryID = this.categoryID;
 
     return(
-      <div align="center">
+      <div align="center" timestamp={new Date().getTime().toString()}>
         <If condition={categoryID == "all"}>
           <Then>
             <>
