@@ -24,7 +24,7 @@ class Home extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (prevProps.location.state.categoryID !== this.props.location.state.ategoryID){
+    if (prevProps.location.state.categoryID !== this.props.location.state.categoryID){
       window.location.reload();
     }
   }
