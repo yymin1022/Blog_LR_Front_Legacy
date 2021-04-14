@@ -11,7 +11,7 @@ import postDB from "/home/server/web/src/posts/DB.json";
 import "./Home.css";
 
 class Home extends Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = {};
     this.categoryID = "";
