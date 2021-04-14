@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Redirect, withRouter} from "react-router-dom";
 import {Route} from 'react-router-dom';
 
 import RouteLayout from "./layout/RouteLayout";
@@ -23,17 +23,17 @@ function App() {
           <RouteLayout
             path = "/about"
             layout = {DefaultLayout}
-            component = {About} />
+            component = {withRouter(About)} />
           <RouteLayout
             path = "/home"
             layout = {DefaultLayout}
-            component = {Home} />
+            component = {withRouter(Home)} />
           <RouteLayout
             path = "/postview/:postID"
             layout = {DefaultLayout}
-            component = {PostView} />
+            component = {withRouter(PostView)} />
           <Route
-            component = {NotFoundPage} />
+            component = {withRouter(NotFoundPage)} />
         </Switch>
       </ScrollTop>
     </Router>
