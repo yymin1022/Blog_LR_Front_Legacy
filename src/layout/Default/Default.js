@@ -61,9 +61,9 @@ const Container = styled.div`
 const NavContainer = styled.div`
   align-items: center;
   display: flex;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
   margin-left: 10px;
-  margin-top: -5px;
+  margin-top: -10px;
 `;
 
 const Default = props => {
