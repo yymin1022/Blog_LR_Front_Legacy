@@ -21,6 +21,12 @@ class Home extends Component {
     this.categoryID = this.props.location.state.categoryID;
   }
 
+  componentDidUpdate(prevProps) {
+    if (prevProps.location.state.categoryID !== this.props.location.state.ategoryID){
+      window.location.reload();
+    }
+  }
+
   render() {
     const categoryID = this.categoryID;
 
