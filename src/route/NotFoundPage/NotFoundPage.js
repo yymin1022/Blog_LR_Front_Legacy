@@ -12,12 +12,10 @@ class NotFoundPage extends Component {
     return(
       <div id="Container">
         <div id="Content">
-          <h3>404 Not Found</h3>
-          <div id="Navigator">
-            <Link to={"/"}>
-              <h3>Home</h3>
-            </Link>
-          </div>
+          <h3>Page Not Found</h3>
+          <Link to={"/"}>
+            <h3>Home</h3>
+          </Link>
         </div>
 
         
