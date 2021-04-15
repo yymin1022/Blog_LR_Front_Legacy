@@ -24,7 +24,7 @@ class Home extends Component {
   }
 
   componentDidUpdate() {
-    this.setState({doUpdate: new Date().getTime()})
+    this.setState({doUpdate: new Date().getTime})
   }
 
   render() {
