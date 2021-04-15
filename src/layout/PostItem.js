@@ -24,6 +24,8 @@ class PostItem extends Component {
         this.postTag = "#OS #Linux #Unix #Windows"
         break;
       case "synology":
+          
+      
         this.postTag = "#NAS #Synology #XPEnology"
         break;
     }
