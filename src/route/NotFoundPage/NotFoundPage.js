@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
 import "./NotFoundPage.css";
-import DefConLogo from './image/DefCon_Logo.svg';
+import DefConLogo from '.../image/DefCon_Logo.svg';
 
 class NotFoundPage extends Component {
   constructor() {
