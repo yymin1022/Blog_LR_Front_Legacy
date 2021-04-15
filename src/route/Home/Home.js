@@ -23,6 +23,10 @@ class Home extends Component {
     }
   }
 
+  componentDidUpdate() {
+    window.location.reload();
+  }
+
   render() {
     const categoryID = this.categoryID;
 

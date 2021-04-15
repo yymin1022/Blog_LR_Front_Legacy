@@ -117,8 +117,7 @@ const Default = props => {
           pathname: "/",
           state:{
             categoryID: "all"
-          }}}
-          onClick={this.forceUpdate}>
+          }}}>
           <NavContainer>
             <p style={{color: "#333333"}}>All Posts</p>
           </NavContainer>
@@ -127,8 +126,7 @@ const Default = props => {
           pathname: "/",
           state:{
             categoryID: "dev"
-          }}}
-          onClick={this.forceUpdate}>
+          }}}>
           <NavContainer>
             <p style={{color: "#333333"}}>Development</p>
           </NavContainer>
@@ -137,8 +135,7 @@ const Default = props => {
           pathname: "/",
           state:{
             categoryID: "os"
-          }}}
-          onClick={this.forceUpdate}>
+          }}}>
           <NavContainer>
             <p style={{color: "#333333"}}>Operating System</p>
           </NavContainer>
@@ -147,8 +144,7 @@ const Default = props => {
           pathname: "/",
           state:{
             categoryID: "synology"
-          }}}
-          onClick={this.forceUpdate}>
+          }}}>
           <NavContainer>
             <p style={{color: "#333333"}}>Synology/XPEnology</p>
           </NavContainer>
