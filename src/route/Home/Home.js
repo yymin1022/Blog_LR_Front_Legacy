@@ -13,7 +13,7 @@ import "./Home.css";
 class Home extends Component {
   constructor(props) {
     super();
-    this.state = {doUpdate: ""};
+    this.state = {};
     this.categoryID = "all";
   }
 
@@ -24,7 +24,7 @@ class Home extends Component {
   }
 
   componentDidUpdate() {
-    this.setState({doUpdate: new Date().getTime})
+    window.location.reload();
   }
 
   render() {
