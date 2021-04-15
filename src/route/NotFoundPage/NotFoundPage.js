@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
+import "./NotFoundPage.css";
+
 class NotFoundPage extends Component {
   constructor() {
     super();
@@ -8,10 +10,10 @@ class NotFoundPage extends Component {
 
   render() {
     return(
-      <div>
+      <div class="Container">
         <h3>404 Not Found</h3>
 
-        <div>
+        <div class="Navigator">
           <Link to={"/"}>
             <h3>Home</h3>
           </Link>
