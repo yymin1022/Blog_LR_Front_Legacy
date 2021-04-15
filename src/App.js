@@ -31,7 +31,8 @@ function App() {
             path = "/postview/:postID"
             layout = {DefaultLayout}
             component = {withRouter(PostView)} />
-          <Route
+          <RouteLayout
+            layout = {DefaultLayout}
             component = {withRouter(NotFoundPage)} />
         </Switch>
       </ScrollTop>
