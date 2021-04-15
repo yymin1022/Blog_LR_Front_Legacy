@@ -11,15 +11,16 @@ class NotFoundPage extends Component {
   render() {
     return(
       <div id="Container">
-        <div id="Title">
+        <div id="Content">
           <h3>404 Not Found</h3>
+          <div id="Navigator">
+            <Link to={"/"}>
+              <h3>Home</h3>
+            </Link>
+          </div>
         </div>
 
-        <div id="Navigator">
-          <Link to={"/"}>
-            <h3>Home</h3>
-          </Link>
-        </div>
+        
       </div>
     )
   }
