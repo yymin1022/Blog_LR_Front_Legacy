@@ -24,7 +24,7 @@ class Home extends Component {
   }
 
   componentDidUpdate() {
-    this.forceUpdate();
+    window.location.reload();
   }
 
   render() {
