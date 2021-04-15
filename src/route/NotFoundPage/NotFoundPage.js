@@ -17,8 +17,6 @@ class NotFoundPage extends Component {
             <h3>Home</h3>
           </Link>
         </div>
-
-        
       </div>
     )
   }
