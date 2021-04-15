@@ -16,9 +16,6 @@ class NotFoundPage extends Component {
           <img id="DefConLogo" src={DefConLogo} />
 
           <h1>Page Not Found !</h1>
-          <Link to={"/"}>
-            <h3>Home</h3>
-          </Link>
         </div>
       </div>
     )
