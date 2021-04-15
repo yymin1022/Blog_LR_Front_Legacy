@@ -10,10 +10,10 @@ class NotFoundPage extends Component {
 
   render() {
     return(
-      <div class="Container">
+      <div id="Container">
         <h3>404 Not Found</h3>
 
-        <div class="Navigator">
+        <div id="Navigator">
           <Link to={"/"}>
             <h3>Home</h3>
           </Link>
