@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
 
 import "./NotFoundPage.css";
 import DefConLogo from '/home/server/web/src/image/DefCon_Logo.svg';
