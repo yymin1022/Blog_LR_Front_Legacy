@@ -10,24 +10,24 @@ import postDB from "/home/server/web/src/posts/DB.json";
 
 import "./Home.css";
 
-class Home extends Component {
-  constructor(props) {
+class Home extends Component{
+  constructor(props){
     super();
-    this.state = {};
+    this.state ={};
     this.categoryID = "all";
   }
 
-  UNSAFE_componentWillMount() {
+  UNSAFE_componentWillMount(){
     if(this.props.location.state){
       this.categoryID = this.props.location.state.categoryID;
     }
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(){
     window.location.reload();
   }
 
-  render() {
+  render(){
     const categoryID = this.categoryID;
 
     return(
