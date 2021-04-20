@@ -16,6 +16,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-react": "^6.24.1",
+    "core-js": "^3.10.2",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "disqus-react": "^1.0.11",
