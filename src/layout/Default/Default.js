@@ -14,7 +14,6 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 
-import DrawerBG from "/home/server/web/src/image/img_drawer_top.png";
 import SearchIcon from "@material-ui/icons/Search";
 
 import styled, {createGlobalStyle} from "styled-components";
@@ -100,7 +99,7 @@ const Default = props => {
     >
       <div>
         <img
-          src={DrawerBG}
+          src={process.env.PUBLIC_URL + "/images/img_drawer_top.png"}
           width="100%"
           alt="testA" />
       </div>
