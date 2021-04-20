@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import{Redirect} from 'react-router-dom';
 
-import DefConLogo from '/home/server/web/src/image/DefCon_Logo.svg';
+import DefConLogo from '/home/server/web/src/';
 import "./NotFoundPage.css";
 
 class NotFoundPage extends Component{
@@ -27,7 +27,7 @@ class NotFoundPage extends Component{
       return(
         <div id="Container">
           <div id="Content" align="center">
-            <img id="DefConLogo" src={DefConLogo} />
+            <img id="DefConLogo" src={process.env.PUBLIC_URL + "/images/DefCon_Logo.svg"} />
   
             <h1>Page Not Found !</h1>
             <h3>Redirecting to Blog Home...</h3>
