@@ -34,7 +34,7 @@ class PostItemPinned extends Component {
       <Link to={"/postview/" + this.postURL}>
         <div id="postPinnedItem" align="left">
           <div id="postPinnedThumbnail">
-            <img src={require("/home/server/web/src/posts/" + this.postThumbnail + ".png").default} />
+            <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + this.postThumbnail + ".png"} />
           </div>
           <div id="postPinnedInfo">
             <div id="postPinnedInfoTitle">

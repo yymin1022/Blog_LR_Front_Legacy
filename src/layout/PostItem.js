@@ -36,7 +36,7 @@ class PostItem extends Component {
       <Link to={"/postview/" + this.postURL}>
         <div id="postItem" align="left">
           <div id="postThumbnail">
-            <img src={require("/home/server/web/src/posts/" + this.postThumbnail + ".png").default} />
+            <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + this.postThumbnail + ".png"} />
           </div>
           <div id="postInfo">
             <div id="postInfoTitle">
