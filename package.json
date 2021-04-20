@@ -1,6 +1,6 @@
 {
-  "name": "blog_react",
-  "version": "0.1.0",
+  "name": "Blog_LR",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -43,8 +43,10 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "react-scripts start"
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -69,8 +71,5 @@
     "**/.git/subtree-cache/**": true,
     "**/node_modules/**": true,
     "**/**": true
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.4.0"
   }
 }
