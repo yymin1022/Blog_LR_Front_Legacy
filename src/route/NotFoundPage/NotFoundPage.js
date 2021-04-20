@@ -1,7 +1,6 @@
 import React,{Component} from "react";
 import{Redirect} from 'react-router-dom';
 
-import DefConLogo from '/home/server/web/src/';
 import "./NotFoundPage.css";
 
 class NotFoundPage extends Component{
