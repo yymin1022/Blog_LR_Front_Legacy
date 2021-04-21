@@ -52,12 +52,6 @@ class PostView extends Component{
       );
     }
 
-    function hrefURL(props) {
-      return props.href.startsWith("/") ?
-        <a href={props.href}>{props.children}</a> :
-        <a href={props.href} target="_blank" rel="nofollow noopener noreferrer">{props.children}</a>;
-    }
-
     function InlineCodeBlock(props){
       return(
         <span className="inlineCodeBlock">
@@ -129,7 +123,6 @@ class PostView extends Component{
                 blockquote: BlockQuoteBlock,
                 code: CodeBlock,
                 inlineCode: InlineCodeBlock,
-                link: hrefURL,
                 tableCell: TableCellBlock
               }}/>
           </div>
