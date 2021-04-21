@@ -116,7 +116,7 @@ PC에 ```Java JRE 또는 JDK``` 가 설치되지 않은 경우,<br>
 
 ## 다운로드
 
-<a href="https://drive.defcon.or.kr/sharing/bQ0ENoRiQ" target="_sub">STONE Manager 다운로드</a>
+​<p><a href="https://drive.defcon.or.kr/sharing/bQ0ENoRiQ" target="_sub">STONE Manager 다운로드</a></p>
 
 다운로드는 상단의 링크에서 가능합니다.<br>
 해당 서버는, 제가 운영중인 개인 서버로,<br>
@@ -137,7 +137,7 @@ PC정보와 함께 오류 내용을 제보해주시면<br>
 
 ## 소스코드 및 공유
 
-<a href="https://github.com/yymin1022/StoneManager_JAVA" target="_sub">소스코드 보러가기</a>
+​<p><a href="https://github.com/yymin1022/StoneManager_JAVA" target="_sub">소스코드 보러가기</a></p>
 
 본 프로젝트의 모든 소스코드는 제 ```Github``` 를 통해 공개합니다.<br>
 단, 소스코드를 활용하고자 하시는 경우,<br>
