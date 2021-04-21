@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Link, Redirect} from "react-router-dom";
 
 import {DiscussionEmbed} from "disqus-react";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-markdown/with-html";
 
 import CodeBlock from "./CodeBlock";
 import postDB from "/home/server/web/src/posts/DB.json";
