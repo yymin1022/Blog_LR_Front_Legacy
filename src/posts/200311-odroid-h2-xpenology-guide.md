@@ -33,7 +33,7 @@ LR입니다!
 
 ```XPEnology``` 포럼의 Modded Bootloader 게시글 원문 링크는 다음과 같습니다.
 
-​<p><a href="https://xpenology.com/forum/topic/12952-dsm-62-loader/" target="_sub">XPEnology Forum Synoboot</a></p>
+​<p> <a href="https://xpenology.com/forum/topic/12952-dsm-62-loader/" target="_sub">XPEnology Forum Synoboot</a> </p>
 
 ```XPEnology``` DSM 6.2 이상의 버전에서 동작하는 부트로더로,<br>
 Synology DS918+, DS3615xs, DS3617xs 3개 모델을 기반으로<br>
@@ -46,7 +46,7 @@ DS3615xs  및 DS3617xs를 기반으로 하는 부트로더 버전은 1.03b 버�
 1.03b 버전의 부트로더는 ```BIOS```타입의 부팅만을 지원하기 때문에,<br>
 ```ODroid H2```에서 사용하기 위해서는 DS918+ 기반의 1.04b 버전 부트로더를 사용하셔야 합니다.
 
-​​<p><a href="https://drive.defcon.or.kr/sharing/f8VyeZhbw" target="_sub">DS918+ 1.04b 부트로더 다운로드</a></p>
+​​<p> <a href="https://drive.defcon.or.kr/sharing/f8VyeZhbw" target="_sub">DS918+ 1.04b 부트로더 다운로드</a> </p>
 
 
 <h2>설치준비 : grub 수정과 USB 플래싱</h2>
@@ -58,7 +58,7 @@ DS918+ 1.04b 부트로더 파일을 다운로드 하셨다면, 파일의 압축�
 Windows에서는 일반적으로 마운트가 되지 않는 형식으로 포맷되어있어,<br>
 별도의 유틸리티가 필요합니다.
 
-​<p><a href="https://drive.defcon.or.kr/sharing/JwMbfGTxW" target="_sub">기타 유틸리티 다운로드</a></p>
+​<p> <a href="https://drive.defcon.or.kr/sharing/JwMbfGTxW" target="_sub">기타 유틸리티 다운로드</a> </p>
 
 압축파일 내에는<br>
 ```synoboot.img```의 마운트를 위한 ```OSFMount```,<br>
@@ -155,7 +155,7 @@ USB 메모리에 플래싱해줍니다.<br>
 내부네트워크 접속 목록에 ```DiskStation``` 이 보일 경우,<br>
 이제 다음 링크로 접속해 ```XPEnology``` 의 설정을 진행합니다.
 
-​<p><a href="find.synology.com" target="_sub">Synology Web Assistant</a></p>
+​<p> <a href="find.synology.com" target="_sub">Synology Web Assistant</a> </p>
 
 Synology Web Assistant는 같은 내부네트워크에 존재하는<br>
 ```Synology 및 XPEnology``` 기기를 검색하고,<br>
@@ -182,7 +182,7 @@ DS918+ 기기로 인식된 ```XPEnology```가 정상적으로 검색되었습니
 수동 설치 버튼을 클릭해 DSM 6.2.1 버전을 강제로 설치해주어야합니다.<br>
 다음 링크에서 ```XPEnology``` DSM 6.2.1버전의 패키지 pat파일을 받아줍니다.
 
-​<p>​<a href="https://drive.defcon.or.kr/sharing/DznbdfQ6U" target="_sub">DSM 6.2.1 DS918+ pat 패키지파일 다운로드</a></p>
+​<p> ​<a href="https://drive.defcon.or.kr/sharing/DznbdfQ6U" target="_sub">DSM 6.2.1 DS918+ pat 패키지파일 다운로드</a></p>
 
 <center>
 <img src="/PostImages/200311 ODroid H2 XPEnology Guide/11_syno_3.png" style="width: 75%;">
