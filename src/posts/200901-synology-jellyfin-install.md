@@ -288,9 +288,9 @@ OK를 눌러 창을 닫아줍니다.
 스마트폰이나 태블릿에서도 동일하게<br>
 스트리밍 서비스를 이용할 수 있습니다.
 
-<a href="https://play.google.com/store/apps/details?id=org.jellyfin.mobile" target="_sub">Android용 Jellyfin 다운로드 (GooglePlay)</a>
+​<p><a href="https://play.google.com/store/apps/details?id=org.jellyfin.mobile" target="_sub">Android용 Jellyfin 다운로드 (GooglePlay)</a></p>
 
-<a href="https://apps.apple.com/kr/app/jellyfin-mobile/id1480192618" target="_sub">iOS/iPadOS용 Jellyfin 다운로드 (AppStore)</a>​
+​<p><a href="https://apps.apple.com/kr/app/jellyfin-mobile/id1480192618" target="_sub">iOS/iPadOS용 Jellyfin 다운로드 (AppStore)</a>​</p>
 
 혹시 설치 과정에서 문의사항이 있거나<br>
 문제가 있는 경우는 댓글로 남겨주시면 답변드리도록 하겠습니다.
