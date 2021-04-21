@@ -14,7 +14,7 @@ Synology NAS에서는 기본적으로 NVMe SSD를 이용한<br>
 
 먼저, 관련된 원본 포럼 게시글은 다음과 같습니다.
 
-<a href="https://xpenology.com/forum/topic/13342-nvme-cache-support/" target="_sub">XPEnology Forum 게시글</a>
+​<p><a href="https://xpenology.com/forum/topic/13342-nvme-cache-support/" target="_sub">XPEnology Forum 게시글</a></p>
 
 <center>
 <img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/1_forum_sh.png" style="width: 75%;">
