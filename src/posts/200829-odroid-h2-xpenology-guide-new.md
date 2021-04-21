@@ -21,7 +21,7 @@ Synology 사의 DSM OS를 개조한<br>
 
 먼저, 기본적인 작업은 지난 3월 작성했던 6.2.1버전의 설치 과정과 동일합니다.<br>
 
-​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide/" target="_sub">지난 게시글 보러가기</a>
+​<p>​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide/" target="_sub">지난 게시글 보러가기</a></p>
 
 이전 포스팅을 참고하셔서,<br>
 USB의 PID와 VID값을 ```grub.cfg``` 에 입력하는 작업까지만 진행한 뒤,<br>
@@ -29,7 +29,7 @@ USB의 PID와 VID값을 ```grub.cfg``` 에 입력하는 작업까지만 진행�
 
 다음 링크에 접속하셔서, ```synoboot``` 1.04b 버전 용 추가드라이버 패키지를 다운로드 해줍니다.
  
-<a href="https://xpenology.com/forum/topic/28321-driver-extension-jun-103b104b-for-dsm623-for-918-3615xs-3617xs/?tab=comments#comment-141934" target="_sub">Synoboot 드라이버 패치 다운로드</a>
+​<p><a href="https://xpenology.com/forum/topic/28321-driver-extension-jun-103b104b-for-dsm623-for-918-3615xs-3617xs/?tab=comments#comment-141934" target="_sub">Synoboot 드라이버 패치 다운로드</a></p>
 
 DS918+ 부트로더 용 0.13.3버전 드라이버를 다운로드 해주시면 됩니다.​
 
@@ -76,7 +76,7 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 정상적으로 랜선이 연결되었다면,<br>
 약 5분 이내에 부팅이 완료됩니다.
 
-<a href="find.synology.com" target="_sub">Synology Web Assistant</a>
+​<p><a href="find.synology.com" target="_sub">Synology Web Assistant</a></p>
 
 위 링크에 접속하면, 같은 내부망에 위치하는 Synology 또는 ```XPEnology```  기기를 자동으로 검색해줍니다.
 
@@ -95,7 +95,7 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 이번 과정에서는 자동으로 시놀로지 서버에서 최신버전을 다운로드하도록 해도 무방합니다.<br>
 저는 시놀로지 아카이브 서버에서 6.2.3 최신버전의 펌웨어 파일을 다운로드해 수동설치 해주었습니다.
  
-<a href="https://archive.synology.com/download/Os/DSM/6.2.3-25426-3" target="_sub">DSM 6.2.3-Update3 다운로드</a>
+​<p><a href="https://archive.synology.com/download/Os/DSM/6.2.3-25426-3" target="_sub">DSM 6.2.3-Update3 다운로드</a></p>
 
 저처럼 수동으로 펌웨어 설치를 진행하고자 하시는 경우,<br>
 위 링크에서 DS918+ 모델의 pat파일을 다운로드 해주시면 됩니다.
