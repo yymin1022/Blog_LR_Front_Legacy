@@ -12,7 +12,7 @@ PC에서 간단히 이용할 수 있는 클라이언트 프로그램을<br>
 오늘 포스팅에서는 간략한 변경점만 언급하도록 하겠습니다.<br>
 자세한 내용은 이전 배포글을 참고해주세요.
 
-<a href="https://blog-lr.defcon.or.kr/synology-downloadstation-client">이전 버전 포스팅 보러가기</a>
+​<p><a href="https://blog-lr.defcon.or.kr/synology-downloadstation-client">이전 버전 포스팅 보러가기</a></p>
 
 지난 버전의 경우, OTP 관련한 예외사항을 처리하지 않아,<br>
 OTP를 이용중이신 유저분들은 서버오류 다이얼로그만이<br>
@@ -53,7 +53,7 @@ __손상된 파일이 다운로드되는 문제가 있습니다.<br>__
 __이 경우, 폴더 전체를 다운받으신 뒤<br>__
 __압축 해제하여 이용해주시면 감사하겠습니다. !!__
 
-<a href="https://drive.defcon.or.kr/sharing/xsYCOS3ds" target="_sub">DownloadStation Client 다운로드</a>
+​<p><a href="https://drive.defcon.or.kr/sharing/xsYCOS3ds" target="_sub">DownloadStation Client 다운로드</a></p>
 
 지난 배포 버전에서 OTP 관련 의견 제시해주신<br>
 클리앙의 쿠니s님께 감사의 말씀을 전하며<br>
