@@ -1,3 +1,0 @@
-# TEST PINNED 3
-
-## Hello, World!

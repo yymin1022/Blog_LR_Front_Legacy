@@ -8,7 +8,7 @@
 
 Google을 통한 검색 유입률이 상당히 저조함을 이유로 블로그 플랫폼을 옮기고자 했습니다.
 
-<p><a href="https://blog.naver.com/yymin1022" target="_sub">기존 블로그 구경가기</a></p>
+<a href="https://blog.naver.com/yymin1022" target="_sub">기존 블로그 구경가기</a>
 
 <br/>
 
