@@ -26,7 +26,7 @@ CPU 클럭 속도와 코어 정보 역시 ```J3455``` 의 값이 표시되고 �
 
 먼저, 아래 링크에 접속하여 첨부된 ```ch_cpuinfo.tar``` 파일을 다운로드해줍니다.
 
-​<p><a href="https://xpenology.com/forum/topic/13030-dsm-5x6x-cpu-name-cores-infomation-change-tool?_fromLogin=1" target="_sub">XPEnology Forum CPU Info Change 쓰레드</a></p>
+​<a href="https://xpenology.com/forum/topic/13030-dsm-5x6x-cpu-name-cores-infomation-change-tool?_fromLogin=1" target="_sub">XPEnology Forum CPU Info Change 쓰레드</a>
 
 다운로드한 tar 파일을 NAS 내 적절한 위치에 압축풀어줍니다.<br>
 저는 접근이 편하도록 ```Download``` 공유폴더에 압축을 풀어주었습니다.
