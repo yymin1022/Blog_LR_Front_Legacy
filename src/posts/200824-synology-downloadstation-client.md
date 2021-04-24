@@ -4,7 +4,7 @@ __본 게시글은 사용법 확인을 위해서만 읽어주시고,__
 
 __다운로드는 새 버전의 포스팅을 이용해주세요 !!__
 
-__​<p><a href="https://blog-lr.defcon.or.kr/synology-downloadstation-client-new" target="_sub">새 버전 포스팅 확인하기</a></p>__
+__​<a href="https://blog-lr.defcon.or.kr/synology-downloadstation-client-new" target="_sub">새 버전 포스팅 확인하기</a>__
 
 <br>
 <br>
@@ -19,7 +19,7 @@ __​<p><a href="https://blog-lr.defcon.or.kr/synology-downloadstation-client-ne
 ```XPEnology``` 운영체제를 설치해<br>
 개인 Nas로 활용하고 있습니다.
 
-​<p><a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide">ODroid H2 XPEnology 설치 가이드 포스팅</a></p>
+​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide">ODroid H2 XPEnology 설치 가이드 포스팅</a>
 
 ```XPEnology``` 는 ```Synology``` 사의 Nas용 운영체제를<br>
 다른 기기에서도 사용할 수 있도록 변조시킨 운영체제입니다.
@@ -112,7 +112,7 @@ Login 버튼을 클릭했을 때<br>
 
 ## 다운로드
 
-​<p><a href="https://drive.defcon.or.kr/sharing/EC5q5AyT3" target="_sub">DownloadStation Client 다운로드</a></p>
+​<a href="https://drive.defcon.or.kr/sharing/EC5q5AyT3" target="_sub">DownloadStation Client 다운로드</a>
 
 다운로드는 위 링크에서 가능하며,<br>
 ```Windows``` 용 exe 파일과 ```Linux``` 용 바이너리 파일을<br>
@@ -121,7 +121,7 @@ Login 버튼을 클릭했을 때<br>
 
 ## 소스코드 및 공유
 
-​<p><a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">소스코드 보러가기</a></p>
+​<a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">소스코드 보러가기</a>
 
 본 프로젝트의 모든 소스코드는 제 ```Github``` 를 통해 공개합니다.<br>
 단, 소스코드를 활용하고자 하시는 경우,<br>
