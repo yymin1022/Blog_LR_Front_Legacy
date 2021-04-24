@@ -14,7 +14,7 @@ Synology NAS에서는 기본적으로 NVMe SSD를 이용한<br>
 
 먼저, 관련된 원본 포럼 게시글은 다음과 같습니다.
 
-​<p><a href="https://xpenology.com/forum/topic/13342-nvme-cache-support/" target="_sub">XPEnology Forum 게시글</a></p>
+​<a href="https://xpenology.com/forum/topic/13342-nvme-cache-support/" target="_sub">XPEnology Forum 게시글</a>
 
 <center>
 <img src="/PostImages/200830 XPEnology NVMe SSD Cache Enable/1_forum_sh.png" style="width: 75%;">
@@ -122,7 +122,7 @@ SSD가 포맷된다는 경고문을 확인하고 나면<br>
 이처럼 SSD 캐시에 대한 정보를 확인해볼 수 있습니다.
 
 비록 정품 Synology NAS를 사용하는 것은 아니지만,<br>
-```XPEnolog```y 만으로도 각종 패치를 통해 대부분의 거의 모든 기능을<br>
+```XPEnology``` 만으로도 각종 패치를 통해 대부분의 거의 모든 기능을<br>
 활용해볼 수 있는 것 같습니다.
 
 혹시 작업 과정에서 문제가 있거나,<br>
