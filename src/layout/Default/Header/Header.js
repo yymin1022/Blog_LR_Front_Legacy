@@ -14,60 +14,60 @@ import styled from "styled-components";
 import {makeStyles} from "@material-ui/core/styles";
 
 const Container = styled.div`
-  background-color: #164EAB;
-  position: fixed;
-  
-  left: 0;
-  top: 0;
+    background-color: #164EAB;
+    position: fixed;
+    
+    left: 0;
+    top: 0;
 
-  height: 56px;
-  width: 100%;
+    height: 56px;
+    width: 100%;
 `;
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
+    root: {
+        flexGrow: 1,
+    },
+    menuButton: {
+        marginRight: theme.spacing(2),
+    },
+    title: {
+        flexGrow: 1,
+    },
 }));
 
 const Header = props => {
-  const {
-    className,
-    btnAction,
-  } = props;
+    const {
+        className,
+        btnAction,
+    } = props;
 
-  return (
-    <Container className={className}>
-      <div className={useStyles().root}>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" className={useStyles().title}>
-              LR의 IT블로그
-            </Typography>
-            <Link to={"/"}>
-              <Button style={{color: "#FFFFFF"}}>Home</Button>
-            </Link>
-            <Link to={"/about"}>
-              <Button style={{color: "#FFFFFF"}}>About</Button>
-            </Link>
-          </Toolbar>
-        </AppBar>
-      </div>
-    </Container>
-  );
+    return (
+        <Container className={className}>
+            <div className={useStyles().root}>
+                <AppBar position="static">
+                    <Toolbar>
+                        <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
+                            <MenuIcon />
+                        </IconButton>
+                        <Typography variant="h6" className={useStyles().title}>
+                            LR의 IT블로그
+                        </Typography>
+                        <Link to={"/"}>
+                            <Button style={{color: "#FFFFFF"}}>Home</Button>
+                        </Link>
+                        <Link to={"/about"}>
+                            <Button style={{color: "#FFFFFF"}}>About</Button>
+                        </Link>
+                    </Toolbar>
+                </AppBar>
+            </div>
+        </Container>
+    );
 }
 
 Header.propTypes = {
-  className: PropTypes.string,
+    className: PropTypes.string,
 }
 
 export default Header;

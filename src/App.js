@@ -11,32 +11,32 @@ import PostView from "./route/PostView";
 import ScrollTop from "./ScrollTop";
 
 function App() {
-  return (
-    <Router>
-      <ScrollTop>
-        <Switch>
-          <RouteLayout
-            exact
-            path = "/"
-            layout = {DefaultLayout}
-            component = {withRouter(Home)} />
-          <RouteLayout
-            exact
-            path = "/about"
-            layout = {DefaultLayout}
-            component = {withRouter(About)} />
-          <RouteLayout
-            exact
-            path = "/postview/:postID"
-            layout = {DefaultLayout}
-            component = {withRouter(PostView)} />
-          <RouteLayout
-            layout = {DefaultLayout}
-            component = {withRouter(NotFoundPage)} />
-        </Switch>
-      </ScrollTop>
-    </Router>
-  );
+    return (
+        <Router>
+            <ScrollTop>
+                <Switch>
+                    <RouteLayout
+                        exact
+                        path = "/"
+                        layout = {DefaultLayout}
+                        component = {withRouter(Home)} />
+                    <RouteLayout
+                        exact
+                        path = "/about"
+                        layout = {DefaultLayout}
+                        component = {withRouter(About)} />
+                    <RouteLayout
+                        exact
+                        path = "/postview/:postID"
+                        layout = {DefaultLayout}
+                        component = {withRouter(PostView)} />
+                    <RouteLayout
+                        layout = {DefaultLayout}
+                        component = {withRouter(NotFoundPage)} />
+                </Switch>
+            </ScrollTop>
+        </Router>
+    );
 }
 
 export default App;
