@@ -11,127 +11,127 @@ import postDB from "/home/server/web/src/posts/DB.json";
 import "./Home.css";
 
 class Home extends Component{
-  constructor(props){
-    super();
-    this.state ={};
-    this.categoryID = "all";
-  }
-
-  UNSAFE_componentWillMount(){
-    if(this.props.location.state){
-      this.categoryID = this.props.location.state.categoryID;
+    constructor(props){
+        super();
+        this.state ={};
+        this.categoryID = "all";
     }
-  }
 
-  componentDidUpdate(){
-    window.location.reload();
-  }
+    UNSAFE_componentWillMount(){
+        if(this.props.location.state){
+            this.categoryID = this.props.location.state.categoryID;
+        }
+    }
 
-  render(){
-    const categoryID = this.categoryID;
+    componentDidUpdate(){
+        window.location.reload();
+    }
 
-    return(
-      <div align="center">
-        <If condition={categoryID == "all"}>
-          <Then>
-            <>
-              <div align="left" className="postPinnedTitle">
-                <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
-                <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
-                  Pinned
-                </a>
-                <br/>
-              </div>
-              
-              <div className="postPinnedContainer">
-                {
-                  postDB.map(item => {
-                    return(
-                      <div>
-                        <If condition={item.pinned}>
-                          <Then>
-                            <If condition={categoryID == "all"}>
-                              <Then>
-                                <div className="postItemPinned">
-                                  <PostItemPinned
-                                    postDate = {item.postDate}
-                                    postTag = {item.postTag}
-                                    postThumbnail = {item.postThumbnail}
-                                    postTitle = {item.postTitle}
-                                    postURL = {item.postURL} />
-                                </div>
-                              </Then>
-                              <Else>
-                                <If condition={categoryID == item.postTag}>
-                                  <Then>
-                                    <div className="postItemPinned">
-                                      <PostItemPinned
-                                        postDate = {item.postDate}
-                                        postTag = {item.postTag}
-                                        postThumbnail = {item.postThumbnail}
-                                        postTitle = {item.postTitle}
-                                        postURL = {item.postURL} />
-                                    </div>
-                                  </Then>
-                                </If>
-                              </Else>
-                            </If>
-                          </Then>
-                        </If>
-                      </div>
-                    );
-                  })
-                }
-              </div>
-            </>
-            <br/>
-            <hr className="seperator"/>
-            <br/>
-          </Then>
-        </If>
-        <div className="postContainer">
-          {
-            postDB.map(item => {
-              return(
-                <div key={item.postURL}>
-                  <If condition={!item.pinned}>
+    render(){
+        const categoryID = this.categoryID;
+
+        return(
+            <div align="center">
+                <If condition={categoryID == "all"}>
                     <Then>
-                      <If condition={categoryID == "all"}>
-                        <Then>
-                          <div className="postItem">
-                            <PostItem
-                              postDate = {item.postDate}
-                              postTag = {item.postTag}
-                              postThumbnail = {item.postThumbnail}
-                              postTitle = {item.postTitle}
-                              postURL = {item.postURL} />
-                          </div>
-                        </Then>
-                        <Else>
-                          <If condition={categoryID == item.postTag}>
-                            <Then>
-                              <div className="postItem">
-                                <PostItem
-                                  postDate = {item.postDate}
-                                  postTag = {item.postTag}
-                                  postThumbnail = {item.postThumbnail}
-                                  postTitle = {item.postTitle}
-                                  postURL = {item.postURL} />
-                              </div>
-                            </Then>
-                          </If>
-                        </Else>
-                      </If>
+                        <>
+                            <div align="left" className="postPinnedTitle">
+                                <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
+                                <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
+                                    Pinned
+                                </a>
+                                <br/>
+                            </div>
+                            
+                            <div className="postPinnedContainer">
+                                {
+                                    postDB.map(item => {
+                                        return(
+                                            <div>
+                                                <If condition={item.pinned}>
+                                                    <Then>
+                                                        <If condition={categoryID == "all"}>
+                                                            <Then>
+                                                                <div className="postItemPinned">
+                                                                    <PostItemPinned
+                                                                        postDate = {item.postDate}
+                                                                        postTag = {item.postTag}
+                                                                        postThumbnail = {item.postThumbnail}
+                                                                        postTitle = {item.postTitle}
+                                                                        postURL = {item.postURL} />
+                                                                </div>
+                                                            </Then>
+                                                            <Else>
+                                                                <If condition={categoryID == item.postTag}>
+                                                                    <Then>
+                                                                        <div className="postItemPinned">
+                                                                            <PostItemPinned
+                                                                                postDate = {item.postDate}
+                                                                                postTag = {item.postTag}
+                                                                                postThumbnail = {item.postThumbnail}
+                                                                                postTitle = {item.postTitle}
+                                                                                postURL = {item.postURL} />
+                                                                        </div>
+                                                                    </Then>
+                                                                </If>
+                                                            </Else>
+                                                        </If>
+                                                    </Then>
+                                                </If>
+                                            </div>
+                                        );
+                                    })
+                                }
+                            </div>
+                        </>
+                        <br/>
+                        <hr className="seperator"/>
+                        <br/>
                     </Then>
-                  </If>
-                </div>
-              );
-            })
-          }
-        </div>
-      </div>
-    )
-  }
+                </If>
+              <div className="postContainer">
+                  {
+                      postDB.map(item => {
+                          return(
+                              <div key={item.postURL}>
+                                  <If condition={!item.pinned}>
+                                      <Then>
+                                          <If condition={categoryID == "all"}>
+                                              <Then>
+                                                  <div className="postItem">
+                                                      <PostItem
+                                                          postDate = {item.postDate}
+                                                          postTag = {item.postTag}
+                                                          postThumbnail = {item.postThumbnail}
+                                                          postTitle = {item.postTitle}
+                                                          postURL = {item.postURL} />
+                                                  </div>
+                                              </Then>
+                                              <Else>
+                                                  <If condition={categoryID == item.postTag}>
+                                                      <Then>
+                                                          <div className="postItem">
+                                                              <PostItem
+                                                                  postDate = {item.postDate}
+                                                                  postTag = {item.postTag}
+                                                                  postThumbnail = {item.postThumbnail}
+                                                                  postTitle = {item.postTitle}
+                                                                  postURL = {item.postURL} />
+                                                          </div>
+                                                      </Then>
+                                                  </If>
+                                              </Else>
+                                          </If>
+                                      </Then>
+                                  </If>
+                              </div>
+                          );
+                      })
+                  }
+              </div>
+            </div>
+        )
+    }
 }
 
 export default Home;
