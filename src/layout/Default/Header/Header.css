@@ -1,0 +1,23 @@
+#Continer{
+    background-color: #164EAB;
+    position: fixed;
+    
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 33%;
+}
+
+@media screen and (max-width: 768px){
+    #Container{
+        background-color: #164EAB;
+        position: fixed;
+        
+        left: 0;
+        top: 0;
+
+        height: 56px;
+        width: 100%;
+    }
+}
