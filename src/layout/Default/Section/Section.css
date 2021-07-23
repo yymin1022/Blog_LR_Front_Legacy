@@ -1,8 +1,11 @@
 #SectionContainer{
     height: 100%;
     width: 100%;
+
+    margin-top: 150px;
 }
 
 #WrapperContainer{
     height: 100%;
+    width: 100%;
 }
