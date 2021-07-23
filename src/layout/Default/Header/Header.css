@@ -7,6 +7,9 @@
 
     height: 100%;
     width: 33%;
+
+    margin-right: -100px;
+    padding-left: 100px
 }
 
 @media screen and (max-width: 768px){
