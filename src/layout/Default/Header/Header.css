@@ -1,6 +1,6 @@
-#Continer{
+#LeftMenu{
     background-color: #164EAB;
-    position: fixed;
+    position: sticky;
     
     left: 0;
     top: 0;
@@ -10,9 +10,9 @@
 }
 
 @media screen and (max-width: 768px){
-    #Container{
+    #LeftMenu{
         background-color: #164EAB;
-        position: fixed;
+        position: sticky;
         
         left: 0;
         top: 0;

@@ -29,7 +29,7 @@ const Header = props => {
     } = props;
 
     return (
-        <div id="Container" className={className}>
+        <div id="LeftMenu" className={className}>
             <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                 <MenuIcon />
             </IconButton>
