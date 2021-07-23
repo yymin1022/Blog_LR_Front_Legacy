@@ -20,8 +20,8 @@ const Container = styled.div`
     left: 0;
     top: 0;
 
-    height: 56px;
-    width: 100%;
+    height: 100%;
+    width: 33%;
 `;
 
 const useStyles = makeStyles((theme) => ({
