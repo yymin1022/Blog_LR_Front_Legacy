@@ -1,15 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import styled from "styled-components";
-
-const Container = styled.div`
-    height: 100%;
-    width: 100%;
-`;
-const Wrapper = styled.div`
-    height: 100%;
-`;
+import "./Section.css";
 
 const Section = props => {
     const {
@@ -18,11 +10,11 @@ const Section = props => {
     } = props;
     
     return (
-        <Container className={ className }>
-            <Wrapper>
+        <div id="SectionContainer" className={ className }>
+            <div id="WrapperContainer">
                 {children}
-            </Wrapper>
-        </Container>
+            </div>
+        </div>
     );
 }
 
