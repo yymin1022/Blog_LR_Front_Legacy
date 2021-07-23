@@ -1,6 +1,6 @@
 #LeftMenu{
     background-color: #164EAB;
-    position: sticky;
+    position: fixed;
     
     left: 0;
     top: 0;
