@@ -10,23 +10,9 @@ import clsx from "clsx";
 import List from "@material-ui/core/List";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 
-import {createGlobalStyle} from "styled-components";
 import {makeStyles} from "@material-ui/core/styles";
 
 import "./Default.css"
-
-const GlobalStyle = createGlobalStyle`
-  html, body {
-    height: 100%
- }
-	body {
-		padding: 0;
-    margin: 0;
- }
-  #root {
-    height: 100%;
- }
-`;
 
 const drawerStyle = makeStyles({
     list: {
@@ -119,7 +105,6 @@ const Default = props => {
     
     return (
         <div id="Container" className={className}>
-            <GlobalStyle />
             <Header btnAction={toggleDrawer(anchor, true)}/>
             <SwipeableDrawer
                 anchor={anchor}
