@@ -10,11 +10,3 @@
     margin-left: 10px;
     margin-top: -10px;
 }
-
-/* Mobile UI */
-@media screen and (max-width: 768px){
-    #Container{
-        height: 100%;
-        width: 100%;
-    }
-}
