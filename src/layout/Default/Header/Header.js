@@ -30,18 +30,22 @@ const Header = props => {
 
     return (
         <div id="LeftMenu" className={className}>
-            <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
-                <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" className={useStyles().title}>
-                LR의 IT블로그
-            </Typography>
-            <Link to={"/"}>
-                <Button style={{color: "#FFFFFF"}}>Home</Button>
-            </Link>
-            <Link to={"/about"}>
-                <Button style={{color: "#FFFFFF"}}>About</Button>
-            </Link>
+            <div id="menuTop">
+                <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
+                    <MenuIcon />
+                </IconButton>
+                <Typography variant="h6" className={useStyles().title}>
+                    LR의 IT블로그
+                </Typography>
+            </div>
+            <div id="menuBottom">
+                <Link to={"/"}>
+                    <Button style={{color: "#FFFFFF"}}>Home</Button>
+                </Link>
+                <Link to={"/about"}>
+                    <Button style={{color: "#FFFFFF"}}>About</Button>
+                </Link>
+            </div>
         </div>
     );
 }
