@@ -70,12 +70,12 @@ const headerStyles = {
         top: 0,
     
         height: "100%",
-        width: "100%",
+        width: 550,
     },
 
     headerLoading: {
         width: "100%",
-
+        
         transition: '.25s all',
     }
 }
