@@ -62,6 +62,10 @@ const Header = props => {
 }
 
 const headerStyles = {
+    #LeftMenu: {
+        transition: ".25s all",
+    },
+
     headerLoaded: {
         backgroundColor: "#164EAB",
         position: "fixed",
