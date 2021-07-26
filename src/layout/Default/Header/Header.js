@@ -31,7 +31,10 @@ const Header = props => {
     } = props;
 
     useEffect(() => {
+        console.log(isAnimated);
         onLoadAnimation(true);
+        console.log("ASDF");
+        console.log(isAnimated);
         return () => {
         }
     }, []);
