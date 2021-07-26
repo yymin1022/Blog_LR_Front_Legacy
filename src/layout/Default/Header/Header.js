@@ -70,7 +70,7 @@ const headerStyles = {
         top: 0,
     
         height: "100%",
-        width: 550,
+        // width: 550,
     },
 
     headerLoading: {
