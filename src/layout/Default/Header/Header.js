@@ -76,7 +76,7 @@ const headerStyles = {
     headerLoading: {
         width: "100%",
         
-        transition: '.25s all',
+        transition: '1s all',
     }
 }
 
