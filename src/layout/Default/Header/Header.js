@@ -74,7 +74,7 @@ const headerStyles = {
     },
 
     headerLoading: {
-
+        width: "100%",
     }
 }
 
