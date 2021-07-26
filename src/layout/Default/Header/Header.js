@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Header = props => {
-    const [isAnimated, onLoadAnimation] = useState(false);
+    const [headerWidth, onLoadAnimation] = useState("100%");
 
     const {
         className,
@@ -31,7 +31,7 @@ const Header = props => {
     } = props;
 
     useEffect(() => {
-        onLoadAnimation((value) => !value);
+        onLoadAnimation(550);
         
         return () => {
         }
@@ -41,7 +41,7 @@ const Header = props => {
         <div
             id="LeftMenu"
             className={className}
-            style={Object.assign({}, headerStyles.headerLoading, {isAnimated} && headerStyles.headerLoaded)}>
+            style={headerStyles.header, {width: headerWidth}}>
             <div id="menuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
@@ -63,11 +63,7 @@ const Header = props => {
 }
 
 const headerStyles = {
-    headerLoaded: {
-        width: 550,
-    },
-
-    headerLoading: {
+    header: {
         backgroundColor: "#164EAB",
         position: "fixed",
         
@@ -75,7 +71,6 @@ const headerStyles = {
         top: 0,
     
         height: "100%",
-        width: "100%",
         
         transition: '3s all',
     }
