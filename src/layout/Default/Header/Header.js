@@ -78,6 +78,7 @@ const headerStyles = {
         width: "100%",
         
         transition: '10s all',
+        transitionDelay: '5s',
     }
 }
 
