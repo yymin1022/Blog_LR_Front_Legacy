@@ -31,7 +31,7 @@ const Header = props => {
     } = props;
 
     useEffect(() => {
-        // onLoadAnimation(550);
+        onLoadAnimation(550);
         
         return () => {
         }
@@ -41,7 +41,7 @@ const Header = props => {
         <div
             id="LeftMenu"
             className={className}
-            style={headerStyles.header, {width: headerWidth}}>
+            style={{width: headerWidth}}>
             <div id="menuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
