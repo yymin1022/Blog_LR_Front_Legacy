@@ -66,6 +66,10 @@ const Header = props => {
 
 const headerStyles = {
     headerLoaded: {
+        width: 550,
+    },
+
+    headerLoading: {
         backgroundColor: "#164EAB",
         position: "fixed",
         
@@ -73,10 +77,6 @@ const headerStyles = {
         top: 0,
     
         height: "100%",
-        // width: 550,
-    },
-
-    headerLoading: {
         width: "100%",
         
         transition: '1s all',
