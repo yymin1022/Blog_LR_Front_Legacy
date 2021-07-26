@@ -31,8 +31,8 @@ const Header = props => {
     } = props;
 
     useEffect(() => {
+        onLoadAnimation(true);
         return () => {
-            onLoadAnimation(true);
         }
     }, []);
 
