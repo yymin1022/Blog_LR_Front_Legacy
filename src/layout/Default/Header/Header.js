@@ -41,7 +41,7 @@ const Header = props => {
         <div
             id="LeftMenu"
             className={className}
-            style={Object.assign({}, headerStyles.headerLoading, {isAnimated} && headerStyles.headerLoaded)}>
+            style={Object.assign({}, headerStyles.headerLoading, !{isAnimated} && headerStyles.headerLoaded)}>
             <div id="menuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
@@ -77,7 +77,7 @@ const headerStyles = {
         height: "100%",
         width: "100%",
         
-        transition: '1s all',
+        transition: '10s all',
     }
 }
 
