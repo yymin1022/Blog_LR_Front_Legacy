@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
 
@@ -9,6 +9,8 @@ import Typography from "@material-ui/core/Typography";
 import MenuIcon from "@material-ui/icons/Menu";
 
 import "./Header.css";
+
+const [isAnimated, onLoadAnimation] = useState(false);
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -22,6 +24,13 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+useEffect(() => {
+    effect
+    return () => {
+        onLoadAnimation(true);
+    }
+}, [input]);
+
 const Header = props => {
     const {
         className,
@@ -29,7 +38,10 @@ const Header = props => {
     } = props;
 
     return (
-        <div id="LeftMenu" className={className}>
+        <div
+            id="LeftMenu"
+            className={className}
+            style={Object.assign({}, headerStyles.headerLoading, {isAnimated} && headerStyles.headerLoaded)}>
             <div id="menuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
@@ -48,6 +60,23 @@ const Header = props => {
             </div>
         </div>
     );
+}
+
+const headerStyles = {
+    headerLoaded: {
+        backgroundColor: "#164EAB",
+        position: fixed,
+        
+        left: 0,
+        top: 0,
+    
+        height: "100%",
+        width: 550,
+    },
+
+    headerLoading: {
+
+    }
 }
 
 Header.propTypes = {
