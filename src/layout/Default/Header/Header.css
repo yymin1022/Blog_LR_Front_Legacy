@@ -7,7 +7,7 @@
 
     height: 100%;
     /* width: 550px; */
-    transition-duration: 4s;
+    transition: width 4s;
 }
 
 #menuBottom{
