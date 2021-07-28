@@ -36,17 +36,20 @@ class PostItemPinned extends Component {
                     <div id="postPinnedThumbnail">
                         <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + this.postThumbnail + ".png"} />
                     </div>
+
                     <div id="postPinnedInfo">
                         <div id="postPinnedInfoTitle">
                             <p>
                                 {this.postTitle}
                             </p>
                         </div>
+
                         <div id="postPinnedInfoTag">
                             <p>
                                 {this.postTag}
                             </p>
                         </div>
+                        
                         <div id="postPinnedInfoDate">
                             <p>
                                 {this.postDate}
