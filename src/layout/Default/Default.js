@@ -24,7 +24,7 @@ const drawerStyle = makeStyles({
 });
 
 
-const Default = props => {
+const Default = (props) => {
     const {
         className,
         children,
@@ -92,7 +92,7 @@ const Default = props => {
                         <p style={{color: "#333333"}}>Operating System</p>
                     </div>
                 </Link>
-                
+
                 <Link to={{
                     pathname: "/",
                     state:{
