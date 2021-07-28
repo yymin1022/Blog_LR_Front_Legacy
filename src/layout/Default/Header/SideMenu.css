@@ -1,4 +1,4 @@
-#LeftMenu{
+#SideMenu{
     background-color: #164EAB;
     position: fixed;
     
@@ -10,12 +10,12 @@
     transition: width 4s;
 }
 
-#menuBottom{
+#SideMenuBottom{
     height: 50%;
     width: 100%;
 }
 
-#menuTop{
+#SideMenuTop{
     height: 50%;
     width: 100%;
 }

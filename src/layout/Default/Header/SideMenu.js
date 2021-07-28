@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const Header = props => {
+const SideMenu = props => {
     const {
         className,
         btnAction,
@@ -30,9 +30,9 @@ const Header = props => {
 
     return (
         <div
-            id="LeftMenu"
+            id="SideMenu"
             className={className}>
-            <div id="menuTop">
+            <div id="SideMenuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
                 </IconButton>
@@ -41,7 +41,7 @@ const Header = props => {
                 </Typography>
             </div>
 
-            <div id="menuBottom">
+            <div id="SideMenuBottom">
                 <Link to={"/"}>
                     <Button style={{color: "#FFFFFF"}}>Home</Button>
                 </Link>
@@ -53,8 +53,8 @@ const Header = props => {
     );
 }
 
-Header.propTypes = {
+SideMenu.propTypes = {
     className: PropTypes.string,
 }
 
-export default Header;
+export default SideMenu;
