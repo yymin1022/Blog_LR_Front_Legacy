@@ -8,7 +8,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import MenuIcon from "@material-ui/icons/Menu";
 
-import "./Header.css";
+import "./SideMenu.css";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -40,7 +40,7 @@ const Header = props => {
                     LR의 IT블로그
                 </Typography>
             </div>
-            
+
             <div id="menuBottom">
                 <Link to={"/"}>
                     <Button style={{color: "#FFFFFF"}}>Home</Button>
