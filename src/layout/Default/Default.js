@@ -72,6 +72,7 @@ const Default = props => {
                         <p style={{color: "#333333"}}>All Posts</p>
                     </div>
                 </Link>
+
                 <Link to={{
                     pathname: "/",
                     state:{
@@ -81,6 +82,7 @@ const Default = props => {
                         <p style={{color: "#333333"}}>Development</p>
                     </div>
                 </Link>
+                
                 <Link to={{
                     pathname: "/",
                     state:{
@@ -90,6 +92,7 @@ const Default = props => {
                         <p style={{color: "#333333"}}>Operating System</p>
                     </div>
                 </Link>
+                
                 <Link to={{
                     pathname: "/",
                     state:{
@@ -106,6 +109,7 @@ const Default = props => {
     return (
         <div id="Container" className={className}>
             <SideMenu btnAction={toggleDrawer(anchor, true)}/>
+
             <SwipeableDrawer
                 anchor={anchor}
                 open={state[anchor]}
@@ -113,6 +117,7 @@ const Default = props => {
                 onOpen={toggleDrawer(anchor, true)}>
                 {list(anchor)}
             </SwipeableDrawer>
+
             <Section>
                 {children}
             </Section>
