@@ -23,25 +23,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Header = props => {
-    const [headerWidth, onLoadAnimation] = useState("100%");
-
     const {
         className,
         btnAction,
     } = props;
 
-    useEffect(() => {
-        onLoadAnimation(550);
-        
-        return () => {
-        }
-    }, []);
-
     return (
         <div
             id="LeftMenu"
-            className={className}
-            style={{width: headerWidth, transition: "3s all"}}>
+            className={className}>
             <div id="menuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
@@ -50,6 +40,7 @@ const Header = props => {
                     LR의 IT블로그
                 </Typography>
             </div>
+            
             <div id="menuBottom">
                 <Link to={"/"}>
                     <Button style={{color: "#FFFFFF"}}>Home</Button>
@@ -60,20 +51,6 @@ const Header = props => {
             </div>
         </div>
     );
-}
-
-const headerStyles = {
-    header: {
-        backgroundColor: "#164EAB",
-        position: "fixed",
-        
-        left: 0,
-        top: 0,
-    
-        height: "100%",
-        
-        transition: '3s all',
-    }
 }
 
 Header.propTypes = {
