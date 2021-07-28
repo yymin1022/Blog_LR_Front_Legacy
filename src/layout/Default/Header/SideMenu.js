@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const SideMenu = props => {
+const SideMenu = (props) => {
     const {
         className,
         btnAction,
