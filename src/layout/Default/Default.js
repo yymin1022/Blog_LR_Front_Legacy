@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
 
-import Header from "./Header";
+import SideMenu from "./SideMenu";
 import Section from "./Section";
 
 import clsx from "clsx";
@@ -105,7 +105,7 @@ const Default = props => {
     
     return (
         <div id="Container" className={className}>
-            <Header btnAction={toggleDrawer(anchor, true)}/>
+            <SideMenu btnAction={toggleDrawer(anchor, true)}/>
             <SwipeableDrawer
                 anchor={anchor}
                 open={state[anchor]}
