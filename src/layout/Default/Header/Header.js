@@ -41,7 +41,7 @@ const Header = props => {
         <div
             id="LeftMenu"
             className={className}
-            style={{width: headerWidth}}>
+            style={{width: headerWidth, transition: "3s all"}}>
             <div id="menuTop">
                 <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
