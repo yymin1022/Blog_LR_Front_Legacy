@@ -36,17 +36,20 @@ class PostItem extends Component {
                     <div id="postThumbnail">
                         <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + this.postThumbnail + ".png"} />
                     </div>
+
                     <div id="postInfo">
                         <div id="postInfoTitle">
                             <p>
                             {this.postTitle}
                             </p>
                         </div>
+
                         <div id="postInfoTag">
                             <p>
                               {this.postTag}
                             </p>
                         </div>
+                        
                         <div id="postInfoDate">
                             <p>
                               {this.postDate}
