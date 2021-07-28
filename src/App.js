@@ -10,7 +10,7 @@ import NotFoundPage from "./route/NotFoundPage";
 import PostView from "./route/PostView";
 import ScrollTop from "./ScrollTop";
 
-function App() {
+const App = () => {
     return (
         <Router>
             <ScrollTop>
