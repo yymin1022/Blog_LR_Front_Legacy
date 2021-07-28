@@ -1,65 +1,67 @@
-import React, {Component} from "react";
+import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
 
 import "./PostItem.css";
 
-class PostItem extends Component {
-    constructor() {
-        super();
-        this.state = {};
-    }
+const PostItem = (props) => {
+    const [postDate, setPostDate] = "";
+    const [postTag, setPostTag] = "";
+    const [postThumbnail, setPostThumbnail] = "";
+    const [postTitle, setPostTitle] = "";
+    const [postURL, setPostURL] = "";
 
-    UNSAFE_componentWillMount() {
-        this.postDate = this.props.postDate;
-        this.postTag = "";
-        this.postThumbnail = this.props.postThumbnail;
-        this.postTitle = this.props.postTitle;
-        this.postURL = this.props.postURL;
+    useEffect(() => {
+        setPostDate(props.postDate);
+        setPostThumbnail(props.postThumbnail);
+        setPostTitle(props.postTitle);
+        setPostURL(props.postURL);
 
-        switch(this.props.postTag){
+        switch(props.postTag){
             case "dev":
-                this.postTag = "#Development #Programming"
+                setPostTag("#Development #Programming");
                 break;
             case "os":
-                this.postTag = "#OS #Linux #Unix #Windows"
+                setPostTag("#OS #Linux #Unix #Windows");
                 break;
             case "synology":
-                this.postTag = "#NAS #Synology #XPEnology"
+                setPostTag("#NAS #Synology #XPEnology");
                 break;
         }
-    }
 
-    render() {
-        return(
-            <Link to={"/postview/" + this.postURL}>
-                <div id="postItem" align="left">
-                    <div id="postThumbnail">
-                        <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + this.postThumbnail + ".png"} />
+        return () => {
+            
+        }
+    }, []);
+
+    return(
+        <Link to={"/postview/" + postURL}>
+            <div id="postItem" align="left">
+                <div id="postThumbnail">
+                    <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + postThumbnail + ".png"} />
+                </div>
+
+                <div id="postInfo">
+                    <div id="postInfoTitle">
+                        <p>
+                        {postTitle}
+                        </p>
                     </div>
 
-                    <div id="postInfo">
-                        <div id="postInfoTitle">
-                            <p>
-                            {this.postTitle}
-                            </p>
-                        </div>
-
-                        <div id="postInfoTag">
-                            <p>
-                              {this.postTag}
-                            </p>
-                        </div>
-                        
-                        <div id="postInfoDate">
-                            <p>
-                              {this.postDate}
-                            </p>
-                        </div>
+                    <div id="postInfoTag">
+                        <p>
+                            {postTag}
+                        </p>
+                    </div>
+                    
+                    <div id="postInfoDate">
+                        <p>
+                            {postDate}
+                        </p>
                     </div>
                 </div>
-            </Link>
-        )
-    }
+            </div>
+        </Link>
+    )
 }
 
 export default PostItem;
