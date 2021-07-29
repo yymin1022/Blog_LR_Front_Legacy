@@ -19,12 +19,12 @@ const SideMenu = (props) => {
             id="SideMenu"
             className={className}>
             <div id="SideMenuTop">
-                <IconButton onClick={btnAction} edge="start" className="SideMenuButton" color="inherit" aria-label="menu">
+                <IconButton onClick={btnAction} edge="start" id="SideMenuButton" color="inherit" aria-label="menu">
                     <MenuIcon />
                 </IconButton>
-                <h6 variant="h6" className="SideMenuTitle">
+                <p variant="h6" id="SideMenuTitle">
                     LR의 IT블로그
-                </h6>
+                </p>
             </div>
 
             <div id="SideMenuBottom">
