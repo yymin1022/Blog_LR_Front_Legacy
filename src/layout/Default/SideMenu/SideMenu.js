@@ -10,18 +10,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 
 import "./SideMenu.css";
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-    title: {
-        flexGrow: 1,
-    },
-}));
-
 const SideMenu = (props) => {
     const {
         className,
@@ -33,10 +21,10 @@ const SideMenu = (props) => {
             id="SideMenu"
             className={className}>
             <div id="SideMenuTop">
-                <IconButton onClick={btnAction} edge="start" className={useStyles().menuButton} color="inherit" aria-label="menu">
+                <IconButton onClick={btnAction} edge="start" className="SideMenuButton" color="inherit" aria-label="menu">
                     <MenuIcon />
                 </IconButton>
-                <Typography variant="h6" className={useStyles().title}>
+                <Typography variant="h6" className="SideMenuTitle">
                     LR의 IT블로그
                 </Typography>
             </div>
