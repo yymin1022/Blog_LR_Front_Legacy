@@ -11,6 +11,8 @@ const PostItem = (props) => {
     const [postURL, setPostURL] = "";
 
     useEffect(() => {
+        console.log(props.postTitle);
+
         setPostDate(props.postDate);
         setPostThumbnail(props.postThumbnail);
         setPostTitle(props.postTitle);
