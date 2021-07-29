@@ -1,14 +1,14 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 import "./PostItem.css";
 
 const PostItem = (props) => {
-    const [postDate, setPostDate] = "";
-    const [postTag, setPostTag] = "";
-    const [postThumbnail, setPostThumbnail] = "";
-    const [postTitle, setPostTitle] = "";
-    const [postURL, setPostURL] = "";
+    const [postDate, setPostDate] = useState("");
+    const [postTag, setPostTag] = useState("");
+    const [postThumbnail, setPostThumbnail] = useState("");
+    const [postTitle, setPostTitle] = useState("");
+    const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
         console.log(props.postTitle);
