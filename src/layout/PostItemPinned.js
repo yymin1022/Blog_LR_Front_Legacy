@@ -1,65 +1,69 @@
-import React, {Component} from "react";
+import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
-import "./PostItemPinned.css";
+import "./PostItem.css";
 
-class PostItemPinned extends Component {
-    constructor() {
-        super();
-        this.state = {};
-    }
+const PostItem = (props) => {
+    const [postDate, setPostDate] = useState("");
+    const [postTag, setPostTag] = useState("");
+    const [postThumbnail, setPostThumbnail] = useState("");
+    const [postTitle, setPostTitle] = useState("");
+    const [postURL, setPostURL] = useState("");
 
-    UNSAFE_componentWillMount() {
-        this.postDate = this.props.postDate;
-        this.postTag = "";
-        this.postThumbnail = this.props.postThumbnail;
-        this.postTitle = this.props.postTitle;
-        this.postURL = this.props.postURL;
+    useEffect(() => {
+        console.log(props.postTitle);
 
-        switch(this.props.postTag){
-          case "dev":
-              this.postTag = "#Development #Programming"
-              break;
-          case "os":
-              this.postTag = "#OS #Linux #Unix #Windows"
-              break;
-          case "synology":
-              this.postTag = "#NAS #Synology #XPEnology"
-              break;
+        setPostDate(props.postDate);
+        setPostThumbnail(props.postThumbnail);
+        setPostTitle(props.postTitle);
+        setPostURL(props.postURL);
+
+        switch(props.postTag){
+            case "dev":
+                setPostTag("#Development #Programming");
+                break;
+            case "os":
+                setPostTag("#OS #Linux #Unix #Windows");
+                break;
+            case "synology":
+                setPostTag("#NAS #Synology #XPEnology");
+                break;
         }
-    }
 
-    render() {
-        return(
-            <Link to={"/postview/" + this.postURL}>
-                <div id="postPinnedItem" align="left">
-                    <div id="postPinnedThumbnail">
-                        <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + this.postThumbnail + ".png"} />
+        return () => {
+            
+        }
+    }, []);
+
+    return(
+        <Link to={"/postview/" + postURL}>
+            <div id="postPinnedItem" align="left">
+                <div id="postPinnedThumbnail">
+                    <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + postThumbnail + ".png"} />
+                </div>
+
+                <div id="postPinnedInfo">
+                    <div id="postPinnedInfoTitle">
+                        <p>
+                            {postTitle}
+                        </p>
                     </div>
 
-                    <div id="postPinnedInfo">
-                        <div id="postPinnedInfoTitle">
-                            <p>
-                                {this.postTitle}
-                            </p>
-                        </div>
-
-                        <div id="postPinnedInfoTag">
-                            <p>
-                                {this.postTag}
-                            </p>
-                        </div>
-                        
-                        <div id="postPinnedInfoDate">
-                            <p>
-                                {this.postDate}
-                            </p>
-                        </div>
+                    <div id="postPinnedInfoTag">
+                        <p>
+                            {postTag}
+                        </p>
+                    </div>
+                    
+                    <div id="postPinnedInfoDate">
+                        <p>
+                            {postDate}
+                        </p>
                     </div>
                 </div>
-            </Link>
-        )
-    }
+            </div>
+        </Link>
+    )
 }
 
 export default PostItemPinned;
