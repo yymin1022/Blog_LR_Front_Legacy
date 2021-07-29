@@ -11,8 +11,6 @@ const PostItemPinned = (props) => {
     const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
-        console.log(props.postTitle);
-
         setPostDate(props.postDate);
         setPostThumbnail(props.postThumbnail);
         setPostTitle(props.postTitle);
