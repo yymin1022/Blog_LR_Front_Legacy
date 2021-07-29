@@ -9,7 +9,8 @@
     width: 550px;
     
     animation-name: SideMenuSlide;
-    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-duration: 2s;
 }
 
 #SideMenuBottom{
@@ -24,9 +25,6 @@
 
 @keyframes SideMenuSlide{
     0% {
-        width: 100%;
-    }
-    30% {
         width: 100%;
     }
     100% {
