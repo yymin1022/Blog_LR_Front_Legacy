@@ -7,7 +7,9 @@
 
     height: 100%;
     width: 550px;
-    transition: width 4s;
+    
+    animation-name: SideMenuSlide;
+    animation-duration: 1s;
 }
 
 #SideMenuBottom{
@@ -18,4 +20,13 @@
 #SideMenuTop{
     height: 50%;
     width: 100%;
+}
+
+@keyframes SideMenuSlide{
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 550px;
+    }
 }
