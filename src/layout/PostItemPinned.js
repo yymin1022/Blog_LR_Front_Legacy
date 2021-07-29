@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import "./PostItem.css";
 
-const PostItem = (props) => {
+const PostItemPinned = (props) => {
     const [postDate, setPostDate] = useState("");
     const [postTag, setPostTag] = useState("");
     const [postThumbnail, setPostThumbnail] = useState("");
