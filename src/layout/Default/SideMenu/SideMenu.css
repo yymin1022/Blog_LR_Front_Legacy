@@ -23,7 +23,9 @@
     width: 100%;
 }
 
-
+#SideMenuTitle{
+    font-size: 30px;
+}
 
 @keyframes SideMenuSlide{
     0% {
@@ -33,6 +35,6 @@
         width: 100%;
     }
     100% {
-        width: 550px;
+        width: 30%;
     }
 }
