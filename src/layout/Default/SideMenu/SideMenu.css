@@ -33,7 +33,7 @@
 #SideMenuTitle p{
     font-size: 40px;
 
-    animation-name: SideMenuTitleSize;
+    animation-name: SideMenuTitleTextScale;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
 }
@@ -50,14 +50,17 @@
     }
 }
 
-@keyframes SideMenuTitleSize{
+@keyframes SideMenuTitleTextScale{
     0% {
         font-size: 80px;
+        text-align: center;
     }
     50% {
         font-size: 80px;
+        text-align: center;
     }
     100% {
         font-size: 40px;
+        text-align: left;
     }
 }
