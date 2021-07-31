@@ -24,6 +24,8 @@
 }
 
 #SideMenuTitle{
+    font-size: 40px;
+
     animation-name: SideMenuTitleSize;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
