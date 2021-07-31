@@ -6,7 +6,7 @@
     top: 0;
 
     height: 100%;
-    width: 40%;
+    width: 550px;
     
     animation-name: SideMenuSlide;
     animation-duration: 2s;
@@ -39,7 +39,7 @@
         width: 100%;
     }
     100% {
-        width: 40%;
+        width: 550px;
     }
 }
 
