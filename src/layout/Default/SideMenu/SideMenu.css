@@ -28,7 +28,9 @@
 #SideMenuTitle{
     bottom: 0;
     position: absolute;
+}
 
+#SideMenuTitle p{
     font-size: 40px;
 
     animation-name: SideMenuTitleSize;
@@ -58,7 +60,7 @@
     100% {
         bottom: 0;
         position: absolute;
-        
+
         font-size: 40px;
     }
 }

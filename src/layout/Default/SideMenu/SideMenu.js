@@ -22,9 +22,12 @@ const SideMenu = (props) => {
                 <IconButton onClick={btnAction} edge="start" id="SideMenuButton" color="inherit" aria-label="menu">
                     <MenuIcon />
                 </IconButton>
-                <p id="SideMenuTitle">
-                    LR의 IT블로그
-                </p>
+                <div id="SideMenuTitle">
+                    <p>
+                        LR의 IT블로그
+                    </p>
+                </div>
+                
             </div>
 
             <div id="SideMenuBottom">
