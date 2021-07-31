@@ -28,6 +28,8 @@
 #SideMenuTitle{
     width: 100%;
 
+    margin-left: 10px;
+
     bottom: 0;
     position: absolute;
 }
