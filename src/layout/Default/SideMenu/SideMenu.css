@@ -25,6 +25,10 @@
 
 #SideMenuTitle{
     font-size: 30px;
+
+    animation-name: SideMenuText;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes SideMenuSlide{
@@ -36,5 +40,17 @@
     }
     100% {
         width: 40%;
+    }
+}
+
+@keyframes SideMenuText{
+    0% {
+        font-size: 80px;
+    }
+    50% {
+        font-size: 80px;
+    }
+    100% {
+        font-size: 40px;
     }
 }
