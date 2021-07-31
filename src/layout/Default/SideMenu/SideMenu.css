@@ -1,13 +1,13 @@
 #SideMenu{
-    background-color: #164EAB;
-    position: fixed;
-    
-    left: 0;
-    top: 0;
-
     height: 100%;
     width: 550px;
     
+    left: 0;
+    top: 0;
+    position: fixed;
+    
+    background-color: #164EAB;
+
     animation-name: SideMenuSlide;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
