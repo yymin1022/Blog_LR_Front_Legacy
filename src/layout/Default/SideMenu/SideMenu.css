@@ -21,9 +21,14 @@
 #SideMenuTop{
     height: 50%;
     width: 100%;
+
+    position: relative;
 }
 
 #SideMenuTitle{
+    bottom: 0;
+    position: absolute;
+
     font-size: 40px;
 
     animation-name: SideMenuTitleSize;
@@ -51,6 +56,9 @@
         font-size: 80px;
     }
     100% {
+        bottom: 0;
+        position: absolute;
+        
         font-size: 40px;
     }
 }
