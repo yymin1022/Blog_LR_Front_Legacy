@@ -31,7 +31,13 @@
     margin-left: 10px;
 
     bottom: 0;
+    display: flex;
+    justify-content: start;
     position: absolute;
+
+    animation-name: SideMenuTitleText;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 #SideMenuTitle p{
@@ -51,6 +57,21 @@
     }
     100% {
         width: 550px;
+    }
+}
+
+@keyframes SideMenuTitleText{
+    0% {
+        display: flex;
+        justify-content: center;
+    }
+    50% {
+        display: flex;
+        justify-content: center;
+    }
+    100% {
+        display: flex;
+        justify-content: start;
     }
 }
 
