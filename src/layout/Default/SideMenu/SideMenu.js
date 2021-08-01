@@ -23,9 +23,8 @@ const SideMenu = (props) => {
                     <MenuIcon />
                 </IconButton>
                 <div id="SideMenuTitle">
-                    <p>
-                        LR의 IT블로그
-                    </p>
+                    <p>LR의</p>
+                    <p>IT블로그</p>
                 </div>
                 
             </div>
