@@ -1,6 +1,6 @@
 #SideMenu{
     height: 100%;
-    width: 550px;
+    width: 350px;
     
     left: 0;
     top: 0;
@@ -57,7 +57,7 @@
         width: 100%;
     }
     100% {
-        width: 550px;
+        width: 30px;
     }
 }
 
