@@ -11,7 +11,6 @@ import "./SideMenu.css";
 const SideMenu = (props) => {
     const {
         className,
-        btnAction,
     } = props;
 
     return (
@@ -19,9 +18,6 @@ const SideMenu = (props) => {
             id="SideMenu"
             className={className}>
             <div id="SideMenuTop">
-                <IconButton onClick={btnAction} edge="start" id="SideMenuButton" color="inherit" aria-label="menu">
-                    <MenuIcon />
-                </IconButton>
                 <div id="SideMenuTitle">
                     <p>LR의</p>
                     <p>IT블로그</p>
