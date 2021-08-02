@@ -13,13 +13,17 @@
     animation-timing-function: ease-in-out;
 }
 
-#SideMenuTitle{
+#SideMenuContent{
     width: 320px;
 
     margin-left: 10px;
 
     bottom: 0;
     position: absolute;
+}
+
+#SideMenuTitle{
+    width: 100%;
 
     animation-name: SideMenuTitleText;
     animation-duration: 2s;

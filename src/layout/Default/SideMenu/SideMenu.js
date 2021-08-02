@@ -12,9 +12,11 @@ const SideMenu = (props) => {
         <div
             id="SideMenu"
             className={className}>
-            <div id="SideMenuTitle">
-                <p>LR의</p>
-                <p>IT블로그</p>
+            <div id="SideMenuContent">
+                <div id="SideMenuTitle">
+                    <p>LR의</p>
+                    <p>IT블로그</p>
+                </div>
             </div>
         </div>
     );
