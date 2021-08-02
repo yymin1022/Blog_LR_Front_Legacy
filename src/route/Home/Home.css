@@ -1,10 +1,18 @@
-p{
-    font-size: 90px;
+#divNav{
+    margin: 10px;
+}
 
-    margin: 0px;
+#divTitle{
+    margin: 10px;
 }
 
 #blogTitle2{
     color:  #164EAB;
     font-weight: bold;
 }
+
+p{
+    font-size: 90px;
+    margin: 0px;
+}
+
