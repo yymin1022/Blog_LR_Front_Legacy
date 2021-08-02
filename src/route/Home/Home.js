@@ -8,10 +8,9 @@ import "./Home.css";
 const Home = () => {
     return(
         <div>
-            <p id="blogTitle1">1인개발자<br/></p>
-            <p id="blogTitle2">LR</p>
-            <p id="blogTitle3">의<br/></p>
-            <p id="blogTitle4">IT블로그</p>
+            <p id="blogTitle1">1인개발자</p>
+            <p id="blogTitle2">LR의</p>
+            <p id="blogTitle3">IT블로그</p>
 
             <Link to={"/blog"}>
                 <Button>Blog</Button>
