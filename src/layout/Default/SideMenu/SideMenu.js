@@ -15,21 +15,9 @@ const SideMenu = (props) => {
         <div
             id="SideMenu"
             className={className}>
-            <div id="SideMenuTop">
-                <div id="SideMenuTitle">
-                    <p>LR의</p>
-                    <p>IT블로그</p>
-                </div>
-                
-            </div>
-
-            <div id="SideMenuBottom">
-                <Link to={"/"}>
-                    <Button style={{color: "#FFFFFF"}}>Home</Button>
-                </Link>
-                <Link to={"/about"}>
-                    <Button style={{color: "#FFFFFF"}}>About</Button>
-                </Link>
+            <div id="SideMenuTitle">
+                <p>LR의</p>
+                <p>IT블로그</p>
             </div>
         </div>
     );

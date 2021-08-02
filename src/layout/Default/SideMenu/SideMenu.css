@@ -13,18 +13,6 @@
     animation-timing-function: ease-in-out;
 }
 
-#SideMenuBottom{
-    height: 50%;
-    width: 100%;
-}
-
-#SideMenuTop{
-    height: 50%;
-    width: 100%;
-
-    position: relative;
-}
-
 #SideMenuTitle{
     width: 320px;
 
