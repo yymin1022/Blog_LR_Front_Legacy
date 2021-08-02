@@ -8,9 +8,9 @@ import PostItemPinned from "/home/server/web/src/layout/PostItemPinned";
 
 import postDB from "/home/server/web/src/posts/DB.json";
 
-import "./Home.css";
+import "./Blog.css";
 
-class Home extends Component{
+class Blog extends Component{
     constructor(props){
         super();
         this.state ={};
@@ -134,4 +134,4 @@ class Home extends Component{
     }
 }
 
-export default Home;
+export default Blog;
