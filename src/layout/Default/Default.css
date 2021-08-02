@@ -14,11 +14,3 @@ body{
     height: 100%;
     width: 100%;
 }
-
-#NavContainer{
-    align-items: center;
-    display: flex;
-    margin-bottom: -10px;
-    margin-left: 10px;
-    margin-top: -10px;
-}
