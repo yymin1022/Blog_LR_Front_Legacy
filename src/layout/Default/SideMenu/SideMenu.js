@@ -1,7 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import {faCamera} from "@fortawesome/free-regular-svg-icons";
+import {faFacebook} from "@fortawesome/free-brands-svg-icons";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faGooglePlay} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import "./SideMenu.css";
@@ -23,7 +26,16 @@ const SideMenu = (props) => {
 
                 <div id="SideMenuNav">
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faCamera} />
+                        <FontAwesomeIcon icon={faFacebook} />
+                    </div>
+                    <div className="snsNav">
+                        <FontAwesomeIcon icon={faGithub} />
+                    </div>
+                    <div className="snsNav">
+                        <FontAwesomeIcon icon={faGooglePlay} />
+                    </div>
+                    <div className="snsNav">
+                        <FontAwesomeIcon icon={faInstagram} />
                     </div>
                 </div>
             </div>
