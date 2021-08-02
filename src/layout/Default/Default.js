@@ -1,11 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import SideMenu from "./SideMenu";
-import Section from "./Section";
-
 import {makeStyles} from "@material-ui/core/styles";
 
+import SideMenu from "./SideMenu";
+import Section from "./Section";
 import "./Default.css"
 
 const drawerStyle = makeStyles({
