@@ -8,21 +8,25 @@ import "./Home.css";
 const Home = () => {
     return(
         <div>
-            <p id="blogTitle1">1인개발자</p>
-            <p id="blogTitle2">LR의</p>
-            <p id="blogTitle3">IT블로그</p>
+            <div id="divTitle">
+                <p id="blogTitle1">1인개발자</p>
+                <p id="blogTitle2">LR의</p>
+                <p id="blogTitle3">IT블로그</p>
+            </div>
 
-            <Link to={"/blog"}>
-                <Button>Blog</Button>
-            </Link>
+            <div id="divNav">
+                <Link to={"/blog"}>
+                    <Button>Blog</Button>
+                </Link>
 
-            <Link to={"/project"}>
-                <Button>Project</Button>
-            </Link>
+                <Link to={"/project"}>
+                    <Button>Project</Button>
+                </Link>
 
-            <Link to={"/about"}>
-                <Button>About</Button>
-            </Link>
+                <Link to={"/about"}>
+                    <Button>About</Button>
+                </Link>
+            </div>
         </div>
     )
 }
