@@ -17,6 +17,10 @@ const SideMenu = (props) => {
                     <p>LR의</p>
                     <p>IT블로그</p>
                 </div>
+
+                <div id="SideMenuNav">
+                    SNS_NAV
+                </div>
             </div>
         </div>
     );
