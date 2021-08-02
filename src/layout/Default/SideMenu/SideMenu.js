@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import {faCamera} from "@fortawesome/free-regular-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
 import "./SideMenu.css";
 
 const SideMenu = (props) => {
@@ -19,7 +22,9 @@ const SideMenu = (props) => {
                 </div>
 
                 <div id="SideMenuNav">
-                    SNS_NAV
+                    <div className="snsNav">
+                        <FontAwesomeIcon icon={faCamera} />
+                    </div>
                 </div>
             </div>
         </div>
