@@ -24,6 +24,8 @@ const SideMenu = (props) => {
                     <p>IT블로그</p>
                 </div>
 
+                <hr/>
+
                 <div id="SideMenuNav">
                     <div className="snsNav">
                         <FontAwesomeIcon icon={faFacebook} color="white" size="2x" />
