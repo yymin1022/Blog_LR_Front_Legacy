@@ -41,6 +41,9 @@
 #SideMenuTitle{
     width: 100%;
 
+    margin-left: 20px;
+    margin-right: 20px;
+
     animation-name: SideMenuTitleText;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
