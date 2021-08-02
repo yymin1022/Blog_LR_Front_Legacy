@@ -8,7 +8,7 @@ import "./Home.css";
 const Home = () => {
     return(
         <div>
-            <p>Home Page</p>
+            <p>1인개발자<br/><b>LR</b>의<br/>IT블로그</p>
 
             <Link to={"/blog"}>
                 <Button>Blog</Button>
