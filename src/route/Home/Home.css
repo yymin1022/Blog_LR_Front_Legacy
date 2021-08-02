@@ -6,13 +6,13 @@
     margin: 10px;
 }
 
+.blogTitle{
+    font-size: 90px;
+    margin: 0px;
+}
+
 #blogTitle2{
     color:  #164EAB;
     font-weight: bold;
-}
-
-p{
-    font-size: 90px;
-    margin: 0px;
 }
 
