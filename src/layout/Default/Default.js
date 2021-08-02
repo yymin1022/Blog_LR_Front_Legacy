@@ -14,11 +14,11 @@ const Default = (props) => {
     
     return (
         <div id="Container" className={className}>
-            <SideMenu />
-
             <Section>
                 {children}
             </Section>
+            
+            <SideMenu />
         </div>
     );
 }
