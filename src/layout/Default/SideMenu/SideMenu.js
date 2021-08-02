@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from "react-router-dom";
 
 import {faFacebook} from "@fortawesome/free-brands-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
@@ -28,16 +29,24 @@ const SideMenu = (props) => {
 
                 <div id="SideMenuNav">
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faFacebook} color="white" size="lg" />
+                        <Link to={"https://www.facebook.com/profile.php?id=100007285635473"}>
+                            <FontAwesomeIcon icon={faFacebook} color="white" size="lg" />
+                        </Link>
                     </div>
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faGithub} color="white" size="lg" />
+                        <Link to={"https://github.com/yymin1022"}>
+                            <FontAwesomeIcon icon={faGithub} color="white" size="lg" />
+                        </Link>
                     </div>
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faGooglePlay} color="white" size="lg" />
+                        <Link to={"https://play.google.com/store/apps/developer?id=Dev.+LR"}>
+                            <FontAwesomeIcon icon={faGooglePlay} color="white" size="lg" />
+                        </Link>
                     </div>
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faInstagram} color="white" size="lg" />
+                        <Link to={"https://instagram.com/useful_min"}>
+                            <FontAwesomeIcon icon={faInstagram} color="white" size="lg" />
+                        </Link>
                     </div>
                 </div>
             </div>
