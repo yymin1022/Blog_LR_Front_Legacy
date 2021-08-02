@@ -26,16 +26,16 @@ const SideMenu = (props) => {
 
                 <div id="SideMenuNav">
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        <FontAwesomeIcon icon={faFacebook} color="white" size="2x" />
                     </div>
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                        <FontAwesomeIcon icon={faGithub} color="white" size="2x" />
                     </div>
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faGooglePlay} size="2x" />
+                        <FontAwesomeIcon icon={faGooglePlay} color="white" size="2x" />
                     </div>
                     <div className="snsNav">
-                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        <FontAwesomeIcon icon={faInstagram} color="white" size="2x" />
                     </div>
                 </div>
             </div>
