@@ -22,6 +22,14 @@
     position: absolute;
 }
 
+#SideMenuNav{
+    width: 100%;
+
+    animation-name: SideMenuNav;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
 #SideMenuTitle{
     width: 100%;
 
@@ -50,6 +58,21 @@
     }
     100% {
         width: 350px;
+    }
+}
+
+@keyframes SideMenuNav{
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    50% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 0;
     }
 }
 
