@@ -11,15 +11,15 @@ const Home = () => {
             <p>Home Page</p>
 
             <Link to={"/blog"}>
-                <Button style={{color: "#FFFFFF"}}>Blog</Button>
+                <Button>Blog</Button>
             </Link>
 
             <Link to={"/project"}>
-                <Button style={{color: "#FFFFFF"}}>Project</Button>
+                <Button>Project</Button>
             </Link>
 
             <Link to={"/about"}>
-                <Button style={{color: "#FFFFFF"}}>About</Button>
+                <Button>About</Button>
             </Link>
         </div>
     )
