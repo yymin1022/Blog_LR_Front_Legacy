@@ -25,9 +25,9 @@ const SideMenu = (props) => {
                     <p>IT블로그</p>
                 </div>
 
+                <hr/>
+
                 <div id="SideMenuNav">
-                    <hr/>
-                    
                     <div className="snsNav">
                         <Link
                             to={{ 
