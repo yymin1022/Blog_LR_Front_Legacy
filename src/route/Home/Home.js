@@ -16,15 +16,15 @@ const Home = () => {
 
             <div id="divNav">
                 <Link to={"/blog"}>
-                    <Button><p>Blog</p></Button>
+                    <Button className="btnNav"><p>Blog</p></Button>
                 </Link>
 
                 <Link to={"/project"}>
-                    <Button><p>Project</p></Button>
+                    <Button className="btnNav"><p>Project</p></Button>
                 </Link>
 
                 <Link to={"/about"}>
-                    <Button><p>About</p></Button>
+                    <Button className="btnNav"><p>About</p></Button>
                 </Link>
             </div>
         </div>

@@ -16,6 +16,6 @@
     font-weight: bold;
 }
 
-Button p{
-    font-weight: 700;
+.btnNav p{
+    font-size: 15px;
 }
