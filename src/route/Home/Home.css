@@ -1,7 +1,7 @@
 #divNav{
     display: flex;
     flex-direction: column;
-    
+
     margin: 10px;
 }
 
@@ -17,6 +17,10 @@
 #blogTitle2{
     color:  #164EAB;
     font-weight: bold;
+}
+
+.btnNav{
+    height: 45px;
 }
 
 .btnNav p{
