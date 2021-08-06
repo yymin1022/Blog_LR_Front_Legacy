@@ -33,20 +33,6 @@
   margin: 5px;
 }
 
-@font-face {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: url("/home/server/web/src/fonts/NotoSans-Regular.ttf") format('truetype')
-  }
-
-@font-face {
-    font-family: 'Noto Sans Bold';
-    font-style: normal;
-    font-weight: bold;
-    src: url("/home/server/web/src/fonts/NotoSans-Bold.ttf") format('truetype')
-  }
-
 .markdown-body-about .octicon {
   display: inline-block;
   fill: currentColor;
