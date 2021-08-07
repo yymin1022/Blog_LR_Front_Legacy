@@ -9,9 +9,9 @@ const Home = () => {
     return(
         <div>
             <div id="divTitle">
-                <p className="blogTitle" id="blogTitle1">1인개발자</p>
-                <p className="blogTitle" id="blogTitle2">LR의</p>
-                <p className="blogTitle" id="blogTitle3">IT블로그</p>
+                <p className="blogTitle" id="blogTitle1">안녕하세요</p>
+                <p className="blogTitle" id="blogTitle2">대학생 1인 개발자</p>
+                <p className="blogTitle" id="blogTitle3">LR입니다</p>
             </div>
 
             <div id="divNav">
