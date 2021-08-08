@@ -21,12 +21,14 @@ const PostView = (props) => {
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                setIsNotFound(null)
+                setIsNotFound(false)
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
+
+                console.log(isNotFound);
 
                 const MDFile = require("/home/server/web/src/posts/" + item.postURL + ".md").default;
                 fetch(MDFile).then(
@@ -88,7 +90,7 @@ const PostView = (props) => {
 
     if(isNotFound){
         console.log(isNotFound);
-        
+
         return <Redirect to="/PostNotFound" />
     }
 
