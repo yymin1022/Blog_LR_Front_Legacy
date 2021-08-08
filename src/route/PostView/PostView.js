@@ -25,7 +25,7 @@ const PostView = (props) => {
         
                 setIsNotFound(null)
                 setPostDate(item.postDate);
-                setPostID(item.postID);
+                setPostID(item.postURL);
                 setPostTag(item.postTag);
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
