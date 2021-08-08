@@ -29,8 +29,6 @@ const PostView = (props) => {
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
 
-                console.log("1 : " + isNotFound);
-
                 const MDFile = require("/home/server/web/src/posts/" + item.postURL + ".md").default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
