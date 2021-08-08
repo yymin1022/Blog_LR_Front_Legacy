@@ -11,6 +11,7 @@ import postDB from "/home/server/web/src/posts/DB.json";
 import "./PostView.css";
 
 const PostView = (props) => {
+    const [isNotFound, setIsNotFound] = useState(true);
     const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
     const [postID, setPostID] = useState("");
@@ -18,13 +19,10 @@ const PostView = (props) => {
     const [postTitle, setPostTitle] = useState("");
     const [postURL, setPostURL] = useState("");
 
-    let isNotFound = true;
-
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                isNotFound = null;
-
+                setIsNotFound(false);
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
