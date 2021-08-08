@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {If, Else, Then} from "react-if";
 import {Link, Redirect} from "react-router-dom";
 
 import {DiscussionEmbed} from "disqus-react";
@@ -90,14 +91,14 @@ const PostView = (props) => {
         );
     }
 
-    if(isNotFound){
-        console.log(isNotFound);
-
-        return <Redirect to="/PostNotFound" />
-    }
-
     return(
         <div align="center">
+            <If condition={isNotFound}>
+                <Then>
+                    <Redirect to="/PostNotFound" />
+                </Then>
+            </If>
+
             <div className="PostTitle">
                 <h2>{postTitle}</h2>
 
