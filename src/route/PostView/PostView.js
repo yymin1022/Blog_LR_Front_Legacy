@@ -86,7 +86,9 @@ const PostView = (props) => {
         );
     }
 
-    if (isNotFound) {
+    if(isNotFound){
+        console.log(isNotFound);
+        
         return <Redirect to="/PostNotFound" />
     }
 
