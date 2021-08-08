@@ -29,7 +29,7 @@ const PostView = (props) => {
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
 
-                console.log(isNotFound);
+                console.log("1 : " + isNotFound);
 
                 const MDFile = require("/home/server/web/src/posts/" + item.postURL + ".md").default;
                 fetch(MDFile).then(
@@ -67,6 +67,7 @@ const PostView = (props) => {
             </span>
         )
     }
+    
     const TableCellBlock = (props) => {
         let style ={
             textAlign: props.align ? props.align : "center",
