@@ -21,8 +21,6 @@ const PostView = (props) => {
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                console.log(props.match.params.postID);
-        
                 setIsNotFound(null)
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
@@ -30,7 +28,7 @@ const PostView = (props) => {
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
 
-                const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
+                const MDFile = require("/home/server/web/src/posts/" + item.postURL + ".md").default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
                         MDText => setPostData(MDText)
