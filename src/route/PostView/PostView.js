@@ -12,6 +12,7 @@ import "./PostView.css";
 const PostView = () => {
     const [isNotFound, setIsNotFound] = useState(null);
     const [postDate, setPostDate] = useState("");
+    const [postFile, setPostFile] = useState("");
     const [postID, setPostID] = useState("");
     const [postTag, setPostTag] = useState("");
     const [postTitle, setPostTitle] = useState("");
@@ -28,7 +29,11 @@ const PostView = () => {
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
 
                 const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
-                fetch(MDFile).then(res => res.text()).then(text => this.setState({markdown: text}));
+                fetch(MDFile).then(
+                    MDResource => MDResource.text().then(
+                        MDText => setPostFile(MDText)
+                    )
+                );
             }
         });
 
