@@ -9,7 +9,7 @@ import postDB from "/home/server/web/src/posts/DB.json";
 
 import "./PostView.css";
 
-const PostView = () => {
+const PostView = (props) => {
     const [isNotFound, setIsNotFound] = useState(null);
     const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
