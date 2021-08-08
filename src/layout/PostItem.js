@@ -37,7 +37,7 @@ const PostItem = (props) => {
         <Link to={"/postview/" + postURL}>
             <div id="postItem" align="left">
                 <div id="postThumbnail">
-                    <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + postThumbnail + ".png"} />
+                    <img src={"./postThumb/" + postThumbnail + ".png"} />
                 </div>
 
                 <div id="postInfo">

@@ -37,7 +37,7 @@ const PostItemPinned = (props) => {
         <Link to={"/postview/" + postURL}>
             <div id="postPinnedItem" align="left">
                 <div id="postPinnedThumbnail">
-                    <img src={process.env.PUBLIC_URL + "/PostThumbnails/" + postThumbnail + ".png"} />
+                    <img src={"./postThumb/" + postThumbnail + ".png"} />
                 </div>
 
                 <div id="postPinnedInfo">

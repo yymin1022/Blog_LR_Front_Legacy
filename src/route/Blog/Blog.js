@@ -3,10 +3,10 @@ import {If, Else, Then} from "react-if";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
-import PostItem from "/home/server/web/src/layout/PostItem";
-import PostItemPinned from "/home/server/web/src/layout/PostItemPinned";
+import PostItem from "./layout/PostItem";
+import PostItemPinned from "./layout/PostItemPinned";
 
-import postDB from "/home/server/web/src/posts/DB.json";
+import postDB from "./posts/DB.json";
 
 import "./Blog.css";
 
