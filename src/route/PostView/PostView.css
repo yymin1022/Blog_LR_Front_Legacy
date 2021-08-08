@@ -54,6 +54,7 @@ iframe[src*="ads-iframe"]{
 .markdown-body{
   width: 100%;
 
+  font-family: "NanumSquare";
   text-align: center;
 }
 
