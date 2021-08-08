@@ -92,11 +92,11 @@ const PostView = (props) => {
 
     return(
         <div align="center">
-            <If condition={isNotFound}>
+            {/* <If condition={isNotFound}>
                 <Then>
                     <Redirect to="/PostNotFound" />
                 </Then>
-            </If>
+            </If> */}
 
             <div className="PostTitle">
                 <h2>{postTitle}</h2>
