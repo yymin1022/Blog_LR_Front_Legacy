@@ -19,10 +19,10 @@ const PostView = (props) => {
     const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
-        console.log(props.match.params.postID);
-
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
+                console.log(props.match.params.postID);
+        
                 setIsNotFound(null)
                 setPostDate(item.postDate);
                 setPostID(item.postID);
