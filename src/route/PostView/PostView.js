@@ -10,7 +10,7 @@ import postDB from "/home/server/web/src/posts/DB.json";
 import "./PostView.css";
 
 const PostView = (props) => {
-    const [isNotFound, setIsNotFound] = useState(null);
+    const [isNotFound, setIsNotFound] = useState(true);
     const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
     const [postID, setPostID] = useState("");
@@ -21,7 +21,7 @@ const PostView = (props) => {
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                setIsNotFound(null)
+                setIsNotFound(false)
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
@@ -86,9 +86,9 @@ const PostView = (props) => {
         );
     }
 
-//         if (this.state.isNotFound) {
-//             return <Redirect to="/PostNotFound" />
-//         }
+    if (isNotFound) {
+        return <Redirect to="/PostNotFound" />
+    }
 
     return(
         <div align="center">
