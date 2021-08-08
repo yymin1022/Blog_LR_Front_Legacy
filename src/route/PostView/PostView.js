@@ -23,7 +23,7 @@ const PostView = (props) => {
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                isNotFound = false;
+                isNotFound = null;
 
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
