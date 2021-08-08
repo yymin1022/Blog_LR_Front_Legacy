@@ -6,7 +6,7 @@ import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown/with-html";
 
 import CodeBlock from "./CodeBlock";
-import postDB from "../posts/DB.json";
+import postDB from "./posts/DB.json";
 
 import "./PostView.css";
 
@@ -29,7 +29,7 @@ const PostView = (props) => {
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
 
-                const MDFile = require("./postData/" + item.postURL + "/post.md").default;
+                const MDFile = require("../postData/" + item.postURL + "/post.md").default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
                         MDText => setPostData(MDText)
