@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import MDFile from "/home/server/web/src/posts/about.md";
+import MDFile from "./postData/about.md";
 import ReactMarkdown from "react-markdown";
 
 import CodeBlock from "./CodeBlock";
