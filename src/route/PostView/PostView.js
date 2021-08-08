@@ -21,7 +21,7 @@ const PostView = (props) => {
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                setIsNotFound(false)
+                setIsNotFound(null)
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
