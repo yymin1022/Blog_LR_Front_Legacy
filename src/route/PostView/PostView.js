@@ -11,8 +11,8 @@ import "./PostView.css";
 
 const PostView = () => {
     const [isNotFound, setIsNotFound] = useState(null);
+    const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
-    const [postFile, setPostFile] = useState("");
     const [postID, setPostID] = useState("");
     const [postTag, setPostTag] = useState("");
     const [postTitle, setPostTitle] = useState("");
@@ -31,7 +31,7 @@ const PostView = () => {
                 const MDFile = require("/home/server/web/src/posts/" + postID + ".md").default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
-                        MDText => setPostFile(MDText)
+                        MDText => setPostData(MDText)
                     )
                 );
             }
@@ -107,7 +107,7 @@ const PostView = () => {
             <div className="PostViewContent">
                 <div className="markdown-body">
                     <ReactMarkdown
-                    source={markdown}
+                    source={postData}
 
                     allowDangerousHtml={true}
                     escapeHtml={false}
