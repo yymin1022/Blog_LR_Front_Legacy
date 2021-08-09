@@ -14,8 +14,8 @@ const Blog = (props) => {
     const [categoryID, setCategoryID] = useState("");
 
     useEffect(() => {
-        if(this.props.location.state){
-            setCategoryID(this.props.location.state.categoryID);
+        if(props.location.state){
+            setCategoryID(props.location.state.categoryID);
         }
 
         return () => {
