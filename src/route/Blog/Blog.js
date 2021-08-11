@@ -21,9 +21,9 @@ const Blog = (props) => {
         console.log("Category ID is " + categoryID);
 
         return () => {
-            window.location.reload();
+            // window.location.reload();
         }
-    }, []);
+    }, [categoryID]);
 
     return(
         <div align="center">
