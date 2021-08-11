@@ -11,14 +11,14 @@ import postDB from "../../postData/DB.json";
 import "./Blog.css";
 
 const Blog = (props) => {
-    const [categoryID, setCategoryID] = useState("");
+    const [categoryID, setCategoryID] = useState("all");
 
     useEffect(() => {
         if(props.location.state){
             setCategoryID(props.location.state.categoryID);
         }
 
-        console.log("Category ID is " + props.location.state.categoryID);
+        console.log("Category ID is ");
 
         return () => {
             // window.location.reload();
