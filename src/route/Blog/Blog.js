@@ -18,7 +18,7 @@ const Blog = (props) => {
             setCategoryID(props.location.state.categoryID);
         }
 
-        console.log("Category ID is " + categoryID);
+        console.log("Category ID is " + props.location.state);
 
         return () => {
             // window.location.reload();
