@@ -18,17 +18,14 @@ const Blog = (props) => {
             setCategoryID(props.location.state.categoryID);
         }
 
-        console.log("Category ID is ");
-
-        return () => {
-            // window.location.reload();
-        }
+        // return () => {
+        //     window.location.reload();
+        // }
     }, [categoryID]);
 
     return(
         <div align="center">
             <If condition={categoryID == "all"}>
-                {console.log("Current Category ID is " + categoryID)}
                 <Then>
                     <>
                         <div align="left" className="postPinnedTitle">
