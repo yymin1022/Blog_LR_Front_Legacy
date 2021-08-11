@@ -27,10 +27,6 @@ const PostItemPinned = (props) => {
                 setPostTag("#NAS #Synology #XPEnology");
                 break;
         }
-
-        return () => {
-            
-        }
     }, []);
 
     return(
