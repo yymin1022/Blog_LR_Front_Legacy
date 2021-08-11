@@ -27,10 +27,6 @@ const PostItem = (props) => {
                 setPostTag("#NAS #Synology #XPEnology");
                 break;
         }
-
-        return () => {
-            
-        }
     }, []);
 
     return(
