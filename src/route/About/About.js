@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {useEffect, useState} from "react";
 
 import MDFile from "../../postData/about.md";
 import ReactMarkdown from "react-markdown";
