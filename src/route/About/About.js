@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 import CodeBlock from "./CodeBlock";
 import "./About.css";
 
-const About = (props) => {
+const About = () => {
     const [postData, setPostData] = useState("");
 
     useEffect(() => {
