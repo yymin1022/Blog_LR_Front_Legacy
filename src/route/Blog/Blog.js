@@ -26,6 +26,7 @@ const Blog = (props) => {
     return(
         <div align="center">
             <If condition={categoryID == "all"}>
+                
                 <Then>
                     <>
                         <div align="left" className="postPinnedTitle">
