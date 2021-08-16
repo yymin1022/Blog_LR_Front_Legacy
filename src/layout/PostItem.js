@@ -33,7 +33,7 @@ const PostItem = (props) => {
         <Link to={"/postview/" + postURL}>
             <div id="postItem" align="left">
                 <div id="postThumbnail">
-                    <img src={"./postThumb/" + postThumbnail + ".png"} />
+                    <img src={"../../postData/" + postURL + "/thumb.png"} />
                 </div>
 
                 <div id="postInfo">
