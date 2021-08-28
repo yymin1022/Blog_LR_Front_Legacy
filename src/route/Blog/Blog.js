@@ -50,7 +50,7 @@ const Blog = (props) => {
                         return(
                             <>
                                 <PostItem
-                                    pinned={item.pinned}
+                                    pinned={false}
                                     postDate={item.postDate}
                                     postTag={item.postTag}
                                     postTitle={item.postTitle}
