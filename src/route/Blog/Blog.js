@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import {If, Then} from "react-if";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
@@ -9,18 +9,6 @@ import postDB from "../../postData/DB.json";
 import "./Blog.css";
 
 const Blog = (props) => {
-    const [categoryID, setCategoryID] = useState("all");
-
-    useEffect(() => {
-        if(props.location.state){
-            setCategoryID(props.location.state.categoryID);
-        }
-
-        // return () => {
-        //     window.location.reload();
-        // }
-    }, [categoryID]);
-
     return(
         <div align="center">
             <div align="left" className="postPinnedTitle">
