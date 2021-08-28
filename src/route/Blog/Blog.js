@@ -37,7 +37,7 @@ const Blog = (props) => {
                             <If condition={item.pinned}>
                                 <Then>
                                     <div className="postItemPinned">
-                                        <p>item.postTitle</p>
+                                        <p>{item.postTitle}</p>
                                     </div>
                                 </Then>
                             </If>
