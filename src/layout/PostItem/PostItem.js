@@ -2,7 +2,7 @@ import React from "react";
 
 const PostItem = (props) => {
     return(
-        <div id="postItem">
+        <div className="postItem" id={props.postURL}>
             <p>{props.postTitle}</p>
         </div>
     )
