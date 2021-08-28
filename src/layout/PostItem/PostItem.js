@@ -9,7 +9,7 @@ const PostItem = (props) => {
 
     if(isPinned){
         return(
-            <div className="postItemPinned" id={postURL}>
+            <div className="postPinnedItem" id={postURL}>
                 <p>!!Pinned!! {postTitle}</p>
             </div>
         )
