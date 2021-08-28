@@ -55,13 +55,13 @@ const Blog = (props) => {
                 {
                     postDB.map(item => {
                         return(
-                            <div className="postItem">
+                            <>
                                 <PostItem
                                     postDate={item.postDate}
                                     postTag={item.postTag}
                                     postTitle={item.postTitle}
                                     postURL={item.postURL} />
-                            </div>
+                            </>
                         );
                     })
                 }
