@@ -3,6 +3,7 @@ import {If, Then} from "react-if";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
+import PostItem from "../../layout/PostItem";
 import postDB from "../../postData/DB.json";
 
 import "./Blog.css";
@@ -55,7 +56,8 @@ const Blog = (props) => {
                     postDB.map(item => {
                         return(
                             <div className="postItem">
-                                <p>{item.postTitle}</p>
+                                <PostItem
+                                    postTitle={item.postTitle} />
                             </div>
                         );
                     })
