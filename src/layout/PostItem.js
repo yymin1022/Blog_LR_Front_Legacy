@@ -13,12 +13,9 @@ const PostItem = (props) => {
 
     useEffect(() => {
         setPostDate(props.postDate);
-        // setPostThumbnail(postThumb);
+        setPostThumbnail(require("../postData/" + props.postURL + "/thumb.png").default);
         setPostTitle(props.postTitle);
         setPostURL(props.postURL);
-
-        console.log(props.postURL);
-        console.log("../postData/" + props.postURL + "/thumb.png");
         
         switch(props.postTag){
             case "dev":
@@ -38,7 +35,7 @@ const PostItem = (props) => {
         <Link to={"/postview/" + postURL}>
             <div id="postItem" align="left">
                 <div id="postThumbnail">
-                    {/* <img src={require("../postData/" + postURL + "/thumb.png").default} /> */}
+                    <img src={postThumbnail} />
                 </div>
 
                 <div id="postInfo">
