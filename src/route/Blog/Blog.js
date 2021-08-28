@@ -57,7 +57,10 @@ const Blog = (props) => {
                         return(
                             <div className="postItem">
                                 <PostItem
-                                    postTitle={item.postTitle} />
+                                    postDate={item.postDate}
+                                    postTag={item.postTag}
+                                    postTitle={item.postTitle}
+                                    postURL={item.postURL} />
                             </div>
                         );
                     })
