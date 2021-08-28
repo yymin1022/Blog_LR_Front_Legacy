@@ -23,13 +23,18 @@ const Blog = (props) => {
                 {
                     postDB.map(item => {
                         return(
-                            <If condition={item.pinned}>
-                                <Then>
-                                    <div className="postItemPinned">
-                                        <p>{item.postTitle}</p>
-                                    </div>
-                                </Then>
-                            </If>
+                            <>
+                                <If condition={item.pinned}>
+                                    <Then>
+                                        <PostItem
+                                            pinned={item.pinned}
+                                            postDate={item.postDate}
+                                            postTag={item.postTag}
+                                            postTitle={item.postTitle}
+                                            postURL={item.postURL} />
+                                    </Then>
+                                </If>
+                            </>
                         );
                     })
                 }
