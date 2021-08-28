@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./PostItem.css";
+
 const PostItem = (props) => {
     let isPinned = props.pinned;
     let postDate = props.postDate;
