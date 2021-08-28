@@ -12,13 +12,23 @@ const PostItem = (props) => {
     if(isPinned){
         return(
             <div className="postPinnedItem" id={postURL}>
-                <p>!!Pinned!! {postTitle}</p>
+                <div className="postPinnedItemImage">
+
+                </div>
+                <div className="postPinedItemText">
+                    <p>!!Pinned!! {postTitle}</p>
+                </div>
             </div>
         )
     }else{
         return(
             <div className="postItem" id={postURL}>
-                <p>{postTitle}</p>
+                <div className="postItemImage">
+
+                </div>
+                <div className="postItemText">
+                    <p>{postTitle}</p>
+                </div>
             </div>
         )
     }
