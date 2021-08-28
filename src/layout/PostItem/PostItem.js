@@ -16,7 +16,9 @@ const PostItem = (props) => {
 
                 </div>
                 <div className="postPinedItemText">
-                    <p>!!Pinned!! {postTitle}</p>
+                    <p className="pPostTitle">{postTitle}</p>
+                    <p className="pPostDate">{postDate}</p>
+                    <p className="pPostTag">{postTag}</p>
                 </div>
             </div>
         )
@@ -27,7 +29,9 @@ const PostItem = (props) => {
 
                 </div>
                 <div className="postItemText">
-                    <p>{postTitle}</p>
+                    <p className="pPostTitle">{postTitle}</p>
+                    <p className="pPostDate">{postDate}</p>
+                    <p className="pPostTag">{postTag}</p>
                 </div>
             </div>
         )
