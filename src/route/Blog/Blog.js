@@ -55,7 +55,7 @@ const Blog = (props) => {
                     postDB.map(item => {
                         return(
                             <div className="postItem">
-                                <p>item.postTitle</p>
+                                <p>{item.postTitle}</p>
                             </div>
                         );
                     })
