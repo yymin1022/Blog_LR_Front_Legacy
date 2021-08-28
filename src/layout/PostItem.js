@@ -1,3 +1,4 @@
+import { requirePropFactory } from "@material-ui/core";
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
@@ -12,13 +13,10 @@ const PostItem = (props) => {
 
     useEffect(() => {
         setPostDate(props.postDate);
-        setPostThumbnail(props.postThumbnail);
+        setPostThumbnail(postThumb);
         setPostTitle(props.postTitle);
         setPostURL(props.postURL);
-
-        import postThumb from ("../../postData/" + postURL + "/thumb.png");
-
-        setPostThumbnail(postThumb);
+        
         switch(props.postTag){
             case "dev":
                 setPostTag("#Development #Programming");
@@ -37,7 +35,7 @@ const PostItem = (props) => {
         <Link to={"/postview/" + postURL}>
             <div id="postItem" align="left">
                 <div id="postThumbnail">
-                    <img src={postThumbnail} />
+                    <img src={require("../../postData/" + postURL + "/thumb.png").default} />
                 </div>
 
                 <div id="postInfo">
