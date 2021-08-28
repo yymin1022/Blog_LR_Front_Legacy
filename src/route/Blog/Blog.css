@@ -1,5 +1,5 @@
 .postContainer{
-    width: 1200px;
+    width: 1000px;
     
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
 }
 
 .postPinnedContainer{
-    width: 1200px;
+    width: 1000px;
 
     display: flex;
     flex-wrap: wrap;
