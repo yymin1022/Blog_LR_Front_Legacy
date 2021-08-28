@@ -16,6 +16,9 @@ const PostItem = (props) => {
         setPostTitle(props.postTitle);
         setPostURL(props.postURL);
 
+        import postThumb from ("../../postData/" + postURL + "/thumb.png");
+
+        setPostThumbnail(postThumb);
         switch(props.postTag){
             case "dev":
                 setPostTag("#Development #Programming");
@@ -30,10 +33,11 @@ const PostItem = (props) => {
     }, []);
 
     return(
+
         <Link to={"/postview/" + postURL}>
             <div id="postItem" align="left">
                 <div id="postThumbnail">
-                    <img src={"../../postData/" + postURL + "/thumb.png"} />
+                    <img src={postThumbnail} />
                 </div>
 
                 <div id="postInfo">
