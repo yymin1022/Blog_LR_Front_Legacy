@@ -1,4 +1,5 @@
 .postItem{
+    height: 450px;
     width: 300px;
 
     margin: 0px 0px 30px 0px;
@@ -9,6 +10,11 @@
 
 .postItemImage{
     height: 300px;
+    width: 300px;
+}
+
+.postItemText{
+    height: 150px;
     width: 300px;
 }
 
@@ -28,6 +34,11 @@
 .postPinedItemImage{
     height: 150px;
     width: 150px;
+}
+
+.postPinnedItemText{
+    height: 150px;
+    width: 300px;
 }
 
 .postItem:hover{
