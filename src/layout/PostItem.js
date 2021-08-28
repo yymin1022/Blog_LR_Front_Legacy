@@ -34,7 +34,7 @@ const PostItem = (props) => {
         <Link to={"/postview/" + postURL}>
             <div id="postItem" align="left">
                 <div id="postThumbnail">
-                    <img src={postThumbnail} />
+                    <img src={require("../postData/200206-ubuntu-software-server-change/thumb.png").default} />
                 </div>
 
                 <div id="postInfo">
