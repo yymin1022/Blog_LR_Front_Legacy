@@ -13,7 +13,7 @@ const PostItem = (props) => {
 
     useEffect(() => {
         setPostDate(props.postDate);
-        setPostThumbnail(postThumb);
+        // setPostThumbnail(postThumb);
         setPostTitle(props.postTitle);
         setPostURL(props.postURL);
         
