@@ -16,6 +16,9 @@
 .postItemText{
     height: 150px;
     width: 300px;
+
+    display: flex;
+    justify-content: left;
 }
 
 .postPinnedItem{
@@ -39,6 +42,9 @@
 .postPinnedItemText{
     height: 150px;
     width: 300px;
+
+    display: flex;
+    justify-content: left;
 }
 
 .postItem:hover{
