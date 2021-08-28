@@ -17,7 +17,8 @@ const PostItem = (props) => {
         setPostTitle(props.postTitle);
         setPostURL(props.postURL);
 
-        console.log("../postData/" + postURL + "/thumb.png");
+        console.log(props.postURL);
+        console.log("../postData/" + props.postURL + "/thumb.png");
         
         switch(props.postTag){
             case "dev":
