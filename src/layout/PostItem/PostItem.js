@@ -8,9 +8,11 @@ const PostItem = (props) => {
     let postURL = props.postURL;
 
     if(isPinned){
+        return(
             <div className="postItemPinned" id={postURL}>
                 <p>!!Pinned!! {postTitle}</p>
             </div>
+        )
     }else{
         return(
             <div className="postItem" id={postURL}>
