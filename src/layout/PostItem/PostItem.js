@@ -14,7 +14,7 @@ const PostItem = (props) => {
         return(
             <>
                 <Link to={"/postview/" + postURL} style={{textDecoration: "none"}}>
-                    <div id={postURL}>
+                    <div className="postPinnedItem" id={postURL}>
                         <div className="postPinnedItemImage">
 
                         </div>
