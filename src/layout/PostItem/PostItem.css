@@ -13,6 +13,11 @@
     width: 300px;
 }
 
+.postItemImage img{
+    height: 100%;
+    width: 100%;
+}
+
 .postItemText{
     height: 150px;
     width: 300px;
@@ -44,6 +49,11 @@
 .postPinnedItemImage{
     height: 150px;
     width: 150px;
+}
+
+.postPinnedItemImage img{
+    height: 100%;
+    width: 100%;
 }
 
 .postPinnedItemText{
