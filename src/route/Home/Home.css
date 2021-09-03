@@ -7,6 +7,10 @@
     margin: 10px;
 }
 
+#divNav a{
+    text-decoration: none;
+}
+
 #divTitle{
     margin: 10px;
 }
@@ -29,8 +33,4 @@
     font-family: "NanumSquare";
     font-size: 20px;
     font-weight: 700;
-}
-
-#divNav a{
-    text-decoration: none;
 }
