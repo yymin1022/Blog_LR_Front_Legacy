@@ -16,7 +16,7 @@ const PostItem = (props) => {
                 <Link to={"/postview/" + postURL} style={{textDecoration: "none"}}>
                     <div className="postPinnedItem" id={postURL}>
                         <div className="postPinnedItemImage">
-                            <img src={require("../../postData/" + postURL + "thumb.png").default} />
+                            <img src={require("../../postData/" + postURL + "/thumb.png").default} />
                         </div>
                         <div className="postPinnedItemText">
                             <p className="pPostTitle">{postTitle}</p>
