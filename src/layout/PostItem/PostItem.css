@@ -18,7 +18,7 @@
     width: 300px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
 }
 
@@ -49,6 +49,7 @@
     width: 300px;
 
     display: flex;
+    flex-direction: column;
     justify-content: left;
 }
 
