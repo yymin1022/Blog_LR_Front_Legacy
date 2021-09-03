@@ -33,7 +33,7 @@ const PostItem = (props) => {
                 <Link to={"/postview/" + postURL} style={{textDecoration: 'none'}}>
                     <div className="postItem" id={postURL}>
                         <div className="postItemImage">
-                            <img src={require("../../postData/" + postURL + "thumb.png").default} />
+                            <img src={require("../../postData/" + postURL + "/thumb.png").default} />
                         </div>
                         <div className="postItemText">
                             <p className="pPostTitle">{postTitle}</p>
