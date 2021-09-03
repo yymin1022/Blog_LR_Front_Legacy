@@ -22,6 +22,10 @@
     justify-content: left;
 }
 
+.postItemText a{
+    text-decoration: none;
+}
+
 .postItemText p{
     text-align: left;
 }
@@ -51,6 +55,10 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+}
+
+.postPinnedItemText a{
+    text-decoration: none;
 }
 
 .postPinnedItemText p{
