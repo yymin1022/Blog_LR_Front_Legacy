@@ -3,6 +3,17 @@ import {Link} from "react-router-dom";
 
 import "./PostItem.css";
 
+const StyledLink = () => {
+    return(
+        styled(Link)`
+            text-decoration: none;
+
+            &:focus, &:hover, &:visited, &:link, &:active {
+                text-decoration: none;
+            }`
+    )
+}
+
 const PostItem = (props) => {
     let isPinned = props.pinned;
     let postDate = props.postDate;
@@ -13,7 +24,7 @@ const PostItem = (props) => {
     if(isPinned){
         return(
             <>
-                <Link to={"/postview/" + postURL} style={{textDecoration: 'none'}}>
+                <StyledLink to={"/postview/" + postURL} style={{textDecoration: "none"}}>
                     <div className="postPinnedItem" id={postURL}>
                         <div className="postPinnedItemImage">
 
@@ -24,13 +35,13 @@ const PostItem = (props) => {
                             <p className="pPostTag">{postTag}</p>
                         </div>
                     </div>
-                </Link>
+                </StyledLink>
             </>
         )
     }else{
         return(
             <>
-                <Link to={"/postview/" + postURL} style={{textDecoration: 'none'}}>
+                <StyledLink to={"/postview/" + postURL} style={{textDecoration: 'none'}}>
                     <div className="postItem" id={postURL}>
                         <div className="postItemImage">
 
@@ -41,7 +52,7 @@ const PostItem = (props) => {
                             <p className="pPostTag">{postTag}</p>
                         </div>
                     </div>
-                </Link>
+                </StyledLink>
             </>
         )
     }
