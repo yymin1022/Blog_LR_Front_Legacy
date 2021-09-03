@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {Link} from "react-router-dom";
 
 import "./PostItem.css";
@@ -11,8 +11,6 @@ const PostItem = (props) => {
     let postTag = props.postTag;
     let postTitle = props.postTitle;
     let postURL = props.postURL;
-
-    useEffect
 
     useEffect(() => {
         setpostThumbnail(require("../../postData/" + postURL + "/thumb.png"));
@@ -41,7 +39,7 @@ const PostItem = (props) => {
                 <Link to={"/postview/" + postURL} style={{textDecoration: 'none'}}>
                     <div className="postItem" id={postURL}>
                         <div className="postItemImage">
-                            <img src={postThumbnail} onError={reloadThumb} />
+                            <img src={postThumbnail} />
                         </div>
                         <div className="postItemText">
                             <p className="pPostTitle">{postTitle}</p>
