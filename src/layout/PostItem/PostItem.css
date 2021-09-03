@@ -66,7 +66,7 @@
 }
 
 .pPostDate{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0px;
     
     color: #606060;
@@ -80,6 +80,8 @@
 }
 
 .pPostTitle{
+    height: 40px;
+
     margin-top: 15px;
     margin-bottom: 0px;
 
