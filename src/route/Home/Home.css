@@ -25,12 +25,12 @@
     height: 45px;
 }
 
-.btnNav a{
-    text-decoration: none;
-}
-
 .btnNav span{
     font-family: "NanumSquare";
     font-size: 20px;
     font-weight: 700;
+}
+
+.divNav a{
+    text-decoration: none;
 }
