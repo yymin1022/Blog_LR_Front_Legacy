@@ -66,14 +66,23 @@
 }
 
 .pPostDate{
-    color: #808080;
-}
-
-.pPostTag{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
     color: #606060;
 }
 
+.pPostTag{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+    color: #808080;
+}
+
 .pPostTitle{
+    margin-top: 15px;
+    margin-bottom: 0px;
+
     color: #164EAB;
     font-weight: 900;
 }
