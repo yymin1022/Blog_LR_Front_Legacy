@@ -22,6 +22,10 @@
     justify-content: left;
 }
 
+.postItemText p{
+    text-align: left;
+}
+
 .postPinnedItem{
     height: 150px;
     width: 450px;
@@ -46,6 +50,10 @@
 
     display: flex;
     justify-content: left;
+}
+
+.postPinnedItemText p{
+    text-align: left;
 }
 
 .postItem:hover{

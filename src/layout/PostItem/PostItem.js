@@ -18,7 +18,7 @@ const PostItem = (props) => {
                         <div className="postPinnedItemImage">
 
                         </div>
-                        <div className="postPinedItemText">
+                        <div className="postPinnedItemText">
                             <p className="pPostTitle">{postTitle}</p>
                             <p className="pPostDate">{postDate}</p>
                             <p className="pPostTag">{postTag}</p>
