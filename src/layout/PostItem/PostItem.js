@@ -15,19 +15,8 @@ const PostItem = (props) => {
     useEffect
 
     useEffect(() => {
-        if(img){
-            setpostThumbnail(img);
-        }
-    }, [img]);
-
-    const reloadThumb = (e) => { 
-        if(fallback){
-            e.target.src = "../../postData" + postURL + "/thumb.png";
-        }else{
-            e.target.src = postThumbnail
-            setFallback(true)
-        }
-    }
+        setpostThumbnail(require("../../postData/" + postURL + "/thumb.png"));
+    }, [PostItem]);
 
     if(isPinned){
         return(
@@ -35,7 +24,7 @@ const PostItem = (props) => {
                 <Link to={"/postview/" + postURL} style={{textDecoration: "none"}}>
                     <div className="postPinnedItem" id={postURL}>
                         <div className="postPinnedItemImage">
-                            <img src={postThumbnail} onError={reloadThumb} />
+                            <img src={postThumbnail} />
                         </div>
                         <div className="postPinnedItemText">
                             <p className="pPostTitle">{postTitle}</p>
