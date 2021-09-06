@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react";
-import {If, Else, Then} from "react-if";
-import {Link, Redirect} from "react-router-dom";
+import {Link} from "react-router-dom";
 
-import {DiscussionEmbed} from "disqus-react";
 import ReactMarkdown from "react-markdown/with-html";
 
 import CodeBlock from "./CodeBlock";
@@ -11,7 +9,6 @@ import postDB from "../../postData/DB.json";
 import "./PostView.css";
 
 const PostView = (props) => {
-    const [isNotFound, setIsNotFound] = useState(true);
     const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
     const [postID, setPostID] = useState("");
@@ -22,7 +19,6 @@ const PostView = (props) => {
     useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                setIsNotFound(false);
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
@@ -42,13 +38,6 @@ const PostView = (props) => {
             window.scrollTop = 0;
         }
     }, []);
-
-    const disqusConfig = {
-        url: postURL,
-        identifier: postID,
-        title: postTitle
-    };
-    const disqusShortname = "blog-new-defcon-or-kr";
 
     const BlockQuoteBlock = (props) => {
         return (
@@ -90,12 +79,6 @@ const PostView = (props) => {
 
     return(
         <div align="center">
-            {/* <If condition={isNotFound}>
-                <Then>
-                    <Redirect to="/PostNotFound" />
-                </Then>
-            </If> */}
-
             <div className="PostTitle">
                 <h2>{postTitle}</h2>
 
@@ -127,12 +110,6 @@ const PostView = (props) => {
 
             <div className="PostTag">
                 <p>{postTag}</p>
-            </div>
-
-            <div className="PostCommentContent">
-                <DiscussionEmbed
-                shortname={disqusShortname}
-                config={disqusConfig}/>
             </div>
 
             <div className="PostFooter">
