@@ -61,9 +61,6 @@ const PostView = (props) => {
                         components={PostRenderer(postID)}
                         rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]}
-                        renderers={{
-                            img: PostRenderer(postID)
-                        }}
                         skipHtml={false} />
                 </div>
             </div>
