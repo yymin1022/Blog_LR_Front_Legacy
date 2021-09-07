@@ -35,10 +35,6 @@ const PostView = (props) => {
                 );
             }
         });
-
-        return () => {
-            window.scrollTop = 0;
-        }
     }, []);
 
     return(
