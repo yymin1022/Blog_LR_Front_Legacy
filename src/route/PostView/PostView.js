@@ -54,14 +54,18 @@ const PostView = (props) => {
             <div className="PostViewContent">
                 <div className="markdown-body">
                     {
-                        console.log(PostRenderer(postID)),
-                        console.log(postID)
+                       console.log(PostRenderer(postID))
                     }
 
                     <ReactMarkdown
                         allowDangerousHtml={true}
                         children={postData}
-                        components={PostRenderer(postID)}
+                        components={{
+                            img({src, width, ...props}){
+                                {console.log(`../../postData/${postID}/${src}`)}
+                                <img src={require(`../../postData/${postID}/${src}`).default} width={width} {...props} />
+                            }
+                        }}
                         rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]}
                         skipHtml={false} />
