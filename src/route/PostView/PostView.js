@@ -51,10 +51,6 @@ const PostView = (props) => {
 
             <hr className="PostSeperator"/>
 
-            <div>
-                <img src={require(`../../postData/210202-synology-docker-vscode-install/0_vscode_usage.png`).default} />
-            </div>
-
             <div className="PostViewContent">
                 <div className="markdown-body">
                     <ReactMarkdown
