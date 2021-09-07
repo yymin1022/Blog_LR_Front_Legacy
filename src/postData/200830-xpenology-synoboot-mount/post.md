@@ -20,14 +20,14 @@ USB의 분리 없이 ```XPEnology``` 에서<br>
 ```root``` 권한으로 로그인 해줍니다.
 
 <center>
-<img src="1_ssh_login.png" style="width: 75%;">
+<img src="1_ssh_login.png" width="75%">
 </center>
 
 ```/dev``` 디렉터리에 마운트된 목록에서<br>
 ```synoboot``` 항목이 존재하는지 확인해줍니다.
 
 <center>
-<img src="2_ssh_check_synoboot.png" style="width: 75%;">
+<img src="2_ssh_check_synoboot.png" width="75%">
 </center>
 
 위와 같이 ```synoboot``` 장치 1개와,<br>
@@ -43,7 +43,7 @@ admin@Synology: /mnt$ sudo mkdir synoboot
 ```
 
 <center>
-<img src="3_ssh_mkdir.png" style="width: 75%;">
+<img src="3_ssh_mkdir.png" width="75%">
 </center>
 
 ```/mnt``` 에 ```synoboot``` 라는 이름의 디렉터리를 생성해주었습니다.<br>
@@ -57,7 +57,7 @@ admin@Synology: /dev$ sudo mount synoboot1 /mnt/synoboot
 ```
 
 <center>
-<img src="4_ssh_mount.png" style="width: 75%;">
+<img src="4_ssh_mount.png" width="75%">
 </center>
 
 정상적으로 마운트가 되었다면,<br>

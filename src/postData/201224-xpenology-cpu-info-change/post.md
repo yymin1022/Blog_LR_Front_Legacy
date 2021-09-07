@@ -14,7 +14,7 @@ DSM 내 제어판의 정보센터에서는 실제 장비의 CPU 정보가 아닌
 오늘 포스팅에서는 그 과정에 대해 한번 알아보도록 하겠습니다.
 
 <center>
-<img src="1_before.png" style="width: 75%;">
+<img src="1_before.png" width="75%">
 </center>
 
 먼저, 작업 이전의 정보센터 화면입니다.<br>
@@ -32,14 +32,14 @@ CPU 클럭 속도와 코어 정보 역시 ```J3455``` 의 값이 표시되고 �
 저는 접근이 편하도록 ```Download``` 공유폴더에 압축을 풀어주었습니다.
 
 <center>
-<img src="2_file_ready.png" style="width: 50%;">
+<img src="2_file_ready.png" width="50%">
 </center>
 
 이제, 제어판에서 ssh 접속을 활성화해준 뒤,<br>
 ```Linux의 Terminal``` 이나 ```Windows의 PuTTY``` 를 이용해 ```XPEnology``` 에 접속합니다.
 
 <center>
-<img src="3_terminal_1.png" style="width: 75%;">
+<img src="3_terminal_1.png" width="75%">
 </center>
 
 접속이 완료되었다면, 다음 명령어를 통해 ```root``` 로 로그인한 뒤,<br>
@@ -51,7 +51,7 @@ root@UserfulServer : ~#
 ```
 
 <center>
-<img src="4_terminal_2.png" style="width: 75%;">
+<img src="4_terminal_2.png" width="75%">
 </center>
 
 이제, 다음 명령어를 통해 스크립트를 실행해줍니다.
@@ -61,13 +61,13 @@ root@UsefulServer:/volume1/Download# ./ch_cpuinfo
 ```
 
 <center>
-<img src="5_terminal_3.png" style="width: 75%;">
+<img src="5_terminal_3.png" width="75%">
 </center>
 
 <br>
 
 <center>
-<img src="6_terminal_4.png" style="width: 75%;">
+<img src="6_terminal_4.png" width="75%">
 </center>
 
 스크립트를 실행하면, 첫번째 사진과 같은 메뉴가 보여집니다.<br>
@@ -80,7 +80,7 @@ root@UsefulServer:/volume1/Download# ./ch_cpuinfo
 실제 나스에 장착된 CPU로 변경된 것을 확인할 수 있습니다.
 
 <center>
-<img src="7_after.png" style="width: 75%;">
+<img src="7_after.png" width="75%">
 </center>
 
 이렇게 매우 간단한 방법으로 정보센터 내 CPU 정보를<br>

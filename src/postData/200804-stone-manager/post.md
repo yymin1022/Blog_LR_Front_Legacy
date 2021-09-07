@@ -27,7 +27,7 @@ PC용 프로그램을 개발해 ```STONE``` 의 무드램프 기능을<br>
 컨트롤할 수 있도록 해보았습니다.
 
 <center>
-<img src="1_program_main.png" style="width: 50%;">
+<img src="1_program_main.png" width="50%">
 </center>
 
 프로그램의 메인화면은 다음과 같습니다.<br>
@@ -43,7 +43,7 @@ PC용 프로그램을 개발해 ```STONE``` 의 무드램프 기능을<br>
 기존 앱에서 제한적이었던 단일색상 모드는 조금 더 개선해보았습니다.
 
 <center>
-<img src="2_program_color.png" style="width: 75%;">
+<img src="2_program_color.png" width="75%">
 </center>
 
 위처럼, 메뉴에서 단일 색상을 선택할 경우,<br>
@@ -61,7 +61,7 @@ RGB 색상을 선택하는 창이 열리며,<br>
 저장 버튼을 클릭해야 올바르게 동작합니다.
 
 <center>
-<img src="3_bluetooth_info.png" style="width: 30%;">
+<img src="3_bluetooth_info.png" width="30%">
 </center>
 
 윈도우10의 설정 >> 장치 >> Bluetooth 항목에서<br>
@@ -73,11 +73,11 @@ RGB 색상을 선택하는 창이 열리며,<br>
 ```STONE``` 에 무드램프 기능이 설정됩니다.
 
 <center>
-<img src="4_program_run_1.png" style="width: 50%;">
+<img src="4_program_run_1.png" width="50%">
 </center>
 
 <center>
-<img src="5_program_run_2.png" style="width: 50%;">
+<img src="5_program_run_2.png" width="50%">
 </center>
 
 /* 주의 */
@@ -99,7 +99,7 @@ RGB 색상을 선택하는 창이 열리며,<br>
 ```STONE``` 의 무드램프가 지정한 색상으로 점등됩니다.
 
 <center>
-<img src="6_program_run_3.png" style="width: 50%;">
+<img src="6_program_run_3.png" width="50%">
 </center>
 
 PC에 ```Java JRE 또는 JDK``` 가 설치되지 않은 경우,<br>
@@ -109,7 +109,7 @@ PC에 ```Java JRE 또는 JDK``` 가 설치되지 않은 경우,<br>
 해당 웹 페이지에서 ```Java``` 를 설치한 뒤 프로그램을 다시 실행해주시기 바랍니다.
 
 <center>
-<img src="7_program_java.png" style="width: 50%;">
+<img src="7_program_java.png" width="50%">
 </center>
 
 <br>

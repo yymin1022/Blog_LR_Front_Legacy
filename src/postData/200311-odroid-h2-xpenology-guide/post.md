@@ -72,7 +72,7 @@ USB에 ```synoboot.img```를 플래싱하기 위한 ```Rufus``` 등<br>
 ```XPEnology```를 사용하기 위해서는, 이 USB 메모리가 항상 ```ODroid H2```에 연결되어있어야 합니다.
 
 <center>
-<img src="1_usbview.png" style="width: 75%;">
+<img src="1_usbview.png" width="75%">
 </center>
 
 USB 메모리를 PC에 연결했다면, ```USBTreeView``` 프로그램을 실행하고,<br>
@@ -82,40 +82,40 @@ USB 메모리의 ```VID```와 ```PID```를 메모해둡니다.<br>
 제가 사용한 USB의 경우는, ```VID```가 14CD, ```PID```가 121네요.
 
 <center>
-<img src="2_osfmount_1.png" style="width: 75%;">
+<img src="2_osfmount_1.png" width="75%">
 </center>
 
 ```VID```와 ```PID```를 메모해두셨다면, 프로그램을 닫고 ```OSFMount``` 프로그램을 실행합니다.<br>
 좌측 하단의 Mount new 버튼을 클릭해주세요.
 
 <center>
-<img src="3_osfmount_2.png" style="width: 75%;">
+<img src="3_osfmount_2.png" width="75%">
 </center>
 
 ```Disk Image``` 항목에서 조금 전 다운로드받으신 DS918+ 1.04b 부트로더를 지정해준 뒤<br>
 Next 버튼을 클릭합니다.
 
 <center>
-<img src="4_osfmount_3.png" style="width: 75%;">
+<img src="4_osfmount_3.png" width="75%">
 </center>
 
 15MB 크기의 0번 파티션을 선택하고, Next를 클릭합니다.
 
 <center>
-<img src="5_osfmount_4.png" style="width: 75%;">
+<img src="5_osfmount_4.png" width="75%">
 </center>
 
 두번째 항목인 ```Read-only drive```의 체크를 "해제"한 후 Next를 클릭합니다.
 
 <center>
-<img src="6_osfmount_5.png" style="width: 75%;">
+<img src="6_osfmount_5.png" width="75%">
 </center>
 
 마운트가 완료되면, 마운트된 ```synoboot.img``` 내부의<br>
 ```/EFI/grub/grub.cfg``` 파일을 메모장 또는 기타 텍스트 편집기로 열어줍니다.
 
 <center>
-<img src="7_grub.cfg.png" style="width: 75%;">
+<img src="7_grub.cfg.png" width="75%">
 </center>
 
 중간쯤에 ```set vid```, ```set pid``` 항목이 위치합니다.<br>
@@ -124,7 +124,7 @@ Next 버튼을 클릭합니다.
 PC로부터 마운트 해제해줍니다.
 
 <center>
-<img src="8_rufus.png" style="width: 75%;">
+<img src="8_rufus.png" width="75%">
 </center>
 
 이제, ```Rufus``` 툴이나 기타 USB 플래싱 도구를 이용해<br>
@@ -164,14 +164,14 @@ Synology Web Assistant는 같은 내부네트워크에 존재하는<br>
 정상적으로 기기가 검색되면 다음과 같은 화면이 보이게됩니다.
 
 <center>
-<img src="9_syno_1.png" style="width: 75%;">
+<img src="9_syno_1.png" width="75%">
 </center>
 
 DS918+ 기기로 인식된 ```XPEnology```가 정상적으로 검색되었습니다.<br>
 연결 버튼을 클릭해 다음단계로 진행해줍니다.
 
 <center>
-<img src="10_syno_2.png" style="width: 75%;">
+<img src="10_syno_2.png" width="75%">
 </center>
 
 이제, ```XPEnology```의 OS 패키지를 설치해줍니다.<br>
@@ -185,13 +185,13 @@ DS918+ 기기로 인식된 ```XPEnology```가 정상적으로 검색되었습니
 DSM 6.2.1 DS918+ pat 패키지파일을 다운로드​ 하려면<a href="https://drive.defcon.or.kr/sharing/DznbdfQ6U" target="_sub">여기</a>를 클릭하세요.
 
 <center>
-<img src="11_syno_3.png" style="width: 75%;">
+<img src="11_syno_3.png" width="75%">
 </center>
 
 수동설치 메뉴를 클릭 후, 찾아보기를 통해 다운로드한 DSM 6.2.1 pat파일을 선택해준 뒤, 지금설치를 클릭합니다.
 
 <center>
-<img src="12_syno_4.png" style="width: 75%;">
+<img src="12_syno_4.png" width="75%">
 </center>
 
 DSM의 설치가 진행됩니다.<br>
@@ -199,7 +199,7 @@ DSM의 설치가 진행됩니다.<br>
 57%부터는 본격적으로 DSM의 설치가 진행됩니다.
 
 <center>
-<img src="13_syno_5.png" style="width: 75%;">
+<img src="13_syno_5.png" width="75%">
 </center>
 
 DSM의 설치가 완료되면, 자동으로 ```ODroid H2```를 재부팅하며, 10분의 타이머가 설정됩니다.<br>
@@ -211,21 +211,21 @@ DSM의 설치가 완료되면, 자동으로 ```ODroid H2```를 재부팅하며, 
 USB 메모리에 ```synoboot.img``` 를 다시 설치하신 뒤 작업을 다시 진행해보시기 바랍니다.
 
 <center>
-<img src="14_syno_6.png" style="width: 75%;">
+<img src="14_syno_6.png" width="75%">
 </center>
 
 정상적으로 DSM이 설치되었다면, 위와 같이 시스템 준비중 메시지가 보이며,<br>
 잠시 뒤에는 초기설정 메뉴가 표시됩니다.
 
 <center>
-<img src="15_syno_7.png" style="width: 75%;">
+<img src="15_syno_7.png" width="75%">
 </center>
 
 DSM 관리자 계정을 생성해줍니다.<br>
 DSM 관리자는 모든 권한을 갖는 중요한 계정이므로, 보안에 철저히 신경쓰시는 편이 좋습니다.
 
 <center>
-<img src="16_syno_8.png" style="width: 75%;">
+<img src="16_syno_8.png" width="75%">
 </center>
 
 ```XPEnology```는 비공식적으로 Synology OS를 설치하여 사용하는 것이기 떄문에,<br>
@@ -233,7 +233,7 @@ QuickConnect 기능을 사용할 수 없습니다.<br>
 아래에 이 단계 건너뛰기 버튼을 클릭해 설정하지 않고 넘어갑니다.
 
 <center>
-<img src="17_dsm_1.png" style="width: 75%;">
+<img src="17_dsm_1.png" width="75%">
 </center>
 
 초기설정이 완료된 DSM의 화면입니다.<br>
@@ -241,14 +241,14 @@ QuickConnect 기능을 사용할 수 없습니다.<br>
 우측에는 위젯을 펼쳐두어 시스템의 상태를 편리하게 확인합니다.
 
 <center>
-<img src="18_dsm_2.png" style="width: 75%;">
+<img src="18_dsm_2.png" width="75%">
 </center>
 
 제어판의 시스템 정보 항목입니다.<br>
 DS918+ 모델로 인식되도록 정상적으로 설치가 된 것을 확인하실 수 있습니다.
 
 <center>
-<img src="19_dsm_no_update.png" style="width: 75%;">
+<img src="19_dsm_no_update.png" width="75%">
 </center>
 
 ```XPEnology```에서는 DSM 버전에 따라 ```synoboot.img``` 부트로더가 동작하지 않을 수 있습니다.<br>
