@@ -56,7 +56,7 @@ const PostView = (props) => {
             <hr className="PostSeperator"/>
 
             <div>
-                <img src={`../../postData/${postID}/0_vscode_usage.png`} />
+                <img src={require(`../../postData/${postID}/0_vscode_usage.png`).default} />
             </div>
 
             <div className="PostViewContent">
