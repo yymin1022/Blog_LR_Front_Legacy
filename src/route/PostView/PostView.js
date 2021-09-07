@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 import ReactMarkdown from "react-markdown/with-html";
+import RemarkGFM from 'remark-gfm'
 
 import CodeBlock from "./CodeBlock";
 import postDB from "../../postData/DB.json";
@@ -99,6 +100,7 @@ const PostView = (props) => {
                     allowDangerousHtml={true}
                     escapeHtml={false}
                     skipHtml={false}
+                    remarkPlugins={[RemarkGFM]}
                     renderers={{
                         blockquote: BlockQuoteBlock,
                         code: CodeBlock,
