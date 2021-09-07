@@ -40,7 +40,7 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 이번에도 ```synoboot``` 파일을 ```OSF Mount``` 를 이용해 마운트 해줍니다.
 
 <center>
-<img src="1_mount_synoboot.png" style="width: 75%;">
+<img src="1_mount_synoboot.png" width="75%">
 </center>
 
 이때 주의할 것은, 이전 작업에서는 15MB의 0번 파티션을 마운트 했지만,<br>
@@ -52,11 +52,11 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 교체해주면 작업은 끝납니다.
 
 <center>
-<img src="2_driver_before.png" style="width: 75%;">
+<img src="2_driver_before.png" width="75%">
 </center>
 
 <center>
-<img src="3_driver_after.png" style="width: 75%;">
+<img src="3_driver_after.png" width="75%">
 </center>
 
 변경 전 파일은 각각 약 2MB의 크기이고, 변경이 완료된 이후의 파일은 각각 5MB의 크기입니다.​
@@ -66,7 +66,7 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 이후 과정은 이전 가이드와 동일합니다.
 
 <center>
-<img src="4_rufus_flash.png" style="width: 75%;">
+<img src="4_rufus_flash.png" width="75%">
 </center>
 
 ```Rufus``` 를 이용해 USB에 ```synoboot.img``` 를 플래싱해준 뒤,<br>
@@ -81,14 +81,14 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 위 링크에 접속하면, 같은 내부망에 위치하는 Synology 또는 ```XPEnology```  기기를 자동으로 검색해줍니다.
 
 <center>
-<img src="5_install_1.png" style="width: 75%;">
+<img src="5_install_1.png" width="75%">
 </center>
 
 이와 같이 DS918+ 기기가 정상적으로 검색되었다면,<br>
 설정을 클릭해 DSM 운영체제를 설치해줍니다.
 
 <center>
-<img src="6_install_2.png" style="width: 75%;">
+<img src="6_install_2.png" width="75%">
 </center>
 
 지난 가이드에서는 이 과정에서 수동설치를 통해 6.2.1 버전의 펌웨어 파일을 업로드 해주었지만,<br>
@@ -101,11 +101,11 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 위 링크에서 DS918+ 모델의 pat파일을 다운로드 해주시면 됩니다.
 
 <center>
-<img src="7_install_3.png" style="width: 75%;">
+<img src="7_install_3.png" width="75%">
 </center>
 
 <center>
-<img src="8_install_4.png" style="width: 75%;">
+<img src="8_install_4.png" width="75%">
 </center>
 
 0%~56%까지는 시스템에 장착된 하드디스크를 초기화하고,<br>
@@ -117,7 +117,7 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 성공적으로 설치된 것입니다.
 
 <center>
-<img src="9_install_complete.png" style="width: 75%;">
+<img src="9_install_complete.png" width="75%">
 </center>
 
 만약, 10분 타이머 이후에 한참이 지난 뒤에도<br>

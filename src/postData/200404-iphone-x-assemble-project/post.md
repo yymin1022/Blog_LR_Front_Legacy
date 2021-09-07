@@ -23,18 +23,18 @@ OLED 부품을 주문하였습니다.<br>
 최근 Aliexpress 배송이 비등기우편이나 등기소포나 굉장히 빠른 속도를 보여줍니다.
 
 <center>
-<img src="1_part_display_1.jpg" style="width: 75%;">
+<img src="1_part_display_1.jpg" width="75%">
 </center>
 
 <center>
-<img src="2_part_display_2.jpg" style="width: 75%;">
+<img src="2_part_display_2.jpg" width="75%">
 </center>
 
 5만원짜리 OLED 디스플레이 부품인데,<br>
 패키징 퀄리티가 상당합니다.
 
 <center>
-<img src="3_part_housing_package.jpg" style="width: 75%;">
+<img src="3_part_housing_package.jpg" width="75%">
 </center>
 
 마지막으로 도착한 부품은 하우징 부품입니다.<br>
@@ -43,7 +43,7 @@ OLED 부품을 주문하였습니다.<br>
 마지막 부품 하나때문에 조립이 거의 일주일정도.. 늦어졌네요..ㅎㅎ
 
 <center>
-<img src="4_part_housing.jpg" style="width: 75%;">
+<img src="4_part_housing.jpg" width="75%">
 </center>
 
 알리에서 구매한 부품답게<br>
@@ -51,7 +51,7 @@ OLED 부품을 주문하였습니다.<br>
 검은 스티커를 붙이고 배송됩니다.
 
 <center>
-<img src="5_part_all.jpg" style="width: 75%;">
+<img src="5_part_all.jpg" width="75%">
 </center>
 
 모든 부품이 다 모였습니다.<br>
@@ -85,7 +85,7 @@ Face ID 역시 메인보드와 일련번호가 일치해야만 정상 동작합�
 이제, 조립 과정과 함께 부품을 하나하나 살펴보겠습니다.
 
 <center>
-<img src="6_part_wifi.jpg" style="width: 75%;">
+<img src="6_part_wifi.jpg" width="75%">
 </center>
 
 상단 WiFi 안테나 모듈입니다.<br>
@@ -97,7 +97,7 @@ WiFi 수신 감도가 떨어질 수 있습니다​
 조립 난이도의 극악으로 인해 중간 과정이 생략되었습니다.
 
 <center>
-<img src="7_assemble_almost.jpg" style="width: 75%;">
+<img src="7_assemble_almost.jpg" width="75%">
 </center>
 
 모든 부품의 장착이 완료되었습니다.<br>
@@ -116,7 +116,7 @@ ifixit에서 제공하는 수리 가이드를 보며 정확한 나사 위치를 
 미리 나사 길이를 모두 구분해둔 뒤 작업을 시작하시는 것을 추천드립니다.
 
 <center>
-<img src="8_assemble_complete.jpg" style="width: 75%;">
+<img src="8_assemble_complete.jpg" width="75%">
 </center>
 
 조립을 완료하고, 아이폰의 상징인 하단 별나사 두개를 조립해주었습니다.<br>
@@ -130,7 +130,7 @@ ifixit에서 제공하는 수리 가이드를 보며 정확한 나사 위치를 
 사제 새 배터리로 교환할 예정입니다.
 
 <center>
-<img src="9_aliexpress_tools.jpg" style="width: 75%;">
+<img src="9_aliexpress_tools.jpg" width="75%">
 </center>
 
 ...알리익스프레스에서 스마트폰 부품을 구매해보신 분들이라면 익숙할 공구입니다.<br>

@@ -14,7 +14,7 @@ GUI 형태로 구현되어 있어<br>
 조금 사용법이 다릅니다.
 
 <center>
-<img src="1_docker_list.png" style="width: 75%;">
+<img src="1_docker_list.png" width="75%">
 </center>
 
 ```Ubuntu``` 에서 특정 서비스에 대해<br>
@@ -62,7 +62,7 @@ ubuntu@desktop: $ sudo /etc/init.d apache2 start
 ```root``` 계정의 ```Bash Shell Initialize``` 명령입니다.
 
 <center>
-<img src="2_docker_main.png" style="width: 75%;">
+<img src="2_docker_main.png" width="75%">
 </center>
 
 ```Linux``` 의 특성상, ```Bash Shell``` 이 ```Initialize```  될 경우,<br>
@@ -75,7 +75,7 @@ ubuntu@desktop: $ sudo /etc/init.d apache2 start
 서비스도 함께 시작되도록 해주었습니다.
 
 <center>
-<img src="3_docker_command.png" style="width: 50%;">
+<img src="3_docker_command.png" width="50%">
 </center>
 
 이렇게 해주면, GUI 환경만으로 제공되는<br>

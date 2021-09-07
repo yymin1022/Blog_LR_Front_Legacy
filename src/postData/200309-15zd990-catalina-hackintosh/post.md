@@ -8,13 +8,13 @@
 어느정도 사용 가능한 정도로 오류 픽스가 되어 자료를 공유해보고자 합니다.
 
 <center>
-<img src="1_hackintosh_screensaver.jpg" style="width: 75%;">
+<img src="1_hackintosh_screensaver.jpg" width="75%">
 </center>
 
 ~~가벼운 맥북 15인치~~
 
 <center>
-<img src="2_hackintosh_version.png" style="width: 75%;">
+<img src="2_hackintosh_version.png" width="75%">
 </center>
 
 x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치했고,<br>
@@ -43,7 +43,7 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
 ```DSDT``` 를 한번 건드려봐주셔도 감사하겠습니다.
 
 <center>
-<img src="3_triple_boot.jpg" style="width: 75%;">
+<img src="3_triple_boot.jpg" width="75%">
 </center>
 
 저는 현재 아래와 같이 3개의 OS로 트리플부팅을 구현해<br>

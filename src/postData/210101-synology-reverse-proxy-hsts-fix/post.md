@@ -15,7 +15,7 @@ DSM의 기본 기능인 역방향 프록시를 이용해<br>
 고질적인 버그가 하나 있습니다.
 
 <center>
-<img src="1_hsts_setting.png" style="width: 50%;">
+<img src="1_hsts_setting.png" width="50%">
 </center>
 
 위와 같이 외부에서 들어오는 접속을 ```https``` 로 설정한 뒤<br>
@@ -50,20 +50,20 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 그 안에 ```.htaccess``` 파일을 위치시켰습니다.
 
 ​<center>
-<img src="2_file_htaccess.png" style="width: 50%;">
+<img src="2_file_htaccess.png" width="50%">
 </center>
 
 다음으로 ```Synology``` 패키지 센터에서<br>
 ```Apache 2.4``` 와 ```Web Station``` 을 설치해줍니다.
 
 <center>
-<img src="3_package_apache.png" style="width: 75%;">
+<img src="3_package_apache.png" width="75%">
 </center>
 
 <br>
 
 <center>
-<img src="4_package_webstation.png" style="width: 75%;">
+<img src="4_package_webstation.png" width="75%">
 </center>
 
 설치가 완료되었다면 ```Web Station``` 을 실행하고,<br>
@@ -71,7 +71,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 생성을 클릭해줍니다.
 
 <center>
-<img src="5_apache_setup.png" style="width: 50%;">
+<img src="5_apache_setup.png" width="50%">
 </center>
 
 위와 같이 설정을 해준 뒤 확인을 클릭합니다.<br>
@@ -84,7 +84,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 이제 역방향 프록시를 설정할 서비스를 각각 추가해 설정해주시면 됩니다.
 
 <center>
-<img src="6_reverse_proxy_setup.png" style="width: 75%;">
+<img src="6_reverse_proxy_setup.png" width="75%">
 </center>
 
 저는 3개의 서비스를 역방향 프록시로 연결해 사용하고 있습니다.<br>
