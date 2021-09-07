@@ -30,7 +30,7 @@ Nas로 간편하게 파일을 다운로드할 수 있는<br>
 ```Download Station``` 이라는 기능을 제공합니다.
 
 <center>
-<img src="/PostImages/200824 Synology DownloadStation Client/1_dsm_downloadstation.png" style="width: 50%;">
+<img src="1_dsm_downloadstation.png" style="width: 50%;">
 </center>
 
 용량이 큰 파일의 경우, ```Download Station``` 을 이용해 다운로드 하게되었을 때,<br>
@@ -48,7 +48,7 @@ Nas로 간편하게 파일을 다운로드할 수 있는<br>
 이 기회에 직접 한번 만들어보게 되었습니다.
 
 <center>
-<img src="/PostImages/200824 Synology DownloadStation Client/2_client_login.png" style="width: 50%;">
+<img src="2_client_login.png" style="width: 50%;">
 </center>
 
 프로그램을 최초 실행하게 되면,<br>
@@ -68,7 +68,7 @@ Login 버튼을 클릭했을 때<br>
 프로그램의 메인 화면으로 진입하게 됩니다.
 
 <center>
-<img src="/PostImages/200824 Synology DownloadStation Client/3_client_main.png" style="width: 50%;">
+<img src="3_client_main.png" style="width: 50%;">
 </center>
 
 맨 위에는 리스트를 새로 불러오기 위한 새로고침 버튼,<br>
@@ -88,7 +88,7 @@ Login 버튼을 클릭했을 때<br>
 해당 작업을 제어할 수 있는 메뉴가 표시됩니다.
 
 <center>
-<img src="/PostImages/200824 Synology DownloadStation Client/4_client_main_manage.png" style="width: 50%;">
+<img src="4_client_main_manage.png" style="width: 50%;">
 </center>
 
 일시정지 또는 이어받기를 클릭할 경우,<br>
@@ -104,7 +104,7 @@ Login 버튼을 클릭했을 때<br>
 이때, 토렌트 파일의 경우 프로그램을 실행한 위치에 저장해 두어야 합니다.
 
 <center>
-<img src="/PostImages/200824 Synology DownloadStation Client/5_client_main_register.png" style="width: 50%;">
+<img src="5_client_main_register.png" style="width: 50%;">
 </center>
 
 이처럼, 한 줄당 하나의 다운로드 작업을 입력해<br>

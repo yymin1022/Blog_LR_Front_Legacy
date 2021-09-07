@@ -24,14 +24,14 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 ```Docker``` 프로그램을 설치해줍니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/1_docker_install.png" style="width: 100%;">
+<img src="1_docker_install.png" style="width: 100%;">
 </center>
 
 ```Docker``` 의 설치가 완료되었다면,<br>
 ```Docker``` 를 실행해줍니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/2_docker_main.png" style="width: 100%;">
+<img src="2_docker_main.png" style="width: 100%;">
 </center>
 
 ```Docker``` 의 메인화면입니다.<br>
@@ -45,13 +45,13 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 가장 상단에 표시되는 jellyfin/jellyfin을 더블클릭해 선택해줍니다
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/3_docker_registry.png" style="width: 100%;">
+<img src="3_docker_registry.png" style="width: 100%;">
 </center>
 
 <br>
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/4_docker_registry_jellyfin.png" style="width: 100%;">
+<img src="4_docker_registry_jellyfin.png" style="width: 100%;">
 </center>
 
 이후 ```latest``` 를 선택해 최신버전의 ```Jellyfin``` 이미지를 다운로드 해줍니다​
@@ -59,7 +59,7 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 이제, 좌측 메뉴 중 이미지 메뉴로 이동해보면 다운로드가 완료된 ```Jellyfin``` 이미지가 목록에 나타납니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/5_docker_jellyfin_download.png" style="width: 100%;">
+<img src="5_docker_jellyfin_download.png" style="width: 100%;">
 </center>
 
 목록에 ```jellyfin/jellyfin:latest``` 항목이 존재하고,<br>
@@ -67,7 +67,7 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 다운로드가 완료된 것입니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/6_docker_jellyfin_download_complete.png" style="width: 50%;">
+<img src="6_docker_jellyfin_download_complete.png" style="width: 50%;">
 </center>
 
 또한 다운로드가 완료되면 우측 상단의 알림센터에<br>
@@ -79,14 +79,14 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 이제 ```Jellyfin``` 서비스를 구축하는 세부설정 작업이 시작됩니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/7_docker_container_add.png" style="width: 100%;">
+<img src="7_docker_container_add.png" style="width: 100%;">
 </center>
 
 컨테이너 이름의 경우, 중요하지 않으므로 적절히 입력해줍니다.<br>
 이후, 하단의 고급 설정을 클릭합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/8_docker_container_custom_1.png" style="width: 100%;">
+<img src="8_docker_container_custom_1.png" style="width: 100%;">
 </center>
 
 첫번째 탭에는 중요한 설정이 있지는 않습니다.<br>
@@ -98,7 +98,7 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 재생할 미디어가 저장된 위치의 경로를 지정해 주어야 합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/9_docker_container_custom_2.png" style="width: 100%;">
+<img src="9_docker_container_custom_2.png" style="width: 100%;">
 </center>
 
 상단 버튼의 폴더 추가를 눌러, 설정을 저장할 폴더를 선택한 뒤, 마운트 경로에는 ```/config``` 를,<br>
@@ -114,7 +114,7 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 네번째 탭인 포트 설정 탭으로 이동합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/10_docker_container_custom_3.png" style="width: 100%;">
+<img src="10_docker_container_custom_3.png" style="width: 100%;">
 </center>
 
 인터넷 브라우저를 이용해 ```Jellyfin``` 에 접속하기 위해 포트번호를 정해주어야 합니다.<br>
@@ -129,14 +129,14 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 하단의 적용 버튼을 클릭합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/11_docker_container_setting.png" style="width: 100%;">
+<img src="11_docker_container_setting.png" style="width: 100%;">
 </center>
 
 다시 이 화면으로 돌아왔다면,<br>
 다음을 클릭해줍니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/12_docker_container_complete.png" style="width: 100%;">
+<img src="12_docker_container_complete.png" style="width: 100%;">
 </center>
 
 ```Jellyfin``` 서비스를 이용하기 위한 기본적인 구성이 완료되었습니다.<br>
@@ -144,7 +144,7 @@ Docker 등을 이용해서 간단하게 설치하고 세팅해주면<br>
 좌측 메뉴 중 컨테이너로 이동합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/13_docker_container_jellyfin.png" style="width: 100%;">
+<img src="13_docker_container_jellyfin.png" style="width: 100%;">
 </center>
 
 목록에 방금 추가한 ```jellyfin-jellyfin1``` 항목이 추가되었습니다.<br>
@@ -171,21 +171,21 @@ Synology NAS를 DMZ로 오픈해주어야 접속이 가능합니다.
 다음 스크린샷과 같이 ```Jellyfin``` 의 설정 페이지로 접속됩니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/14_jellyfin_setup_1.png" style="width: 100%;">
+<img src="14_jellyfin_setup_1.png" style="width: 100%;">
 </center>
 
 언어를 지정해주고, ```Next``` 를 클릭합니다.<br>
 한국어를 지원하긴 하지만 대부분은 영어로 표시되어 큰 의미는 없습니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/15_jellyfin_setup_2.png" style="width: 100%;">
+<img src="15_jellyfin_setup_2.png" style="width: 100%;">
 </center>
 
 ```Jellyfin``` 에 접속해 미디어를 재생하기 위한 계정을 생성합니다.<br>
 ID와 비밀번호를 적절히 입력하고 ```Next``` 를 클릭합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/16_jellyfin_setup_3.png" style="width: 100%;">
+<img src="16_jellyfin_setup_3.png" style="width: 100%;">
 </center>
 
 이제, 거의 막바지에 다다랐네요.<br>
@@ -193,7 +193,7 @@ ID와 비밀번호를 적절히 입력하고 ```Next``` 를 클릭합니다.
 ```Add Media Library``` 를 선택합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/17_jellyfin_setup_4.png" style="width: 100%;">
+<img src="17_jellyfin_setup_4.png" style="width: 100%;">
 </center>
 
 ```Content Type``` 은 미디어의 종류를 고르는 항목인데,<br>
@@ -207,7 +207,7 @@ Movie, Music 등등이 있습니다.<br>
 다음 사진과 같이 ```media``` 를 선택해줍니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/18_jellyfin_setup_5.png" style="width: 100%;">
+<img src="18_jellyfin_setup_5.png" style="width: 100%;">
 </center>
 
 ```media``` 를 선택하면 목록에 ```media``` 폴더 내부에 있는 미디어 목록이 표시됩니다.
@@ -217,7 +217,7 @@ Movie, Music 등등이 있습니다.<br>
 하단에 몇몇 추가 설정이 생겨 있습니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/19_jellyfin_setup_6.png" style="width: 100%;">
+<img src="19_jellyfin_setup_6.png" style="width: 100%;">
 </center>
 
 미디어에 존재하는 영화 파일에 대한 정보를 자동으로 검색해 표시하는<br>
@@ -228,21 +228,21 @@ Movie, Music 등등이 있습니다.<br>
 OK를 눌러 창을 닫아줍니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/20_jellyfin_setup_7.png" style="width: 100%;">
+<img src="20_jellyfin_setup_7.png" style="width: 100%;">
 </center>
 
 방금 추가한 라이브러리가 정상적으로 표시된다면,<br>
 ```Next``` 를 눌러 다음 단계로 이동합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/21_jellyfin_setup_8.png" style="width: 100%;">
+<img src="21_jellyfin_setup_8.png" style="width: 100%;">
 </center>
 
 영화의 정보를 표시하기 위한 언어를 설정합니다.<br>
 마찬가지로 원하는 언어와 국가를 적절히 설정합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/22_jellyfin_setup_9.png" style="width: 100%;">
+<img src="22_jellyfin_setup_9.png" style="width: 100%;">
 </center>
 
 다음 설정은 외부에서 ```Jellyfin``` 에 접속하기 위한 설정인데,<br>
@@ -253,7 +253,7 @@ OK를 눌러 창을 닫아줍니다.
 설정 과정에서 입력한 ID와 비밀번호로 로그인합니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/23_jellyfin_main.png" style="width: 100%;">
+<img src="23_jellyfin_main.png" style="width: 100%;">
 </center>
 
 정상적으로 로그인이 되었다면, ```Jellyfin``` 의 메인으로 진입되며,<br>
@@ -265,7 +265,7 @@ OK를 눌러 창을 닫아줍니다.
 영화가 표시되지 않는다면 시간이 지난 뒤 다시 접속해보면 됩니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/24_jellyfin_media_info.png" style="width: 100%;">
+<img src="24_jellyfin_media_info.png" style="width: 100%;">
 </center>
 
 라이브러리에 들어가 영화를 클릭해보면<br>
@@ -273,7 +273,7 @@ OK를 눌러 창을 닫아줍니다.
 각종 영화 정보가 표시됩니다.
 
 <center>
-<img src="/PostImages/200901 Synology Jellyfin Install/25_jellyfin_media_player.png" style="width: 100%;">
+<img src="25_jellyfin_media_player.png" style="width: 100%;">
 </center>
 
 해당 영화를 재생한 플레이어 화면입니다.<br>
