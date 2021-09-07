@@ -55,6 +55,10 @@ const PostView = (props) => {
 
             <hr className="PostSeperator"/>
 
+            <div>
+                <img src={`../../postData/${postID}/0_vscode_usage.png`} />
+            </div>
+
             <div className="PostViewContent">
                 <div className="markdown-body">
                     <ReactMarkdown
