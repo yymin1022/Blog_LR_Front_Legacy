@@ -53,6 +53,8 @@ const PostView = (props) => {
 
             <div className="PostViewContent">
                 <div className="markdown-body">
+                    {console.log(PostRenderer(postID))}
+
                     <ReactMarkdown
                         allowDangerousHtml={true}
                         components={PostRenderer(postID)}
