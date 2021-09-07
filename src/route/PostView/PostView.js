@@ -57,10 +57,10 @@ const PostView = (props) => {
 
                     <ReactMarkdown
                         allowDangerousHtml={true}
+                        children={postData}
                         components={PostRenderer(postID)}
                         escapeHtml={false}
                         skipHtml={false}
-                        source={postData}
                         rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]} />
                 </div>
