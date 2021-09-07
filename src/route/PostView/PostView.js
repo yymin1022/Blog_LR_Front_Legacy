@@ -35,7 +35,7 @@ const PostView = (props) => {
                 );
             }
         });
-    }, []);
+    }, [postID]);
 
     return(
         <div align="center">
