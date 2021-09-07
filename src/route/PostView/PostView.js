@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
+import PostRenderer from "./PostRenderer";
 import ReactMarkdown from "react-markdown/with-html";
-import RemarkGFM from 'remark-gfm'
+import RehypeRaw from "rehype-raw";
+import RemarkGFM from "remark-gfm";
 
 import postDB from "../../postData/DB.json";
 
@@ -56,12 +58,13 @@ const PostView = (props) => {
             <div className="PostViewContent">
                 <div className="markdown-body">
                     <ReactMarkdown
-                    source={postData}
-
-                    allowDangerousHtml={true}
-                    escapeHtml={false}
-                    skipHtml={false}
-                    remarkPlugins={[RemarkGFM]} />
+                        allowDangerousHtml={true}
+                        components={PostRenderer(postID)}
+                        escapeHtml={false}
+                        skipHtml={false}
+                        source={postData}
+                        rehypePlugins={[RehypeRaw]}
+                        remarkPlugins={[RemarkGFM]} />
                 </div>
             </div>
 
