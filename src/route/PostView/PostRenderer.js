@@ -1,6 +1,6 @@
 import React from "react";
 
-const PostRenderer = (props) => {
+const PostRenderer = (postID) => {
     return(
         <div>
             Renderer
