@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 import PostRenderer from "./PostRenderer";
@@ -18,7 +18,7 @@ const PostView = (props) => {
     const [postTitle, setPostTitle] = useState("");
     const [postURL, setPostURL] = useState("");
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
                 setPostDate(item.postDate);
