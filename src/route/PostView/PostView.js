@@ -62,8 +62,7 @@ const PostView = (props) => {
                         children={postData}
                         components={{
                             img({src, width, ...props}){
-                                {console.log(`../../postData/${postID}/${src}`)}
-                                <img src={require(`../../postData/${postID}/${src}`).default} width={width} {...props} />
+                                return <img src={require(`../../postData/${postID}/${src}`).default} width={width} {...props} />
                             }
                         }}
                         rehypePlugins={[RehypeRaw]}
