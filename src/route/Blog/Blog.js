@@ -47,16 +47,18 @@ const Blog = (props) => {
             <div className="postContainer">
                 {
                     postDB.map(item => {
-                        return(
-                            <>
-                                <PostItem
-                                    pinned={false}
-                                    postDate={item.postDate}
-                                    postTag={item.postTag}
-                                    postTitle={item.postTitle}
-                                    postURL={item.postURL} />
-                            </>
-                        );
+                        if(!item.pinned){
+                            return(
+                                <>
+                                    <PostItem
+                                        pinned={item.pinned}
+                                        postDate={item.postDate}
+                                        postTag={item.postTag}
+                                        postTitle={item.postTitle}
+                                        postURL={item.postURL} />
+                                </>
+                            );
+                        }
                     })
                 }
             </div>
