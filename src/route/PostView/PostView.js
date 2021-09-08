@@ -57,8 +57,7 @@ const PostView = (props) => {
                         children={postData}
                         components={PostRenderer(postID)}
                         rehypePlugins={[RehypeRaw]}
-                        remarkPlugins={[RemarkGFM]}
-                        skipHtml={false} />
+                        remarkPlugins={[RemarkGFM]} />
                 </div>
             </div>
 
