@@ -1,6 +1,8 @@
 import React from "react";
 
 const PostRenderer = (postID) => {
+    console.log(postID);
+
     return{
         img: ({src, width, ...props}) => (
             <>
