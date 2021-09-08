@@ -7,7 +7,7 @@ const PostRenderer = (postID) => {
         img: ({src, width, ...props}) =>
             <>
                 {console.log(`img : ../../postData/${postID}/${src}`)}
-                <img src={require(`../../postData/${postID}/${src}`).default} width={width} {...props} />
+                <img src={require(`../../postData/${postID}/thumb.png`).default} width={width} {...props} />
             </>,
 
         image: ({src, width, ...props}) =>
