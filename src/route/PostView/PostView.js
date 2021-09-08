@@ -54,7 +54,6 @@ const PostView = (props) => {
             <div className="PostViewContent">
                 <div className="markdown-body">
                     <ReactMarkdown
-                        allowDangerousHtml={true}
                         children={postData}
                         components={PostRenderer(postID)}
                         rehypePlugins={[RehypeRaw]}
