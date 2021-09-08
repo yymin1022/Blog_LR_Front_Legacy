@@ -56,10 +56,7 @@ const PostView = (props) => {
                     <ReactMarkdown
                         allowDangerousHtml={true}
                         children={postData}
-                        components={{
-                            img: ({src, width, ...props}) => 
-                                <img src={require(`../../postData/${postID}/${src}`).default} width={width} {...props} />                            
-                        }}
+                        components={PostRenderer(postID)}
                         rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]}
                         skipHtml={false} />
