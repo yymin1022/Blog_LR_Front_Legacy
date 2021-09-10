@@ -5,10 +5,9 @@ const PostRenderer = (postID) => {
         img: ({src, width, ...props}) =>
             <>
                 {
-                    console.log(require(`../../postData/${postID}/${src}`).default),
-                    console.log(require("../../postData/210202-synology-docker-vscode-install/0_vscode_usage.png").default)
+                    console.log(require(`../../postData/${postID}/${src}`))
                 }
-                <img src={require(`../../postData/${postID}/${src}`).default} width={width} {...props} />
+                <img src={require(`../../postData/${postID}/${src}`)} width={width} {...props} />
             </>
     }
 }
