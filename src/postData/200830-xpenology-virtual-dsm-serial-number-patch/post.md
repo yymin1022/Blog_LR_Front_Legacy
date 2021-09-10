@@ -17,7 +17,7 @@
 ```XPEnology``` 에서 기본으로 지정된 시리얼 넘버입니다.
 
 <center>
-<img src="1_serial_before.png" width="75%">
+<img src="1_serial_before.png" width="75%" />
 </center>
 
 이 시리얼 넘버는 정품 ```Synology``` 제품에 존재하지 않는<br>
@@ -31,14 +31,14 @@ Quickconnect 등 몇몇 편의기능을 사용할 수 없습니다.
 가상 DSM을 생성해주어야 합니다.
 
 <center>
-<img src="2_vmm_main.png" width="75%">
+<img src="2_vmm_main.png" width="75%" />
 </center>
 
 패키지 센터에서 ```VMM``` 을 설치<br>
 하고, 실행해줍니다.
 
 <center>
-<img src="3_vmm_download_dsm.png" width="75%">
+<img src="3_vmm_download_dsm.png" width="75%" />
 </center>
 
 ```VMM``` 의 좌측 메뉴에서 이미지 메뉴로 이동하고,<br>
@@ -47,7 +47,7 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 위와 같이 현재 시점의 최신버전 DSM 이미지 파일이 확인됩니다.
 
 <center>
-<img src="4_vmm_dsm_img.png" width="75%">
+<img src="4_vmm_dsm_img.png" width="75%" />
 </center>
 
 다운로드는 약 2분가량이 소요되며, 다운로드가 완료되면<br>
@@ -56,7 +56,7 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 이제, 이 이미지를 이용해 가상 DSM을 등록해줍니다.
 
 <center>
-<img src="5_vmm_add_dsm_1.png" width="75%">
+<img src="5_vmm_add_dsm_1.png" width="75%" />
 </center>
 
 ```VMM``` 의 좌측 메뉴에서 가상컴퓨터 메뉴로 이동해,<br>
@@ -65,7 +65,7 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 다음 단계로 이동합니다.
 
 <center>
-<img src="6_vmm_add_dsm_2.png" width="75%">
+<img src="6_vmm_add_dsm_2.png" width="75%" />
 </center>
 
 가상 DSM의 성능을 지정하는 단계입니다.<br>
@@ -73,7 +73,7 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 성능을 최저로 해서 다음 단계로 이동합니다.
 
 <center>
-<img src="7_vmm_add_dsm_3.png" width="75%">
+<img src="7_vmm_add_dsm_3.png" width="75%" />
 </center>
 
 마찬가지로 저장소 크기 역시 작게 설정해주고<br>
@@ -83,53 +83,53 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 가상 DSM의 생성이 완료됩니다.
 
 <center>
-<img src="8_vmm_add_dsm_4.png" width="75%">
+<img src="8_vmm_add_dsm_4.png" width="75%" />
 </center>
 
 생성된 가상 DSM의 전원을 켜주면<br>
 라이센스를 묻는 창이 나타납니다.
 
 <center>
-<img src="9_vmm_dsm_license_1.png" width="75%">
+<img src="9_vmm_dsm_license_1.png" width="75%" />
 </center>
 
 <center>
-<img src="10_vmm_dsm_license.png" width="75%">
+<img src="10_vmm_dsm_license.png" width="75%" />
 </center>
 
 ```VMM``` 에서는 기본적으로 1대의 가상 DSM 라이센스를<br>
 발급해주므로, 이를 선택해줍니다.
 
 <center>
-<img src="11_vmm_dsm_run.png" width="75%">
+<img src="11_vmm_dsm_run.png" width="75%" />
 </center>
 
 가상 DSM의 생성 및 등록이 완료되었습니다.<br>
 약 5분가량 기다리시면 아래 사진과 같이 가상 DSM의 IP가 보이게 됩니다.
 
 <center>
-<img src="12_vmm_dsm_complete.png" width="75%">
+<img src="12_vmm_dsm_complete.png" width="75%" />
 </center>
 
 표시된 내부IP로 접속해주면 이전에 ```XPEnology``` 를 설치했을때와 같이<br>
 초기 설정 화면이 보입니다.
 
 <center>
-<img src="13_vmm_dsm_setup.png" width="75%">
+<img src="13_vmm_dsm_setup.png" width="75%" />
 </center>
 
 초기 설정 과정은 이전에 진행했던 경험이 있으니,<br>
 자세히 다루지 않고 넘어가겠습니다.
 
 <center>
-<img src="14_vmm_dsm_boot.png" width="75%">
+<img src="14_vmm_dsm_boot.png" width="75%" />
 </center>
 
 가상 DSM의 메인화면으로 진입되었다면,<br>
 제어판의 정보센터로 이동해 시리얼 넘버를 확인합니다.
 
 <center>
-<img src="15_vmm_dsm_serial.png" width="75%">
+<img src="15_vmm_dsm_serial.png" width="75%" />
 </center>
 
 가상 DSM의 시리얼 넘버는 위와 같이 V로 시작하는 형태입니다.<br>
@@ -156,14 +156,14 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 __* 꼭 sudo 로 열어주셔야, 파일 수정이 가능합니다 *__
 
 <center>
-<img src="16_grub_before.png" width="75%">
+<img src="16_grub_before.png" width="75%" />
 </center>
 
 기본으로 구성된 ```grub.cfg``` 파일을 기준으로<br>
 24번째 줄의 ```set sn``` 값을 미리 확인한 가상 DSM의 시리얼 넘버로 수정해줍니다.
 
 <center>
-<img src="17_grub_after.png" width="75%">
+<img src="17_grub_after.png" width="75%" />
 </center>
 
 파일 수정이 완료되었다면,<br>
@@ -173,7 +173,7 @@ __* 꼭 sudo 로 열어주셔야, 파일 수정이 가능합니다 *__
 정보센터를 확인해보면
 
 <center>
-<img src="18_serial_after.png" width="50%">
+<img src="18_serial_after.png" width="50%" />
 </center>
 
 위와 같이 시리얼 번호가 가상 DSM의 것으로 변경된 것을 확인할 수 있습니다.​
