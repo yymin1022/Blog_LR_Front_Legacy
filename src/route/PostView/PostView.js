@@ -56,7 +56,7 @@ const PostView = (props) => {
                     <ReactMarkdown
                         children={postData}
                         components={PostRenderer(postID)}
-                        // rehypePlugins={[RehypeRaw]}
+                        rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]} />
                 </div>
             </div>
