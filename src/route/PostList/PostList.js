@@ -10,13 +10,15 @@ import projectDB from "../../postData/project/DB.json";
 
 import "./PostList.css";
 
-const PostList = (postType) => {
-    console.log(postType);
+const PostList = (props) => {
+    let curPath = window.location.pathname;
     let postDB = blogDB;
 
-    if(postType === "blog"){
+    console.log(curPath);
+
+    if(curPath === "/blog"){
         postDB = blogDB;
-    }else if(postType === "project"){
+    }else if(curPath === "/project"){
         postDB = projectDB;
     }
 

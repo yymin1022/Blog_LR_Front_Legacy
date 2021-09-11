@@ -25,12 +25,12 @@ const App = () => {
                         exact
                         path = "/blog"
                         layout = {DefaultLayout}
-                        component = {withRouter(PostList("blog"))} />
+                        component = {withRouter(PostList)} />
                     <RouteLayout
                         exact
                         path = "/project"
                         layout = {DefaultLayout}
-                        component = {withRouter(PostList("project"))} />
+                        component = {withRouter(PostList)} />
                     <RouteLayout
                         exact
                         path = "/about"
