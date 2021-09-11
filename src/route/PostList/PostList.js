@@ -42,6 +42,7 @@ const PostList = (props) => {
                                             postDate={item.postDate}
                                             postTag={item.postTag}
                                             postTitle={item.postTitle}
+                                            postType={postType}
                                             postURL={item.postURL} />
                                     </Then>
                                 </If>
@@ -66,6 +67,7 @@ const PostList = (props) => {
                                         postDate={item.postDate}
                                         postTag={item.postTag}
                                         postTitle={item.postTitle}
+                                        postType={postType}
                                         postURL={item.postURL} />
                                 </>
                             );

@@ -10,16 +10,21 @@ const PostItem = (props) => {
     let postDate = props.postDate;
     let postTag = props.postTag;
     let postTitle = props.postTitle;
+    let postType = props.postType;
     let postURL = props.postURL;
 
     useEffect(() => {
-        setpostThumbnail(require("../../postData/" + postURL + "/thumb.png"));
+        setpostThumbnail(require("../../postData/" + postType + "/" + postURL + "/thumb.png"));
     }, [PostItem]);
 
     if(isPinned){
         return(
             <>
-                <Link to={"/postview/" + postURL} style={{textDecoration: "none"}}>
+                <Link to={{
+                    pathname: "/postview/" + postURL,
+                    state: {
+                        postType: {postType}
+                    }}} style={{textDecoration: "none"}}>
                     <div className="postPinnedItem" id={postURL}>
                         <div className="postPinnedItemImage">
                             <img src={postThumbnail} />

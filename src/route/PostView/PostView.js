@@ -17,9 +17,11 @@ const PostView = (props) => {
     const [postID, setPostID] = useState("");
     const [postTag, setPostTag] = useState("");
     const [postTitle, setPostTitle] = useState("");
+    const [postType, setPostType] = useState("");
     const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
+        setPostType(props.location.state.postType);
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
                 setPostDate(item.postDate);
@@ -56,7 +58,7 @@ const PostView = (props) => {
                 <div className="markdown-body">
                     <ReactMarkdown
                         children={postData}
-                        components={PostRenderer(postID)}
+                        components={PostRenderer(postID, postType)}
                         rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]} />
                 </div>
