@@ -38,7 +38,7 @@ const App = () => {
                         component = {withRouter(About)} />
                     <RouteLayout
                         exact
-                        path = "/postview/:postID"
+                        path = "/postview/:postType/:postID"
                         layout = {DefaultLayout}
                         component = {withRouter(PostView)} />
                     <RouteLayout

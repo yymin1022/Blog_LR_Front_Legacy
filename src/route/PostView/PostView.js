@@ -22,13 +22,16 @@ const PostView = (props) => {
     const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
-        setPostType(props.location.state.postType);
-
+        setPostType(props.match.params.postType);
         let postDB = blogDB;
-        if(props.location.state.postTypeType === "blog"){
+        let postType = "blog";
+    
+        if(curPath === "/blog"){
             postDB = blogDB;
-        }else if(props.location.state.postType === "project"){
+            postType = "blog";
+        }else if(curPath === "/project"){
             postDB = projectDB;
+            postType = "project";
         }
 
         postDB.map(item => {

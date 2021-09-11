@@ -20,11 +20,7 @@ const PostItem = (props) => {
     if(isPinned){
         return(
             <>
-                <Link to={{
-                    pathname: "/postview/" + postURL,
-                    state: {
-                        postType: {postType}
-                    }}} style={{textDecoration: "none"}}>
+                <Link to={`/postview/${postType}/${postURL}`} style={{textDecoration: "none"}}>
                     <div className="postPinnedItem" id={postURL}>
                         <div className="postPinnedItemImage">
                             <img src={postThumbnail} />
@@ -41,7 +37,7 @@ const PostItem = (props) => {
     }else{
         return(
             <>
-                <Link to={"/postview/" + postURL} style={{textDecoration: 'none'}}>
+                <Link to={`/postview/${postType}/${postURL}`} style={{textDecoration: 'none'}}>
                     <div className="postItem" id={postURL}>
                         <div className="postItemImage">
                             <img src={postThumbnail} />
