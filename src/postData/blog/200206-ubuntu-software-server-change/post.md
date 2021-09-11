@@ -26,7 +26,7 @@ ubuntu@desktop:~$ sudo vi /etc/apt/sources.list
 ```
 
 <center>
-<img src="1_before.png"} width="75%" />
+<img src="1_before.png" width="75%" />
 </center>
 
 ```/etc/apt``` 디렉터리에 위치한 ```sources.list``` 파일이 열렸습니다.<br>
