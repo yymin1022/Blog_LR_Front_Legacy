@@ -15,11 +15,19 @@ const Home = () => {
             </div>
 
             <div id="divNav">
-                <Link to={"/blog"}>
+                <Link to={{
+                    pathname: "/postlist",
+                    state: {
+                        postType: "blog"
+                    }}}>
                     <Button className="btnNav">Blog</Button>
                 </Link>
 
-                <Link to={"/project"}>
+                <Link to={{
+                    pathname: "/postlist",
+                    state: {
+                        postType: "project"
+                    }}}>
                     <Button className="btnNav">Project</Button>
                 </Link>
 

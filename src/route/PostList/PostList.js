@@ -4,11 +4,18 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
 import PostItem from "../../layout/PostItem";
-import postDB from "../../postData/DB.json";
 
-import "./Blog.css";
+import "./PostList.css";
 
-const Blog = (props) => {
+const PostList = (props) => {
+    const postType = props.location.state.postType;
+
+    if(postType == "blog"){
+        const postDB = require("../../postData/DB.json").default;
+    }else if(postType == "project"){
+        
+    }
+
     return(
         <div align="center">
             <div align="left" className="postPinnedTitle">
@@ -66,4 +73,4 @@ const Blog = (props) => {
     )
 }
 
-export default Blog;
+export default PostList;

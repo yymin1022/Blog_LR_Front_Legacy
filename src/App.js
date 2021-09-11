@@ -5,11 +5,10 @@ import RouteLayout from "./layout/RouteLayout";
 import DefaultLayout from "./layout/Default";
 
 import About from "./route/About";
-import Blog from "./route/Blog";
 import Home from "./route/Home";
 import NotFoundPage from "./route/NotFoundPage";
+import PostList from "./route/PostList";
 import PostView from "./route/PostView";
-import Project from "./route/Project";
 import ScrollTop from "./ScrollTop";
 
 const App = () => {
@@ -24,14 +23,14 @@ const App = () => {
                         component = {withRouter(Home)} />
                     <RouteLayout
                         exact
-                        path = "/blog"
+                        path = "/postlist"
                         layout = {DefaultLayout}
-                        component = {withRouter(Blog)} />
+                        component = {withRouter(PostList)} />
                     <RouteLayout
                         exact
-                        path = "/project"
+                        path = "/postlist"
                         layout = {DefaultLayout}
-                        component = {withRouter(Project)} />
+                        component = {withRouter(PostList)} />
                     <RouteLayout
                         exact
                         path = "/about"
