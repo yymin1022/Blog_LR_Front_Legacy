@@ -18,7 +18,7 @@ const Utterance = () => {
             utteranceElement.setAttribute(key, value);
         });
 
-        commentRef.current.appendChile(utteranceElement);
+        commentRef.current.appendChild(utteranceElement);
     }, []);
 
     return(
