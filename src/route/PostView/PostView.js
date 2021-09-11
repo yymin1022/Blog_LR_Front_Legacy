@@ -6,7 +6,8 @@ import ReactMarkdown from "react-markdown";
 import RehypeRaw from "rehype-raw";
 import RemarkGFM from "remark-gfm";
 
-import postDB from "../../postData/DB.json";
+import blogDB from "../../postData/blog/DB.json";
+import projectDB from "../../postData/project/DB.json";
 import Utterance from "./Utterance";
 
 import "./PostView.css";
@@ -22,6 +23,14 @@ const PostView = (props) => {
 
     useEffect(() => {
         setPostType(props.location.state.postType);
+
+        let postDB;
+        if(postType === "blog"){
+            postDB = blogDB;
+        }else if(postType === "project"){
+            postDB = projectDB;
+        }
+        
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
                 setPostDate(item.postDate);
