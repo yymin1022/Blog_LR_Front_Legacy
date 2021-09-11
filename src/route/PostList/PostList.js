@@ -28,21 +28,17 @@ const PostList = (props) => {
             <div className="postPinnedContainer">
                 {
                     postDB.map(item => {
-                        return(
-                            <>
-                                <If condition={item.pinned}>
-                                    <Then>
-                                        <PostItem
-                                            pinned={item.pinned}
-                                            postDate={item.postDate}
-                                            postTag={item.postTag}
-                                            postTitle={item.postTitle}
-                                            postType={postType}
-                                            postURL={item.postURL} />
-                                    </Then>
-                                </If>
-                            </>
-                        );
+                        if(item.pinned){
+                            return(
+                                <PostItem
+                                    pinned={item.pinned}
+                                    postDate={item.postDate}
+                                    postTag={item.postTag}
+                                    postTitle={item.postTitle}
+                                    postType={postType}
+                                    postURL={item.postURL} />
+                            );
+                        }
                     })
                 }
             </div>
@@ -56,15 +52,13 @@ const PostList = (props) => {
                     postDB.map(item => {
                         if(!item.pinned){
                             return(
-                                <>
-                                    <PostItem
-                                        pinned={item.pinned}
-                                        postDate={item.postDate}
-                                        postTag={item.postTag}
-                                        postTitle={item.postTitle}
-                                        postType={postType}
-                                        postURL={item.postURL} />
-                                </>
+                                <PostItem
+                                    pinned={item.pinned}
+                                    postDate={item.postDate}
+                                    postTag={item.postTag}
+                                    postTitle={item.postTitle}
+                                    postType={postType}
+                                    postURL={item.postURL} />
                             );
                         }
                     })
