@@ -10,9 +10,8 @@ import projectDB from "../../postData/project/DB.json";
 
 import "./PostList.css";
 
-const PostList = (props) => {
+const PostList = (postType) => {
     let postDB = blogDB;
-    let postType = props.location.state.postType;
 
     if(postType === "blog"){
         postDB = blogDB;
