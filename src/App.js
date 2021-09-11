@@ -11,8 +11,8 @@ import PostList from "./route/PostList";
 import PostView from "./route/PostView";
 import ScrollTop from "./ScrollTop";
 
-const App = () => {
-    return (
+const App = (props) => {
+    return(
         <Router>
             <ScrollTop>
                 <Switch>

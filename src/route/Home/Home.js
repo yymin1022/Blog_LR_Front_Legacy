@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 
 import "./Home.css";
 
-const Home = () => {
+const Home = (props) => {
     return(
         <div>
             <div id="divTitle">
