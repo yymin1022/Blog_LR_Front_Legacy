@@ -14,7 +14,7 @@ const PostItem = (props) => {
     let postURL = props.postURL;
 
     useEffect(() => {
-        setpostThumbnail(require("../../postData/" + postType + "/" + postURL + "/thumb.png"));
+        setpostThumbnail(require(`../../postData/${postType}/${postURL}/thumb.png`));
     }, [PostItem]);
 
     if(isPinned){

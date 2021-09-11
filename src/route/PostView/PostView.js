@@ -39,7 +39,7 @@ const PostView = (props) => {
                 setPostTitle(item.postTitle);
                 setPostURL("https://blog-new.defcon.or.kr/postview/" + item.postURL);
 
-                const MDFile = require("../../postData/" + postType + "/" + item.postURL + "/post.md").default;
+                const MDFile = require(`../../postData/${postType}/${item.postURL}/post.md`).default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
                         MDText => setPostData(MDText)
