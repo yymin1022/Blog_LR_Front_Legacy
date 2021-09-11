@@ -28,7 +28,7 @@ const PostView = (props) => {
     
         if(postType === "blog"){
             postDB = blogDB;
-        }else if(curPath === "project"){
+        }else if(postType === "project"){
             postDB = projectDB;
         }
 
