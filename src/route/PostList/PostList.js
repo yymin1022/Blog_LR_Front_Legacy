@@ -14,9 +14,9 @@ const PostList = (props) => {
     let postDB;
     let postType = props.location.state.postType;
 
-    if(postType == "blog"){
+    if(postType === "blog"){
         postDB = blogDB;
-    }else if(postType == "project"){
+    }else if(postType === "project"){
         postDB = projectDB;
     }
 
