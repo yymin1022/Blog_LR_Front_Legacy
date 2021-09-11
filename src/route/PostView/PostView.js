@@ -24,13 +24,13 @@ const PostView = (props) => {
     useEffect(() => {
         setPostType(props.location.state.postType);
 
-        let postDB;
-        if(postType === "blog"){
+        let postDB = blogDB;
+        if(props.location.state.postTypeType === "blog"){
             postDB = blogDB;
-        }else if(postType === "project"){
+        }else if(props.location.state.postType === "project"){
             postDB = projectDB;
         }
-        
+
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
                 setPostDate(item.postDate);
