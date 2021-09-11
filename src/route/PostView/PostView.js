@@ -7,6 +7,7 @@ import RehypeRaw from "rehype-raw";
 import RemarkGFM from "remark-gfm";
 
 import postDB from "../../postData/DB.json";
+import Utterance from "./Utterance";
 
 import "./PostView.css";
 
@@ -63,6 +64,10 @@ const PostView = (props) => {
 
             <div className="PostTag">
                 <p>{postTag}</p>
+            </div>
+
+            <div className="divComment">
+                <Utterance />
             </div>
 
             <div className="PostFooter">

@@ -22,7 +22,7 @@ const Utterance = () => {
     }, []);
 
     return(
-        <div className="divComment" ref={commentRef}></div>
+        <div ref={commentRef}></div>
     )
 }
 
