@@ -18,11 +18,12 @@ const PostView = (props) => {
     const [postID, setPostID] = useState("");
     const [postTag, setPostTag] = useState("");
     const [postTitle, setPostTitle] = useState("");
+    const [postType, setPostType] = useState("");
     const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
+        setPostType(props.match.params.postType);
         let postDB = (postType == "blog") ? blogDB : projectDB;
-        let postType = props.match.params.postType
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
@@ -30,9 +31,9 @@ const PostView = (props) => {
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
                 setPostTitle(item.postTitle);
-                setPostURL(`https://blog-new.defcon.or.kr/postview/${postType}/${item.postURL}`);
+                setPostURL(`https://blog-new.defcon.or.kr/postview/${props.match.params.postType}/${item.postURL}`);
 
-                const MDFile = require(`../../postData/${postType}/${item.postURL}/post.md`).default;
+                const MDFile = require(`../../postData/${props.match.params.postType}/${item.postURL}/post.md`).default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
                         MDText => setPostData(MDText)
