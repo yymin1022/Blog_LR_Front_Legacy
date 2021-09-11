@@ -13,13 +13,16 @@ import "./PostList.css";
 const PostList = (props) => {
     let curPath = window.location.pathname;
     let postDB = blogDB;
+    let postType = "blog";
 
     console.log(curPath);
 
     if(curPath === "/blog"){
         postDB = blogDB;
+        postType = "blog";
     }else if(curPath === "/project"){
         postDB = projectDB;
+        postType = "project";
     }
 
     return(
