@@ -12,16 +12,8 @@ import "./PostList.css";
 
 const PostList = (props) => {
     let curPath = window.location.pathname;
-    let postDB = blogDB;
-    let postType = "blog";
-
-    if(curPath === "/blog"){
-        postDB = blogDB;
-        postType = "blog";
-    }else if(curPath === "/project"){
-        postDB = projectDB;
-        postType = "project";
-    }
+    let postDB = (curPath == "/blog") ? blogDB : projectDB;
+    let postType = (curPath == "/blog") ? "blog" : "project";
 
     return(
         <div align="center">
