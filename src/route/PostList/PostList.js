@@ -1,5 +1,4 @@
 import React from "react";
-import {If, Then} from "react-if";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
