@@ -5,15 +5,19 @@ import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
 import PostItem from "../../layout/PostItem";
 
+import blogDB from "../../postData/DB.json";
+import projectDB from "../../postData/DB.json";
+
 import "./PostList.css";
 
 const PostList = (props) => {
-    const postType = props.location.state.postType;
+    let postDB;
+    let postType = props.location.state.postType;
 
     if(postType == "blog"){
-        const postDB = require("../../postData/DB.json").default;
+        postDB = blogDB;
     }else if(postType == "project"){
-        
+        postDB = projectDB;
     }
 
     return(
