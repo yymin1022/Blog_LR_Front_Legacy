@@ -23,7 +23,7 @@ const PostView = (props) => {
 
     useEffect(() => {
         setPostType(props.match.params.postType);
-        let postDB = (postType == "blog") ? blogDB : projectDB;
+        let postDB = (props.match.params.postType == "blog") ? blogDB : projectDB;
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
