@@ -5,8 +5,8 @@ import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
 import PostItem from "../../layout/PostItem";
 
-import blogDB from "../../postData/DB.json";
-import projectDB from "../../postData/DB.json";
+import blogDB from "../../postData/blog/DB.json";
+import projectDB from "../../postData/project/DB.json";
 
 import "./PostList.css";
 
