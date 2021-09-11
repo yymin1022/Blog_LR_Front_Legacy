@@ -11,6 +11,7 @@ import projectDB from "../../postData/project/DB.json";
 import "./PostList.css";
 
 const PostList = (postType) => {
+    console.log(postType);
     let postDB = blogDB;
 
     if(postType === "blog"){

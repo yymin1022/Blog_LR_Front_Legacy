@@ -19,7 +19,7 @@ const Home = () => {
                     <Button className="btnNav">Blog</Button>
                 </Link>
 
-                <Link to={"/postlist"}>
+                <Link to={"/project"}>
                     <Button className="btnNav">Project</Button>
                 </Link>
 
