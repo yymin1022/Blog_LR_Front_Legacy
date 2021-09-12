@@ -12,11 +12,8 @@ const PostRenderer = (postID, postType) => {
                 : <code className={className} {...props}/>;
         },
 
-        img: ({src, width, ...props}) => {
-            <>
-                <img src={require(`../../postData/${postType}/${postID}/${src}`)} width={width} {...props} />
-            </>
-        }
+        img: ({src, width, ...props}) =>
+            <img src={require(`../../postData/${postType}/${postID}/${src}`)} width={width} {...props} />
     }
 }
 
