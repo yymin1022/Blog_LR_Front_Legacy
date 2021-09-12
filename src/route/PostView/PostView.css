@@ -55,6 +55,7 @@ iframe[src*="ads-iframe"]{
   width: 100%;
 
   font-family: "NanumSquare";
+  line-height: 25px;
   text-align: center;
 }
 
