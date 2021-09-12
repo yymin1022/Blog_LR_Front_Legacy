@@ -21,8 +21,8 @@ const PostRenderer = (postID, postType) => {
     }
 }
 
-const post_strong = styled.strong`
-    color: "#164EAB"
-}`
-
 export default PostRenderer;
+
+const post_strong = styled.strong`
+    color: #164EAB
+}`
