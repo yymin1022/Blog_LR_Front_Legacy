@@ -8,12 +8,6 @@
   margin: 5px;
 }
 
-.PostCommentContent{
-  width: 800px;
-
-  margin-top: 30px;
-}
-
 .PostFooter{
   height: 150px;
   width: 100%;
@@ -53,29 +47,4 @@
   font-family: "NanumSquare";
   line-height: 25px;
   text-align: center;
-}
-
-/* Mobile UI */
-@media screen and (max-width: 920px){
-  .PostCommentContent{
-    width: 100%;
-  }
-  
-  .PostFooter{
-    height: 100px;
-    width: 100%;
-  }
-
-  .PostTitle{
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .PostViewContent{
-    width: 100%;
-  }
-
-  .PostSeperator{
-    width: 100%;
-  }
 }
