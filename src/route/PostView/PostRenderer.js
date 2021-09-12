@@ -38,6 +38,8 @@ const A = styled.a`
 `
 
 const Strong = styled.strong`
+    background-color: #EEEEEE;
     color: #164EAB;
-    font-weight: 900;
+    font-weight: 500;
+    padding: 4px;
 `
