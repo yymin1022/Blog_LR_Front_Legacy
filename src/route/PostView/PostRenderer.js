@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"; 
+import styled from "styled-components";
 
 import {Prism as SyntaxHighlighter} from "react-syntax-highlighter";
 import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
@@ -13,8 +14,15 @@ const PostRenderer = (postID, postType) => {
         },
 
         img: ({src, width, ...props}) =>
-            <img src={require(`../../postData/${postType}/${postID}/${src}`)} width={width} {...props} />
+            <img src={require(`../../postData/${postType}/${postID}/${src}`)} width={width} {...props} />,
+
+        strong: ({children, ...props}) =>
+            <post_strong {...props}>{children}</post_strong>,
     }
 }
+
+const post_strong = styled.strong`
+    color: "#164EAB"
+}`
 
 export default PostRenderer;
