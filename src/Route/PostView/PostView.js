@@ -1,14 +1,15 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
-import PostRenderer from "./PostRenderer";
 import ReactMarkdown from "react-markdown";
 import RehypeRaw from "rehype-raw";
 import RemarkGFM from "remark-gfm";
 
-import blogDB from "../../postData/blog/DB.json";
-import projectDB from "../../postData/project/DB.json";
-import Utterance from "./Utterance";
+import PostRenderer from "../../Util/PostRenderer";
+import Utterance from "../../Util/Utterance";
+
+import blogDB from "../../Post/blog/DB.json";
+import projectDB from "../../Post/project/DB.json";
 
 import "./PostView.css";
 
@@ -31,7 +32,7 @@ const PostView = (props) => {
                 setPostTag(item.postTag);
                 setPostTitle(item.postTitle);
 
-                const MDFile = require(`../../postData/${props.match.params.postType}/${item.postURL}/post.md`).default;
+                const MDFile = require(`../../Post/${props.match.params.postType}/${item.postURL}/post.md`).default;
                 fetch(MDFile).then(
                     MDResource => MDResource.text().then(
                         MDText => setPostData(MDText)

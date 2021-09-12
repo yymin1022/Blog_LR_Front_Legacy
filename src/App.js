@@ -1,14 +1,14 @@
 import React from "react";
 import {BrowserRouter as Router, Switch, withRouter} from "react-router-dom";
 
-import RouteLayout from "./layout/RouteLayout";
-import DefaultLayout from "./layout/Default";
+import RouteLayout from "./Layout/RouteLayout";
+import DefaultLayout from "./Layout/Default";
 
-import About from "./route/About";
-import Home from "./route/Home";
-import NotFoundPage from "./route/NotFoundPage";
-import PostList from "./route/PostList";
-import PostView from "./route/PostView";
+import About from "./Route/About";
+import Home from "./Route/Home";
+import NotFoundPage from "./Route/NotFoundPage";
+import PostList from "./Route/PostList";
+import PostView from "./Route/PostView";
 import ScrollTop from "./ScrollTop";
 
 const App = (props) => {

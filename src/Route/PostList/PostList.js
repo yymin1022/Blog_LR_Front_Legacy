@@ -2,10 +2,10 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
-import PostItem from "../../layout/PostItem";
+import PostItem from "../../Layout/PostItem";
 
-import blogDB from "../../postData/blog/DB.json";
-import projectDB from "../../postData/project/DB.json";
+import blogDB from "../../Post/blog/DB.json";
+import projectDB from "../../Post/project/DB.json";
 
 import "./PostList.css";
 
