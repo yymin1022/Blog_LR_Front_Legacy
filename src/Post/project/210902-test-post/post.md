@@ -16,11 +16,30 @@ Italic *ASDFQWER*
 
 > ASDFQWER
 
-```ASDFQWER```
+BlockQuote ```ASDFQWER```
 
-https://dev-lr.com/
+URL https://dev-lr.com/
 
-[Dev. LR](https://dev-lr.com/)
+Text URL [Dev. LR](https://dev-lr.com/)
+
+List
+
+- Hello
+- World
+- ASDF
+- QWER
+
+List with Left Align
+
+<div style="text-align: left;">
+
+- Hello
+- World
+- ASDF
+
+</div>
+
+Image
 
 <img src="0_vscode_usage.png" width="75%" />
 
