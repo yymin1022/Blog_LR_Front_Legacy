@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import RehypeRaw from "rehype-raw";
 import RemarkGFM from "remark-gfm";
 
-import MDFile from "../../Post/about.md";
+import MDFile from "../../Post/About/about.md";
 import PostRenderer from "../../Util/PostRenderer";
 import Utterance from "../../Util/Utterance";
 
