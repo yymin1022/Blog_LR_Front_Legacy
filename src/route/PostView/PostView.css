@@ -1,7 +1,3 @@
-iframe[src*="ads-iframe"]{
-  display: none;
-}
-
 .PostAuthorDate{
   align-items: center;
   display: flex;
