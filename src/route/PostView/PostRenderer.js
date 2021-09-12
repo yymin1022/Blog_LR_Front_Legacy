@@ -28,6 +28,7 @@ export default PostRenderer;
 
 const A = styled.a`
     color: #164EAB;
+    font-weight: 900;
     text-decoration: none;
     transition: color .3s;
 
@@ -38,4 +39,5 @@ const A = styled.a`
 
 const Strong = styled.strong`
     color: #164EAB;
+    font-weight: 900;
 `
