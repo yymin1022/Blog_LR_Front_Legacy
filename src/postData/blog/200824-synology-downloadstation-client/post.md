@@ -15,36 +15,36 @@ __​<a href="https://blog-lr.defcon.or.kr/postview/200902-synology-downloadstat
 오늘 포스팅도 평소 자주 작성하던 리뷰 포스팅이 아닌,<br>
 제가 직접 개발한 프로그램을 공유하는 포스팅이 되었습니다.
 
-저는 현재 ```ODroid H2``` 개발보드에<br>
-```XPEnology``` 운영체제를 설치해<br>
+저는 현재 **ODroid H2** 개발보드에<br>
+**XPEnology** 운영체제를 설치해<br>
 개인 Nas로 활용하고 있습니다.
 
 ​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide">ODroid H2 XPEnology 설치 가이드 포스팅</a>
 
-```XPEnology``` 는 ```Synology``` 사의 Nas용 운영체제를<br>
+**XPEnology** 는 **Synology** 사의 Nas용 운영체제를<br>
 다른 기기에서도 사용할 수 있도록 변조시킨 운영체제입니다.
 
-이 ```Synology DSM``` 운영체제에서는<br>
+이 **Synology DSM** 운영체제에서는<br>
 URL이나 토렌트 파일을 이용해<br>
 Nas로 간편하게 파일을 다운로드할 수 있는<br>
-```Download Station``` 이라는 기능을 제공합니다.
+**Download Station** 이라는 기능을 제공합니다.
 
 <center>
 <img src="1_dsm_downloadstation.png" width="50%" />
 </center>
 
-용량이 큰 파일의 경우, ```Download Station``` 을 이용해 다운로드 하게되었을 때,<br>
+용량이 큰 파일의 경우, **Download Station** 을 이용해 다운로드 하게되었을 때,<br>
 지속적으로 안정적인 속도로 다운로드 작업을 진행하기 때문에<br>
 오류 없이 빠른 속도로 다운로드를 할 수 있습니다.
 
-하지만 이런 편리한 기능을 제공하는 ```Download Station``` 이지만,<br>
+하지만 이런 편리한 기능을 제공하는 **Download Station** 이지만,<br>
 매번 DSM에 웹상으로 접속해 이용해야 한다는 점이 불편하게 느껴졌습니다.​
 
-```Android``` 와 ```iOS``` 의 경우, DS Get 또는 기타 서드파티 애플리케이션을 이용해서<br>
-굳이 DSM에 접속하지 않고도 ```Download Station``` 에<br>
+**Android** 와 **iOS** 의 경우, DS Get 또는 기타 서드파티 애플리케이션을 이용해서<br>
+굳이 DSM에 접속하지 않고도 **Download Station** 에<br>
 다운로드 작업을 등록하거나 기존 작업을 제어하는 것이 가능합니다.
 
-다만, ```Windows``` 는 이러한 클라이언트 프로그램이 거의 존재하지 않기에<br>
+다만, **Windows** 는 이러한 클라이언트 프로그램이 거의 존재하지 않기에<br>
 이 기회에 직접 한번 만들어보게 되었습니다.
 
 <center>
@@ -54,7 +54,7 @@ Nas로 간편하게 파일을 다운로드할 수 있는<br>
 프로그램을 최초 실행하게 되면,<br>
 위와 같은 로그인 창이 보이게됩니다.<br>
 위에서부터 순차적으로 사용중인 DSM의 주소와 계정을 입력해줍니다.<br>
-이때, DSM의 주소의 경우 ```http://hello.synology.me``` 와 같이<br>
+이때, DSM의 주소의 경우 **http://hello.synology.me** 와 같이<br>
 http 또는 https로 시작하는 형태로 입력해주셔야 합니다.​
 
 이때 입력하는 계정 정보는 별도의 서버에 저장되지 않고,<br>
@@ -77,7 +77,7 @@ Login 버튼을 클릭했을 때<br>
 입력된 작업들을 DSM으로 전송해 다운로드를 시작하는<br>
 버튼이 위치합니다.
 
-```Python``` 으로 작성된 프로그램의 특성상,<br>
+**Python** 으로 작성된 프로그램의 특성상,<br>
 반복적으로 리스트의 새로고침을 구현하는 것이 사실상 불가능 하였기에,<br>
 부득이하게 수동 새로고침 형태로 버튼을 추가하게 되었습니다.<br>
 다만, 다운로드 작업을 추가하거나 기존 작업을 제어하는 경우<br>
@@ -115,7 +115,7 @@ Login 버튼을 클릭했을 때<br>
 ​<a href="https://drive.defcon.or.kr/sharing/EC5q5AyT3" target="_sub">DownloadStation Client 다운로드</a>
 
 다운로드는 위 링크에서 가능하며,<br>
-```Windows``` 용 exe 파일과 ```Linux``` 용 바이너리 파일을<br>
+**Windows** 용 exe 파일과 **Linux** 용 바이너리 파일을<br>
 모두 배포합니다.<br>
 사용중인 운영체제에 맞는 프로그램을 받아 이용하시면 되겠습니다.
 
@@ -123,15 +123,15 @@ Login 버튼을 클릭했을 때<br>
 
 ​<a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">소스코드 보러가기</a>
 
-본 프로젝트의 모든 소스코드는 제 ```Github``` 를 통해 공개합니다.<br>
+본 프로젝트의 모든 소스코드는 제 **Github** 를 통해 공개합니다.<br>
 단, 소스코드를 활용하고자 하시는 경우,<br>
-제 원본 ```Github``` 링크를 남겨주시기 바라며,<br>
+제 원본 **Github** 링크를 남겨주시기 바라며,<br>
 혹시나, 본 프로그램을 공유하고자 하실 경우,<br>
 새로운 글을 작성하거나 파일을 직접 첨부하지 마시고,<br>
 본 포스팅의 링크를 첨부해주시면 감사하겠습니다.
 
 규모가 큰 그런 프로그램은 아니지만,<br>
-```Synology``` 의 ```DownloadStation``` 에서 제공하는 중심적인 기능들은<br>
+**Synology** 의 **DownloadStation** 에서 제공하는 중심적인 기능들은<br>
 대부분 지원하기 때문에, 어느정도 불편함을 해소할 수 있는<br>
 그런 프로그램이라고 생각합니다.
 
