@@ -4,7 +4,7 @@ __본 게시글은 사용법 확인을 위해서만 읽어주시고,__
 
 __다운로드는 새 버전의 포스팅을 이용해주세요 !!__
 
-__[새 버전 포스팅 확인하기](https://blog-lr.defcon.or.kr/postview/200902-synology-downloadstation-client-new)__
+__[새 버전 포스팅 확인하기](https://dev-lr.com/postview/blog/200902-synology-downloadstation-client-new)__
 
 <br>
 <br>
@@ -19,7 +19,7 @@ __[새 버전 포스팅 확인하기](https://blog-lr.defcon.or.kr/postview/2009
 **XPEnology** 운영체제를 설치해<br>
 개인 Nas로 활용하고 있습니다.
 
-[ODroid H2 XPEnology 설치 가이드 포스팅](https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide)
+[ODroid H2 XPEnology 설치 가이드 포스팅](https://dev-lr.com/postview/blog/odroid-h2-xpenology-guide)
 ​<a href=""></a>
 
 **XPEnology** 는 **Synology** 사의 Nas용 운영체제를<br>
