@@ -11,7 +11,7 @@ const Utterance = () => {
             repo: "yymin1022/Blog_LR_Comments",
             src: "https://utteranc.es/client.js",
             theme: "github-light",
-            "issue-term": "url"
+            "issue-term": "pathname"
         };
 
         Object.entries(utteranceConfig).forEach(([key, value]) => {
