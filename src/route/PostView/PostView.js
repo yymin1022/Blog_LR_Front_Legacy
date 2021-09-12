@@ -19,7 +19,6 @@ const PostView = (props) => {
     const [postTag, setPostTag] = useState("");
     const [postTitle, setPostTitle] = useState("");
     const [postType, setPostType] = useState("");
-    const [postURL, setPostURL] = useState("");
 
     useEffect(() => {
         setPostType(props.match.params.postType);
@@ -31,7 +30,6 @@ const PostView = (props) => {
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
                 setPostTitle(item.postTitle);
-                setPostURL(`https://blog-new.defcon.or.kr/postview/${props.match.params.postType}/${item.postURL}`);
 
                 const MDFile = require(`../../postData/${props.match.params.postType}/${item.postURL}/post.md`).default;
                 fetch(MDFile).then(
