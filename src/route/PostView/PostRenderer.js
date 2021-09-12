@@ -17,12 +17,12 @@ const PostRenderer = (postID, postType) => {
             <img src={require(`../../postData/${postType}/${postID}/${src}`)} width={width} {...props} />,
 
         strong: ({children, ...props}) =>
-            <post_strong {...props}>{children}</post_strong>,
+            <Strong {...props}>{children}</Strong>,
     }
 }
 
 export default PostRenderer;
 
-const post_strong = styled.strong`
+const Strong = styled.strong`
     color: #164EAB
 }`
