@@ -17,7 +17,7 @@ const PostRenderer = (postID, postType) => {
         },
 
         img: ({src, width, ...props}) =>
-            <img src={require(`../../Post/${postType}/${postID}/${src}`)} width={width} {...props} />,
+            <img src={require(`../Post/${postType}/${postID}/${src}`)} width={width} {...props} />,
 
         strong: ({children, ...props}) =>
             <Strong {...props}>{children}</Strong>,
