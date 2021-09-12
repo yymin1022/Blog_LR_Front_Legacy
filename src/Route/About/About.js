@@ -11,12 +11,12 @@ import Utterance from "../../Util/Utterance";
 import "./About.css";
 
 const About = () => {
-    const [postData, setPostData] = useState("");
+    const [aboutData, setAboutData] = useState("");
 
     useEffect(() => {
         fetch(MDFile).then(
             MDResource => MDResource.text().then(
-                MDText => setPostData(MDText)
+                MDText => setAboutData(MDText)
             )
         );
 
@@ -30,8 +30,8 @@ const About = () => {
             <div className="AboutContent">
                 <div className="markdown-body-about">
                     <ReactMarkdown
-                        children={postData}
-                        components={PostRenderer(postID, postType)}
+                        children={aboutData}
+                        components={PostRenderer("about", "About")}
                         rehypePlugins={[RehypeRaw]}
                         remarkPlugins={[RemarkGFM]} />
                 </div>
