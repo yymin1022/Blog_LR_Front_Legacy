@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Home = (props) => {
     return(
-        <div>
+        <div className="divHome">
             <div id="divTitle">
                 <p className="blogTitle" id="blogTitle1">안녕하세요</p>
                 <p className="blogTitle" id="blogTitle2">대학생 1인 개발자</p>
