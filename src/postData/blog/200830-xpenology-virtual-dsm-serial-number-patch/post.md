@@ -145,7 +145,8 @@ DSM 이미지 탭에서 추가를 클릭해줍니다.<br>
 이제, 기존 **XPEnology** 의 **grub.cfg** 파일을 수정해<br>
 가상 DSM의 시리얼넘버를 입력해줍니다.
 
-​<a href="https://blog-lr.defcon.or.kr/postview/200830-xpenology-synoboot-mount" target="_sub">XPEnology 내부에서 synoboot 마운트하기 포스팅</a>
+[XPEnology 내부에서 synoboot 마운트하기 포스팅](https://blog-lr.defcon.or.kr/postview/200830-xpenology-synoboot-mount)
+​<a href="" target="_sub"></a>
 
 부트로더가 설치된 USB를 분리해 PC에서<br>
 마운트한 뒤 작업해도 무방하지만,<br>

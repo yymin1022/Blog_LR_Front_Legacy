@@ -38,9 +38,9 @@ Stackoverflow 등을 참고하면,<br>
 일반적인 **Docker** 에서 특정 서비스를 자동시작 하기 위해서는<br>
 다음 링크들에서 확인할 수 있는 별도의 조치를 취해주어야 한다고 합니다.
 
-관련 쓰레드 1 : ​<a href="https://askubuntu.com/questions/1054664/run-script-when-dockercontainer-starts" target="_sub">AskUbuntu.com</a>
+관련 쓰레드 1 : [AskUbuntu.com](https://askubuntu.com/questions/1054664/run-script-when-dockercontainer-starts)​
 
-관련 쓰레드 2 : ​<a href="https://stackoverflow.com/questions/26938684/docker-io-init-d-script-not-working-on-start-container" target="_sub">Stackoverflow</a>
+관련 쓰레드 2 : [Stackoverflow](https://stackoverflow.com/questions/26938684/docker-io-init-d-script-not-working-on-start-container)​
 
 하지만 **Synology** 의 **Docker** 의 경우,<br>
 컨테이너 실행 명령을 별도로 편집할 수가 없기에,<br>
