@@ -52,6 +52,14 @@
     animation-timing-function: ease-in-out;
 }
 
+#SideMenuNavMobile{
+    display: none;
+}
+
+#SideMenuNavPC{
+    display: inline;
+}
+
 #SideMenuTitle{
     width: 100%;
 
@@ -155,7 +163,11 @@
         display: none;
     }
 
-    #SideMenuNav{
+    #SideMenuNavMobile{
+        display: inline;
+    }
+    
+    #SideMenuNavPC{
         display: none;
     }
 

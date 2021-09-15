@@ -28,41 +28,46 @@ const SideMenu = (props) => {
                 <hr/>
 
                 <div id="SideMenuNav">
-                    <div className="snsNav">
-                        <Link
-                            to={{ 
-                                pathname: "https://www.facebook.com/profile.php?id=100007285635473"
-                            }}
-                            target="_sub" >
-                            <FontAwesomeIcon icon={faFacebook} color="white" size="lg" />
-                        </Link>
+                    <div id="SideMenuNavMobile">
+                        
                     </div>
-                    <div className="snsNav">
-                        <Link
-                            to={{ 
-                                pathname: "https://github.com/yymin1022"
-                            }}
-                            target="_sub" >
-                            <FontAwesomeIcon icon={faGithub} color="white" size="lg" />
-                        </Link>
-                    </div>
-                    <div className="snsNav">
-                        <Link
-                            to={{ 
-                                pathname: "https://play.google.com/store/apps/developer?id=Dev.+LR"
-                            }}
-                            target="_sub" >
-                            <FontAwesomeIcon icon={faGooglePlay} color="white" size="lg" />
-                        </Link>
-                    </div>
-                    <div className="snsNav">
-                        <Link
-                            to={{ 
-                                pathname: "https://instagram.com/useful_min"
-                            }}
-                            target="_sub" >
-                            <FontAwesomeIcon icon={faInstagram} color="white" size="lg" />
-                        </Link>
+                    <div id="SideMenuNavPC">
+                        <div className="snsNav">
+                            <Link
+                                to={{ 
+                                    pathname: "https://www.facebook.com/profile.php?id=100007285635473"
+                                }}
+                                target="_sub" >
+                                <FontAwesomeIcon icon={faFacebook} color="white" size="lg" />
+                            </Link>
+                        </div>
+                        <div className="snsNav">
+                            <Link
+                                to={{ 
+                                    pathname: "https://github.com/yymin1022"
+                                }}
+                                target="_sub" >
+                                <FontAwesomeIcon icon={faGithub} color="white" size="lg" />
+                            </Link>
+                        </div>
+                        <div className="snsNav">
+                            <Link
+                                to={{ 
+                                    pathname: "https://play.google.com/store/apps/developer?id=Dev.+LR"
+                                }}
+                                target="_sub" >
+                                <FontAwesomeIcon icon={faGooglePlay} color="white" size="lg" />
+                            </Link>
+                        </div>
+                        <div className="snsNav">
+                            <Link
+                                to={{ 
+                                    pathname: "https://instagram.com/useful_min"
+                                }}
+                                target="_sub" >
+                                <FontAwesomeIcon icon={faInstagram} color="white" size="lg" />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
