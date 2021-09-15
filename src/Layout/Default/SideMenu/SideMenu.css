@@ -125,3 +125,32 @@
         font-size: 50px;
     }
 }
+
+@media screen and (max-width: 1400px){
+    #SideMenu{
+        height: 80px;
+        width: 100%;
+        
+        left: 0;
+        top: 0;
+        position: fixed;
+        
+        background-color: #164EAB;
+    
+        animation-name: SideMenuSlideMobile;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes SideMenuSlide{
+        0% {
+            height: 100%;
+        }
+        50% {
+            height: 100%;
+        }
+        100% {
+            height: 350px;
+        }
+    }
+}
