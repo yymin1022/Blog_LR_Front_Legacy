@@ -144,6 +144,8 @@
 
     #SideMenuContent{
         width: 100%;
+
+        margin-bottom: 0px;
     }
 
     #SideMenuContent hr{
@@ -155,7 +157,8 @@
     }
 
     #SideMenuTitle{
-        display: inline-block
+        display: inline-block;
+        margin-bottom: 0px;
     }
 
     @keyframes SideMenuSlideMobile{
