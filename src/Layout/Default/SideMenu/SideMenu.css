@@ -142,6 +142,11 @@
         animation-timing-function: ease-in-out;
     }
 
+
+    #SideMenuContent hr{
+        display: none;
+    }
+
     #SideMenuNav{
         display: none;
     }
