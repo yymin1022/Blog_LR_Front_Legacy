@@ -157,8 +157,10 @@
     }
 
     #SideMenuTitle{
-        display: inline-block;
         margin-bottom: 0px;
+
+        display: flex;
+        flex-direction: row;
     }
 
     @keyframes SideMenuSlideMobile{
