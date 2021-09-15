@@ -142,6 +142,9 @@
         animation-timing-function: ease-in-out;
     }
 
+    #SideMenuContent{
+        width: 100%;
+    }
 
     #SideMenuContent hr{
         display: none;
@@ -152,7 +155,7 @@
     }
 
     #SideMenuTitle{
-        
+        display: inline-block
     }
 
     @keyframes SideMenuSlideMobile{
