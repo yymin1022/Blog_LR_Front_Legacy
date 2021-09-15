@@ -151,6 +151,10 @@
         display: none;
     }
 
+    #SideMenuTitle{
+        
+    }
+
     @keyframes SideMenuSlideMobile{
         0% {
             height: 100%;
