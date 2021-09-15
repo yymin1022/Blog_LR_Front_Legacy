@@ -142,6 +142,10 @@
         animation-timing-function: ease-in-out;
     }
 
+    #SideMenuNav{
+        display: none;
+    }
+
     @keyframes SideMenuSlideMobile{
         0% {
             height: 100%;
