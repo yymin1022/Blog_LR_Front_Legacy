@@ -57,7 +57,7 @@
 }
 
 #SideMenuNavPC{
-    display: inline;
+    display: flex;
 }
 
 #SideMenuTitle{
@@ -164,7 +164,7 @@
     }
 
     #SideMenuNavMobile{
-        display: inline;
+        display: flex;
     }
     
     #SideMenuNavPC{
