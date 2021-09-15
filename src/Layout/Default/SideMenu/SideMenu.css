@@ -189,4 +189,16 @@
             height: 80px;
         }
     }
+
+    @keyframes SideMenuTitleTextScale{
+        0% {
+            font-size: 50px;
+        }
+        50% {
+            font-size: 50px;
+        }
+        100% {
+            font-size: 35px;
+        }
+    }
 }
