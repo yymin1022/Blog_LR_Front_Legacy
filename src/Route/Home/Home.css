@@ -43,4 +43,9 @@
     .divHome{
         margin: 0px;
     }
+
+    .blogTitle{
+        font-size: 40px;
+        margin: 0px;
+    }
 }
