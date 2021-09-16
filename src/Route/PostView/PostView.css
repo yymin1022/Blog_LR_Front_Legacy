@@ -48,3 +48,13 @@
   line-height: 25px;
   text-align: center;
 }
+
+@media screen and (max-width: 1400px){
+  .PostSeperator{
+    width: 100%;
+}
+
+  .PostViewContent{
+    width: 100%;
+  }
+}
