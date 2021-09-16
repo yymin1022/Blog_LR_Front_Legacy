@@ -15,7 +15,7 @@ const PostList = (props) => {
     let postType = (curPath == "/blog") ? "blog" : "project";
 
     return(
-        <div align="center">
+        <div align="center" className="postListContainer">
             <div align="left" className="postPinnedTitle">
                 <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                 <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
