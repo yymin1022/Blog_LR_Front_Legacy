@@ -8,6 +8,11 @@
   margin: 5px;
 }
 
+.PostContainer{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .PostFooter{
   height: 150px;
   width: 100%;
@@ -52,15 +57,9 @@
 @media screen and (max-width: 1400px){
   .PostSeperator{
     width: 100%;
-
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
   .PostViewContent{
     width: 100%;
-
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }

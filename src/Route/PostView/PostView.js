@@ -43,7 +43,7 @@ const PostView = (props) => {
     }, [postID]);
 
     return(
-        <div align="center">
+        <div align="center" className="PostContainer">
             <div className="PostTitle">
                 <h2>{postTitle}</h2>
 
