@@ -107,6 +107,45 @@
 }
 
 @media screen and (max-width: 1400px){
+    .postItem{
+        height: 150px;
+        width: 350px;
+    
+        margin: 30px 0px 0px 0px;
+    
+        display: flex;
+        flex-direction: row;
+    
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    
+    .postItemImage{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .postItemImage img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .postItemText{
+        height: 150px;
+        width: 200px;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .postItemText p{
+        text-align: left;
+    }
+
     .postPinnedItem{
         height: 150px;
         width: 350px;
