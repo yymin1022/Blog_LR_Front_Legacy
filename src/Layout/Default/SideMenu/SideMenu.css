@@ -39,18 +39,6 @@
 #SideMenuNav{
     width: 100%;
 
-    animation-name: SideMenuNav;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-}
-
-#SideMenuNavMobile{
-    display: none;
-}
-
-#SideMenuNavPC{
-    width: 310px;
-
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 30px;
@@ -58,6 +46,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    animation-name: SideMenuNav;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 #SideMenuTitle{
@@ -163,11 +155,7 @@
         display: none;
     }
 
-    #SideMenuNavMobile{
-        display: flex;
-    }
-    
-    #SideMenuNavPC{
+    #SideMenuNav{
         display: none;
     }
 
