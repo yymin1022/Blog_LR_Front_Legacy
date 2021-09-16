@@ -9,3 +9,9 @@
   line-height: 25px;
   text-align: left;
 }
+
+@media screen and (max-width: 1400px){
+  .AboutContent{
+    width: 100%;
+  }
+}
