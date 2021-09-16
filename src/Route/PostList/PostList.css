@@ -36,5 +36,21 @@ hr{
     .postListContainer{
         margin-left: 10px;
         margin-right: 10px;
-    }    
+    }
+
+    .postContainer{
+        width: 100%;
+    }
+    
+    .postPinnedContainer{
+        width: 100%;
+    }
+    
+    .postPinnedTitle{
+        width: 100%;
+    }
+
+    .seperator{
+        width: 100%;
+    }
 }
