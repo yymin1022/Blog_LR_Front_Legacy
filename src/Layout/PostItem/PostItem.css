@@ -111,4 +111,21 @@
         height: 150px;
         width: 350px;
     }
+
+    .postPinnedItemText{
+        height: 150px;
+        width: 200px;
+    }
+
+    .pPostDate{
+        font-size: 15px;
+    }
+    
+    .pPostTag{
+        font-size: 15px;
+    }
+    
+    .pPostTitle{
+        font-size: 17px;
+    }
 }
