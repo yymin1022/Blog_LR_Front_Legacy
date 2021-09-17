@@ -17,7 +17,7 @@ const PostView = (props) => {
     const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
     const [postID, setPostID] = useState("");
-    const [postTag, setPostTag] = useState("");
+    const [postTag, setPostTag] = useState([""]);
     const [postTitle, setPostTitle] = useState("");
     const [postType, setPostType] = useState("");
 
