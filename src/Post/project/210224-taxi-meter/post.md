@@ -13,7 +13,7 @@ GPS 특성상 터널이나 전파간섭이 심한 장소에서는 정확도가 �
 
 ### 링크
 [Github](https://github.com/yymin1022/Taxi-Meter)
-
+<br/>
 [GooglePlay](http://play.google.com/store/apps/details?id=com.yong.taximeter)
 
 ***
