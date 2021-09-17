@@ -1,0 +1,56 @@
+.postContainer{
+    width: 1000px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postPinnedContainer{
+    width: 1000px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.postPinnedTitle{
+    width: 990px;
+}
+
+.seperator{
+    width: 990px;
+}
+
+hr{
+    border: 0;
+    background-color: #CCCCCC;
+    height: 1px;
+}
+
+@media screen and (max-width: 1400px){
+    .postListContainer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .postContainer{
+        width: 100%;
+        
+        justify-content: space-around;
+    }
+    
+    .postPinnedContainer{
+        width: 100%;
+
+        justify-content: space-around;
+    }
+    
+    .postPinnedTitle{
+        width: 100%;
+    }
+
+    .seperator{
+        width: 100%;
+    }
+}

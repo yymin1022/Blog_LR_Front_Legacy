@@ -1,17 +1,18 @@
 import React from "react";
 import {BrowserRouter as Router, Switch, withRouter} from "react-router-dom";
 
-import RouteLayout from "./layout/RouteLayout";
-import DefaultLayout from "./layout/Default";
+import RouteLayout from "./Layout/RouteLayout";
+import DefaultLayout from "./Layout/Default";
 
-import About from "./route/About";
-import Home from "./route/Home";
-import NotFoundPage from "./route/NotFoundPage";
-import PostView from "./route/PostView";
+import About from "./Route/About";
+import Home from "./Route/Home";
+import NotFoundPage from "./Route/NotFoundPage";
+import PostList from "./Route/PostList";
+import PostView from "./Route/PostView";
 import ScrollTop from "./ScrollTop";
 
-function App() {
-    return (
+const App = (props) => {
+    return(
         <Router>
             <ScrollTop>
                 <Switch>
@@ -22,12 +23,22 @@ function App() {
                         component = {withRouter(Home)} />
                     <RouteLayout
                         exact
+                        path = "/blog"
+                        layout = {DefaultLayout}
+                        component = {withRouter(PostList)} />
+                    <RouteLayout
+                        exact
+                        path = "/project"
+                        layout = {DefaultLayout}
+                        component = {withRouter(PostList)} />
+                    <RouteLayout
+                        exact
                         path = "/about"
                         layout = {DefaultLayout}
                         component = {withRouter(About)} />
                     <RouteLayout
                         exact
-                        path = "/postview/:postID"
+                        path = "/postview/:postType/:postID"
                         layout = {DefaultLayout}
                         component = {withRouter(PostView)} />
                     <RouteLayout

@@ -1,0 +1,51 @@
+.divHome{
+    margin-left: 100px;
+}
+
+#divNav{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
+}
+
+#divNav a{
+    text-decoration: none;
+}
+
+#divTitle{
+    margin: 10px;
+}
+
+.blogTitle{
+    font-size: 80px;
+    margin: 0px;
+}
+
+#blogTitle2{
+    color:  #164EAB;
+    font-weight: bold;
+}
+
+.btnNav{
+    height: 45px;
+}
+
+.btnNav span{
+    font-family: "NanumSquare";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1400px){
+    .divHome{
+        margin: 0px;
+    }
+
+    .blogTitle{
+        font-size: 40px;
+        margin: 0px;
+    }
+}
