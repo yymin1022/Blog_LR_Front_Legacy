@@ -1,5 +1,3 @@
-# 택시미터기 for Android
-
 <img src="1_app_main.png" width="30%" />
 <img src="2_app_meter.png" width="30%" />
 
