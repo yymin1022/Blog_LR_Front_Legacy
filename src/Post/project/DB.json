@@ -13,6 +13,13 @@
         "postTitle": "택시미터기",
         "postURL": "210224-taxi-meter"
     },
+    {
+        "pinned": true,
+        "postDate": "Oct 04, 2020",
+        "postTag": ["Android", "Java"],
+        "postTitle": "Soul Rest",
+        "postURL": "201004-Soul-Rest"
+    },
 
     {
         "pinned": false,
@@ -27,6 +34,13 @@
         "postTag": ["Android", "Java"],
         "postTitle": "택시미터기",
         "postURL": "210224-taxi-meter"
+    },
+    {
+        "pinned": false,
+        "postDate": "Oct 04, 2020",
+        "postTag": ["Android", "Java"],
+        "postTitle": "Soul Rest",
+        "postURL": "201004-Soul-Rest"
     },
     {
         "pinned": false,
