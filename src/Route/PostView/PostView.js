@@ -68,10 +68,10 @@ const PostView = (props) => {
 
             <div className="PostTag">
                 {
-                    console.log(postTag),
-                    
                     postTag.map(item => {
-                        <p>{item}</p>
+                        return(
+                            <p>{item}</p>
+                        )
                     })
                 }
             </div>
