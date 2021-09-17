@@ -28,7 +28,7 @@ const PostItem = (props) => {
                         <div className="postPinnedItemText">
                             <p className="pPostTitle">{postTitle}</p>
                             <p className="pPostDate">{postDate}</p>
-                            <p className="pPostTag">{postTag}</p>
+                            <p className="pPostTag">{`#${postTag[0]}`}</p>
                         </div>
                     </div>
                 </Link>
@@ -45,7 +45,7 @@ const PostItem = (props) => {
                         <div className="postItemText">
                             <p className="pPostTitle">{postTitle}</p>
                             <p className="pPostDate">{postDate}</p>
-                            <p className="pPostTag">{postTag}</p>
+                            <p className="pPostTag">{`#${postTag[0]}`}</p>
                         </div>
                     </div>
                 </Link>
