@@ -21,6 +21,9 @@ const PostRenderer = (postID, postType) => {
 
         strong: ({children, ...props}) =>
             <Strong {...props}>{children}</Strong>,
+        
+        ul: ({children, ...props}) =>
+            <Ul {...props}>{children}</Ul>,
     }
 }
 
@@ -42,4 +45,10 @@ const Strong = styled.strong`
     color: #164EAB;
     font-weight: 500;
     padding: 4px;
+`
+
+const Ul = styled.ul`
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 `
