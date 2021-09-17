@@ -70,7 +70,7 @@ const PostView = (props) => {
                 {
                     postTag.map(item => {
                         return(
-                            <p>{item}</p>
+                            <p>{`#${item}`}</p>
                         )
                     })
                 }
