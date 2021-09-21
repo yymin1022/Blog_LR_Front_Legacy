@@ -7,7 +7,7 @@ import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
 const PostRenderer = (postID, postType) => {
     return {
         a: ({children, ...props}) =>
-            <A {...props}>{children}</A>,
+            <A target="_sub" {...props}>{children}</A>,
 
         code: ({inline, className, children, ...props}) => {
             const match = /language-(\w+)/.exec(className || '');
