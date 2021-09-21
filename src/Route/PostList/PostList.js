@@ -2,6 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
+import CaulyView from "../../Util/CaulyView";
 import PostItem from "../../Layout/PostItem";
 
 import blogDB from "../../Post/blog/DB.json";
@@ -43,6 +44,11 @@ const PostList = (props) => {
             </div>
 
             <br/>
+
+            <div className="PostAd" id="CaulyAdvertisement">
+                <CaulyView />
+            </div>
+
             <hr className="seperator"/>
             <br/>
 
