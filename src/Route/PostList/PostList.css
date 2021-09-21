@@ -1,3 +1,7 @@
+.PostAd{
+    display: none;
+}
+
 .postContainer{
     width: 1000px;
     
@@ -30,7 +34,7 @@ hr{
 
 @media screen and (max-width: 1400px){
     .PostAd{
-        display: none;
+        display: block;
     }
 
     .postListContainer{
