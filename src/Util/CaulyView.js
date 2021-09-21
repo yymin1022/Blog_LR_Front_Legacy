@@ -8,7 +8,7 @@ const CaulyView = () => {
 
         caulyElement.innerHTML = `
             new CaulyAds({
-                app_code: 'ITxheEnW',
+                app_code: '${process.env.REACT_APP_CAULY_KEY}',
                 placement: 1,
                 displayid: 'CaulyAdvertisement',
                 passback: function () { },
