@@ -5,7 +5,6 @@ const CaulyView = () => {
 
     useEffect(() => {
         const caulyElement = document.createElement("script");
-        const caulyScript = document.createElement("script");
 
         caulyElement.innerHTML = `
             new CaulyAds({
@@ -18,9 +17,7 @@ const CaulyView = () => {
                 }
             });
         `;
-        caulyScript.setAttribute("src", "https://image.cauly.co.kr/websdk/common/lasted/ads.min.js");
 
-        adRef.current.appendChild(caulyScript);
         adRef.current.appendChild(caulyElement);
 
         
