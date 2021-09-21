@@ -18,10 +18,10 @@ const CaulyView = () => {
                 }
             });
         `;
-        caulyScript.setAttribute("src", "http://image.cauly.co.kr/websdk/common/lasted/ads.min.js");
+        caulyScript.setAttribute("src", "https://image.cauly.co.kr/websdk/common/lasted/ads.min.js");
 
-        adRef.current.appendChild(caulyElement);
         adRef.current.appendChild(caulyScript);
+        adRef.current.appendChild(caulyElement);
 
         
     }, []);
