@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
@@ -14,6 +14,11 @@ const PostList = (props) => {
     let curPath = window.location.pathname;
     let postDB = (curPath == "/blog") ? blogDB : projectDB;
     let postType = (curPath == "/blog") ? "blog" : "project";
+
+    useEffect(() => {
+        let pageType = (curPath == "/blog") ? "Blog" : "Projects";
+        document.title = `${pageType} - LR's Blog`;
+    }, []);
 
     return(
         <div align="center" className="postListContainer">
