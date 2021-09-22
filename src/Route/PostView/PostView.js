@@ -27,6 +27,8 @@ const PostView = (props) => {
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
+                document.title = `${item.postTitle} - LR's Blog`;
+
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
