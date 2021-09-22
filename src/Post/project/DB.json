@@ -58,6 +58,13 @@
     },
     {
         "pinned": false,
+        "postDate": "Jul 29, 2020",
+        "postTag": ["Python", "API", "Flask", "Web"],
+        "postTitle": "와.. API 서버",
+        "postURL": "210829-wa-api"
+    },
+    {
+        "pinned": false,
         "postDate": "Oct 27, 2019",
         "postTag": ["Android", "Java"],
         "postTitle": "Always On Display",
