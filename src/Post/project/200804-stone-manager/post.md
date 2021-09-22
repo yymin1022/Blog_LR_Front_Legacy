@@ -13,13 +13,12 @@ Bluetooth 라이브러리 특성상 매 설정 적용시마다 약 30초간의 �
 
 ***
 
-### 링크
-[Download](https://github.com/yymin1022/StoneManager_JAVA/releases)
-<br/>
+### Links
+[Download](https://github.com/yymin1022/StoneManager_JAVA/releases)<br/>
 [Github](https://github.com/yymin1022/StoneManager_JAVA)
 
 ***
 
-### 배포 내역
+### History
 * 2020\. 07\. 개발 시작
 * 2020\. 08\. V1\.0 배포
