@@ -48,7 +48,12 @@ const Strong = styled.strong`
 `
 
 const Ul = styled.ul`
-    display: table;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
+    width: 500px;
+
+    @media screen and (max-width: 1400px){
+        width: auto;
+    }
 `
