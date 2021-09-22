@@ -2,7 +2,7 @@
  - 중앙대학교 소프트웨어학부 19학번
  - 대학생 1인 개발자
  - 대한민국 공군 ROKAF 병 819기 정보체계관리(30010) 정비통제병
- - [Def:Con](https://defcon.or.kr - 대학생 프로그래밍 팀
+ - [Def:Con](https://defcon.or.kr) - 대학생 프로그래밍 팀
 
 ---
 
@@ -45,7 +45,7 @@
  - Python - Synology DownloadStation Client / [소스코드](https://github.com/yymin1022/Synology_DownloadStation_Client)
  - Python - Telegram Chat Bot for CAU Meal Noti / [소스코드](https://github.com/yymin1022/CAU_Meal_Bot_Telegram)
  - Python Flask - Def:Con Web / [소스코드](https://defcon.or.kr) / [소스코드](https://github.com/yymin1022/DefCon_Server)
- - ...more on my [Github](https://github.com/yymin1022
+ - ...more on my [Github](https://github.com/yymin1022)
 
 ---
 
@@ -61,7 +61,7 @@
 ---
 
 ### Contact Me Online
- - [Github](https://github.com/yymin1022")
+ - [Github](https://github.com/yymin1022)
  - [Google Play](https://play.google.com/store/apps/developer?id=Dev.+LR)
  - [Facebook](https://www.facebook.com/profile.php?id=100007285635473)
  - [Instagram](https://instagram.com/useful_min)

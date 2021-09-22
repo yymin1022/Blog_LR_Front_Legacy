@@ -5,6 +5,8 @@
 팬택 IM-100 (2016) 기기에 선탑재된 기본 음악 애플리케이션을
 Android 6.0 이상의 모든 기기에서 이용할 수 있도록 포팅한 자료입니다.
 
+***
+
 ### How To
 
 * [Release 페이지](https://github.com/yymin1022/IM-100_Music/releases) 에서 Latest 태그로 업로드된 3개의 apk를 다운로드한 뒤 기기에 설치합니다.
@@ -18,11 +20,11 @@ Android 6.0 이상의 모든 기기에서 이용할 수 있도록 포팅한 자�
 
 ***
 
-### 링크
+### Links
 [Github](https://github.com/yymin1022/IM-100_Music)
 
 ***
 
-### 배포 내역
+### History
 * 2016\. 07\. 개발 시작
 * 2016\. 08\. V1\.0 배포
