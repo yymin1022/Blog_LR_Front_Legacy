@@ -14,6 +14,8 @@ const About = () => {
     const [aboutData, setAboutData] = useState("");
 
     useEffect(() => {
+        document.title = "About - LR's Blog";
+
         fetch(MDFile).then(
             MDResource => MDResource.text().then(
                 MDText => setAboutData(MDText)

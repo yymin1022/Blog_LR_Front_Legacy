@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
 
 import Button from "@material-ui/core/Button";
@@ -6,6 +6,10 @@ import Button from "@material-ui/core/Button";
 import "./Home.css";
 
 const Home = (props) => {
+    useEffect(() => {
+        document.title = "LR's Blog";
+    }, []);
+
     return(
         <div className="divHome">
             <div id="divTitle">
