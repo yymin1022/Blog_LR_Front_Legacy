@@ -16,6 +16,8 @@ Python Flask를 이용해 개발되었으며, 추후 Node.JS 기반으로 개선
 [API Usage Guide(En)](https://github.com/yymin1022/Wa_API/blob/master/Guide_EN.md)<br/>
 [API Usage Guide(Ko)](https://github.com/yymin1022/Wa_API/blob/master/Guide_KO.md)
 
+***
+
 ### History
 
 * 2020\. 01\. 카카오톡 봇 형태 시작
