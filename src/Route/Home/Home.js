@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 
 import "./Home.css";
 
-const Home = (props) => {
+const Home = () => {
     useEffect(() => {
         document.title = "LR's Blog";
     }, []);

@@ -10,15 +10,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import "./SideMenu.css";
 
-const SideMenu = (props) => {
-    const {
-        className,
-    } = props;
-
+const SideMenu = () => {
     return (
-        <div
-            id="SideMenu"
-            className={className}>
+        <div id="SideMenu">
             <div id="SideMenuContent">
                 <Link to="/">
                     <div id="SideMenuTitle">
@@ -70,10 +64,6 @@ const SideMenu = (props) => {
             </div>
         </div>
     );
-}
-
-SideMenu.propTypes = {
-    className: PropTypes.string,
 }
 
 export default SideMenu;
