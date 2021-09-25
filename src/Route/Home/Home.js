@@ -8,6 +8,10 @@ import "./Home.css";
 const Home = () => {
     useEffect(() => {
         document.title = "LR's Blog";
+
+        return () => {
+            window.scrollTop = 0;
+        }
     }, []);
 
     return(
