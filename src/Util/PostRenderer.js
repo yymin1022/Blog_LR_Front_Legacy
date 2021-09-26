@@ -8,12 +8,14 @@ import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
 const PostRenderer = (postID, postType) => {
     return {
         a: ({children, ...props}) =>{
-            <Link {...props} target="_sub">
-                <AContainer>
-                    <p className="postLinkTitle">children</p>
-                    <p className="postLinkURL">{props.href}</p>
-                </AContainer>
-            </Link>
+            return(
+                <Link {...props} target="_sub">
+                    <AContainer>
+                        <p className="postLinkTitle">children</p>
+                        <p className="postLinkURL">{props.href}</p>
+                    </AContainer>
+                </Link>
+            )
         },
             // <A target="_sub" {...props}>{children}</A>,
 
