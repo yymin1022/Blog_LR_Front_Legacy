@@ -50,7 +50,7 @@ const AContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    border: 1px #AAAAAA solid;
+    border: 1px #EEEEEE solid;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 
     transition: box-shadow .3s;
