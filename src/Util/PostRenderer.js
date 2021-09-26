@@ -10,7 +10,7 @@ const PostRenderer = (postID, postType) => {
         a: ({children, ...props}) =>{
             if(postType !== "About"){
                 return(
-                    <a target="_sub" {...props}>
+                    <a target="_blank" {...props}>
                         <AContainer>
                             <p className="postLinkTitle">{children}</p>
                             <p className="postLinkURL">{props.href}</p>
@@ -19,7 +19,7 @@ const PostRenderer = (postID, postType) => {
                 )
             }else{
                 return(
-                    <A target="_sub" {...props}>{children}</A>
+                    <A target="_blank" {...props}>{children}</A>
                 )
             }
         },
