@@ -6,8 +6,15 @@ import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 const PostRenderer = (postID, postType) => {
     return {
-        a: ({children, ...props}) =>
-            <A target="_sub" {...props}>{children}</A>,
+        a: ({children, ...props}) =>{
+            <Link {...props} target="_sub">
+                <AContainer>
+                    <p className="postLinkTitle">children</p>
+                    <p className="postLinkURL">{href}</p>
+                </AContainer>
+            </Link>
+        },
+            // <A target="_sub" {...props}>{children}</A>,
 
         code: ({inline, className, children, ...props}) => {
             const match = /language-(\w+)/.exec(className || '');
@@ -29,14 +36,19 @@ const PostRenderer = (postID, postType) => {
 
 export default PostRenderer;
 
-const A = styled.a`
-    color: #164EAB;
-    font-weight: 900;
-    text-decoration: none;
-    transition: color .3s;
+const AContainer = styled.div`
+    display: flex;
+    flex-direction: column;
 
-    &:hover {
-        color: #0b2b5e;
+    .postLinkTitle{
+        color: #164EAB;
+        font-weight: 900;
+        text-decoration: none;
+        transition: color .3s;
+        
+        &:hover {
+            color: #0b2b5e;
+        }
     }
 `
 
