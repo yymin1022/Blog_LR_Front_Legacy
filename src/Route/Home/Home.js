@@ -9,10 +9,6 @@ import Metadata from "../../Util/Metadata.js";
 import "./Home.css";
 
 const Home = () => {
-    const MetadataContent = {
-        title: "LR's IT Blog"
-    }
-
     useEffect(() => {
         return () => {
             window.scrollTo(0, 0);
@@ -21,7 +17,7 @@ const Home = () => {
 
     return(
         <>
-            <Metadata data={MetadataContent} />
+            <Metadata data={{title: "LR's IT Blog"}} />
 
             <div className="divHome">
                 <div id="divTitle">
