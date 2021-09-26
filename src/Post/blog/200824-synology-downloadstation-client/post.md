@@ -19,7 +19,7 @@ __[새 버전 포스팅 확인하기](https://dev-lr.com/postview/blog/200902-sy
 **XPEnology** 운영체제를 설치해<br/>
 개인 Nas로 활용하고 있습니다.
 
-[ODroid H2 XPEnology 설치 가이드 포스팅](https://dev-lr.com/postview/blog/odroid-h2-xpenology-guide)
+[ODroid H2 XPEnology 설치 가이드 포스팅](https://blog-new.defcon.or.kr/postview/blog/200829-odroid-h2-xpenology-guide-new)
 
 **XPEnology** 는 **Synology** 사의 Nas용 운영체제를<br/>
 다른 기기에서도 사용할 수 있도록 변조시킨 운영체제입니다.
@@ -112,7 +112,7 @@ Login 버튼을 클릭했을 때<br/>
 
 ## 다운로드
 
-[DownloadStation Client 다운로드](https://drive.defcon.or.kr/sharing/EC5q5AyT)
+[DownloadStation Client 다운로드](https://drive.defcon.or.kr/sharing/2R5QJGiRg)
 
 다운로드는 위 링크에서 가능하며,<br/>
 **Windows** 용 exe 파일과 **Linux** 용 바이너리 파일을<br/>
