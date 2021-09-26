@@ -53,6 +53,7 @@ const AContainer = styled.div`
         color: #164EAB;
         font-size: 17px;
         font-weight: 900;
+        margin: 0px;
         text-decoration: none;
         transition: color .3s;
 
@@ -65,6 +66,7 @@ const AContainer = styled.div`
         color: #5a79dd;
         font-size: 13px;
         font-weight: 500;
+        margin: 0px;
         text-decoration: none;
     }
 `
