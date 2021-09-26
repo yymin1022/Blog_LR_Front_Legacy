@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import RehypeRaw from "rehype-raw";
 import RemarkGFM from "remark-gfm";
 
+import Metadata from "../../Util/Metadata.js";
 import PostRenderer from "../../Util/PostRenderer";
 import Utterance from "../../Util/Utterance";
 
@@ -49,13 +50,11 @@ const PostView = (props) => {
 
     return(
         <>
-            <Helmet>
-                <title>{postTitle} - LR's IT Blog</title>
-                <meta name="description" property="og:description" content="1인개발자 LR의 IT블로그" />
-                <meta name="image" property="og:image" content="logo.png" />
-                <meta name="url" property="og:url" content={window.location.href} />
-            </Helmet>
-
+        <Metadata data={{
+            title: `${postTitle} - LR's IT Blog`,
+            postID: postID,
+            postType: postType}} />
+        
             <div align="center" className="PostContainer">
                 <div className="PostTitle">
                     <h2>{postTitle}</h2>

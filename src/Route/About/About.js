@@ -6,6 +6,7 @@ import RehypeRaw from "rehype-raw";
 import RemarkGFM from "remark-gfm";
 
 import MDFile from "../../Post/About/about.md";
+import Metadata from "../../Util/Metadata.js";
 import PostRenderer from "../../Util/PostRenderer";
 import Utterance from "../../Util/Utterance";
 
@@ -28,12 +29,7 @@ const About = () => {
 
     return(
         <>
-            <Helmet>
-                <title>About - LR's IT Blog</title>
-                <meta name="description" property="og:description" content="1인개발자 LR의 IT블로그" />
-                <meta name="image" property="og:image" content="logo.png" />
-                <meta name="url" property="og:url" content={window.location.href} />
-            </Helmet>
+            <Metadata data={{title: "About - LR's IT Blog"}} />
 
             <div align="center">
                 <div className="AboutContent">
