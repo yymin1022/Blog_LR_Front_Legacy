@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {Helmet} from 'react-helmet';
 import {Link} from "react-router-dom";
 
 import ReactMarkdown from "react-markdown";
@@ -27,8 +28,6 @@ const PostView = (props) => {
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                setMetaTags({title: `${item.postTitle} - LR's IT Blog`, imageUrl: require(`../../Post/${props.match.params.postType}/${item.postURL}/thumb.png`)});
-
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
@@ -49,65 +48,60 @@ const PostView = (props) => {
     }, [postID]);
 
     return(
-        <div align="center" className="PostContainer">
-            <div className="PostTitle">
-                <h2>{postTitle}</h2>
+        <>
+            <Helmet meta={[
+                {property: "og:title", content: `${postTitle} - LR's IT Blog` },
+                {property: "og:description", content: "대학생 1인개발자 LR의 IT블로그" },
+                {property: "og:image", content: "%PUBLIC_URL%/logo.png" },
+            ]} />
+            <div align="center" className="PostContainer">
+                <div className="PostTitle">
+                    <h2>{postTitle}</h2>
 
-                <div className="PostAuthorDate">
-                    <p>written by LR</p>
-                    <p>|</p>
-                    <p>{postDate}</p>
+                    <div className="PostAuthorDate">
+                        <p>written by LR</p>
+                        <p>|</p>
+                        <p>{postDate}</p>
+                    </div>
+                </div>
+
+                <hr className="PostSeperator"/>
+
+                <div className="PostViewContent">
+                    <div className="markdown-body">
+                        <ReactMarkdown
+                            children={postData}
+                            components={PostRenderer(postID, postType)}
+                            rehypePlugins={[RehypeRaw]}
+                            remarkPlugins={[RemarkGFM]} />
+                    </div>
+                </div>
+
+                <div className="PostTag">
+                    {
+                        postTag.map(item => {
+                            return(
+                                <p>{`#${item}`}</p>
+                            )
+                        })
+                    }
+                </div>
+
+                <div className="divComment">
+                    <Utterance />
+                </div>
+
+                <div className="PostFooter">
+                    <Link to={"/"}>
+                        <h3 className="PostFooterNav">Home</h3>
+                    </Link>
+                    <Link to={"/about"}>
+                        <h3 className="PostFooterNav">About</h3>
+                    </Link>
                 </div>
             </div>
-
-            <hr className="PostSeperator"/>
-
-            <div className="PostViewContent">
-                <div className="markdown-body">
-                    <ReactMarkdown
-                        children={postData}
-                        components={PostRenderer(postID, postType)}
-                        rehypePlugins={[RehypeRaw]}
-                        remarkPlugins={[RemarkGFM]} />
-                </div>
-            </div>
-
-            <div className="PostTag">
-                {
-                    postTag.map(item => {
-                        return(
-                            <p>{`#${item}`}</p>
-                        )
-                    })
-                }
-            </div>
-
-            <div className="divComment">
-                <Utterance />
-            </div>
-
-            <div className="PostFooter">
-                <Link to={"/"}>
-                    <h3 className="PostFooterNav">Home</h3>
-                </Link>
-                <Link to={"/about"}>
-                    <h3 className="PostFooterNav">About</h3>
-                </Link>
-            </div>
-        </div>
+        </>
     )
 }
-
-const setMetaTags = (
-    {
-        title = "LR's IT Blog",
-        description = "대학생 1인개발자 LR의 IT블로그",
-        imageUrl = "logo.png"
-    }) => {
-    document.querySelector('meta[property="og:title"]').setAttribute("content", `${title}`);
-    document.querySelector('meta[property="og:description"]').setAttribute("content", description);
-    document.querySelector('meta[property="og:image"]') .setAttribute("content", imageUrl);
-    document.querySelector('meta[property="og:url"]') .setAttribute("content", window.location.href);
-};
 
 export default PostView;
