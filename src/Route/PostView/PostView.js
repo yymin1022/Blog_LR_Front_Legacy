@@ -49,11 +49,13 @@ const PostView = (props) => {
 
     return(
         <>
-            <Helmet meta={[
-                {property: "og:title", content: `${postTitle} - LR's IT Blog` },
-                {property: "og:description", content: "대학생 1인개발자 LR의 IT블로그" },
-                {property: "og:image", content: "%PUBLIC_URL%/logo.png" },
-            ]} />
+            <Helmet>
+                <title>{postTitle} - LR's IT Blog</title>
+                <meta name="description" property="og:description" content="1인개발자 LR의 IT블로그" />
+                <meta name="image" property="og:image" content="logo.png" />
+                <meta name="url" property="og:url" content={window.location.href} />
+            </Helmet>
+            
             <div align="center" className="PostContainer">
                 <div className="PostTitle">
                     <h2>{postTitle}</h2>
