@@ -15,11 +15,13 @@ const Home = () => {
 
     return(
         <>
-            <Helmet meta={[
-                    {property: "og:title", content: "LR's IT Blog" },
-                    {property: "og:description", content: "대학생 1인개발자 LR의 IT블로그" },
-                    {property: "og:image", content: "%PUBLIC_URL%/logo.png" },
-                ]} />
+            <Helmet>
+                <title>LR's IT Blog</title>
+                <meta name="description" property="og:description" content="1인개발자 LR의 IT블로그" />
+                <meta name="image" property="og:image" content="logo.png" />
+                <meta name="url" property="og:url" content={window.location.href} />
+            </Helmet>
+            
             <div className="divHome">
                 <div id="divTitle">
                     <p className="blogTitle" id="blogTitle1">안녕하세요</p>
