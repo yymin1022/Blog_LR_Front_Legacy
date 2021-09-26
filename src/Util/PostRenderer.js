@@ -48,6 +48,8 @@ const AContainer = styled.div`
 
     display: flex;
     flex-direction: column;
+
+    align-items: center;
     justify-content: center;
 
     border: 1px #EEEEEE solid;
@@ -65,7 +67,10 @@ const AContainer = styled.div`
         font-size: 17px;
         font-weight: 900;
         margin: 0px;
+        max-width: 90%;
+        overflow: hidden;
         text-decoration: none;
+        white-space: nowrap;
     }
 
     .postLinkURL{
@@ -73,7 +78,10 @@ const AContainer = styled.div`
         font-size: 15px;
         font-weight: 500;
         margin: 0px;
+        max-width: 90%;
+        overflow: hidden;
         text-decoration: none;
+        white-space: nowrap;
     }
 
     @media screen and (max-width: 1400px){
