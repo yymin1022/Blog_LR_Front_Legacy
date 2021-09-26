@@ -17,7 +17,7 @@ const Home = () => {
 
     return(
         <>
-            <Metadata data={title: "LR's IT Blog"} />
+            <Metadata data={{title: "LR's IT Blog"}} />
 
             <div className="divHome">
                 <div id="divTitle">
