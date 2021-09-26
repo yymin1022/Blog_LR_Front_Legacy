@@ -34,7 +34,7 @@ x86포럼에서 **Catalina 10.15.3 Build.19D76** gho파일을 이용해 설치�
  </ul>
 
 ## Download
-다운로드하려면 [여기](https://drive.defcon.or.kr/sharing/VHcyuI9RP) 를 클릭하세요
+[EFI 다운로드](https://drive.defcon.or.kr/sharing/VHcyuI9RP)
 
 **DSDT** 수정을 여러번 거치면 남아있는 오류들도 수정이 가능할것 같긴 하지만,<br/>
 제 실력으로는 도저히 더이상의 개선이 어렵지 싶습니다.<br/>
