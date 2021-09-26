@@ -75,6 +75,10 @@ const AContainer = styled.div`
         margin: 0px;
         text-decoration: none;
     }
+
+    @media screen and (max-width: 1400px){
+        width: 100%;
+    }
 `
 
 const Strong = styled.strong`
