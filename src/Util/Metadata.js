@@ -11,7 +11,7 @@ const Metadata = ({data}) => {
             <title>{title}</title>
             <meta property="og:title" content={title} />
             
-            {image ? <meta property="og:image" content={require(`../Post/${postType}/${postID}/thumb.png`).default} /> : <meta property="og:image" content={"logo.png"}/>}
+            {postID ? <meta property="og:image" content={require(`../Post/${postType}/${postID}/thumb.png`).default} /> : <meta property="og:image" content={"logo.png"}/>}
             <meta property="og:image:width" content={500} />
             <meta property="og:image:height" content={500} />
         </Helmet>
