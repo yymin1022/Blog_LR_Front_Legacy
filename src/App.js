@@ -11,7 +11,7 @@ import PostList from "./Route/PostList";
 import PostView from "./Route/PostView";
 import ScrollTop from "./ScrollTop";
 
-const App = (   ) => {
+const App = () => {
     return(
         <Router>
             <ScrollTop>
