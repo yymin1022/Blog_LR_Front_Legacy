@@ -23,8 +23,7 @@ const PostRenderer = (postID, postType) => {
                 )
             }
         },
-            // <A target="_sub" {...props}>{children}</A>,
-
+        
         code: ({inline, className, children, ...props}) => {
             const match = /language-(\w+)/.exec(className || '');
             return !inline && match 
