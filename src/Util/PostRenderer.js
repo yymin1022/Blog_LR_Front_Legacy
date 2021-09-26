@@ -50,13 +50,13 @@ const AContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    background-color: #FFFFFF;
     border: 1px #AAAAAA solid;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 
-    transition: background-color .3s;
+    transition: box-shadow .3s;
 
     &:hover {
-        background-color: #EEEEEE;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
 
     .postLinkTitle{
