@@ -22,7 +22,7 @@ const About = () => {
         );
 
         return () => {
-            window.scrollTop = 0;
+            window.scrollTo(0, 0);
         }
     }, []);
 
@@ -34,7 +34,7 @@ const About = () => {
                 <meta name="image" property="og:image" content="logo.png" />
                 <meta name="url" property="og:url" content={window.location.href} />
             </Helmet>
-            
+
             <div align="center">
                 <div className="AboutContent">
                     <div className="markdown-body-about">

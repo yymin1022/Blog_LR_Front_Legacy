@@ -43,7 +43,7 @@ const PostView = (props) => {
         });
 
         return () => {
-            window.scrollTop = 0;
+            window.scrollTo(0, 0);
         }
     }, [postID]);
 
@@ -55,7 +55,7 @@ const PostView = (props) => {
                 <meta name="image" property="og:image" content="logo.png" />
                 <meta name="url" property="og:url" content={window.location.href} />
             </Helmet>
-            
+
             <div align="center" className="PostContainer">
                 <div className="PostTitle">
                     <h2>{postTitle}</h2>

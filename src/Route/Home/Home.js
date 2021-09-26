@@ -9,7 +9,7 @@ import "./Home.css";
 const Home = () => {
     useEffect(() => {
         return () => {
-            window.scrollTop = 0;
+            window.scrollTo(0, 0);
         }
     }, []);
 
@@ -21,7 +21,7 @@ const Home = () => {
                 <meta name="image" property="og:image" content="logo.png" />
                 <meta name="url" property="og:url" content={window.location.href} />
             </Helmet>
-            
+
             <div className="divHome">
                 <div id="divTitle">
                     <p className="blogTitle" id="blogTitle1">안녕하세요</p>
