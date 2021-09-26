@@ -64,7 +64,7 @@ const AContainer = styled.div`
 
     .postLinkURL{
         color: #5a79dd;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 500;
         margin: 0px;
         text-decoration: none;
