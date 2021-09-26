@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
 import CaulyView from "../../Util/CaulyView";
+import Metadata from "../../Util/Metadata.js";
 import PostItem from "../../Layout/PostItem";
 
 import blogDB from "../../Post/blog/DB.json";
@@ -25,13 +26,8 @@ const PostList = () => {
 
     return(
         <>
-            <Helmet>
-                <title>{pageType} - LR's IT Blog</title>
-                <meta name="description" property="og:description" content="1인개발자 LR의 IT블로그" />
-                <meta name="image" property="og:image" content="logo.png" />
-                <meta name="url" property="og:url" content={window.location.href} />
-            </Helmet>
-
+            <Metadata data={{title: `${pageType} - LR's IT Blog`}} />
+            
             <div align="center" className="postListContainer">
                 <div align="left" className="postPinnedTitle">
                     <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
