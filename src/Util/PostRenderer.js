@@ -40,11 +40,18 @@ const PostRenderer = (postID, postType) => {
 export default PostRenderer;
 
 const AContainer = styled.div`
+    height: 100px;
+    width: 450px;
+
+    margin-left: auto;
+    margin-right: auto;
+
     display: flex;
     flex-direction: column;
 
     .postLinkTitle{
         color: #164EAB;
+        font-size: 17px;
         font-weight: 900;
         text-decoration: none;
         transition: color .3s;
@@ -52,6 +59,13 @@ const AContainer = styled.div`
         &:hover {
             color: #0b2b5e;
         }
+    }
+
+    .postLinkURL{
+        color: #5a79dd;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
     }
 `
 
