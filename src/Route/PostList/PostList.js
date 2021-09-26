@@ -17,7 +17,7 @@ const PostList = () => {
 
     useEffect(() => {
         let pageType = (curPath == "/blog") ? "Blog" : "Projects";
-        document.title = `${pageType} - LR's IT Blog`;
+        setMetaTags({title: `${pageType} - LR's IT Blog`});
 
         return () => {
             window.scrollTop = 0;
@@ -81,5 +81,17 @@ const PostList = () => {
         </div>
     )
 }
+
+const setMetaTags = (
+    {
+        title = "LR's IT Blog",
+        description = "대학생 1인개발자 LR의 IT블로그",
+        imageUrl = "logo.png"
+    }) => {
+    document.querySelector('meta[property="og:title"]').setAttribute("content", `${title}`);
+    document.querySelector('meta[property="og:description"]').setAttribute("content", description);
+    document.querySelector('meta[property="og:image"]') .setAttribute("content", imageUrl);
+    document.querySelector('meta[property="og:url"]') .setAttribute("content", window.location.href);
+};
 
 export default PostList;

@@ -40,7 +40,6 @@ const Home = () => {
 
 }
 
-
 const setMetaTags = (
     {
         title = "LR's IT Blog",

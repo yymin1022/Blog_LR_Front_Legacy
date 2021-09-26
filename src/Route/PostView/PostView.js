@@ -27,7 +27,7 @@ const PostView = (props) => {
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                document.title = `${item.postTitle} - LR's IT Blog`;
+                setMetaTags({title: `${item.postTitle} - LR's IT Blog`, imageUrl: require(`../../Post/${item.postType}/${item.postURL}/thumb.png`)});
 
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
@@ -97,5 +97,17 @@ const PostView = (props) => {
         </div>
     )
 }
+
+const setMetaTags = (
+    {
+        title = "LR's IT Blog",
+        description = "대학생 1인개발자 LR의 IT블로그",
+        imageUrl = "logo.png"
+    }) => {
+    document.querySelector('meta[property="og:title"]').setAttribute("content", `${title}`);
+    document.querySelector('meta[property="og:description"]').setAttribute("content", description);
+    document.querySelector('meta[property="og:image"]') .setAttribute("content", imageUrl);
+    document.querySelector('meta[property="og:url"]') .setAttribute("content", window.location.href);
+};
 
 export default PostView;
