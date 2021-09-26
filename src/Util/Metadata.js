@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 
 const Metadata = ({data}) => {
     const title = data.title;
-    const image = data.image !== undefined && `${data.image}`;''
+    const image = data.image !== undefined && `${data.image}`;
 
     return (
         <Helmet>
