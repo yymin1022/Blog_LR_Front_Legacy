@@ -11,7 +11,7 @@ const PostRenderer = (postID, postType) => {
             return(
                 <Link {...props} target="_sub">
                     <AContainer>
-                        <p className="postLinkTitle">children</p>
+                        <p className="postLinkTitle">{children}</p>
                         <p className="postLinkURL">{props.href}</p>
                     </AContainer>
                 </Link>
