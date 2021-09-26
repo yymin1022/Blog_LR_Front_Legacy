@@ -8,14 +8,20 @@ import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
 const PostRenderer = (postID, postType) => {
     return {
         a: ({children, ...props}) =>{
-            return(
-                <Link {...props} target="_sub">
-                    <AContainer>
-                        <p className="postLinkTitle">{children}</p>
-                        <p className="postLinkURL">{props.href}</p>
-                    </AContainer>
-                </Link>
-            )
+            if(postType !== "About"){
+                return(
+                    <Link {...props} target="_sub">
+                        <AContainer>
+                            <p className="postLinkTitle">{children}</p>
+                            <p className="postLinkURL">{props.href}</p>
+                        </AContainer>
+                    </Link>
+                )
+            }else{
+                return(
+                    <A target="_sub" {...props}>{children}</A>
+                )
+            }
         },
             // <A target="_sub" {...props}>{children}</A>,
 
@@ -38,6 +44,16 @@ const PostRenderer = (postID, postType) => {
 }
 
 export default PostRenderer;
+
+const A = styled.a`
+    color: #164EAB;
+    font-weight: 900;
+    text-decoration: none;
+    transition: color .3s;
+    &:hover {
+        color: #0b2b5e;
+    }
+`
 
 const AContainer = styled.div`
     height: 100px;
