@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Home = () => {
     useEffect(() => {
-        document.title = "LR's Blog";
+        document.title = "LR's IT Blog";
 
         return () => {
             window.scrollTop = 0;

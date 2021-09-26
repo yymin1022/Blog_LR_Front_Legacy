@@ -17,7 +17,7 @@ const PostList = () => {
 
     useEffect(() => {
         let pageType = (curPath == "/blog") ? "Blog" : "Projects";
-        document.title = `${pageType} - LR's Blog`;
+        document.title = `${pageType} - LR's IT Blog`;
 
         return () => {
             window.scrollTop = 0;
