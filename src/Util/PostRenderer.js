@@ -48,6 +48,9 @@ const AContainer = styled.div`
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+    border: 1px #AAAAAA solid;
 
     .postLinkTitle{
         color: #164EAB;
