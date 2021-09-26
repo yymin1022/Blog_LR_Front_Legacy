@@ -1,6 +1,5 @@
 import React from "react"; 
 import styled from "styled-components";
-import {Link} from "react-router-dom";
 
 import {Prism as SyntaxHighlighter} from "react-syntax-highlighter";
 import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
