@@ -27,7 +27,7 @@ const PostView = (props) => {
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
-                setMetaTags({title: `${item.postTitle} - LR's IT Blog`, imageUrl: require(`../../Post/${item.postType}/${item.postURL}/thumb.png`)});
+                setMetaTags({title: `${item.postTitle} - LR's IT Blog`, imageUrl: require(`../../Post/${props.match.params.postType}/${item.postURL}/thumb.png`)});
 
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
