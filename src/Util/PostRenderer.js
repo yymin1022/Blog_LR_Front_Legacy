@@ -50,7 +50,14 @@ const AContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 
+    background-color: #FFFFFF;
     border: 1px #AAAAAA solid;
+
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: #EEEEEE;
+    }
 
     .postLinkTitle{
         color: #164EAB;
@@ -58,11 +65,6 @@ const AContainer = styled.div`
         font-weight: 900;
         margin: 0px;
         text-decoration: none;
-        transition: color .3s;
-
-        &:hover {
-            color: #0b2b5e;
-        }
     }
 
     .postLinkURL{
