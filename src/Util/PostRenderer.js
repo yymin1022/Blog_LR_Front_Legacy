@@ -1,5 +1,6 @@
 import React from "react"; 
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 import {Prism as SyntaxHighlighter} from "react-syntax-highlighter";
 import {darcula} from 'react-syntax-highlighter/dist/esm/styles/prism'
@@ -10,7 +11,7 @@ const PostRenderer = (postID, postType) => {
             <Link {...props} target="_sub">
                 <AContainer>
                     <p className="postLinkTitle">children</p>
-                    <p className="postLinkURL">{href}</p>
+                    <p className="postLinkURL">{props.href}</p>
                 </AContainer>
             </Link>
         },
@@ -45,7 +46,7 @@ const AContainer = styled.div`
         font-weight: 900;
         text-decoration: none;
         transition: color .3s;
-        
+
         &:hover {
             color: #0b2b5e;
         }
