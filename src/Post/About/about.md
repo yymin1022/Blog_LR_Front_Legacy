@@ -19,7 +19,7 @@
  - Flutter : Studying
  - Java : Console / Swing GUI
  - Linux : Apache2 Hosting / Kernel Build / OS Management / Server Management
- - Python : Console / QT GUI / Telegram Bot
+ - Python : Console / Discord Bot / QT GUI / Telegram Bot
  - React.js : CSR Web Page
  - Web : HTML (But it is not Programming) / JS / php / Python Flask / Restful API
 
