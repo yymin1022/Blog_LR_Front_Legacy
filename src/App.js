@@ -31,6 +31,11 @@ const App = () => {
                         path = "/project"
                         layout = {DefaultLayout}
                         component = {withRouter(PostList)} />
+                        <RouteLayout
+                            exact
+                            path = "/solving"
+                            layout = {DefaultLayout}
+                            component = {withRouter(PostList)} />
                     <RouteLayout
                         exact
                         path = "/about"
