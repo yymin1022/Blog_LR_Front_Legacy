@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import {Helmet} from 'react-helmet';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faThumbtack} from "@fortawesome/free-solid-svg-icons"
 
