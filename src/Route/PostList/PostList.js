@@ -8,14 +8,15 @@ import PostItem from "../../Layout/PostItem";
 
 import blogDB from "../../Post/blog/DB.json";
 import projectDB from "../../Post/project/DB.json";
+import solvingDB from "../../Post/solving/DB.json";
 
 import "./PostList.css";
 
 const PostList = () => {
     let curPath = window.location.pathname;
-    let pageType = (curPath == "/blog") ? "Blog" : "Projects";
-    let postDB = (curPath == "/blog") ? blogDB : projectDB;
-    let postType = (curPath == "/blog") ? "blog" : "project";
+    let pageType = (curPath == "/blog") ? "Blog" : (curPath == "/project") ? "Projects" : "Solving";
+    let postDB = (curPath == "/blog") ? blogDB : (curPath == "/project") ? projectDB : solvingDB;
+    let postType = (curPath == "/blog") ? "blog" :  (curPath == "/project") ? "project" : "solving";
 
     useEffect(() => {
         return () => {
