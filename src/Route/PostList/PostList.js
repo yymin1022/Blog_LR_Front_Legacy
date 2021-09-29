@@ -12,6 +12,12 @@ import solvingDB from "../../Post/solving/DB.json";
 
 import "./PostList.css";
 
+/********
+Blog : Pinned 4개. 
+Projects : Pinned 4개.
+Problem Solving : Pinned 없음. Title에 문제이름, Date에 문제번호 기록 ex) BOJ 1022 / Programmers 1022
+*********/
+
 const PostList = () => {
     let curPath = window.location.pathname;
     let pageType = (curPath == "/blog") ? "Blog" : (curPath == "/project") ? "Projects" : "Solving";
