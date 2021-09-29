@@ -14,6 +14,12 @@ import projectDB from "../../Post/project/DB.json";
 
 import "./PostView.css";
 
+/********
+Blog : Pinned 4개. 
+Projects : Pinned 4개.
+Problem Solving : Pinned 없음. Date에 문제번호 기록 ex) BOJ 1022 / Programmers 1022
+*********/
+
 const PostView = (props) => {
     const [postData, setPostData] = useState("");
     const [postDate, setPostDate] = useState("");
