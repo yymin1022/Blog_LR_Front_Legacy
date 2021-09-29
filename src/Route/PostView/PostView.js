@@ -17,7 +17,7 @@ import "./PostView.css";
 /********
 Blog : Pinned 4개. 
 Projects : Pinned 4개.
-Problem Solving : Pinned 없음. Date에 문제번호 기록 ex) BOJ 1022 / Programmers 1022
+Problem Solving : Pinned 없음. Title에 문제이름, Date에 문제번호 기록 ex) BOJ 1022 / Programmers 1022
 *********/
 
 const PostView = (props) => {
