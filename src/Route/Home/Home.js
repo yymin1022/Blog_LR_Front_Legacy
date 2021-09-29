@@ -34,6 +34,10 @@ const Home = () => {
                         <Button className="btnNav">Project</Button>
                     </Link>
 
+                    <Link to={"/solving"}>
+                        <Button className="btnNav">Problem Solving</Button>
+                    </Link>
+
                     <Link to={"/about"}>
                         <Button className="btnNav">About</Button>
                     </Link>
