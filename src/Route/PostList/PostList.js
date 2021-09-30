@@ -38,7 +38,7 @@ const PostList = () => {
                 <div align="left" className="postPinnedTitle">
                     <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                     <a style={{color: "#606060", marginLeft: "5px", textSize: "25px"}}>
-                        Pinned
+                        {(postType == "solving") ? "BOJ" :  "Pinned"}
                     </a>
                     <br/>
                 </div>
