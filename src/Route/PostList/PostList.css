@@ -12,6 +12,9 @@
     
 .postContainerTitle{
     width: 990px;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .postPinnedContainer{
