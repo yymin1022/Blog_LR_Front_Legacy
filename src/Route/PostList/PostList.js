@@ -35,7 +35,7 @@ const PostList = () => {
             <Metadata data={{title: `${pageType} - LR's IT Blog`}} />
             
             <div align="center" className="postListContainer">
-                <div align="left" className="postPinnedTitle">
+                <div align="left" className="postContainerTitle">
                     {(postType != "solving") ?  
                         <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                         : ""
@@ -71,10 +71,13 @@ const PostList = () => {
                 </div>
 
                 <hr className="seperator"/>
-                <p style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
-                    {(postType == "solving") ? "Programmers" :  ""}
-                </p>
                 <br/>
+
+                <div align="left" className="postContainerTitle">
+                    <p style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
+                        {(postType == "solving") ? "Programmers" :  ""}
+                    </p>
+                </div>
 
                 <div className="postContainer">
                     {
