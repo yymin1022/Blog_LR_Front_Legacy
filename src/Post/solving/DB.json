@@ -1,22 +1,23 @@
 [
     {
-        "pinned": false,
+        "pinned": true,
         "postDate": "BOJ 1234",
         "postTag": ["BOJ", "Test"],
         "postTitle": "백준 1234",
         "postURL": "210902-test-post"
     },
     {
-        "pinned": false,
+        "pinned": true,
         "postDate": "BOJ 1357",
         "postTag": ["BOJ", "Test"],
         "postTitle": "백준 1357",
         "postURL": "210902-test-post"
     },
+
     {
         "pinned": false,
         "postDate": "Programmers 2134213",
-        "postTag": ["BOJ", "Test"],
+        "postTag": ["Programmers", "Test"],
         "postTitle": "프로그래머스 2134213",
         "postURL": "210902-test-post"
     },
