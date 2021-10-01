@@ -52,15 +52,27 @@ const PostList = () => {
                     {
                         postDB.map(item => {
                             if(item.pinned){
-                                return(
-                                    <PostItem
-                                        pinned={item.pinned}
-                                        postDate={item.postDate}
-                                        postTag={item.postTag}
-                                        postTitle={item.postTitle}
-                                        postType={postType}
-                                        postURL={item.postURL} />
-                                );
+                                if(postType != "solving"){
+                                    return(
+                                        <PostItem
+                                            pinned={true}
+                                            postDate={item.postDate}
+                                            postTag={item.postTag}
+                                            postTitle={item.postTitle}
+                                            postType={postType}
+                                            postURL={item.postURL} />
+                                    );
+                                }else{
+                                    return(
+                                        <PostItem
+                                            pinned={false}
+                                            postDate={item.postDate}
+                                            postTag={item.postTag}
+                                            postTitle={item.postTitle}
+                                            postType={postType}
+                                            postURL={item.postURL} />
+                                    );
+                                }
                             }
                         })
                     }
@@ -81,7 +93,7 @@ const PostList = () => {
                             if(!item.pinned){
                                 return(
                                     <PostItem
-                                        pinned={item.pinned}
+                                        pinned={false}
                                         postDate={item.postDate}
                                         postTag={item.postTag}
                                         postTitle={item.postTitle}
