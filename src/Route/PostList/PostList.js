@@ -74,6 +74,9 @@ const PostList = () => {
                 <br/>
 
                 <div className="postContainer">
+                    <p style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
+                        {(postType == "solving") ? "BOJ" :  "Pinned"}
+                    </p>
                     {
                         postDB.map(item => {
                             if(!item.pinned){
