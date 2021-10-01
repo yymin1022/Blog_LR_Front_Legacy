@@ -9,10 +9,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-    
-.postContainerTitle{
-    width: 990px;
-}
 
 .postPinnedContainer{
     width: 1000px;
@@ -20,6 +16,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+    
+.postPinnedTitle{
+    width: 990px;
 }
 
 .seperator{
