@@ -48,14 +48,14 @@ hr{
         justify-content: space-around;
     }
     
-    .postContainerTitle{
-        width: 100%;
-    }
-    
     .postPinnedContainer{
         width: 100%;
 
         justify-content: space-around;
+    }
+    
+    .postPinnedTitle{
+        width: 100%;
     }
 
     .seperator{
