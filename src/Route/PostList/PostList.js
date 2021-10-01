@@ -40,9 +40,9 @@ const PostList = () => {
                         <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
                         : ""
                     }
-                    <p style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
+                    <a style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
                         {(postType == "solving") ? "BOJ" :  "Pinned"}
-                    </p>
+                    </a>
                     <br/>
                 </div>
                 
