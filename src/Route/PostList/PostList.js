@@ -36,13 +36,15 @@ const PostList = () => {
             
             <div align="center" className="postListContainer">
                 <div align="left" className="postPinnedTitle">
-                    {(postType != "solving") ?  
-                        <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
+                    {(postType != "solving") ?
+                        <>
+                            <FontAwesomeIcon icon={faThumbtack} color="#606060" size="lg"/>
+                            <a style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
+                                Pinned
+                            </a>
+                        </>
                         : ""
                     }
-                    <a style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
-                        {(postType == "solving") ? "BOJ" :  "Pinned"}
-                    </a>
                     <br/>
                 </div>
                 
