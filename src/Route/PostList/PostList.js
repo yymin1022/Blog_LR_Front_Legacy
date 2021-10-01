@@ -73,12 +73,6 @@ const PostList = () => {
                 <hr className="seperator"/>
                 <br/>
 
-                <div align="left" className="postContainerTitle">
-                    <p style={{color: "#606060", marginLeft: "5px", textSize: " 25px"}}>
-                        {(postType == "solving") ? "Programmers" :  ""}
-                    </p>
-                </div>
-
                 <div className="postContainer">
                     {
                         postDB.map(item => {
