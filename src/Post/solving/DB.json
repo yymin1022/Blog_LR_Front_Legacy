@@ -13,6 +13,13 @@
         "postTitle": "백준 1357",
         "postURL": "210902-test-post"
     },
+    {
+        "pinned": true,
+        "postDate": "BOJ 2468",
+        "postTag": ["BOJ", "Test"],
+        "postTitle": "백준 2468",
+        "postURL": "210902-test-post"
+    },
 
     {
         "pinned": false,
@@ -26,6 +33,13 @@
         "postDate": "Programmers 3134213",
         "postTag": ["Programmers", "Test"],
         "postTitle": "프로그래머스 3134213",
+        "postURL": "210902-test-post"
+    }
+    {
+        "pinned": false,
+        "postDate": "Programmers 4312234",
+        "postTag": ["Programmers", "Test"],
+        "postTitle": "프로그래머스 4312234",
         "postURL": "210902-test-post"
     }
 ]
