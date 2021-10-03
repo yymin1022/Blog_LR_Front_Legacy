@@ -2,7 +2,7 @@
 
 [문제 바로가기](https://boj.kr/10951)
 
-```Python
+```python
 while(True):
     try:
         inputNum = input()

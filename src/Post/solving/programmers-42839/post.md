@@ -2,7 +2,7 @@
 
 [문제 바로가기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 
-```Python
+```python
 from itertools import permutations
 from math import sqrt
 

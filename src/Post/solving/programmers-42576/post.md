@@ -2,7 +2,7 @@
 
 [문제 바로가기](https://programmers.co.kr/learn/courses/30/lessons/42576)
 
-```Python
+```python
 def solution(participant, completion):
     answer = ''
     participant.sort()

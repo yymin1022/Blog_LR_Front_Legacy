@@ -2,7 +2,7 @@
 
 [문제 바로가기](https://boj.kr/1110)
 
-```Python
+```python
 inputNum = int(input())
 count = 0
 num = inputNum

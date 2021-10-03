@@ -2,7 +2,7 @@
 
 [문제 바로가기](https://programmers.co.kr/learn/courses/30/lessons/42840)
 
-```Python
+```python
 def solution(answers):
     answer = []
     stu1 = [1, 2, 3, 4, 5] * 8
