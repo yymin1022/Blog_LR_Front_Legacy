@@ -11,6 +11,7 @@ import Utterance from "../../Util/Utterance";
 
 import blogDB from "../../Post/blog/DB.json";
 import projectDB from "../../Post/project/DB.json";
+import solvingDB from "../../Post/solving/DB.json";
 
 import "./PostView.css";
 
@@ -24,7 +25,7 @@ const PostView = (props) => {
 
     useEffect(() => {
         setPostType(props.match.params.postType);
-        let postDB = (props.match.params.postType == "blog") ? blogDB : projectDB;
+        let postDB = (curPath == "/blog") ? blogDB : (curPath == "/project") ? projectDB : solvingDB;
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
