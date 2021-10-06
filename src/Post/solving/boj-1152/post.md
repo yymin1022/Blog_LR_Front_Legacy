@@ -1,12 +1,32 @@
-### BOJ 10951. A + B - 4
+[문제 바로가기](https://boj.kr/1152)
 
-[문제 바로가기](https://boj.kr/10951)
+```c
+#include <stdio.h>
 
-```python
-while(True):
-    try:
-        inputNum = input()
-        print(int(inputNum.split(" ")[0]) + int(inputNum.split(" ")[1]))
-    except:
-        break
+int main() {
+    char input[1000000];
+    int count = 1;
+
+    scanf("%[^\n]", input);
+
+    if(*(input) == ' ' && *(input + 1) == '\0'){
+        printf("0");
+
+        return 0;
+    }
+
+    for(int i = 1; i < 1000001; i++){
+        if(*(input + i) == '\0'){
+            break;
+        }
+
+        if(*(input + i) == ' ' && *(input + i + 1) != '\0'){
+            count++;
+        }
+    }
+
+    printf("%d", count);
+    
+    return 0;
+}
 ```

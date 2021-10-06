@@ -1,12 +1,21 @@
-### BOJ 10951. A + B - 4
+[문제 바로가기](https://boj.kr/1330)
 
-[문제 바로가기](https://boj.kr/10951)
+```c
+#include <stdio.h>
 
-```python
-while(True):
-    try:
-        inputNum = input()
-        print(int(inputNum.split(" ")[0]) + int(inputNum.split(" ")[1]))
-    except:
-        break
+int main(){
+    int a, b;
+    
+    scanf("%d %d", &a, &b);
+    
+    if(a > b){
+        printf(">");
+    }else if(a < b){
+        printf("<");
+    }else{
+        printf("==");
+    }
+
+    return 0;
+}
 ```
