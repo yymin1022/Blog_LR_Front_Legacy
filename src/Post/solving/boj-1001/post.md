@@ -1,4 +1,4 @@
-[문제 바로가기](https://boj.kr/1000)
+[문제 바로가기](https://boj.kr/1001)
 
 ```c
 #include <stdio.h>
