@@ -1,12 +1,18 @@
-### BOJ 10951. A + B - 4
+[문제 바로가기](https://boj.kr/15552)
 
-[문제 바로가기](https://boj.kr/10951)
+```c
+#include <stdio.h>
 
-```python
-while(True):
-    try:
-        inputNum = input()
-        print(int(inputNum.split(" ")[0]) + int(inputNum.split(" ")[1]))
-    except:
-        break
+int main(){
+    int n;
+    scanf("%d", &n);
+    
+    for(int i = 0; i < n; i++){
+        int a, b;
+        scanf("%d %d", &a, &b);
+        printf("%d\n", a + b);
+    }
+
+    return 0;
+}
 ```

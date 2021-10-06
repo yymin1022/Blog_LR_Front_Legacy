@@ -1,12 +1,33 @@
-### BOJ 10951. A + B - 4
+[문제 바로가기](https://boj.kr/10818)
 
-[문제 바로가기](https://boj.kr/10951)
+```c
+#include <stdio.h>
 
-```python
-while(True):
-    try:
-        inputNum = input()
-        print(int(inputNum.split(" ")[0]) + int(inputNum.split(" ")[1]))
-    except:
-        break
+int main(){
+    int n, MAX, MIN;
+    
+    scanf("%d", &n);
+
+    int nums[n];
+
+    for(int i = 0; i < n; i++){
+        scanf("%d", (nums + i));
+
+        if(i == 0){
+            MAX = nums[0];
+            MIN = nums[0];
+        }else{
+            if(MAX < nums[i]){
+                MAX = nums[i];
+            }
+            if(MIN > nums[i]){
+                MIN = nums[i];
+            }
+        }
+    }
+
+    printf("%d %d\n", MIN, MAX);
+
+    return 0;
+}
 ```
