@@ -1,12 +1,24 @@
-### BOJ 10951. A + B - 4
+[문제 바로가기](https://boj.kr/9498)
 
-[문제 바로가기](https://boj.kr/10951)
+```c
+#include <stdio.h>
 
-```python
-while(True):
-    try:
-        inputNum = input()
-        print(int(inputNum.split(" ")[0]) + int(inputNum.split(" ")[1]))
-    except:
-        break
+int main(){
+    int a;
+    scanf("%d", &a);
+    
+    if(a >= 90){
+        printf("A");
+    }else if(a >= 80){
+        printf("B");
+    }else if(a >= 70){
+        printf("C");
+    }else if(a >= 60){
+        printf("D");
+    }else{
+        printf("F");
+    }
+
+    return 0;
+}
 ```
