@@ -52,27 +52,15 @@ const PostList = () => {
                     {
                         postDB.map(item => {
                             if(item.pinned){
-                                if(postType != "solving"){
-                                    return(
-                                        <PostItem
-                                            pinned={true}
-                                            postDate={item.postDate}
-                                            postTag={item.postTag}
-                                            postTitle={item.postTitle}
-                                            postType={postType}
-                                            postURL={item.postURL} />
-                                    );
-                                }else{
-                                    return(
-                                        <PostItem
-                                            pinned={false}
-                                            postDate={item.postDate}
-                                            postTag={item.postTag}
-                                            postTitle={item.postTitle}
-                                            postType={postType}
-                                            postURL={item.postURL} />
-                                    );
-                                }
+                                return(
+                                    <PostItem
+                                        pinned={true}
+                                        postDate={item.postDate}
+                                        postTag={item.postTag}
+                                        postTitle={item.postTitle}
+                                        postType={postType}
+                                        postURL={item.postURL} />
+                                );
                             }
                         })
                     }
@@ -91,15 +79,27 @@ const PostList = () => {
                     {
                         postDB.map(item => {
                             if(!item.pinned){
-                                return(
-                                    <PostItem
-                                        pinned={false}
-                                        postDate={item.postDate}
-                                        postTag={item.postTag}
-                                        postTitle={item.postTitle}
-                                        postType={postType}
-                                        postURL={item.postURL} />
-                                );
+                                if(postType != "solving"){
+                                    return(
+                                        <PostItem
+                                            pinned={false}
+                                            postDate={item.postDate}
+                                            postTag={item.postTag}
+                                            postTitle={item.postTitle}
+                                            postType={postType}
+                                            postURL={item.postURL} />
+                                    );
+                                }else{
+                                    return(
+                                        <PostItem
+                                            pinned={true}
+                                            postDate={item.postDate}
+                                            postTag={item.postTag}
+                                            postTitle={item.postTitle}
+                                            postType={postType}
+                                            postURL={item.postURL} />
+                                    );
+                                }
                             }
                         })
                     }
