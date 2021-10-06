@@ -4,6 +4,8 @@
 
 .postContainer{
     width: 1000px;
+
+    margin-bottom: 100px;
     
     display: flex;
     flex-wrap: wrap;
