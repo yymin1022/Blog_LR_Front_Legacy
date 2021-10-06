@@ -14,7 +14,15 @@ const PostItem = (props) => {
     let postURL = props.postURL;
 
     useEffect(() => {
-        setpostThumbnail(require(`../../Post/${postType}/${postURL}/thumb.png`));
+        let postThumbnailObject;
+        if(postType == "solving"){
+            (postTag[0] == "BOJ") ?
+                postThumbnailObject = require(`../../Post/solving/thumb_boj.png`) :
+                postThumbnailObject = require(`../../Post/solving/thumb_programmers.png`);
+        }else{
+            postThumbnailObject = require(`../../Post/${postType}/${postURL}/thumb.png`);
+        }
+        setpostThumbnail(postThumbnailObject);
     }, [PostItem]);
 
     if(isPinned){
