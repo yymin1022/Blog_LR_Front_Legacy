@@ -43,6 +43,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1158",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1158. 요세푸스 문제",
+        "postURL": "boj-1158"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1330",
         "postTag": ["BOJ", "C"],
         "postTitle": "1330. 두 수 비교하기",
