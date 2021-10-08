@@ -28,7 +28,7 @@ const App = () => {
                         component = {withRouter(PostList)} />
                     <RouteLayout
                         exact
-                        path = "/project"
+                        path = "/project"@
                         layout = {DefaultLayout}
                         component = {withRouter(PostList)} />
                         <RouteLayout
