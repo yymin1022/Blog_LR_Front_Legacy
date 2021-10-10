@@ -46,7 +46,7 @@
         "postDate": "BOJ 1158",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1158. 요세푸스 문제",
-        "postURL": "boj-1158"
+        "postURL": "boj-1158앗"
     },
     {
         "pinned": true,
@@ -271,6 +271,13 @@
         "postTag": ["BOJ", "C"],
         "postTitle": "10818. 최소, 최대",
         "postURL": "boj-10818"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 10828",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10828. 스택",
+        "postURL": "boj-10828"
     },
     {
         "pinned": true,
