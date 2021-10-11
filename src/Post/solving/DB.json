@@ -225,6 +225,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9012",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9012. 괄호",
+        "postURL": "boj-9012"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9498",
         "postTag": ["BOJ", "C"],
         "postTitle": "9498. 시험 성적",
