@@ -302,6 +302,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10866",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10866. 덱",
+        "postURL": "boj-10866"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10869",
         "postTag": ["BOJ", "C"],
         "postTitle": "10869. 사칙연산",
