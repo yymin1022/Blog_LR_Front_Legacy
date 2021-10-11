@@ -288,6 +288,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10845",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10845. 큐",
+        "postURL": "boj-10845"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10869",
         "postTag": ["BOJ", "C"],
         "postTitle": "10869. 사칙연산",
