@@ -345,7 +345,7 @@
     {
         "pinned": true,
         "postDate": "BOJ 11403",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "11403. 경로 찾기",
         "postURL": "boj-11403"
     },
@@ -366,7 +366,7 @@
     {
         "pinned": true,
         "postDate": "BOJ 14221",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "14221. 편의점",
         "postURL": "boj-14221"
     },
@@ -387,14 +387,21 @@
     {
         "pinned": true,
         "postDate": "BOJ 17219",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "17219. 비밀번호 찾기",
         "postURL": "boj-17219"
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18258",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18258. 큐 2",
+        "postURL": "boj-18258"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18352",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "18352. 특정 거리의 도시 찾기",
         "postURL": "boj-18352"
     },
