@@ -85,6 +85,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2164",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2164. 큐 2",
+        "postURL": "boj-2164"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2438",
         "postTag": ["BOJ", "C"],
         "postTitle": "2438. 별 찍기 - 1",
