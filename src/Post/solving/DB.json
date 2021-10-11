@@ -85,6 +85,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2164",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2164. 큐 2",
+        "postURL": "boj-2164"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2438",
         "postTag": ["BOJ", "C"],
         "postTitle": "2438. 별 찍기 - 1",
@@ -225,6 +232,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9012",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9012. 괄호",
+        "postURL": "boj-9012"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9498",
         "postTag": ["BOJ", "C"],
         "postTitle": "9498. 시험 성적",
@@ -278,6 +292,20 @@
         "postTag": ["BOJ", "C++"],
         "postTitle": "10828. 스택",
         "postURL": "boj-10828"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 10845",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10845. 큐",
+        "postURL": "boj-10845"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 10866",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10866. 덱",
+        "postURL": "boj-10866"
     },
     {
         "pinned": true,
@@ -338,7 +366,7 @@
     {
         "pinned": true,
         "postDate": "BOJ 11403",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "11403. 경로 찾기",
         "postURL": "boj-11403"
     },
@@ -359,7 +387,7 @@
     {
         "pinned": true,
         "postDate": "BOJ 14221",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "14221. 편의점",
         "postURL": "boj-14221"
     },
@@ -380,14 +408,21 @@
     {
         "pinned": true,
         "postDate": "BOJ 17219",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "17219. 비밀번호 찾기",
         "postURL": "boj-17219"
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18258",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18258. 큐 2",
+        "postURL": "boj-18258"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18352",
-        "postTag": ["BOJ", "C"],
+        "postTag": ["BOJ", "C++"],
         "postTitle": "18352. 특정 거리의 도시 찾기",
         "postURL": "boj-18352"
     },
