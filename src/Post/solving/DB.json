@@ -78,6 +78,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1874",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1874. 스택 수열",
+        "postURL": "boj-1874"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1916",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1916. 최소비용 구하기",
