@@ -24,8 +24,8 @@ const PostView = (props) => {
     const [postType, setPostType] = useState("");
 
     useEffect(() => {
-        let curPath = window.location.pathname;
-        let postDB = (curPath == "/blog") ? blogDB : (curPath == "/project") ? projectDB : solvingDB;
+        let curPath = props.match.params.postType;
+        let postDB = (curPath == "blog") ? blogDB : (curPath == "project") ? projectDB : solvingDB;
         
         setPostType(props.match.params.postType);
 
