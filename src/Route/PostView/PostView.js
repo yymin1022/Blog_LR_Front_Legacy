@@ -31,6 +31,10 @@ const PostView = (props) => {
     
         postDB.map(item => {
             if(item.postURL == props.match.params.postID){
+                console.log(item.postURL);
+                console.log(item.postTag);
+                console.log(props.match.params.postType);
+
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
