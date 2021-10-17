@@ -28,19 +28,9 @@ const PostView = (props) => {
         let postDB = (curPath == "blog") ? blogDB : (curPath == "project") ? projectDB : solvingDB;
         
         setPostType(props.match.params.postType);
-
-        console.log(curPath);
     
         postDB.map(item => {
-            console.log(item.postURL);
-            console.log(item.postTag);
-            console.log(props.match.params.postType);
-
             if(item.postURL == props.match.params.postID){
-                console.log(item.postURL);
-                console.log(item.postTag);
-                console.log(props.match.params.postType);
-
                 setPostDate(item.postDate);
                 setPostID(item.postURL);
                 setPostTag(item.postTag);
