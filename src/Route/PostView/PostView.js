@@ -28,6 +28,8 @@ const PostView = (props) => {
         let postDB = (curPath == "/blog") ? blogDB : (curPath == "/project") ? projectDB : solvingDB;
         
         setPostType(props.match.params.postType);
+
+        console.log(curPath);
     
         postDB.map(item => {
             console.log(item.postURL);
