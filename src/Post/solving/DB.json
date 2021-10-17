@@ -92,6 +92,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1935",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1935. 후위 표기식2",
+        "postURL": "boj-1935"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2164",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2164. 큐 2",
