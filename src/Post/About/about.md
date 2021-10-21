@@ -1,4 +1,4 @@
-### Who am I?
+﻿### Who am I?
  - 중앙대학교 소프트웨어학부 19학번
  - 대학생 1인 개발자
  - 대한민국 공군 ROKAF 병 819기 정보체계관리(30010) 체계운영병 / 정비통제병
@@ -55,9 +55,9 @@
 ### Which device am I using?
  - PC : Ubuntu 20.04 LTS on LG Gram15 2019 with i5 8265u / DDR4 16GB / 512GB NVMe + 256GB SATA
  - NAS : XPEnology 6.2.3 on ODroid H2 with Celeron J4105 / DDR4 16GB / 128GB NVMe + 7TB HDD + 16GB eMMC
- - Phone : Main with Google Pixel 4XL with Android 12<br/>
-  Sub with Apple iPhone X with iOS 14
- - Tablet : Apple iPad Pro 11" 2nd with iPadOS 14<br/>
+ - Phone : Main with Google Pixel 4XLㄴ with Android 12<br/>
+  Sub with Apple iPhone X with iOS 15
+ - Tablet : Apple iPad Pro 11" 2nd with iPadOS 15<br/>
   Cube iWork10 Ultimate with Windows10 + Android 6.0 Dual Boot
  - Watch : LG Watch W7 with WearOS 2.0
 
