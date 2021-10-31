@@ -106,6 +106,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2309",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2309. 일곱 난쟁이",
+        "postURL": "boj-2309"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2438",
         "postTag": ["BOJ", "C"],
         "postTitle": "2438. 별 찍기 - 1",
