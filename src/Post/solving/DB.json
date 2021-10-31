@@ -155,6 +155,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2587",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2587. 대표값2",
+        "postURL": "boj-2587"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2588",
         "postTag": ["BOJ", "C"],
         "postTitle": "2588. 곱셈",
