@@ -162,6 +162,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2605",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2605. 줄 세우기",
+        "postURL": "boj-2605"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2675",
         "postTag": ["BOJ", "C"],
         "postTitle": "2675. 문자열 반복",
