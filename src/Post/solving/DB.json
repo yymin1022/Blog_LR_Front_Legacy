@@ -148,6 +148,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2576",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2576. 홀수",
+        "postURL": "boj-2576"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2577",
         "postTag": ["BOJ", "C"],
         "postTitle": "2577. 숫자의 개수",
