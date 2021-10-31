@@ -1,4 +1,4 @@
-[문제 바로가기](https://boj.kr/2438)
+[문제 바로가기](https://boj.kr/2309)
 
 ```c++
 #include <algorithm>
