@@ -134,6 +134,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2501",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2501. 약수 구하기",
+        "postURL": "boj-2501"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2557",
         "postTag": ["BOJ", "C"],
         "postTitle": "2557. Hello World",
