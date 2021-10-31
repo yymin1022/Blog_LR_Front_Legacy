@@ -106,6 +106,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2309",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2309. 일곱 난쟁이",
+        "postURL": "boj-2309"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2438",
         "postTag": ["BOJ", "C"],
         "postTitle": "2438. 별 찍기 - 1",
@@ -120,10 +127,31 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2455",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2455. 지능형 기차",
+        "postURL": "boj-2455"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2475",
         "postTag": ["BOJ", "C"],
         "postTitle": "2475. 검증수",
         "postURL": "boj-2475"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 2490",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2490. 윷놀이",
+        "postURL": "boj-2490"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 2501",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2501. 약수 구하기",
+        "postURL": "boj-2501"
     },
     {
         "pinned": true,
@@ -141,6 +169,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2576",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2576. 홀수",
+        "postURL": "boj-2576"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2577",
         "postTag": ["BOJ", "C"],
         "postTitle": "2577. 숫자의 개수",
@@ -148,10 +183,24 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2587",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2587. 대표값2",
+        "postURL": "boj-2587"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2588",
         "postTag": ["BOJ", "C"],
         "postTitle": "2588. 곱셈",
         "postURL": "boj-2588"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 2605",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2605. 줄 세우기",
+        "postURL": "boj-2605"
     },
     {
         "pinned": true,
