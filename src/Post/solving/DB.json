@@ -372,6 +372,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10798",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10798. 세로읽기",
+        "postURL": "boj-10798"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10809",
         "postTag": ["BOJ", "C"],
         "postTitle": "10809. 알파벳 찾기",
