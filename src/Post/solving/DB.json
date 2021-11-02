@@ -323,6 +323,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10156",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10156. 과자",
+        "postURL": "boj-10156"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10171",
         "postTag": ["BOJ", "C"],
         "postTitle": "10171. 고양이",
