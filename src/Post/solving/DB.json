@@ -162,6 +162,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2526",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2526. 싸이클",
+        "postURL": "boj-2526"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2557",
         "postTag": ["BOJ", "C"],
         "postTitle": "2557. Hello World",
