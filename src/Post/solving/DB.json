@@ -295,6 +295,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 7567",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "7567. 그릇",
+        "postURL": "boj-7567"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 8393",
         "postTag": ["BOJ", "C"],
         "postTitle": "8393. 합",
