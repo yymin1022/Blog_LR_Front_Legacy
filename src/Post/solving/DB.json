@@ -155,6 +155,20 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2525",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2525. 오븐 시계",
+        "postURL": "boj-2525"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 2526",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2526. 싸이클",
+        "postURL": "boj-2526"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2557",
         "postTag": ["BOJ", "C"],
         "postTitle": "2557. Hello World",
@@ -281,6 +295,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 7567",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "7567. 그릇",
+        "postURL": "boj-7567"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 8393",
         "postTag": ["BOJ", "C"],
         "postTitle": "8393. 합",
@@ -309,6 +330,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10156",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10156. 과자",
+        "postURL": "boj-10156"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10171",
         "postTag": ["BOJ", "C"],
         "postTitle": "10171. 고양이",
@@ -334,6 +362,13 @@
         "postTag": ["BOJ", "C"],
         "postTitle": "10718. We love kriii",
         "postURL": "boj-10718"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 10797",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10797. 10부제",
+        "postURL": "boj-10797"
     },
     {
         "pinned": true,
