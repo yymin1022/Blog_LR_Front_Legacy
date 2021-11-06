@@ -57,6 +57,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1339",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1339. 단어 수학",
+        "postURL": "boj-1339"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1463",
         "postTag": ["BOJ", "C"],
         "postTitle": "1463. 1로 만들기",
