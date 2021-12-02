@@ -1,0 +1,214 @@
+#SideMenu{
+    height: 100%;
+    width: 350px;
+    
+    left: 0;
+    top: 0;
+    position: fixed;
+    
+    background-color: #164EAB;
+
+    animation-name: SideMenuSlide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#SideMenuContent{
+    width: 100%;
+
+    margin-bottom: 30px;
+
+    bottom: 0;
+    position: absolute;
+}
+
+#SideMenuContent a{
+    text-decoration: none;
+}
+
+#SideMenuContent hr{
+    background-color: #FFFFFF;
+    border: 0;
+    height: 0.5px;
+    width: 310px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    animation-name: SideMenuNav;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#SideMenuNav{
+    width: 310px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    animation-name: SideMenuNav;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#SideMenuTitle{
+    width: 100%;
+
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+    animation-name: SideMenuTitleText;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#SideMenuTitle p{
+    margin: 0px;
+
+    color: #FFFFFF; 
+    font-size: 50px;
+
+    animation-name: SideMenuTitleTextScale;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes SideMenuSlide{
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 350px;
+    }
+}
+
+@keyframes SideMenuNav{
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    50% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes SideMenuTitleText{
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 320px;
+    }
+}
+
+@keyframes SideMenuTitleTextScale{
+    0% {
+        font-size: 80px;
+    }
+    50% {
+        font-size: 80px;
+    }
+    100% {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #SideMenu{
+        height: 65px;
+        width: 100%;
+        
+        left: 0;
+        top: 0;
+        position: fixed;
+        
+        background-color: #164EAB;
+    
+        animation-name: SideMenuSlideMobile;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    #SideMenuContent{
+        height: 100%;
+        width: 100%;
+
+        margin-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #SideMenuContent hr{
+        display: none;
+    }
+
+    #SideMenuNav{
+        display: none;
+    }
+
+    #SideMenuTitle{
+        height: 100%;
+        width: 100%;
+
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #SideMenuTitle p{
+        margin: 0px;
+    
+        color: #FFFFFF; 
+        font-size: 30px;
+    
+        animation-name: SideMenuTitleTextScale;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes SideMenuSlideMobile{
+        0% {
+            height: 100%;
+        }
+        50% {
+            height: 100%;
+        }
+        100% {
+            height: 65px;
+        }
+    }
+
+    @keyframes SideMenuTitleTextScale{
+        0% {
+            font-size: 50px;
+        }
+        50% {
+            font-size: 50px;
+        }
+        100% {
+            font-size: 30px;
+        }
+    }
+}

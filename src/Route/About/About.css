@@ -1,0 +1,16 @@
+.AboutContent{
+  width: 800px;
+}
+
+.markdown-body-about{
+  width: 100%;
+
+  font-family: "NanumSquare";
+  line-height: 25px;
+}
+
+@media screen and (max-width: 1400px){
+  .AboutContent{
+    width: 100%;
+  }
+}

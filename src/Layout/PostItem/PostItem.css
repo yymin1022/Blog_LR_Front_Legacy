@@ -1,0 +1,170 @@
+.postItem{
+    height: 450px;
+    width: 300px;
+
+    margin: 0px 0px 30px 0px;
+
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.postItemImage{
+    height: 300px;
+    width: 300px;
+}
+
+.postItemImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.postItemText{
+    height: 150px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.postItemText p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+    text-align: left;
+}
+
+.postPinnedItem{
+    height: 150px;
+    width: 450px;
+
+    margin: 30px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.postPinnedItemImage{
+    height: 150px;
+    width: 150px;
+}
+
+.postPinnedItemImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.postPinnedItemText{
+    height: 150px;
+    width: 300px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.postPinnedItemText p{
+    text-align: left;
+}
+
+.postItem:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.postPinnedItem:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.pPostDate{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+    color: #606060;
+}
+
+.pPostTag{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+    color: #808080;
+}
+
+.pPostTitle{
+    height: 45px;
+
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+    color: #164EAB;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1400px){
+    .postItem{
+        height: 150px;
+        width: 350px;
+    
+        margin: 0px 0px 30px 0px;
+    
+        display: flex;
+        flex-direction: row;
+    
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    
+    .postItemImage{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .postItemImage img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .postItemText{
+        height: 150px;
+        width: 200px;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .postItemText p{
+        text-align: left;
+    }
+
+    .postPinnedItem{
+        height: 150px;
+        width: 350px;
+    }
+
+    .postPinnedItemText{
+        height: 150px;
+        width: 200px;
+    }
+
+    .pPostDate{
+        font-size: 15px;
+    }
+    
+    .pPostTag{
+        font-size: 15px;
+    }
+    
+    .pPostTitle{
+        font-size: 17px;
+    }
+}
