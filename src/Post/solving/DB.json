@@ -386,6 +386,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10799",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10799. 쇠막대기",
+        "postURL": "boj-10799"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10809",
         "postTag": ["BOJ", "C"],
         "postTitle": "10809. 알파벳 찾기",
