@@ -106,6 +106,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1966",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1966. 프린터 큐",
+        "postURL": "boj-1966"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2164",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2164. 큐 2",
