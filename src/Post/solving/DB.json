@@ -162,6 +162,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2492",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2492. 보석",
+        "postURL": "boj-2492"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2501",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2501. 약수 구하기",
