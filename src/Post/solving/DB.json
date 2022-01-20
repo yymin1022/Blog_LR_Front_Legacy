@@ -85,6 +85,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1799",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1799. 비숍",
+        "postURL": "boj-1799"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1874",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1874. 스택 수열",
