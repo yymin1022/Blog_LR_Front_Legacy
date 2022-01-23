@@ -190,6 +190,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2504",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2504. 괄호의 값",
+        "postURL": "boj-2504"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2525",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2525. 오븐 시계",
