@@ -330,6 +330,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 4949",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "4949. 균형잡힌 세상",
+        "postURL": "boj-4949"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 5622",
         "postTag": ["BOJ", "C"],
         "postTitle": "5622. 다이얼",
