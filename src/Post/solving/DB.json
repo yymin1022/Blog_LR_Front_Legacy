@@ -22,6 +22,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1021",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1021. 회전하는 큐",
+        "postURL": "boj-1021"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1110",
         "postTag": ["BOJ", "Python"],
         "postTitle": "1110. 더하기 사이클",
