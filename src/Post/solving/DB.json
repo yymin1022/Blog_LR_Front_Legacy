@@ -246,6 +246,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2558",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2558. A+B - 2",
+        "postURL": "boj-2558"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2562",
         "postTag": ["BOJ", "C"],
         "postTitle": "2562. 최댓값",
