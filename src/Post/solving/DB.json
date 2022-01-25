@@ -53,7 +53,14 @@
         "postDate": "BOJ 1158",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1158. 요세푸스 문제",
-        "postURL": "boj-1158앗"
+        "postURL": "boj-1158"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 1271",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "1271. 엄청난 부자2",
+        "postURL": "boj-1271"
     },
     {
         "pinned": true,
