@@ -337,6 +337,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2845",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2845. 파티가 끝나고 난 뒤",
+        "postURL": "boj-2845"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2884",
         "postTag": ["BOJ", "C"],
         "postTitle": "2884. 알람 시계",
