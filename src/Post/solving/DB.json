@@ -148,6 +148,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2338",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "2338. 긴자리 계산",
+        "postURL": "boj-2338"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2346",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2346. 풍선 터뜨리기",
