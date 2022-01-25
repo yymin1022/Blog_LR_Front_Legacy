@@ -337,6 +337,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 3986",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "3986. 좋은 단어",
+        "postURL": "boj-3986"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 4344",
         "postTag": ["BOJ", "C"],
         "postTitle": "4344. 평균은 넘겠지",
