@@ -561,6 +561,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10953",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "10953. A + B - 6",
+        "postURL": "boj-10952"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10998",
         "postTag": ["BOJ", "C"],
         "postTitle": "10998. AxB",
