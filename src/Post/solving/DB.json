@@ -624,6 +624,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15740",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "15740. A+B - 9",
+        "postURL": "boj-15740"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 17219",
         "postTag": ["BOJ", "C++"],
         "postTitle": "17219. 비밀번호 찾기",
