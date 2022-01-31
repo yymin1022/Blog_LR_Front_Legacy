@@ -664,6 +664,13 @@
         "postTitle": "24390. 또 전자레인지야?",
         "postURL": "boj-24390"
     },
+    {
+        "pinned": true,
+        "postDate": "BOJ 24393",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "24393. 조커 찾기",
+        "postURL": "boj-24393"
+    },
     
     {
         "pinned": false,
