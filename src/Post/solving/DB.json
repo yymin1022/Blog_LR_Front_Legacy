@@ -657,6 +657,13 @@
         "postTitle": "18352. 특정 거리의 도시 찾기",
         "postURL": "boj-18352"
     },
+    {
+        "pinned": true,
+        "postDate": "BOJ 24390",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "24390. 또 전자레인지야?",
+        "postURL": "boj-24390"
+    },
     
     {
         "pinned": false,
