@@ -645,6 +645,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18115",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18115. 카드 놓기",
+        "postURL": "boj-18115"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18258",
         "postTag": ["BOJ", "C++"],
         "postTitle": "18258. 큐 2",
