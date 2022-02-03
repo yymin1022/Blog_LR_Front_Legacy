@@ -393,6 +393,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 5430",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "5430. AC",
+        "postURL": "boj-5430"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 5622",
         "postTag": ["BOJ", "C"],
         "postTitle": "5622. 다이얼",
