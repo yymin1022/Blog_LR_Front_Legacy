@@ -659,6 +659,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18108",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18108. 1998년생인 내가 태국에서는 2541년생?!",
+        "postURL": "boj-18108"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18115",
         "postTag": ["BOJ", "C++"],
         "postTitle": "18115. 카드 놓기",
