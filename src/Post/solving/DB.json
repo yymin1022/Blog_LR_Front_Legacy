@@ -666,6 +666,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15596",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15596. 정수 N개의 합",
+        "postURL": "boj-15596"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15740",
         "postTag": ["BOJ", "Python"],
         "postTitle": "15740. A+B - 9",
