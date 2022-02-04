@@ -400,6 +400,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 4673",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "4673. 셀프 넘버",
+        "postURL": "boj-4673"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 4949",
         "postTag": ["BOJ", "C++"],
         "postTitle": "4949. 균형잡힌 세상",
