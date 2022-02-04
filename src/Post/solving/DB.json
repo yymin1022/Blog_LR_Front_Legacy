@@ -64,6 +64,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1316",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1316. 그룹 단어 체커",
+        "postURL": "boj-1316"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1330",
         "postTag": ["BOJ", "C"],
         "postTitle": "1330. 두 수 비교하기",
