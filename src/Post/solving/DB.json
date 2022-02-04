@@ -29,6 +29,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1065",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1065. 한수",
+        "postURL": "boj-1065"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1110",
         "postTag": ["BOJ", "Python"],
         "postTitle": "1110. 더하기 사이클",
