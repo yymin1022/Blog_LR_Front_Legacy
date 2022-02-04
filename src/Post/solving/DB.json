@@ -155,6 +155,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2292",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2292. 벌집",
+        "postURL": "boj-2292"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2309",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2309. 일곱 난쟁이",
