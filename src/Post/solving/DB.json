@@ -358,6 +358,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2941",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2941. 크로아티아 알파벳",
+        "postURL": "boj-2908"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 3052",
         "postTag": ["BOJ", "C"],
         "postTitle": "3052. 나머지",
