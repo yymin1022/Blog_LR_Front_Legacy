@@ -351,6 +351,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2798",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2798. 블랙잭",
+        "postURL": "boj-2798"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2839",
         "postTag": ["BOJ", "Python"],
         "postTitle": "2839. 설탕 배달",
