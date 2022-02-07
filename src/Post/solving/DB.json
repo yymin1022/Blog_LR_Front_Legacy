@@ -708,6 +708,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15727",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15727. 조별과제를 하려는데 조장이 사라졌다",
+        "postURL": "boj-15727"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15740",
         "postTag": ["BOJ", "Python"],
         "postTitle": "15740. A+B - 9",
