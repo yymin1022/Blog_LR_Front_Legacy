@@ -64,6 +64,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1260",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1260. DFS와 BFS",
+        "postURL": "boj-1260"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1271",
         "postTag": ["BOJ", "Python"],
         "postTitle": "1271. 엄청난 부자2",
