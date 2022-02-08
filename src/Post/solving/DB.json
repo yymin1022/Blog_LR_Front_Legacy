@@ -421,6 +421,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 3046",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "3046. R2",
+        "postURL": "boj-3046"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 3052",
         "postTag": ["BOJ", "C"],
         "postTitle": "3052. 나머지",
