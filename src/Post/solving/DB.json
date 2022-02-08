@@ -540,6 +540,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10773",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10773. 제로",
+        "postURL": "boj-10773"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10797",
         "postTag": ["BOJ", "C++"],
         "postTitle": "10797. 10부제",
