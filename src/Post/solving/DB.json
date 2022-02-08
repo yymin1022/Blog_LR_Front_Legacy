@@ -113,6 +113,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1550",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1550. 16진수",
+        "postURL": "boj-1550"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1712",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1712. 손익분기점",
