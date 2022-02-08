@@ -694,6 +694,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11866",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11866. 요세푸스 문제 0",
+        "postURL": "boj-11866"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 14221",
         "postTag": ["BOJ", "C++"],
         "postTitle": "14221. 편의점",
