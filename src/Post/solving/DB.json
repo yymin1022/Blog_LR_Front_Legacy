@@ -848,6 +848,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 163994",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "16394. 홍익대학교",
+        "postURL": "boj-16394"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 17219",
         "postTag": ["BOJ", "C++"],
         "postTitle": "17219. 비밀번호 찾기",
