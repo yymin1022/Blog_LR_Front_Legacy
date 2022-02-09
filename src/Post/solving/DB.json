@@ -1072,6 +1072,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 23234",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "23234. The World Responds",
+        "postURL": "boj-23234"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
