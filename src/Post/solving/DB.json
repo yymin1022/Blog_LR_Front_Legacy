@@ -1107,6 +1107,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 24309",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "24309. PABEHCTBO",
+        "postURL": "boj-24309"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
