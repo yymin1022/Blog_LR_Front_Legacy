@@ -792,6 +792,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11283",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "11283. 한글 2",
+        "postURL": "boj-11283"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11403",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11403. 경로 찾기",
