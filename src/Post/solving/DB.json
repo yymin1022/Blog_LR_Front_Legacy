@@ -568,6 +568,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 8871",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "8871. Zadanie próbne 2",
+        "postURL": "boj-8871"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 8958",
         "postTag": ["BOJ", "C"],
         "postTitle": "8958. OX퀴즈",
