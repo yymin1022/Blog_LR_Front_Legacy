@@ -589,6 +589,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10170",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10170. NFC West vs North",
+        "postURL": "boj-10170"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10171",
         "postTag": ["BOJ", "C"],
         "postTitle": "10171. 고양이",
