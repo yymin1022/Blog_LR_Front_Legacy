@@ -561,6 +561,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9654",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9654. 나부 함대 데이터",
+        "postURL": "boj-9654"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10156",
         "postTag": ["BOJ", "C++"],
         "postTitle": "10156. 과자",
