@@ -841,6 +841,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 13277",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "13277. 큰 수 곱셈",
+        "postURL": "boj-13277"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 14221",
         "postTag": ["BOJ", "C++"],
         "postTitle": "14221. 편의점",
