@@ -428,6 +428,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 3003",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "3003. 킹,퀸,룩,비숍,나이트,폰",
+        "postURL": "boj-3003"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 3046",
         "postTag": ["BOJ", "C++"],
         "postTitle": "3046. R2",
