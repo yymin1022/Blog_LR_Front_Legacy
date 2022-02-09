@@ -925,7 +925,14 @@
     },
     {
         "pinned": true,
-        "postDate": "BOJ 163994",
+        "postDate": "BOJ 15894",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15894. 수학은 체육과목 입니다",
+        "postURL": "boj-15894"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 16394",
         "postTag": ["BOJ", "C++"],
         "postTitle": "16394. 홍익대학교",
         "postURL": "boj-16394"
