@@ -862,6 +862,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 14652",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "14652. 나는 행복합니다~",
+        "postURL": "boj-14652"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 14681",
         "postTag": ["BOJ", "C"],
         "postTitle": "14681. 사분면 고르기",
