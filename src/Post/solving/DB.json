@@ -512,6 +512,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 5554",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "5554. 심부름 가는 길",
+        "postURL": "boj-5554"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 5622",
         "postTag": ["BOJ", "C"],
         "postTitle": "5622. 다이얼",
