@@ -981,6 +981,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 17295",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "17295. 엔드게임 스포일러",
+        "postURL": "boj-17295"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 17298",
         "postTag": ["BOJ", "C++"],
         "postTitle": "17298. 오큰수",
