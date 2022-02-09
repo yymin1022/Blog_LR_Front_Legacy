@@ -561,6 +561,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 8437",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "8437. Julka",
+        "postURL": "boj-8437"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 8958",
         "postTag": ["BOJ", "C"],
         "postTitle": "8958. OX퀴즈",
