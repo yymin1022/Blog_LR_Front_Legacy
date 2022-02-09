@@ -479,8 +479,15 @@
         "pinned": true,
         "postDate": "BOJ 5338",
         "postTag": ["BOJ", "C++"],
-        "postTitle": "5335. 16진수",
+        "postTitle": "5338. 마이크로소프트 로고",
         "postURL": "boj-5338"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 5339",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "5339. 콜센터",
+        "postURL": "boj-5339"
     },
     {
         "pinned": true,
