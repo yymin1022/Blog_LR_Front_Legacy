@@ -561,6 +561,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10699",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10699. 오늘 날짜",
+        "postURL": "boj-10699"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10718",
         "postTag": ["BOJ", "C"],
         "postTitle": "10718. We love kriii",
