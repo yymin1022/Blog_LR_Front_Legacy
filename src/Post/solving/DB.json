@@ -1030,6 +1030,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18301",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18301. Rats",
+        "postURL": "boj-18301"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18352",
         "postTag": ["BOJ", "C++"],
         "postTitle": "18352. 특정 거리의 도시 찾기",
