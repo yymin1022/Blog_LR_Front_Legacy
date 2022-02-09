@@ -512,6 +512,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 5522",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "5522. 카드 게임",
+        "postURL": "boj-5522"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 5554",
         "postTag": ["BOJ", "C++"],
         "postTitle": "5554. 심부름 가는 길",
