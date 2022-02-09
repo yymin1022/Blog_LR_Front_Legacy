@@ -876,6 +876,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 14928",
+        "postTag": ["BOJ", "Python"],
+        "postTitle": "14928. 큰 수 (BIG)",
+        "postURL": "boj-14928"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15552",
         "postTag": ["BOJ", "C"],
         "postTitle": "15552. 빠른 A+B",
