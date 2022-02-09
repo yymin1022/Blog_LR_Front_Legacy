@@ -533,6 +533,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 6749",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "6749. Next in line",
+        "postURL": "boj-6749"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 7567",
         "postTag": ["BOJ", "C++"],
         "postTitle": "7567. 그릇",
