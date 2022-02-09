@@ -540,6 +540,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9653",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9653. 스타워즈 로고",
+        "postURL": "boj-9653"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10156",
         "postTag": ["BOJ", "C++"],
         "postTitle": "10156. 과자",
