@@ -1051,6 +1051,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 20492",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "20492. 세금",
+        "postURL": "boj-20492"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
