@@ -946,6 +946,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 16170",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "16170. 오늘의 날짜는?",
+        "postURL": "boj-16170"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 16394",
         "postTag": ["BOJ", "C++"],
         "postTitle": "16394. 홍익대학교",
