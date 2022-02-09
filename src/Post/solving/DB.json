@@ -1100,6 +1100,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 24183",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "24183. Affischutskicket",
+        "postURL": "boj-24183"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
