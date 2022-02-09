@@ -799,6 +799,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11382",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11382. 꼬마 정민",
+        "postURL": "boj-11382"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11403",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11403. 경로 찾기",
