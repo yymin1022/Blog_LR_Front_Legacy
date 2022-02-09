@@ -1086,6 +1086,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 24082",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "24082. 立方体 (Cube)",
+        "postURL": "boj-24082"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
