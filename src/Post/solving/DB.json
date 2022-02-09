@@ -939,6 +939,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15964",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15964. 이상한 기호",
+        "postURL": "boj-15964"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 16394",
         "postTag": ["BOJ", "C++"],
         "postTitle": "16394. 홍익대학교",
