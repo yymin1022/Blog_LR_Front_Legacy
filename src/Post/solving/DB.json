@@ -1002,6 +1002,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18096",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18096. Apифмeтичecкaя мarия",
+        "postURL": "boj-18096"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18108",
         "postTag": ["BOJ", "C++"],
         "postTitle": "18108. 1998년생인 내가 태국에서는 2541년생?!",
