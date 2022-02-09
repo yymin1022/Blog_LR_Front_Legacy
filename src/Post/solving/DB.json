@@ -1044,6 +1044,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 20254",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "20254. Site Score",
+        "postURL": "boj-20254"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
