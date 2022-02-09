@@ -1079,6 +1079,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 24078",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "24078. 余り (Remainder)",
+        "postURL": "boj-24078"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
