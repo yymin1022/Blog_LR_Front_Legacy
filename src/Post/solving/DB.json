@@ -820,6 +820,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11506",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11506. 占쏙옙",
+        "postURL": "boj-11506"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11654",
         "postTag": ["BOJ", "C"],
         "postTitle": "11654. 아스키 코드",
