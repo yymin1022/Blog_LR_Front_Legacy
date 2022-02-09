@@ -64,6 +64,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1237",
+        "postTag": ["BOJ", "Text"],
+        "postTitle": "1237. 정ㅋ벅ㅋ",
+        "postURL": "boj-1237"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1260",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1260. DFS와 BFS",
