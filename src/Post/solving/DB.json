@@ -470,6 +470,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 5337",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "5335. 웰컴",
+        "postURL": "boj-5337"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 5338",
         "postTag": ["BOJ", "C++"],
         "postTitle": "5335. 16진수",
@@ -733,6 +740,13 @@
         "postTag": ["BOJ", "C++"],
         "postTitle": "11866. 요세푸스 문제 0",
         "postURL": "boj-11866"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 11942",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11942. 고려대는 사랑입니다",
+        "postURL": "boj-11942"
     },
     {
         "pinned": true,
