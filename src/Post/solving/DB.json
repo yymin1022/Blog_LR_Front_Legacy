@@ -1093,6 +1093,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 24086",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "24086. 身長 (Height)",
+        "postURL": "boj-24086"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
