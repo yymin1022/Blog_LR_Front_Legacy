@@ -1058,6 +1058,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 21300",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "21300. Bottle Return",
+        "postURL": "boj-21300"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 24390",
         "postTag": ["BOJ", "C++"],
         "postTitle": "24390. 또 전자레인지야?",
