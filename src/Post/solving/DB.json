@@ -148,6 +148,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1789",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1789. 수들의 합",
+        "postURL": "boj-1789"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1799",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1799. 비숍",
