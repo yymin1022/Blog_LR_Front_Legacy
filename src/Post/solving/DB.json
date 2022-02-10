@@ -204,6 +204,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2231",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2231. 분해합",
+        "postURL": "boj-2231"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2292",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2292. 벌집",
