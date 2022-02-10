@@ -386,6 +386,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2775",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2775. 부녀회장이 될테야",
+        "postURL": "boj-2775"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2798",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2798. 블랙잭",
