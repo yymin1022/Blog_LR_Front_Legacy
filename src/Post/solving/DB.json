@@ -589,6 +589,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 7568",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "7568. 덩치",
+        "postURL": "boj-7568"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 8370",
         "postTag": ["BOJ", "C++"],
         "postTitle": "8370. Plane",
