@@ -29,6 +29,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1018",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1018. 체스판 다시 칠하기",
+        "postURL": "boj-108"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1021",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1021. 회전하는 큐",
