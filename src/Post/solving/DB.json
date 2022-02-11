@@ -127,6 +127,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1427",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1427. 소트인사이드",
+        "postURL": "boj-1427"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1436",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1436. 영화감독 숌",
