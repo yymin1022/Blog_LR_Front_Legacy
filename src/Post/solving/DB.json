@@ -848,6 +848,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10989",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10989. 수 정렬하기 3",
+        "postURL": "boj-10989"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10998",
         "postTag": ["BOJ", "C"],
         "postTitle": "10998. AxB",
