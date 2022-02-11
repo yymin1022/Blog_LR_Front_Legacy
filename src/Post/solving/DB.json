@@ -421,6 +421,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2751",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2751. 수 정렬하기 2",
+        "postURL": "boj-2751"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2753",
         "postTag": ["BOJ", "C"],
         "postTitle": "2753. 윤년",
