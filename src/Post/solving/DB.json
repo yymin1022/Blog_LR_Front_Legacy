@@ -911,6 +911,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11650",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11650. 좌표 정렬하기",
+        "postURL": "boj-11650"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11654",
         "postTag": ["BOJ", "C"],
         "postTitle": "11654. 아스키 코드",
