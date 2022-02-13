@@ -78,6 +78,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1181",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1181. 단어 정렬",
+        "postURL": "boj-1181"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1193",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1193. 분수찾기",
