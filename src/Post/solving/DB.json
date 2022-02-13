@@ -414,6 +414,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2609",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2609. 최대공약수와 최소공배수",
+        "postURL": "boj-2609"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2675",
         "postTag": ["BOJ", "C"],
         "postTitle": "2675. 문자열 반복",
