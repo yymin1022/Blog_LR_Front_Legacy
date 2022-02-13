@@ -92,6 +92,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1259",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1259. 팰린드롬수",
+        "postURL": "boj-1259"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1260",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1260. DFS와 BFS",
