@@ -239,6 +239,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1978",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1978. 소수 찾기",
+        "postURL": "boj-1978"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2108",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2108. 통계학",
