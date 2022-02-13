@@ -183,6 +183,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1654",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1654. 랜선 자르기",
+        "postURL": "boj-1654"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1712",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1712. 손익분기점",
