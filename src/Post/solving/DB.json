@@ -218,6 +218,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2108",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2108. 통계학",
+        "postURL": "boj-2108"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2164",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2164. 큐 2",
