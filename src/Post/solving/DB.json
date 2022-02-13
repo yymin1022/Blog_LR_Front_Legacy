@@ -813,6 +813,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10814",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10814. 나이순 정렬",
+        "postURL": "boj-10814"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10818",
         "postTag": ["BOJ", "C"],
         "postTitle": "10818. 최소, 최대",
