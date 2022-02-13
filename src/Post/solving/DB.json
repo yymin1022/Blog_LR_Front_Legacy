@@ -834,6 +834,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10816",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10816. 숫자 카드2",
+        "postURL": "boj-10816"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10818",
         "postTag": ["BOJ", "C"],
         "postTitle": "10818. 최소, 최대",
