@@ -232,6 +232,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1929",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1929. 소수 구하기",
+        "postURL": "boj-1929"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1935",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1935. 후위 표기식2",
