@@ -1086,6 +1086,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15829",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15829. Hashing",
+        "postURL": "boj-15829"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15894",
         "postTag": ["BOJ", "C++"],
         "postTitle": "15894. 수학은 체육과목 입니다",
