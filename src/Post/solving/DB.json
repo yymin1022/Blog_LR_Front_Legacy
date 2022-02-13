@@ -50,6 +50,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1085",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1085. 직사각형에서 탈출",
+        "postURL": "boj-1085"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1110",
         "postTag": ["BOJ", "Python"],
         "postTitle": "1110. 더하기 사이클",
