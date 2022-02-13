@@ -897,6 +897,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11050",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11050. 이항 계수1",
+        "postURL": "boj-11050"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11022",
         "postTag": ["BOJ", "C"],
         "postTitle": "11022. A + B - 8",
