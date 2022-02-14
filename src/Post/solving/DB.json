@@ -1268,6 +1268,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 18870",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "18870. 좌표 압축",
+        "postURL": "boj-18870"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 20254",
         "postTag": ["BOJ", "C++"],
         "postTitle": "20254. Site Score",
