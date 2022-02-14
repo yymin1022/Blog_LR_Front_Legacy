@@ -15,6 +15,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1002",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1002. 터렛",
+        "postURL": "boj-1002"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1008",
         "postTag": ["BOJ", "C"],
         "postTitle": "1008. A / B",
