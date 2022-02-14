@@ -1030,6 +1030,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11653",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11653. 소인수분해",
+        "postURL": "boj-11653"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11654",
         "postTag": ["BOJ", "C"],
         "postTitle": "11654. 아스키 코드",
