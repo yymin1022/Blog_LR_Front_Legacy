@@ -610,6 +610,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 3053",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "3053. 택시 기하학",
+        "postURL": "boj-3053"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 3986",
         "postTag": ["BOJ", "C++"],
         "postTitle": "3986. 좋은 단어",
