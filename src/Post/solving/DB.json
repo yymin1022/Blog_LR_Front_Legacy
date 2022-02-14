@@ -428,6 +428,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2581",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2581. 소수",
+        "postURL": "boj-2581"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2587",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2587. 대표값2",
