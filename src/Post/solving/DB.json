@@ -337,6 +337,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2480",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2480. 주사위 세개",
+        "postURL": "boj-2480"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2490",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2490. 윷놀이",
