@@ -1198,6 +1198,27 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15656",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15656. N과 M(7)",
+        "postURL": "boj-15656"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 15657",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15657. N과 M(8)",
+        "postURL": "boj-15657"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 15663",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15663. N과 M(9)",
+        "postURL": "boj-15663"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15727",
         "postTag": ["BOJ", "C++"],
         "postTitle": "15727. 조별과제를 하려는데 조장이 사라졌다",
