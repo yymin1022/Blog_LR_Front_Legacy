@@ -1165,8 +1165,15 @@
         "pinned": true,
         "postDate": "BOJ 15650",
         "postTag": ["BOJ", "C++"],
-        "postTitle": "15649. N과 M(2)",
+        "postTitle": "15650. N과 M(2)",
         "postURL": "boj-15650"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 15651",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15651. N과 M(3)",
+        "postURL": "boj-15651"
     },
     {
         "pinned": true,
