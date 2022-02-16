@@ -1184,6 +1184,20 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15654",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15654. N과 M(5)",
+        "postURL": "boj-15654"
+    },
+    {
+        "pinned": true,
+        "postDate": "BOJ 15655",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15655. N과 M(6)",
+        "postURL": "boj-15655"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15727",
         "postTag": ["BOJ", "C++"],
         "postTitle": "15727. 조별과제를 하려는데 조장이 사라졌다",
