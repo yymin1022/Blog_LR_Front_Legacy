@@ -806,6 +806,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9663",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9663. N-Queen",
+        "postURL": "boj-9663"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10156",
         "postTag": ["BOJ", "C++"],
         "postTitle": "10156. 과자",
