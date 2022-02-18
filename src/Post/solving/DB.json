@@ -22,6 +22,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1003",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1003. 피보나치 함수",
+        "postURL": "boj-1003"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1008",
         "postTag": ["BOJ", "C"],
         "postTitle": "1008. A / B",
