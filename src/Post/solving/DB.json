@@ -337,6 +337,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2447",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2447. 별 찍기 - 10",
+        "postURL": "boj-2447"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2455",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2455. 지능형 기차",
