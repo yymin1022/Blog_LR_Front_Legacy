@@ -1114,6 +1114,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11729",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11729. 하노이 탑 이동 순서",
+        "postURL": "boj-11729"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11866",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11866. 요세푸스 문제 0",
