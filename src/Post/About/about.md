@@ -1,8 +1,4 @@
-﻿[![Github Stats](https://github-readme-stats.vercel.app/api?username=yymin1022&count_private=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Solved.ac](https://mazassumnida.wtf/api/v2/generate_badge?boj=yymin1022)](https://solved.ac/yymin1022)
-
-### Who am I?
+﻿### Who am I?
  - 중앙대학교 소프트웨어학부 19학번
  - 대학생 1인 개발자
  - 대한민국 공군 ROKAF 병 819기 정보체계관리(30010) SCM 체계운영병 / MCC 정비통제병
