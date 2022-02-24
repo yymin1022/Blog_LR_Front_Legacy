@@ -232,6 +232,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1764",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1764. 듣보잡",
+        "postURL": "boj-1764"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1789",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1789. 수들의 합",
