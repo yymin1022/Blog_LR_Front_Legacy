@@ -1415,6 +1415,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 17626",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "17626. Four Squares",
+        "postURL": "boj-17626"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 18096",
         "postTag": ["BOJ", "C++"],
         "postTitle": "18096. Apифмeтичecкaя мarия",
