@@ -470,6 +470,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2579",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2579. 계단 오르기",
+        "postURL": "boj-2579"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2581",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2581. 소수",
