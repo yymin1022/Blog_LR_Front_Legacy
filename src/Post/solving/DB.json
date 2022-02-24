@@ -211,6 +211,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1676",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1676. 팩토리얼 0의 개수",
+        "postURL": "boj-1676"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1712",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1712. 손익분기점",
