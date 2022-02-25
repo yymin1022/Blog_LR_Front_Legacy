@@ -505,6 +505,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2606",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2606. 바이러스",
+        "postURL": "boj-2606"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2609",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2609. 최대공약수와 최소공배수",
