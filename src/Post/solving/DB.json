@@ -519,6 +519,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2630",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2630. 색종이 만들기",
+        "postURL": "boj-2630"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2675",
         "postTag": ["BOJ", "C"],
         "postTitle": "2675. 문자열 반복",
