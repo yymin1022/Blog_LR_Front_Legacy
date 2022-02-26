@@ -841,6 +841,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9095",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9095. 1,2,3 더하기",
+        "postURL": "boj-9095"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9498",
         "postTag": ["BOJ", "C"],
         "postTitle": "9498. 시험 성적",
