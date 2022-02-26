@@ -1086,6 +1086,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11047",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11047. 동전 0",
+        "postURL": "boj-11047"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11050",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11050. 이항 계수1",
