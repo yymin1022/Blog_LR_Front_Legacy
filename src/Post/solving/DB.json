@@ -43,6 +43,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1012",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1012. 유기농 배추",
+        "postURL": "boj-1012"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1018",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1018. 체스판 다시 칠하기",
