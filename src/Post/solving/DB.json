@@ -288,6 +288,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1927",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1927. 최소 힙",
+        "postURL": "boj-1927"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1929",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1929. 소수 구하기",
