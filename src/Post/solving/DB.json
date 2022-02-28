@@ -792,6 +792,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 5525",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "5525. IOIOI",
+        "postURL": "boj-5525"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 5554",
         "postTag": ["BOJ", "C++"],
         "postTitle": "5554. 심부름 가는 길",
