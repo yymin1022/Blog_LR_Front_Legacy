@@ -302,6 +302,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1931",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1931. 회의실 배정",
+        "postURL": "boj-1931"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1935",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1935. 후위 표기식2",
