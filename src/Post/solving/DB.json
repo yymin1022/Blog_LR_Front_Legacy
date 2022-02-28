@@ -190,6 +190,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1541",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1541. 잃어버린 괄호",
+        "postURL": "boj-1541"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1546",
         "postTag": ["BOJ", "C"],
         "postTitle": "1546. 평균",
