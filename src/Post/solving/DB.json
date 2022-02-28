@@ -253,6 +253,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1780",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1780. 종이의 개수",
+        "postURL": "boj-1780"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1789",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1789. 수들의 합",
