@@ -1240,6 +1240,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11724",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11724. 연결 요소의 개수",
+        "postURL": "boj-11724"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11729",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11729. 하노이 탑 이동 순서",
