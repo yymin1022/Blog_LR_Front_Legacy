@@ -890,6 +890,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9375",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9375. 패션왕 신해빈",
+        "postURL": "boj-9375"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9498",
         "postTag": ["BOJ", "C"],
         "postTitle": "9498. 시험 성적",
