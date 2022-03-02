@@ -897,6 +897,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9461",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9461. 파도반 수열",
+        "postURL": "boj-9461"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9498",
         "postTag": ["BOJ", "C"],
         "postTitle": "9498. 시험 성적",
