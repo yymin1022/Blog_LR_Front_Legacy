@@ -939,6 +939,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10026",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10026. 적록색약",
+        "postURL": "boj-10026"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10156",
         "postTag": ["BOJ", "C++"],
         "postTitle": "10156. 과자",
