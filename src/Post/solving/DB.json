@@ -1198,6 +1198,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11286",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11286. 절댓값 힙",
+        "postURL": "boj-11286"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11382",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11382. 꼬마 정민",
