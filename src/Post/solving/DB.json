@@ -1289,6 +1289,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11727",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11727. 2Xn 타일링 2",
+        "postURL": "boj-11727"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11729",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11729. 하노이 탑 이동 순서",
