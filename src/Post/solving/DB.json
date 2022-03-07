@@ -848,6 +848,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 7576",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "7576. 토마토",
+        "postURL": "boj-7576"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 7662",
         "postTag": ["BOJ", "C++"],
         "postTitle": "7662. 이중 우선순위 큐",
