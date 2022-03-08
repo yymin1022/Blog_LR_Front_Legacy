@@ -71,6 +71,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1074",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1074. Z",
+        "postURL": "boj-1074"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1085",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1085. 직사각형에서 탈출",
