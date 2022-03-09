@@ -36,6 +36,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1009",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1009. 분산처리",
+        "postURL": "boj-1009"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1011",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1011. Fly me to the Alpha Centauri",
