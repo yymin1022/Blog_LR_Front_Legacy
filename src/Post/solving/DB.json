@@ -925,6 +925,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9019",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9019. DSLR",
+        "postURL": "boj-9019"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9020",
         "postTag": ["BOJ", "C++"],
         "postTitle": "9020. 골드바흐의 추측",
