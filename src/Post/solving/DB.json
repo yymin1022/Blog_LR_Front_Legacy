@@ -1373,10 +1373,17 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 14500",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "14500. 테트로미노",
+        "postURL": "boj-14500"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 14645",
         "postTag": ["BOJ", "C++"],
         "postTitle": "14645. 와이버스 부릉부릉",
-        "postURL": "boj-14681"
+        "postURL": "boj-14645"
     },
     {
         "pinned": true,
