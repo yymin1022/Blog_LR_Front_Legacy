@@ -190,6 +190,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1389",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1389. 케빈 베이컨의 6단계 법칙",
+        "postURL": "boj-1389"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1427",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1427. 소트인사이드",
