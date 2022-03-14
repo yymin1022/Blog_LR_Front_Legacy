@@ -855,6 +855,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 6064",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "6064. 카잉 달력",
+        "postURL": "boj-6064"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 6749",
         "postTag": ["BOJ", "C++"],
         "postTitle": "6749. Next in line",
