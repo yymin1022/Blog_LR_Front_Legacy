@@ -92,6 +92,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1107",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1107. 리모컨",
+        "postURL": "boj-1107"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1110",
         "postTag": ["BOJ", "Python"],
         "postTitle": "1110. 더하기 사이클",
