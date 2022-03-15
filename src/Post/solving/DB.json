@@ -365,6 +365,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1992",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1992. 쿼드트리",
+        "postURL": "boj-1992"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2108",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2108. 통계학",
