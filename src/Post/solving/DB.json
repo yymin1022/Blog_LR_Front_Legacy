@@ -1590,6 +1590,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 15820",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "15820. 맞았는데 왜 틀리죠?",
+        "postURL": "boj-15820"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 15829",
         "postTag": ["BOJ", "C++"],
         "postTitle": "15829. Hashing",
