@@ -463,6 +463,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2460",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2460. 지능형 기차 2",
+        "postURL": "boj-2460"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2475",
         "postTag": ["BOJ", "C"],
         "postTitle": "2475. 검증수",
