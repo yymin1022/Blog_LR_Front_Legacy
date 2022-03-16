@@ -1625,6 +1625,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 16236",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "16236. 아기 상어",
+        "postURL": "boj-16236"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 16394",
         "postTag": ["BOJ", "C++"],
         "postTitle": "16394. 홍익대학교",
