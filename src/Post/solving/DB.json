@@ -1667,6 +1667,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 16953",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "16953. A -> B",
+        "postURL": "boj-16953"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 17219",
         "postTag": ["BOJ", "C++"],
         "postTitle": "17219. 비밀번호 찾기",
