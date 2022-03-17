@@ -1261,6 +1261,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11022",
+        "postTag": ["BOJ", "C"],
+        "postTitle": "11022. A + B - 8",
+        "postURL": "boj-11022"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11047",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11047. 동전 0",
@@ -1275,10 +1282,10 @@
     },
     {
         "pinned": true,
-        "postDate": "BOJ 11022",
-        "postTag": ["BOJ", "C"],
-        "postTitle": "11022. A + B - 8",
-        "postURL": "boj-11022"
+        "postDate": "BOJ 11053",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11053. 가장 긴 증가하는 부분 수열",
+        "postURL": "boj-11053"
     },
     {
         "pinned": true,
