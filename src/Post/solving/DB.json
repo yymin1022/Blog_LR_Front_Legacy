@@ -1394,6 +1394,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11725",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11725. 트리의 부모 찾기",
+        "postURL": "boj-11725"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11726",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11726. 2Xn 타일링",
