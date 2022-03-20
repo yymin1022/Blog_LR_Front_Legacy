@@ -1,38 +1,40 @@
 [문제 바로가기](https://boj.kr/1463)
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
+```c++
+#include <bits/stdc++.h>
+
+using namespace std;
 
 int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
     int N;
-    int* arr;
+    cin >> N;
  
-    scanf("%d",&N);
- 
-    arr = (int*)malloc(sizeof(int)*(N + 1));
- 
-    arr[1]=0;
- 
+    vector<int> nums;
+    nums.push_back(0);
+    nums.push_back(0);
     for(int i = 2; i <= N; i++){
-        arr[i] = arr[i - 1] + 1;
+        nums.push_back(nums[i - 1] + 1);
  
-        if(arr[i] % 2 == 0){
-            int temp = arr[i / 2] + 1;
-            if(temp < arr[i]){
-                arr[i] = temp;
+        if(i % 2 == 0){
+            int temp = nums[i / 2] + 1;
+            if(temp < nums[i]){
+                nums[i] = temp;
             }
         }
 
-        if(arr[i] % 3 == 0){
-            int temp = arr[i / 3] + 1;
-            if(temp < arr[i]){
-                arr[i] = temp;
+        if(i % 3 == 0){
+            int temp = nums[i / 3] + 1;
+            if(temp < nums[i]){
+                nums[i] = temp;
             }
         }
     }
  
-    printf("%d", arr[N]);
+    cout << nums[N] << "\n";
 
     return 0;
 }
