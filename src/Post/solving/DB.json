@@ -183,6 +183,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1302",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1302. 베스트셀러",
+        "postURL": "boj-1302"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1316",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1316. 그룹 단어 체커",
