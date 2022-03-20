@@ -29,6 +29,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1004",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1004. 어린왕자",
+        "postURL": "boj-1004"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1008",
         "postTag": ["BOJ", "C"],
         "postTitle": "1008. A / B",
