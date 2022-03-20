@@ -260,6 +260,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1629",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1629. 곱셈",
+        "postURL": "boj-1629"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1654",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1654. 랜선 자르기",
