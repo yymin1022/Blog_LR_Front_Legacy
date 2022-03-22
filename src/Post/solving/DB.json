@@ -113,6 +113,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1149",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1149. RGB거리",
+        "postURL": "boj-1149"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1152",
         "postTag": ["BOJ", "C"],
         "postTitle": "1152. 단어의 개수",
