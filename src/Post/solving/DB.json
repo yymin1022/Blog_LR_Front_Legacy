@@ -379,6 +379,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1932",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1932. 정수 삼각형",
+        "postURL": "boj-1932"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1935",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1935. 후위 표기식2",
