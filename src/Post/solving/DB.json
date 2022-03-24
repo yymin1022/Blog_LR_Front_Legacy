@@ -1051,6 +1051,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9465",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9465. 스티커",
+        "postURL": "boj-9465"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9498",
         "postTag": ["BOJ", "C"],
         "postTitle": "9498. 시험 성적",
