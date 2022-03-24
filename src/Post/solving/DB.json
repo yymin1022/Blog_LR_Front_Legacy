@@ -407,6 +407,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1991",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1991. 트리 순회",
+        "postURL": "boj-1991"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1992",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1992. 쿼드트리",
