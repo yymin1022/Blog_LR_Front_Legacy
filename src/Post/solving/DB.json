@@ -1422,6 +1422,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11660",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11660. 구간 합 구하기5",
+        "postURL": "boj-11660"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11720",
         "postTag": ["BOJ", "C"],
         "postTitle": "11720. 숫자의 합",
