@@ -1044,6 +1044,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 9251",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "9251. LCS",
+        "postURL": "boj-9251"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 9375",
         "postTag": ["BOJ", "C++"],
         "postTitle": "9375. 패션왕 신해빈",
