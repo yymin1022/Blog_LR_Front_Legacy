@@ -246,6 +246,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1504",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1504. 특정한 최단 경로",
+        "postURL": "boj-1504"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1541",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1541. 잃어버린 괄호",
