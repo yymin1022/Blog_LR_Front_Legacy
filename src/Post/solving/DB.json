@@ -1366,6 +1366,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 11054",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "11054. 가장 긴 바이토닉 부분 수열",
+        "postURL": "boj-11054"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 11279",
         "postTag": ["BOJ", "C++"],
         "postTitle": "11279. 최대 힙",
