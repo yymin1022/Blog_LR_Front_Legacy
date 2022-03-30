@@ -631,6 +631,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 2580",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "2580. 스도쿠g",
+        "postURL": "boj-2580"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 2581",
         "postTag": ["BOJ", "C++"],
         "postTitle": "2581. 소수",
