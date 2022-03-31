@@ -1821,6 +1821,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 17478",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "17478. 재귀함수가 뭔가요?",
+        "postURL": "boj-17478"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 17496",
         "postTag": ["BOJ", "C++"],
         "postTitle": "17496. 스타후르츠",
