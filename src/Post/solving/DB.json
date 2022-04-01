@@ -1240,6 +1240,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 10844",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "10844. 쉬운 계단 수",
+        "postURL": "boj-10844"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 10845",
         "postTag": ["BOJ", "C++"],
         "postTitle": "10845. 큐",
