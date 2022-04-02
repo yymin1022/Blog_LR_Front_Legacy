@@ -358,6 +358,13 @@
     },
     {
         "pinned": true,
+        "postDate": "BOJ 1904",
+        "postTag": ["BOJ", "C++"],
+        "postTitle": "1904. 01타일",
+        "postURL": "boj-1904"
+    },
+    {
+        "pinned": true,
         "postDate": "BOJ 1916",
         "postTag": ["BOJ", "C++"],
         "postTitle": "1916. 최소비용 구하기",
